@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8591330516165291410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Airstrike
+  m_EditorClassIdentifier: 
+  Title: Improved Airstrike Performance
+  Description: Improves attack and detection range of all airplanes
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-5735248630844952922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_NuclearReactor
+  m_EditorClassIdentifier: 
+  Title: Upgrades Nuclear Powered Vessels
+  Description: Improves speed, strength and range of Nuclear Powered vessels
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-3857987403958977110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_NavalTransportSpeedBonus
+  m_EditorClassIdentifier: 
+  Title: Faster Naval Transport
+  Description: Increases naval speed of naval transport by 1
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: EmpireBonusUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &2188752186251382872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SteamTurbine
+  m_EditorClassIdentifier: 
+  Title: Improved Steam Turbine
+  Description: Improves movement speed and vision on Battleship, Aircraft Carrier,
+    Missile Cruisers, Missile Destroyer
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &4448296417454888562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FluidDynamics
+  m_EditorClassIdentifier: 
+  Title: Improved Submerged Speed
+  Description: Improves movement speed of Missile Submarine
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &4814196939956238924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SpecialForces
+  m_EditorClassIdentifier: 
+  Title: Special Forces
+  Description: Improves Commandos combat effectiveness
+  Images:
+  - Value:
+      guid:
+        a: -46312219
+        b: 1162561268
+        c: -1886176121
+        d: 162447018
+    serializableKey: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 

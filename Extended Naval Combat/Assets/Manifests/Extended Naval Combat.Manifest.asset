@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122520293, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Extended Naval Combat.Manifest
+  m_EditorClassIdentifier: 
+  SettingsAssetGuid:
+    a: 1779422152
+    b: 1179066378
+    c: -1071762041
+    d: 1693088343
+  AssetsBundleDirectoryPath: Assets\AssetBundles
+  AssetBundleName: Extended Naval Combat

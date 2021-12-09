@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1552946290761864341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -203084690, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SimulationAndPresentation
+  m_EditorClassIdentifier: 
+  AssetBundleManifest: {fileID: 11400000, guid: 3c3757d9027dea34f8bae9a3cce42a79, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 130328062, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Extended Naval Combat
+  m_EditorClassIdentifier: 
+  Author: FreeThinker
+  Description: 
+  Homepage: 
+  ReleaseNotes: 
+  RuntimeModuleType: 2
+  Tags: 
+  UIThumbnail:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  LoadingScreenBackground: {fileID: 0}
+  runtimePlugins:
+  - {fileID: -1552946290761864341}
+  guid:
+    a: 1211072182
+    b: -2005652364
+    c: 378776969
+    d: -956591232

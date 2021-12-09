@@ -1,0 +1,1518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9000633124117867959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MoneyFromCombat_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MoneyFromCombat_Level1
+  - serializableElementName: UnitAbility_MoneyFromRansack_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-8334663077082767546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_SpeedFromHarbor_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_SpeedFromHarbor_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-8195850640453062118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromEnemyDistrict_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromEnemyDistrict_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-8078128652313959746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromDifferentReligion_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromDifferentReligion_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-7488095276536734595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromSiege_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromSiege_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-7080645822054031520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromTerrain_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTerrain_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-7071824340323819032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MoneyFromRansack_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MoneyFromRansack_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6844094118184659297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_AntiSubmarine_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_AntiSubmarine_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6705518093527887697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Charge_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Charge_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6541594221592502442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_TorpedoBoat
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  - serializableElementName: UnitAbility_StrengthFromHarbor_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6507093748019383610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_IgnoreLineOfSight
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_IndirectFire
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6411162413587716377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromAttack_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromAttack_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6294262700558462591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Bombard_Level3
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_Bombardment_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6172813009803592893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NuclearDevice
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NuclearStrike
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-5959228217388842423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_EmbarkFree
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_EmbarkFree
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-5785312605346122313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthWhenAttacking
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_StealthWhenAttacking
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-5703308665683201781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoPenaltyFromDamage
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoPenaltyFromDamage
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-5283511061853003809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_BombardMultipleUses_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_BombardMultipleUses_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-5035498663464303577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthAerial
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4948649711406364596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Stealth
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4639966777597206904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromForests
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4602633828418440876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_BombardMultipleUses_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_BombardMultipleUses_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4568289737965651489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_LostAtSeaDamage_Level3
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_LostAtSeaDamage_Level3
+  - serializableElementName: UnitAbility_CoastalVessel
+  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4484020408543378632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MoveOrAttack
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MoveOrAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4459667122107070987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromZonesOfControl
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4443575767231757387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_RegenerateAfterFight_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_RegenerateAfterFight_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4321307233074446272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Charge_Level3
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Charge_Level3
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4139903353316996308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Charge_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Charge_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-3964085177961820334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Privateer
+  m_EditorClassIdentifier: 
+  AbilityReferences: []
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-3720949565193704959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromCoast_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromCoast_Level1
+  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-3584575726326177610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromStrongerTarget_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromStrongerTarget_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-3281553577769383073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_AfterAttackedKilledByHeavyDamage
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_AfterAttackedKilledByHeavyDamage
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-2596009511502948859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MoveUntilExhausted
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MoveUntilExhausted
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-2388001996074972498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_RetreatForbidden
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_RetreatForbidden
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-2041198018610059983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromTargetClassArmoured_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1976117271433035950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthCorvette
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_AntiAircraft_Level0
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1586725238970756451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromCloseRange_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromCloseRange_Level1
+  - serializableElementName: UnitAbility_NavalSpeedFromBattle_Level1
+  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1552656495630872416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Militia
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Militia
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1119741704959235129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_ChargeNoRetaliation_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_ChargeNoRetaliation_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1077478382463580657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromReceivedWarCount_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromReceivedWarCount_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-1031165461480819803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_RetaliationAgainstRanged
+  m_EditorClassIdentifier: 
+  AbilityReferences: []
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-751991940401342649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_RegenerateAnywhereSlow
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-441137854169144553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthSubmarine_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-238457193291132296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Bombard_Level4
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_Bombardment_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level3
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -354112042, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty
+  m_EditorClassIdentifier: 
+--- !u!114 &233162658898370421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MeleeNoRetaliation_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MeleeNoRetaliation_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &375745450572164004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoPenaltyFromLineOfSight
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_IndirectFire
+  - serializableElementName: UnitAbility_NoPenaltyFromLineOfSight
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &604588134620701723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_DebuffTargetStun
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_DebuffTargetStun
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &664125244731823136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_AntiAircraft_Level0
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_AntiAircraft_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &721875259956790261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_CannotAttack
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_CannotAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &894936555191103360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_FoodFromExploration_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences: []
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &907664279151198151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthCommando
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_CanCrossCliffs
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &993641870198815419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_AfterAttackingAllowMove
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_AfterAttackingAllowMove
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &1174200739377978504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromFirstRound_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromFirstRound_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &1453261048990588912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromTargetClassArmoured_Level0
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &1748627296087847882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_LostAtSeaDamage_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_LostAtSeaDamage_Level2
+  - serializableElementName: UnitAbility_CoastalVessel
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2034031277049453961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Bombard_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_Bombardment_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2047586275905104003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromWeakerTarget_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromWeakerTarget_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2295851235865287060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_ShatterAndRegenerateAnywhereSlow
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2352517912993150809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Bombard_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_Bombardment_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2356400689774260668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Immobile
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Immobile
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2511996422893366059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_DebuffTargetPoison_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_DebuffTargetPoison_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2727495841856784732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromAlliesAdjacentToTarget_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromAlliesAdjacentToTarget_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2851836437849897620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_CanCrossCliffs
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_CanCrossCliffs
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &3069518444667311772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_SettlerPackage01
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Settler
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &3657108883128241280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_ZoneOfControlIncreasedSize_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &3689978966096349079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromAdvancedTerrain_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromAdvancedTerrain_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &3712898919353389970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromTargetClassCavalry_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTargetClassCavalry_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &3999879301508227928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_RegenerateAnywhere
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_RegenerateAnywhere
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &4193154296516969171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromAttack_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromAttack_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &4777225680188504423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_BombardMultipleUses_Level3
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_BombardMultipleUses_Level1
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_ZoneOfControlIncreasedSize_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &4825157413525762640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_LostAtSeaDeath
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_CoastalVessel
+  - serializableElementName: UnitAbility_LostAtSea
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &4926951515581440260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_LostAtSeaDamage_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_LostAtSeaDamage_Level1
+  - serializableElementName: UnitAbility_CoastalVessel
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5217149383436445420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_AntiAircraft_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_AntiAircraft_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5506840503331750586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromFriendlyDistrict_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromFriendlyDistrict_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5613009559704238002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_MoneyFromCuriosity_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_MoneyFromCuriosity_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5642295626398276260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_ChargePushBack_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_ChargePushBack_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5662671850839938930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_Shatter
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5979413863526294492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromLandTerrain
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRivers
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRocks
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6346607693325444632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_LostAtSeaNever
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_HighSeaMovement
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6383456678057356243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_IndirectShatter
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_IndirectFire
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6641425701721690006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromTerrain_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTerrain_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6801639227998840774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthSubmarine_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  - serializableElementName: UnitAbility_AntiSubmarine_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6831838589650074364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_SiegeHigherStabilityDrain_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_SiegeHigherStabilityDrain_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6934392562692141488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromStability_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromStability_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6948920369257695744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_SettlerPackage02
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Settler
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &7267050766943122558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_OnCreationSpawnClone_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_OnCreationSpawnClone_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &7419313251922993888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_BuffAlliesStrengthFromStrongerTarget_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_BuffAlliesStrengthFromStrongerTarget_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &7530855949637088622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromCoast_Level0
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromCoast_Level0
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &8393380506761654441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoPenaltyFromMelee
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoPenaltyFromMelee
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &9061985447931723332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromStrongerTarget_Level2
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromStrongerTarget_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &9084100026245815211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StrengthFromAlliesAdjacentToUser_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromAlliesAdjacentToUser_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0

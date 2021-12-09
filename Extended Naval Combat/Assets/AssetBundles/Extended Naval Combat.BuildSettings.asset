@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1951943183, guid: a9e11b97b7e097c4587585513254fa1e, type: 3}
+  m_Name: Extended Naval Combat.BuildSettings
+  m_EditorClassIdentifier: 
+  OutputPath: AssetBundles
+  TargetName: Extended Naval Combat
+  VariantClass: 
+  VariantIdentifier: 
+  AssetBundleBuildSettingsFlags: 0
+  PatchIsAllowed: 0
+  PatchToFullAssetBundleSizeRatioThreshold: 1
+  filters:
+  - Directory: Databases
+    SubString: 
+    Recursive: 1
+    Mode: 0
+    Visibility: 1
+    TypeMask: 16
+  - Directory: Localization/Runtime
+    SubString: 
+    Recursive: 0
+    Mode: 0
+    Visibility: 1
+    TypeMask: 16
+  - Directory: Manifests
+    SubString: 
+    Recursive: 0
+    Mode: 0
+    Visibility: 1
+    TypeMask: 16
+  - Directory: Resources
+    SubString: 
+    Recursive: 1
+    Mode: 0
+    Visibility: 1
+    TypeMask: -1
+  - Directory: Runtime
+    SubString: 
+    Recursive: 0
+    Mode: 0
+    Visibility: 1
+    TypeMask: 16
+  manifest: {fileID: 11400000, guid: 3c3757d9027dea34f8bae9a3cce42a79, type: 2}

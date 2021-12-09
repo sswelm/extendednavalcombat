@@ -1,0 +1,3 @@
+﻿// <copyright file="ProjectGUID.txt" company="AMPLITUDE Studios">Copyright AMPLITUDE Studios. All rights reserved.</copyright>
+// This file is auto-generated, please do not touch it.
+ff71a4a8948b44afa78219985c5c10e2

@@ -1,0 +1,126 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'nl' Physical Memory: 32703 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Dev/Humankind/Extended Naval Combat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49452
+Successfully changed project path to: C:/Dev/Humankind/Extended Naval Combat
+C:/Dev/Humankind/Extended Naval Combat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Dev/Humankind/Extended Naval Combat/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   
+    VRAM:     16338 MB
+    Driver:   30.0.13033.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002237 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.030530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[AssetDatabase] Startup...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Amplitude.Framework.Asset.AssetDatabase:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.5 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 19.754000 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.129200 ms MarkObjects: 19.199600 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Databases/Unit/UnitClassUIMappers.asset
+  artifactKey: Guid(66df6e4633d855545801f81a438b8b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitClassUIMappers.asset using Guid(66df6e4633d855545801f81a438b8b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f251ee7bd5bc1360422775bb2d60e53f') in 0.050720 seconds
+  Import took 0.054183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.242826 seconds.
+  path: Assets/Databases/Unit/UnitAbility.asset
+  artifactKey: Guid(a10c25bbaf420704d89f582e4d381835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitAbility.asset using Guid(a10c25bbaf420704d89f582e4d381835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b6a12d9628751c28c31ae24c92309') in 0.015524 seconds
+  Import took 0.020247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053390 seconds.
+  path: Assets/Databases/Unit/UnitAbility.asset
+  artifactKey: Guid(a10c25bbaf420704d89f582e4d381835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitAbility.asset using Guid(a10c25bbaf420704d89f582e4d381835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b6a12d9628751c28c31ae24c92309') in 0.009432 seconds
+  Import took 0.012901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.724859 seconds.
+  path: Assets/Databases/Unit/UnitPrototypeDescriptor.asset
+  artifactKey: Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitPrototypeDescriptor.asset using Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dea187527fec0eb4c8dea427303e4a') in 0.012343 seconds
+  Import took 0.015375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214903 seconds.
+  path: Assets/Databases/Unit/UnitPrototypeDescriptor.asset
+  artifactKey: Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitPrototypeDescriptor.asset using Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dea187527fec0eb4c8dea427303e4a') in 0.008450 seconds
+  Import took 0.011483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2377.320808 seconds.
+  path: Assets/Databases/Unit/LandUnitDefinition.asset
+  artifactKey: Guid(4b84834873e431a40a162d1dd3aa9611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitDefinition.asset using Guid(4b84834873e431a40a162d1dd3aa9611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a67c43674dd8156579a7569241dbf3') in 0.040611 seconds
+  Import took 0.043932 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

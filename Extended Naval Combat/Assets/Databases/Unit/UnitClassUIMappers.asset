@@ -1,0 +1,1229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8906137675134331629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MediumTank
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVehicleTitle'
+  Description: '%UnitClass_ArmouredVehicleDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVehicle]'
+--- !u!114 &-8901972254700718897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Gunship
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunshipTitle'
+  Description: '%UnitClass_GunshipDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1609826850
+        b: 1119447292
+        c: -1242082928
+        d: -2117883995
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Gunship]'
+--- !u!114 &-8714597969878580800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Prototype_CoastalUnit
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_Prototype_CoastalUnitTitle'
+  Description: '%UnitClass_Prototype_CoastalUnitDescription'
+  Images: []
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-8543464864002824480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_NuclearMissile
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_NuclearMissileTitle'
+  Description: '%UnitClass_NuclearMissileDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1778772829
+        b: 1279013833
+        c: -251565639
+        d: 2016842799
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_NuclearMissile]'
+--- !u!114 &-8479001485846638259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_FighterAircraft
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_FighterAircraftTitle'
+  Description: '%UnitClass_FighterAircraftDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2056194903
+        b: 1311301162
+        c: 1120601000
+        d: -553050087
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_FighterAircraft]'
+--- !u!114 &-8382671930018272076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Animal
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_AnimalTitle'
+  Description: '%UnitClass_AnimalDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1793834360
+        b: 1234890458
+        c: 354422707
+        d: -2026760989
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Animal]'
+--- !u!114 &-8231079684279824490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_HeavyCavalry
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_HeavyCavalryTitle'
+  Description: '%UnitClass_HeavyCavalryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 62789036
+        b: 1188410706
+        c: 851566227
+        d: 1642562924
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_HeavyCavalry]'
+--- !u!114 &-8010725447442736190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MultiRoleAircraft
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_MultiRoleAircraftTitle'
+  Description: '%UnitClass_MultiRoleAircraftDescription'
+  Images:
+  - Value:
+      guid:
+        a: 253600282
+        b: 1159644521
+        c: -1206399850
+        d: -1099786288
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_MultiRoleAircraft]'
+--- !u!114 &-6444871235709762555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Gunner
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunnerTitle'
+  Description: '%UnitClass_GunnerDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1602574519
+        b: 1249058262
+        c: -1451767403
+        d: 1883891725
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Gunner]'
+--- !u!114 &-5853983227458518218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MountedNomad
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_NomadTitle'
+  Description: '%UnitClass_NomadDescription'
+  Images:
+  - Value:
+      guid:
+        a: -752093445
+        b: 1075364501
+        c: -608683895
+        d: -168266384
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Nomad]'
+--- !u!114 &-5388924752067981190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Prototype_NavalUnit
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_Prototype_NavalUnitTitle'
+  Description: '%UnitClass_Prototype_NavalUnitDescription'
+  Images: []
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-5267206881375371684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_BoardingVessel
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_BoardingVesselTitle'
+  Description: '%UnitClass_BoardingVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -824710551
+        b: 1338005461
+        c: -1009416831
+        d: 1251461539
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_BoardingVessel]'
+--- !u!114 &-4760121747418111718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MissileSubmarine
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &-4748668583409477179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Battleship
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &-4717566481346291215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_AircraftCarrier
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_AircraftCarrierTitle'
+  Description: '%UnitClass_AircraftCarrierDescription'
+  Images:
+  - Value:
+      guid:
+        a: 587205035
+        b: 1077954715
+        c: 322523579
+        d: -1697893368
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_AircraftCarrier]'
+--- !u!114 &-3843260662871273554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MountedRanged
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_RangedTitle'
+  Description: '%UnitClass_RangedDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2050062855
+        b: 1235914082
+        c: 860837565
+        d: -1919701341
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Ranged]'
+--- !u!114 &-2463774790811784204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_ArmouredVehicle
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVehicleTitle'
+  Description: '%UnitClass_ArmouredVehicleDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVehicle]'
+--- !u!114 &-2323824761352885393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_GunPlatform
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &-1576586618246509636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Prototype_AirUnit
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_Prototype_AirUnitTitle'
+  Description: '%UnitClass_Prototype_AirUnitDescription'
+  Images: []
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-1515563504286669540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Ranged
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_RangedTitle'
+  Description: '%UnitClass_RangedDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2050062855
+        b: 1235914082
+        c: 860837565
+        d: -1919701341
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Ranged]'
+--- !u!114 &-1329978220843313388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Dreadnought
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &-1166322566240118982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_FieldArtillery
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_FieldArtilleryTitle'
+  Description: '%UnitClass_FieldArtilleryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_FieldArtillery]'
+--- !u!114 &-743109932883164024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_NuclearAircraftCarrier
+  m_EditorClassIdentifier: 
+  Title: Nuclear Aircraft Carrier
+  Description: '%UnitClass_AircraftCarrierDescription'
+  Images:
+  - Value:
+      guid:
+        a: 587205035
+        b: 1077954715
+        c: 322523579
+        d: -1697893368
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_AircraftCarrier]'
+--- !u!114 &-177766167000537200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Bomber
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_BomberTitle'
+  Description: '%UnitClass_BomberDescription'
+  Images:
+  - Value:
+      guid:
+        a: 264978044
+        b: 1300073421
+        c: -78568566
+        d: -1527116620
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Bomber]'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClassUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &74310102942903241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_ArmouredVessel
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &112762085777422460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Spy
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_SpyTitle'
+  Description: '%UnitClass_SpyDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1846921305
+        b: 1318562517
+        c: 2127798406
+        d: 1068086166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Spy]'
+--- !u!114 &483944524873340632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_TorpedoVessel
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_TorpedoVesselTitle'
+  Description: Can shoot at targets without having a clear Line of Sight to it.
+  Images:
+  - Value:
+      guid:
+        a: -2116142358
+        b: 1157882498
+        c: 1209086630
+        d: 1093448402
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_TorpedoVessel]'
+--- !u!114 &1306479060466007879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_FleetSubmarine
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_TorpedoVesselTitle'
+  Description: '%UnitClass_TorpedoVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2116142358
+        b: 1157882498
+        c: 1209086630
+        d: 1093448402
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_TorpedoVessel]'
+--- !u!114 &1598886603006914476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Commando
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunnerTitle'
+  Description: '%UnitClass_GunnerDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1602574519
+        b: 1249058262
+        c: -1451767403
+        d: 1883891725
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Gunner]'
+--- !u!114 &1686702310416264956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_AntiCavalry
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_AntiCavalryTitle'
+  Description: '%UnitClass_AntiCavalryDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1238382778
+        b: 1124765000
+        c: 527489429
+        d: -510434673
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_AntiCavalry]'
+--- !u!114 &1932458763406114054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MainBattleTank
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVehicleTitle'
+  Description: '%UnitClass_ArmouredVehicleDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVehicle]'
+--- !u!114 &1955318321658651817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Prototype_LandUnit
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_Prototype_LandUnitTitle'
+  Description: '%UnitClass_Prototype_LandUnitDescription'
+  Images: []
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &2352259392151175737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Corvette
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &2629534617434002906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MountedGunner
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunnerTitle'
+  Description: '%UnitClass_GunnerDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1602574519
+        b: 1249058262
+        c: -1451767403
+        d: 1883891725
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Gunner]'
+--- !u!114 &2716965735754547940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_LightTank
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVehicleTitle'
+  Description: '%UnitClass_ArmouredVehicleDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVehicle]'
+--- !u!114 &3119043594763186322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Prototype_Unit
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_Prototype_UnitTitle'
+  Description: '%UnitClass_Prototype_UnitDescription'
+  Images: []
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &3339152665265705903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_DieselSubmarine
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_TorpedoVesselTitle'
+  Description: Is more effective in  Ocean. Ignores zones of control and can shoot
+    at targets without having a clear Line of Sight to it.
+  Images:
+  - Value:
+      guid:
+        a: -2116142358
+        b: 1157882498
+        c: 1209086630
+        d: 1093448402
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_TorpedoVessel]'
+--- !u!114 &3341445758699952151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MissileCruiser
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &4205271812034725316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_SiegeWeapon
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_SiegeWeaponTitle'
+  Description: '%UnitClass_SiegeWeaponDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2017952442
+        b: 1218933732
+        c: 784336301
+        d: 1965843859
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_SiegeWeapon]'
+--- !u!114 &4534204606667186498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_NavalTransport
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_NavalTransportTitle'
+  Description: '%UnitClass_NavalTransportDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2070852602
+        b: 1238654462
+        c: -652693840
+        d: -1361768099
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_NavalTransport]'
+--- !u!114 &5790886704468635979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Nomad
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_NomadTitle'
+  Description: '%UnitClass_NomadDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1675731658
+        b: 1196212421
+        c: 1408087691
+        d: -492126560
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Nomad]'
+--- !u!114 &5867119292270831408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_NuclearSubmarine
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_TorpedoVesselTitle'
+  Description: Is more effective in  Ocean. Ignores zones of control and can shoot
+    at targets without having a clear Line of Sight to it.
+  Images:
+  - Value:
+      guid:
+        a: -2116142358
+        b: 1157882498
+        c: 1209086630
+        d: 1093448402
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_TorpedoVessel]'
+--- !u!114 &6290106085386542580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_SteamFrigate
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &6618179319166906109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Destroyer
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &6892313285630537082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Cavalry
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_CavalryTitle'
+  Description: '%UnitClass_CavalryDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1704839773
+        b: 1316623185
+        c: -419218282
+        d: 1913459024
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Cavalry]'
+--- !u!114 &7493672646048835798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_StealthCorvette
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &7795031520140456122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Missile
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_MissileTitle'
+  Description: '%UnitClass_MissileDescription'
+  Images:
+  - Value:
+      guid:
+        a: -71050093
+        b: 1176129432
+        c: 584237446
+        d: 2081188991
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Missile]'
+--- !u!114 &7942596369633947947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Ironclad
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVesselTitle'
+  Description: '%UnitClass_ArmouredVesselDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1938327191
+        b: 1294763268
+        c: 1071441575
+        d: -1249698685
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVessel]'
+--- !u!114 &8109813437195599719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MultipleLaunchRocketSystem
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_FieldArtilleryTitle'
+  Description: '%UnitClass_FieldArtilleryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_FieldArtillery]'
+--- !u!114 &8363648122377578026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MissileDestroyer
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_GunPlatformTitle'
+  Description: '%UnitClass_GunPlatformDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &8700396724310716468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Melee
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_MeleeTitle'
+  Description: '%UnitClass_MeleeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -609458823
+        b: 1324969296
+        c: 1436889481
+        d: -1530992078
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Melee]'
+--- !u!114 &8979689496170844066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_SiegeArtillery
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_SiegeArtilleryTitle'
+  Description: '%UnitClass_SiegeArtilleryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 57879521
+        b: 1322009751
+        c: -126221424
+        d: -1855256321
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_SiegeArtillery]'

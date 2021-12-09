@@ -1,0 +1,648 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1457375494, guid: 02642f532edc565419e2dd50b9d96a3a, type: 3}
+  m_Name: ScriptableModProfile
+  m_EditorClassIdentifier: 
+  modId: 1549034
+  editableModProfile:
+    status:
+      value: 1
+      isDirty: 0
+    visibility:
+      value: 1
+      isDirty: 0
+    name:
+      value: Extended Naval Combat
+      isDirty: 0
+    nameId:
+      value: extended-naval-combat
+      isDirty: 0
+    summary:
+      value: Introduces 20 industrial and contemporary military units and 9 new technologies
+        to create more interesting and historically accurate end game experience
+      isDirty: 0
+    descriptionAsHTML:
+      value: '<p>The goal of this mod is to create a more interesting and realistic
+        modern combat end game experience with 20 units and tweaks to existing combat
+        units. I tried to make this mod as compatible as possible with other mods
+        by putting most new units and bonuses spread over 9 new Technologies, and
+        no changes to any cultures, or civics. The new Technologies also help to
+        make the Industrial and Contemporary Era last longer, especially the late
+        Industrial and early Contemporary era (WW1/WW2) period with 7 naval technologies.
+        To make technology beelining less effective, many of the optional technologies
+        give bonuses to late-game naval combat Units. Nuclear weapons have become
+        more useful (with increased range) and accessible (with reduced Uranium strategic
+        resource requirement) and the addition of a true ICBM weapon. The state of
+        Nuclear weapons proliferation is made more intuitive as the National Nuclear
+        Weapon Test Programs strategic resource requirements are made the same as
+        the missile weapons they unlock, meaning if someone manages to build a nuclear
+        weapon test project (including ICBM weapon test), they can also build and
+        use them (given they also constructed a missile silo).</p>
+
+        <p>9
+        New Technologies:</p>
+
+        <ol>
+
+        <li>Dreadnought Design; requires
+        Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
+
+        <li>Submarine
+        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
+
+        <li>Anti
+        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
+        improves naval speed</li>
+
+        <li>Sloped Armor; requires Continuous
+        Track, unlocks Medium Tank and (Soviet) Red Army Tank</li>
+
+        <li>Fluid
+        Dynamics; requires Anti Submarine Warfare, unlocks Diesel Submarine Unit
+        and Nuclear Submarine</li>
+
+        <li>Advanced Nuclear Reactors; requires
+        Nuclear Fission, unlocks Nuclear powered unit upgrades</li>
+
+        <li>Angled
+        Flightdeck; requires Aerial Warfare, unlocks Nuclear Aircraft Carrier</li>
+
+        <li>Guided
+        Missiles; requires Computing, unlocks Missile Cruiser, Missile Destroyer,
+        Missile Submarine</li>
+
+        <li>Stealth Technology; requires Rocket Science,
+        unlock Stealth Corvette, Stealth Missile and Stealth Fighter</li>
+
+        </ol>
+
+        <p>11
+        new Naval units:</p>
+
+        <ol>
+
+        <li>Added Sloops of War, unlocked
+        with Flintlock, upgrades to Steam Corvette</li>
+
+        <li>Added Steam
+        Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
+
+        <li>Added
+        Dreadnought, unlocks with Dreadnought design, upgrades to Battleship</li>
+
+        <li>Added
+        Fleet Submarine. unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>
+
+        <li>Added
+        Torpedo Boat Destroyer, unlocked with Dreadnought Design, upgrades to Destroyer</li>
+
+        <li>Added
+        Destroyer, unlocked Anti Submarine Warfare, upgrades to Missile Destroyer</li>
+
+        <li>Added
+        Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>
+
+        <li>Added
+        Nuclear Aircraft Carrier, unlocks with Angled Flightdeck, upgrades with Advanced
+        Nuclear Reactor</li>
+
+        <li>Added Guided Missile Destroyer, unlocks
+        with Guided Missiles</li>
+
+        <li>Added Guided Missile Submarine, unlocks
+        with Guided Missiles upgrades with Nuclear Reactor</li>
+
+        <li>Added
+        (common) Stealth Corvette, unlocks with Stealth Technology</li>
+
+        </ol>
+
+        <p>6
+        new Land units:</p>
+
+        <ol>
+
+        <li>Added (Common) Cuirassiers
+        (uses vanilla Cuirassiers graphics), unlocked with Line Formations, upgrades
+        to Light Tank</li>
+
+        <li>Added Horse Drawn Artillery (uses vanilla
+        Artillery graphics), unlocked with Trench Warfare, upgrades to MLRS</li>
+
+        <li>Added
+        Light Tank (uses vanilla Medium Tank) unlocked with Continuous Track, upgrades
+        to Medium Tank</li>
+
+        <li>Added Medium Tank (uses vanilla Red Army
+        Tank) unlocked with Sloped Armor, upgrade to Main Battle Tank</li>
+
+        <li>Added
+        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
+
+        <li>Added
+        (common) All-Terrain PMV, unlocks with Composite Armor</li>
+
+        </ol>
+
+        <p>3
+        new Air units:</p>
+
+        <ol>
+
+        <li>Added (common) Stealth Fighter,
+        unlocked with Stealth technology</li>
+
+        <li>Added (common) Stealth
+        Cruise Missile, unlocked with Stealth technology</li>
+
+        <li>Added
+        Intercontinental Ballistic Missile (ICBM) unlocked by ICBM Test national
+        project</li>
+
+        </ol>
+
+        <p>Special ability changes:</p>
+
+        <ul>
+
+        <li>Cog,
+        Carrack Man O''War, and Steam Frigate gain 5% health regenerate outside allied
+        waters</li>
+
+        <li>Man O'' War and Carrack gain special ability Shatter
+        (similar to Howitzer)</li>
+
+        <li>Ironclad special ability Inner Sea
+        Mastodonte (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
+
+        <li>Battleship
+        en Missile Cruiser gain extended Zone of Control</li>
+
+        <li>Torpedo
+        Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
+        Battleships, Carriers, Cruisers)</li>
+
+        <li>Aircraft Carrier gained
+        Armoured property, Stealth Corvette Loses Armoured property</li>
+
+        <li>Missile
+        Cruiser special ability Anti Air is replaced by special ability Multiple
+        Missile Bombardment</li>
+
+        <li>Commando gains ability to move through
+        cliffs and forest without penalty</li>
+
+        </ul>
+
+        <p>Added Unit
+        performance upgrades:</p>
+
+        <ul>
+
+        <li>Naval Transport: +1
+        movement with Fluid Dynamics</li>
+
+        <li>Guided Missile Submarine:
+        +2 movement +1 strength with Fluid Dynamics</li>
+
+        <li>Turbine powered
+        ships (Battleship, Carrier, Destroyer, Cruiser): +2 movement +1 vision with
+        Anti Submarine Warfare</li>
+
+        <li>Airplanes: +1 attack range +1 vision
+        with Angled Flightdeck</li>
+
+        <li>Nuclear Submarine: + movement +1
+        attack range +2 strength with Nuclear Reactor</li>
+
+        <li>Nuclear Aircraft
+        Carrier: +2 movement +1 attack range +2 strength with Nuclear Reactor</li>
+
+        <li>Commando:
+        +5 Strength +1 vision with Special Ops</li>
+
+        </ul>
+
+        <p>Unit
+        Balance Changes:</p>
+
+        <table class="table is-bordered is-hoverable">
+
+        <tbody>
+
+        <tr>
+
+        <td><strong>Unit</strong></td>
+
+        <td><strong>Strength</strong></td>
+
+        <td><strong>movement</strong></td>
+
+        <td><strong>vision</strong></td>
+
+        <td><strong>Range</strong></td>
+
+        <td><strong>Special</strong></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Man
+        O'' War</td>
+
+        <td>+1</td>
+
+        <td></td>
+
+        <td>+1</td>
+
+        <td></td>
+
+        <td></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ironclad</td>
+
+        <td></td>
+
+        <td></td>
+
+        <td>+1</td>
+
+        <td></td>
+
+        <td></td>
+
+        </tr>
+
+        <tr>
+
+        <td>U-Boat</td>
+
+        <td></td>
+
+        <td>-2</td>
+
+        <td>+1</td>
+
+        <td></td>
+
+        <td>+5
+        Bonus Armoured Units</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Battleship</td>
+
+        <td>+3</td>
+
+        <td>+1</td>
+
+        <td>+2</td>
+
+        <td></td>
+
+        <td>Increased
+        zone of control range</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Aircraft
+        Carrier</td>
+
+        <td></td>
+
+        <td>+1</td>
+
+        <td>+2</td>
+
+        <td></td>
+
+        <td>+Amoured
+        (immune to suppression)</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Nuclear
+        Submarine</td>
+
+        <td></td>
+
+        <td></td>
+
+        <td>+2</td>
+
+        <td>+2</td>
+
+        <td></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Missile
+        Cruiser</td>
+
+        <td>+3</td>
+
+        <td></td>
+
+        <td>+4</td>
+
+        <td>+5</td>
+
+        <td>Increased
+        zone of control range</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Red
+        Army Tank</td>
+
+        <td>+2</td>
+
+        <td></td>
+
+        <td>+1</td>
+
+        <td>+1</td>
+
+        <td></td>
+
+        </tr>
+
+        <tr>
+
+        <td>Main
+        Battle Tank</td>
+
+        <td></td>
+
+        <td></td>
+
+        <td>+2</td>
+
+        <td>+2</td>
+
+        <td></td>
+
+        </tr>
+
+        <tr>
+
+        <td>(Sweden)Stealth
+        Corvette</td>
+
+        <td>+3</td>
+
+        <td></td>
+
+        <td>+1</td>
+
+        <td>+1</td>
+
+        <td>+
+        Anti Airpower (50% strength)</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        <p>Missile
+        unit changes:</p>
+
+        <ul>
+
+        <li>Cruise Missile: reduced strategic
+        resource requirements, maintenance cost and removed population cost</li>
+
+        <li>Nuclear
+        Missile: reduced strategic resource requirements, maintenance cost and base
+        attack range doubled</li>
+
+        <li>Thermal Nuclear Missile: <span style="font-size:
+        1em; font-weight: 400;">reduced strategic resource </span><span style="font-size:
+        1em; font-weight: 400;">requirements, </span><span style="font-size: 1em;
+        font-weight: 400;">maintenance cost and base attack range doubled</span></li>
+
+        </ul>
+
+        <p><span
+        style="font-size: 1em; font-weight: 400;">Unit resource requirement changes:</span></p>
+
+        <ul>
+
+        <li>Torpedo
+        Boat: -1 Iron</li>
+
+        <li>Ironclad: -1 Coal +1 Copper</li>
+
+        <li>Battleship:
+        +1 Copper</li>
+
+        <li>Aircraft Carrier: -1 Aluminium +1 Copper</li>
+
+        <li>Main
+        Battle Tank: -1 Uranium</li>
+
+        <li>Cruise Missile: -1 Uranium (was
+        1), -2 Aluminium (was 3), -1 Population cost (was 1)</li>
+
+        <li>Nuclear
+        Missile: -1 Uranium (was 2), -1 Aluminium (was 3)</li>
+
+        <li>Thermal
+        Nuclear Missile: -1 Uranium (was 3), -1 Oil (was 3), -1 Aluminium (was 3)</li>
+
+        </ul>
+
+        <p><span
+        style="font-size: 1em; font-weight: 400;">Unit Tech Unlocking Changes:</span></p>
+
+        <ul>
+
+        <li>Steam
+        Frigate is unlocked earlier with Steam Engine</li>
+
+        <li>U-Boat is
+        unlocked later with Submarine Warfare</li>
+
+        <li>Medium Tank is unlocked
+        later with Sloped Armor</li>
+
+        <li>Commando is unlocked earlier with
+        Insurrection Theory</li>
+
+        <li>Multirole Fighter is unlocked earlier
+        as Jet Fighter is unlocked after Radar</li>
+
+        <li>Missile Destroyer
+        (originally called Missile Cruiser) unlocked later with Rocket Science</li>
+
+        <li>Nuclear
+        Submarine is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>
+
+        <li>Cruise
+        Missile is unlocked earlier with Computing</li>
+
+        </ul>
+
+        <p>Techtree
+        changes:</p>
+
+        <ul>
+
+        <li>Replaced Wireless Telegraphy as a
+        prerequisite of Research Insitute</li>
+
+        <li>Replaced Dreadnought
+        Design as a prerequisite of Continuous Track and Naval Air Strategy</li>
+
+        <li>Replaced
+        Guided Missiles as a prerequisite of Rocket Science</li>
+
+        <li>Replaced
+        Radar as a prerequisite of Fighter Jets</li>
+
+        <li>Made Continuous
+        Track unlockable in Industrial Age</li>
+
+        </ul>
+
+        <p>Unit Upgrade
+        paths details:</p>
+
+        <ul>
+
+        <li>Sloop of War =&gt; Steam Corvette
+        =&gt; Torpedo Boat =&gt; Fleet Submarine =&gt; Diesel Submarine =&gt; Missile
+        Submarine</li>
+
+        <li>Man O''War =&gt; Steam Frigate =&gt; Torpedo
+        Boat Destroyer =&gt; Destroyer =&gt; Missile Destroyer</li>
+
+        <li>Ironclad
+        =&gt; Dreadnought =&gt; Battleship =&gt; Missile Cruiser</li>
+
+        <li>Cuirassiers
+        =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
+
+        <li>Dragoon
+        =&gt; Attack Helicopter</li>
+
+        <li>Partisans =&gt;Commados</li>
+
+        <li>Howitzer
+        =&gt; Anti Tank =&gt; Main Battle Tank</li>
+
+        <li>Mortar =&gt; Artillery
+        =&gt; Multiple Launch Rocket System</li>
+
+        <li>Line Infantry =&gt;
+        Rifles =&gt; All Terrain PMV</li>
+
+        <li>Heavy Machinegun =&gt; Armored
+        Personnel Carrier</li>
+
+        <li>Biplane =&gt; M Multi Role Fighter =&gt;
+        Stealth Fighter</li>
+
+        </ul>
+
+        <p>National Wonder changes:</p>
+
+        <ul>
+
+        <li>Fission
+        Test: + 2 Aluminium + 2 Oil</li>
+
+        <li>Fusion Test: +2 Aluminium +
+        2 Oil</li>
+
+        <li>ICBM Test: +1 Aluminium +2 Oil</li>
+
+        </ul>
+
+        <p>District
+        changes:</p>
+
+        <ul>
+
+        <li>Lowered Pollution Missile Silo (from
+        15 down to 5)</li>
+
+        </ul>
+
+        <p>Verified compatibility:</p>
+
+        <ul>
+
+        <li>mostly
+        compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>
+        (must be loaded after Extended Naval Combat )</li>
+
+        <li>no need to
+        use <a href="https://humankind.mod.io/long-range-nuclear-missiles">Long Range
+        Nuclear Missiles Mod</a> as its already integrated</li>
+
+        </ul>'
+      isDirty: 0
+    homepageURL:
+      value: 
+      isDirty: 0
+    tags:
+      value:
+      - Balance
+      - Gameplay
+      - Mod
+      - Other
+      - Technology
+      - Unit
+      isDirty: 0
+    metadataBlob:
+      value: 
+      isDirty: 0
+    metadataKVPs:
+      value:
+      - key: RuntimeModuleGUID
+        value: 6be7f28447c2478898da39610839bf6c
+      isDirty: 0
+    logoLocator:
+      value:
+        fileName: 2560px-fleet_5_nations.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/2560px-fleet_5_nations.jpg
+      isDirty: 0
+    youTubeURLs:
+      value: []
+      isDirty: 0
+    sketchfabURLs:
+      value: []
+      isDirty: 0
+    galleryImageLocators:
+      value:
+      - fileName: 20211209005706_1.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/20211209005706_1.jpg
+      isDirty: 0

@@ -1,0 +1,1060 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9205476778372156415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_NavalTransport
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: 
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_CoastalMovement
+  - serializableElementName: UnitAbility_Prototype_NavalTransport
+  - serializableElementName: UnitAbility_CannotTargetLand
+  AutoResolveBattleStrengthBonus:
+    RawValue: -1000
+--- !u!114 &-8173494596261241200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Missile
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_AirUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Missile
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-8074367317229308868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_SiegeWeapon
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_SiegeWeapon
+  - serializableElementName: UnitAbility_CannotRetaliate
+  - serializableElementName: UnitAbility_SiegeSpawnable
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_StrengthFromFortification_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-7877700755306333826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Bomber
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_AirUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Bomber
+  - serializableElementName: UnitAbility_AirStrike
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-7756083575877993349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Melee
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Melee
+  - serializableElementName: UnitAbility_CannotTargetSeafaring
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-6997460167758603759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_NavalUnit
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_CoastalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_NavalUnit
+  - serializableElementName: UnitAbility_HighSeaMovement
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4618487655370768562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Commando
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Commando
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4507642048776729584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_BoardingVessel
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_BoardingVessel
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_DebuffTargetMove
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4489916444606248579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Nomad
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Nomad
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4385365795751164902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MultiRoleAircraft
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_AirUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MultiRoleAircraft
+  - serializableElementName: UnitAbility_AirStrike
+  - serializableElementName: UnitAbility_Interceptor
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4311725923891675639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Battleship
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Battleship
+  - serializableElementName: UnitAbility_Armoured
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-4057490431685314141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_FieldArtillery
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_FieldArtillery
+  - serializableElementName: UnitAbility_CannotClimbFortification
+  - serializableElementName: UnitAbility_MoveOrAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-3587574023283969487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MissileDestroyer
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MissileDestroyer
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-3450186851226286889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MainBattleTank
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MainBattleTank
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-3228691144451316687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_NuclearSubmarine
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_NuclearSubmarine
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-3181935636818648587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_LightTank
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_LightTank
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-2833877388944305533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MissileSubmarine
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MissileSubmarine
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &-2768457086994785262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_AntiCavalry
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Melee
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_StrengthFromTargetClassCavalry_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &-2132436970295022400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Destroyer
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Destroyer
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &-2040993829340985946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_GunPlatform
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_GunPlatform
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_Shatter
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &-1857272671609907783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Animal
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Animal
+  - serializableElementName: UnitAbility_CannotTargetSeafaring
+  AutoResolveBattleStrengthBonus:
+    RawValue: -1000
+--- !u!114 &-1588588040103806396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_NuclearMissile
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_AirUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_NuclearMissile
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -211960278, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass
+  m_EditorClassIdentifier: 
+--- !u!114 &67423334904232053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_AircraftCarrier
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_AircraftCarrier
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &354971338435038490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Spy
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Spy
+  - serializableElementName: UnitAbility_CannotTargetSeafaring
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &543940889859284257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Cavalry
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Mounted
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_CannotTargetSeafaring
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  - serializableElementName: UnitAbility_Prototype_Cavalry
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &979656870413413581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MediumTank
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MediumTank
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &1474729855748473281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Gunner
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Gunner
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &1547207792678073132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MountedNomad
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Mounted
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MountedNomad
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &1835471148747960235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_NuclearAircraftCarrier
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_NuclearAircraftCarrier
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &1918673318529146064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_LandUnit
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Unit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_LandUnit
+  - serializableElementName: UnitAbility_LandMovement
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2010665607533294563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MultipleLaunchRocketSystem
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MultipleLaunchRocketSystem
+  - serializableElementName: UnitAbility_CannotClimbFortification
+  - serializableElementName: UnitAbility_MoveOrAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2339142931182278136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_AirUnit
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Unit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_AirUnit
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2401790901014987350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Ranged
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Ranged
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &2668924960992579170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Gunship
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Gunship
+  - serializableElementName: UnitAbility_CanCrossCliffs
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRivers
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRocks
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  - serializableElementName: UnitAbility_IgnoreTerrainBonuses
+  - serializableElementName: UnitAbility_IgnoreTerrainPenalties
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &2770436657909280356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_ArmouredVehicle
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_ArmouredVehicle
+  - serializableElementName: UnitAbility_Armoured
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &2773442882096691433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_DieselSubmarine
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_DieselSubmarine
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &3311829893161769923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MissileCruiser
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MissileCruiser
+  - serializableElementName: UnitAbility_Armoured
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &4025331012648230428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_SteamFrigate
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_GunPlatform
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_Shatter
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &4262283649909813809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_FighterAircraft
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_AirUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_FighterAircraft
+  - serializableElementName: UnitAbility_Interceptor
+  - serializableElementName: UnitAbility_AirStrike
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &5086686758698451100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MountedRanged
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Mounted
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MountedRanged
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &5591723773233551218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_FleetSubmarine
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_FleetSubmarine
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &5688654090954267651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_StealthCorvette
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_StealthCorvette
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &5980435067487313722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_ArmouredVessel
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_ArmouredVessel
+  - serializableElementName: UnitAbility_Armoured
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &6508733959027597989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Corvette
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Corvette
+  - serializableElementName: UnitAbility_Seafaring
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &6602224412736706403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_TorpedoVessel
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_TorpedoVessel
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &6967139168906383725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_CoastalUnit
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Unit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_CoastalMovement
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &7220272362068733629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_HeavyCavalry
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Mounted
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Charge_HeavyCavalry
+  - serializableElementName: UnitAbility_CannotTargetSeafaring
+  - serializableElementName: UnitAbility_Prototype_Cavalry
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &7645302054484709101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_MountedGunner
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_Mounted
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_MountedGunner
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &8067982171587343813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_Unit
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: 
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Unit
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &8069457848000920964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Dreadnought
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Dreadnought
+  - serializableElementName: UnitAbility_Armoured
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &9099561451729158849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_SiegeArtillery
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_SiegeArtillery
+  - serializableElementName: UnitAbility_CannotRetaliate
+  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_MoveOrAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &9149676346316789340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Ironclad
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_NavalUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Ironclad
+  - serializableElementName: UnitAbility_Armoured
+  - serializableElementName: UnitAbility_Seafaring
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
+--- !u!114 &9219615892199032865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Prototype_Mounted
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Mounted
+  - serializableElementName: UnitAbility_CannotClimbFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0

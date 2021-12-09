@@ -1,0 +1,145 @@
+ManifestFileVersion: 0
+CRC: 838653146
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dd3946931384eca205648a91b0be031b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 23b5a0ac8f1e614892ab24bcae4fb860
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 983106801, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1786578759, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1918750774, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1841102959, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1643237753, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -570373346, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 808446743, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -590115569, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 932230282, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -211960278, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -752240671, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -354112042, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -457851255, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -2122520293, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -203084690, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 130328062, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+- Class: 114
+  Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/torpedboatDestroyer360.png
+- Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/horseFieldArtillery212.png
+- Assets/Databases/Unit/AirUnitDescriptor.asset
+- Assets/Databases/Unit/UnitStatusDefinition.asset
+- Assets/Databases/Unit/UnitPrototypeDescriptor.asset
+- Assets/Databases/Unit/UnitSpecialty.asset
+- Assets/Databases/Empire/EmpireBonusUIMappers.asset
+- Assets/Databases/Unit/LandUnitDescriptor.asset
+- Assets/Databases/Empire/EmpireBonusDescriptor.asset
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
+- Assets/Resources/destroyer360.png
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+- Assets/Resources/dieselSubmarine360Manual.png
+- Assets/Resources/seawolf360.png
+- Assets/Resources/torpedboatDestroyer212.png
+- Assets/Databases/Unit/BattleAbilityDefinition.asset
+- Assets/Resources/destroyer212.png
+- Assets/Runtime/Extended Naval Combat.asset
+- Assets/Resources/horseFieldArtillery360.jpg
+- Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
+- Assets/Manifests/Extended Naval Combat.Manifest.asset
+- Assets/Resources/seawolf212.png
+- Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Resources/dieselSubmarine212Manual.png
+- Assets/Databases/Technologies/TechnologyUIMappers.asset
+- Assets/Databases/Technologies/TechnologyDefinition.asset
+- Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
+- Assets/Databases/Unit/AirUnitUIMappers.asset
+- Assets/Databases/Unit/LandUnitUIMappers.asset
+- Assets/Databases/Unit/NavalUnitDefinition.asset
+- Assets/Resources/dreadnough212.png
+- Assets/Resources/escortCorvette212.png
+- Assets/Resources/escortCorvette360.png
+- Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
+- Assets/Databases/Unit/LandUnitDefinition.asset
+- Assets/Databases/Unit/UnitAbility.asset
+- Assets/Databases/Unit/AirUnitDefinition.asset
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
+- Assets/Databases/Unit/NavalUnitUIMappers.asset
+- Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
+- Assets/Resources/dreadnough360.png
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
+- Assets/Databases/Unit/UnitClassUIMappers.asset
+- Assets/Databases/Unit/UnitDescriptor.asset
+- Assets/Databases/Unit/UnitClass.asset
+- Assets/Resources/missileCruiser360.png
+- Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
+- Assets/AssetBundleContentDescriptor.asset
+- Assets/Resources/missileCruiser212.png
+Dependencies: []
