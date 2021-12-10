@@ -139,30 +139,30 @@ MonoBehaviour:
         Artillery graphics), unlocked with Trench Warfare, upgrades to MLRS</li>
 
         <li>Added
-        Light Tank (uses vanilla Medium Tank) unlocked with Continuous Track, upgrades
-        to Medium Tank</li>
+        Light Tank (uses vanilla Medium Tank graphics) unlocked with Continuous Track,
+        upgrades to Medium Tank</li>
 
-        <li>Added Medium Tank (uses vanilla Red Army
-        Tank) unlocked with Sloped Armor, upgrade to Main Battle Tank</li>
+        <li>Added Medium Tank (uses vanilla
+        Red Army Tank graphics) unlocked with Sloped Armor, upgrade to Main Battle
+        Tank</li>
 
-        <li>Added
-        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
+        <li>Added Multiple Launch Rocket System &#40;MLRS&#41;,
+        unlocks with Computing</li>
 
-        <li>Added
-        (common) All-Terrain PMV, unlocks with Composite Armor</li>
+        <li>Added (common) All-Terrain PMV,
+        unlocks with Composite Armor</li>
 
         </ol>
 
-        <p>3
-        new Air units:</p>
+        <p>3 new Air units:</p>
 
         <ol>
 
-        <li>Added (common) Stealth Fighter,
-        unlocked with Stealth technology</li>
+        <li>Added
+        (common) Stealth Fighter, unlocked with Stealth technology</li>
 
-        <li>Added (common) Stealth
-        Cruise Missile, unlocked with Stealth technology</li>
+        <li>Added
+        (common) Stealth Cruise Missile, unlocked with Stealth technology</li>
 
         <li>Added
         Intercontinental Ballistic Missile (ICBM) unlocked by ICBM Test national
@@ -184,8 +184,8 @@ MonoBehaviour:
         <li>Ironclad special ability Inner Sea
         Mastodonte (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
 
-        <li>Battleship
-        en Missile Cruiser gain extended Zone of Control</li>
+        <li>Dreadnought,
+        Battleship en Missile Cruiser gain extended Zone of Control</li>
 
         <li>Torpedo
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
@@ -440,13 +440,13 @@ MonoBehaviour:
         resource requirements, maintenance cost and removed population cost</li>
 
         <li>Nuclear
-        Missile: reduced strategic resource requirements, maintenance cost and base
+        Missile: reduced strategic resource requirements, maintenance cost, and base
         attack range doubled</li>
 
         <li>Thermal Nuclear Missile: <span style="font-size:
         1em; font-weight: 400;">reduced strategic resource </span><span style="font-size:
         1em; font-weight: 400;">requirements, </span><span style="font-size: 1em;
-        font-weight: 400;">maintenance cost and base attack range doubled</span></li>
+        font-weight: 400;">maintenance cost, and base attack range doubled</span></li>
 
         </ul>
 

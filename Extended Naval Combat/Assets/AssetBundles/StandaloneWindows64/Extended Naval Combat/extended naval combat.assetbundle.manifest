@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 838653146
+CRC: 3523612509
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dd3946931384eca205648a91b0be031b
+    Hash: 8b0de77564359e174aa9fb7dc3398eda
   TypeTreeHash:
     serializedVersion: 2
     Hash: 23b5a0ac8f1e614892ab24bcae4fb860
@@ -92,7 +92,6 @@ Assets:
 - Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
-- Assets/Resources/horseFieldArtillery212.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
@@ -105,11 +104,12 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Resources/seawolf360.png
-- Assets/Resources/torpedboatDestroyer212.png
+- Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/destroyer212.png
+- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Runtime/Extended Naval Combat.asset
-- Assets/Resources/horseFieldArtillery360.jpg
+- Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
@@ -117,6 +117,7 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
+- Assets/Resources/marine360.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
@@ -129,6 +130,7 @@ Assets:
 - Assets/Databases/Unit/LandUnitDefinition.asset
 - Assets/Databases/Unit/UnitAbility.asset
 - Assets/Databases/Unit/AirUnitDefinition.asset
+- Assets/Resources/marine212.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset

@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9139040182708493747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_BunkerConstruction
+  m_EditorClassIdentifier: 
+  Title: Bunker Construction
+  Description: A bunker is a defensive military fortification designed to protect
+    people and valued materials from falling bombs or other attacks. Bunkers are
+    mostly underground, in contrast to blockhouses which are mostly above ground.
+    They were used extensively in World War I, World War II, and the Cold War for
+    weapons facilities, command and control centers, and storage facilities.
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 192
+  TechTreeY: 28
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-8543544815677690553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +249,35 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 215
   TechTreeY: 0
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-6429280157116610571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_Breechloader
+  m_EditorClassIdentifier: 
+  Title: Breechloader
+  Description: A breechloader is a firearm in which the user loads the ammunition
+    via the rear end of its barrel, as opposed to a muzzleloader, which loads ammunition
+    via the front
+  Images:
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 170
+  TechTreeY: 28
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6114515573949476379
 MonoBehaviour:
@@ -778,7 +852,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 165
+  TechTreeX: 164
   TechTreeY: 28
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-3026389892039100092
@@ -1287,6 +1361,51 @@ MonoBehaviour:
   TechTreeX: 272
   TechTreeY: 21
   OptionalUnlockTechnologyMovie: 
+--- !u!114 &534123117388157360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_AntitankWarfare
+  m_EditorClassIdentifier: 
+  Title: Antitank Warfare
+  Description: ' The development of specialized anti-tank munitions and anti-tank
+    guns was prompted by the appearance of tanks. To destroy hostile tanks, artillerymen
+    often used field guns depressed to fire directly at their targets, but this practice
+    expended too much valuable ammunition and was of increasingly limited effectiveness
+    as tank armor became thicker.'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 205
+  TechTreeY: 0
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &563095779675340934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,7 +1827,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_AngledFlightDeck
+  m_Name: Technology_Era6_AngledFlightDeck
   m_EditorClassIdentifier: 
   Title: Angled Flightdeck
   Description: The angled flight deck was one prominent design feature that drastically
@@ -1943,7 +2062,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 205
+  TechTreeX: 203
   TechTreeY: 11
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &5413859871240278091
@@ -2232,7 +2351,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 202
+  TechTreeX: 203
   TechTreeY: 32
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &8718993485056619419

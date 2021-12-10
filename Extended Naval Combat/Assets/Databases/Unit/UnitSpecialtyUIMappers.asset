@@ -68,6 +68,23 @@ MonoBehaviour:
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &-5593920866127852997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromRiver
+  m_EditorClassIdentifier: 
+  Title: Amfibious
+  Description: Ignores Movement penalties from Rivers
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &-5147359148315926216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,9 +419,9 @@ MonoBehaviour:
   m_Name: UnitSpecialty_StealthCommando
   m_EditorClassIdentifier: 
   Title: Commando Skills
-  Description: No movement penalty from forests. Can cross cliffs. Cannot be seen
-    except by adjacent Units.  Can also enter other Empire's territory without an
-    Open Borders Treaty.
+  Description: No movement penalty from forests or rocky terain. Can cross cliffs.
+    Cannot be seen except by adjacent Units.  Can enter other Empire's territory
+    without an Open Borders Treaty.
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 

@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Dev/Humankind/Extended Naval Combat
+D:/GitHub/extendednavalcombat/Extended Naval Combat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58218
-Successfully changed project path to: C:/Dev/Humankind/Extended Naval Combat
-C:/Dev/Humankind/Extended Naval Combat
+65482
+Successfully changed project path to: D:/GitHub/extendednavalcombat/Extended Naval Combat
+D:/GitHub/extendednavalcombat/Extended Naval Combat
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Dev/Humankind/Extended Naval Combat/Assets
+[Subsystems] Discovering subsystems at path D:/GitHub/extendednavalcombat/Extended Naval Combat/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,22 +35,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002205 seconds.
+Registered in 0.002527 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
+- Completed reload, in  1.022 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028298 seconds.
+Registered in 0.021503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [AssetDatabase] Startup...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -62,40 +62,865 @@ System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.Runti
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  1.480 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1179 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.3 MB.
-System memory in use after: 64.4 MB.
+System memory in use after: 64.5 MB.
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3365.
-Total: 17.513000 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.093800 ms MarkObjects: 17.104500 ms  DeleteObjects: 0.065800 ms)
+Total: 17.443400 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.102300 ms MarkObjects: 17.042500 ms  DeleteObjects: 0.068400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Databases/Unit/UnitClass.asset
-  artifactKey: Guid(92d4f7aa78620094e8124a3670df3ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Databases/Unit/UnitClass.asset using Guid(92d4f7aa78620094e8124a3670df3ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e938c8fb1cdd2cd262a4af7bd94f118e') in 0.039440 seconds
-  Import took 0.043131 seconds .
+  path: Assets/Databases/Unit/LandUnitDescriptor 1.asset
+  artifactKey: Guid(869cb4e9f923e8c429298fe6e76a7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitDescriptor 1.asset using Guid(869cb4e9f923e8c429298fe6e76a7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cdf81be7ecc53e422c3f1a99d39bd6') in 0.035875 seconds
+  Import took 0.054370 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.992059 seconds.
-  path: Assets/Databases/Unit/NavalUnitDefinition.asset
-  artifactKey: Guid(b7d93740cabc1a9499505d5403e8b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Databases/Unit/NavalUnitDefinition.asset using Guid(b7d93740cabc1a9499505d5403e8b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9779d7901762e3317024219cb7c4415a') in 0.038744 seconds
-  Import took 0.042244 seconds .
+  Time since last request: 4.502996 seconds.
+  path: Assets/Databases/Unit/LandUnitDescriptor.asset
+  artifactKey: Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitDescriptor.asset using Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54676e7e7a6a906f05c98af08d5612a1') in 0.007672 seconds
+  Import took 0.068045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.247313 seconds.
-  path: Assets/Databases/Unit/NavalUnitDefinition.asset
-  artifactKey: Guid(b7d93740cabc1a9499505d5403e8b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Databases/Unit/NavalUnitDefinition.asset using Guid(b7d93740cabc1a9499505d5403e8b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9779d7901762e3317024219cb7c4415a') in 0.007876 seconds
-  Import took 0.010146 seconds .
+  Time since last request: 0.001948 seconds.
+  path: Assets/Databases/Unit/LandUnitDescriptor.asset
+  artifactKey: Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitDescriptor.asset using Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54676e7e7a6a906f05c98af08d5612a1') in 0.007047 seconds
+  Import took 0.009976 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.9 MB.
+System memory in use after: 42.0 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 17.386800 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.093200 ms MarkObjects: 17.049200 ms  DeleteObjects: 0.031100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.9 MB.
+System memory in use after: 42.0 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 16.597600 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.074300 ms MarkObjects: 16.299000 ms  DeleteObjects: 0.029400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1048.558498 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bacaab6cdeeb7663dc79dc9257dc300') in 0.160945 seconds
+  Import took 0.187543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008813 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bacaab6cdeeb7663dc79dc9257dc300') in 0.024496 seconds
+  Import took 0.056007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.609819 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eaacde579af120b2ffd0c9f1d2265c') in 0.031239 seconds
+  Import took 0.035063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002043 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eaacde579af120b2ffd0c9f1d2265c') in 0.022043 seconds
+  Import took 0.025098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.572002 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e54cc5effe93e4120d2d7fcc6b6489') in 0.014117 seconds
+  Import took 0.019520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011376 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e54cc5effe93e4120d2d7fcc6b6489') in 0.013414 seconds
+  Import took 0.015836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.906246 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21995fe519ddd75db70bb68eaf1c1f71') in 0.011437 seconds
+  Import took 0.014327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016669 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21995fe519ddd75db70bb68eaf1c1f71') in 0.012962 seconds
+  Import took 0.015505 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 23.457600 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.176300 ms MarkObjects: 22.939700 ms  DeleteObjects: 0.033100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.634055 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e241f72100721b4ea9d0102972dc2090') in 0.009823 seconds
+  Import took 0.013123 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 25.414800 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.082700 ms MarkObjects: 25.094500 ms  DeleteObjects: 0.032900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.569037 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc182ff67d98690aadf341007aa17a') in 0.017678 seconds
+  Import took 0.049901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.290160 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc182ff67d98690aadf341007aa17a') in 0.018418 seconds
+  Import took 0.020673 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 18.328900 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 17.966000 ms  DeleteObjects: 0.026100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.406610 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85069d0592601db275b6d658439aba65') in 0.024174 seconds
+  Import took 0.034998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.055196 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5158af2fc03e30d6fc317d1a414d552') in 0.018128 seconds
+  Import took 0.028683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003532 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5158af2fc03e30d6fc317d1a414d552') in 0.016652 seconds
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 18.598700 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.076500 ms MarkObjects: 18.300100 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.264605 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition 1.asset
+  artifactKey: Guid(39bd62f11bc69ce429bd903e319fa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition 1.asset using Guid(39bd62f11bc69ce429bd903e319fa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ade0e30cfd2c7822fc89bc756cabda') in 0.012105 seconds
+  Import took 0.046327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.786393 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269edf9c2704786a7ce689a7a765ef39') in 0.015585 seconds
+  Import took 0.027447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126408 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269edf9c2704786a7ce689a7a765ef39') in 0.015097 seconds
+  Import took 0.018010 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 18.881200 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.076600 ms MarkObjects: 18.573500 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.026972 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1abb401ed2d89ac6b9303d4976c1ee') in 0.064474 seconds
+  Import took 0.116986 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 20.847100 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.080300 ms MarkObjects: 20.514100 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 644.190886 seconds.
+  path: Assets/Databases/Technologies/TechnologyUIMappers.asset
+  artifactKey: Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyUIMappers.asset using Guid(0d3f85ee2fb28d84ca152b72935f3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a246b1253d282af6e116741a2da582') in 0.017315 seconds
+  Import took 0.021611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26910.947504 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.dll
+  artifactKey: Guid(0e7f7f7cd62eba548b923514034a25d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.dll using Guid(0e7f7f7cd62eba548b923514034a25d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681ee803bf7827baf6cee192881525b6') in 0.025641 seconds
+  Import took 0.074261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020594 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.dll
+  artifactKey: Guid(0a3fedc99ff5446fbb7909ce243dd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.dll using Guid(0a3fedc99ff5446fbb7909ce243dd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ab0e11293e44af6e922123197a64e6') in 0.004357 seconds
+  Import took 0.028810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029276 seconds.
+  path: Assets/Plugins/mod.io/Editor/modio.UnityPlugin.Editor.dll
+  artifactKey: Guid(b679443a59f48064684444b53e6b37bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/mod.io/Editor/modio.UnityPlugin.Editor.dll using Guid(b679443a59f48064684444b53e6b37bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dabd70fe6d1437c6f979a8262102012') in 0.007281 seconds
+  Import took 0.024069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032375 seconds.
+  path: Assets/Plugins/SharpZipLib/I18N.dll
+  artifactKey: Guid(aa06b32f5ede9b746b66829223746a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SharpZipLib/I18N.dll using Guid(aa06b32f5ede9b746b66829223746a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd89e5d6c6f573351cbe1b0c2b902d5') in 0.011513 seconds
+  Import took 0.037706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065063 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs
+  artifactKey: Guid(30393ed590c8fb64da0612e8a2fad8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs using Guid(30393ed590c8fb64da0612e8a2fad8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83acf17b63d2c60675abb82896bee43') in 0.018991 seconds
+  Import took 0.034799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033108 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.UI.Editor.dll
+  artifactKey: Guid(7839fa360e35aff43ba3378d60bc1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.UI.Editor.dll using Guid(7839fa360e35aff43ba3378d60bc1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91268a0383b8e72ee331fe6445e971ac') in 0.007580 seconds
+  Import took 0.035261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009089 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll
+  artifactKey: Guid(47a84ebde4ec47fabb620b30cc7a3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll using Guid(47a84ebde4ec47fabb620b30cc7a3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efeca87430e85028afe6b645e9467f1') in 0.006021 seconds
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012845 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Core.dll
+  artifactKey: Guid(43d21df479170154fb60cb1ac9f29412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Core.dll using Guid(43d21df479170154fb60cb1ac9f29412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af935f0002ead20d961c25c3fdee51b8') in 0.005892 seconds
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068586 seconds.
+  path: Assets/[Amplitude.Framework]/Editor/Binaries/7z.exe
+  artifactKey: Guid(88aef7b8a9f8f364cb25b8f0cae1096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Editor/Binaries/7z.exe using Guid(88aef7b8a9f8f364cb25b8f0cae1096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe19d55285bca044fc72d6abfd42c6f') in 0.012282 seconds
+  Import took 0.015050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031436 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/EditorRuntime/Amplitude.Mercury.Terrain.dll
+  artifactKey: Guid(8cffd5dce7c849c4ea5d00b4d17fd5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/EditorRuntime/Amplitude.Mercury.Terrain.dll using Guid(8cffd5dce7c849c4ea5d00b4d17fd5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8166b2d9f841c19cfab8f750101174') in 0.006262 seconds
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005258 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll
+  artifactKey: Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll using Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8249e59cbc5f00af984845e79d793257') in 0.005863 seconds
+  Import took 0.023334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016664 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs
+  artifactKey: Guid(435323e396d85494daeb5278528fe138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs using Guid(435323e396d85494daeb5278528fe138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20192945585aa9852cd8c166dd68d9f') in 0.007323 seconds
+  Import took 0.042448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021697 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.IO.dll
+  artifactKey: Guid(d919a4f4a59e41ad9e210793852f5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.IO.dll using Guid(d919a4f4a59e41ad9e210793852f5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7f981f3c7a0a1c95320550527f5183') in 0.005766 seconds
+  Import took 0.036337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009307 seconds.
+  path: Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
+  artifactKey: Guid(bc33747337035a34bb26c7a71e455445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset using Guid(bc33747337035a34bb26c7a71e455445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73634836b66a6b31ce1f161644f57a1') in 0.018395 seconds
+  Import took 0.032388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052473 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.AI.Brain.dll
+  artifactKey: Guid(a0ff2dc9815ba29429ebdcef83a9f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.AI.Brain.dll using Guid(a0ff2dc9815ba29429ebdcef83a9f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e892d901c8a70481ffa320d8996253df') in 0.005524 seconds
+  Import took 0.008074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004451 seconds.
+  path: Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+  artifactKey: Guid(b862093808e72b7419a77693a844cf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset using Guid(b862093808e72b7419a77693a844cf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1a5847f54d89573868aca7c6ec296d') in 0.020360 seconds
+  Import took 0.023529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025734 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.AI.dll
+  artifactKey: Guid(d8c4e70297d14ae888180e03069f7086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.AI.dll using Guid(d8c4e70297d14ae888180e03069f7086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358144d389505dee9ffccbadf488e026') in 0.005740 seconds
+  Import took 0.019149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030900 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll
+  artifactKey: Guid(5c65184932ff4fd48a343e2360256baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll using Guid(5c65184932ff4fd48a343e2360256baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba490ac6a1116e2c5384878553f92f10') in 0.007002 seconds
+  Import took 0.037671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041725 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Data.dll
+  artifactKey: Guid(b310e23bee821cb478da05296ba685d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Data.dll using Guid(b310e23bee821cb478da05296ba685d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c6b1e326c4ca5c8f4b43f5413f1fde') in 0.007464 seconds
+  Import took 0.025118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032813 seconds.
+  path: Assets/Databases/Unit/LandUnitUIMappers.asset
+  artifactKey: Guid(7f2e0cbfd1334494db4342b9abc40f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitUIMappers.asset using Guid(7f2e0cbfd1334494db4342b9abc40f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936eda564db69d419eb7bc4444dee4c9') in 0.008862 seconds
+  Import took 0.044664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062428 seconds.
+  path: Assets/[Amplitude.Framework]/Editor/EditorResourcesAssetPostProcessor.cs
+  artifactKey: Guid(047ea97ab465e304492b2e4a0ab19742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Editor/EditorResourcesAssetPostProcessor.cs using Guid(047ea97ab465e304492b2e4a0ab19742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51a147d9191c1a8b8aa774efa3c7654') in 0.006598 seconds
+  Import took 0.056388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036247 seconds.
+  path: Assets/Plugins/mod.io/ThirdParty/dotnetzip-for-unity/Release/Ionic.Zip.Unity.dll
+  artifactKey: Guid(4609909d336db4ae491d7c5df3903080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/mod.io/ThirdParty/dotnetzip-for-unity/Release/Ionic.Zip.Unity.dll using Guid(4609909d336db4ae491d7c5df3903080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7a72f90e68131855d193556bcea184') in 0.005816 seconds
+  Import took 0.007967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063655 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Core.dll
+  artifactKey: Guid(21c3876fd21c439d9e788437292c6039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Core.dll using Guid(21c3876fd21c439d9e788437292c6039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28b2551aeb71d1323487f8abca1e8c2') in 0.027542 seconds
+  Import took 0.030108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052813 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs
+  artifactKey: Guid(903c11a9cf3ba6f4e8c653443c6893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs using Guid(903c11a9cf3ba6f4e8c653443c6893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06d02b9dea08b8bc554fc1ffe2e4ed0') in 0.006890 seconds
+  Import took 0.038865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058842 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Libraries/LZ4/x64/LZ4.dll
+  artifactKey: Guid(6f52e5477ad629c4cbb819241bcf87ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Libraries/LZ4/x64/LZ4.dll using Guid(6f52e5477ad629c4cbb819241bcf87ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f905050909fe7ab065777d706e730e') in 0.006717 seconds
+  Import took 0.046468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094846 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs
+  artifactKey: Guid(d9763cb398cf6e146b74d6b7bac2fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs using Guid(d9763cb398cf6e146b74d6b7bac2fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1910d2e749acb13e9360dec0fe7532cf') in 0.048638 seconds
+  Import took 0.051616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004030 seconds.
+  path: Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
+  artifactKey: Guid(335f3672697523f4e91bc52c235025f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitSpecialtyUIMappers.asset using Guid(335f3672697523f4e91bc52c235025f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd840df97d1929f942a7abf703542c2') in 0.009079 seconds
+  Import took 0.011350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070828 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Wwise.dll
+  artifactKey: Guid(8678d48b564c4f67a6c76678ac254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Wwise.dll using Guid(8678d48b564c4f67a6c76678ac254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09fa8ea4860e3af22c6b3583a9f7d89') in 0.008202 seconds
+  Import took 0.039364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056241 seconds.
+  path: Assets/Plugins/mod.io/Editor/modio.UnityPlugin.EditorIntegrationSample.dll
+  artifactKey: Guid(02642f532edc565419e2dd50b9d96a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/mod.io/Editor/modio.UnityPlugin.EditorIntegrationSample.dll using Guid(02642f532edc565419e2dd50b9d96a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aa49fed43cab6eab4fe7750a24b627') in 0.006392 seconds
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033864 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll
+  artifactKey: Guid(4873f2a8bdae42baa0406e8a61366ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll using Guid(4873f2a8bdae42baa0406e8a61366ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9495305325b9e4a66823815022f53') in 0.035333 seconds
+  Import took 0.074924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002226 seconds.
+  path: Assets/Databases/Settlement
+  artifactKey: Guid(5af06d68c5c6093448453d631389e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Settlement using Guid(5af06d68c5c6093448453d631389e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee950c7b66325abaf5e1708c92ab93b') in 0.006277 seconds
+  Import took 0.008701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041787 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll
+  artifactKey: Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll using Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e4d1dcd9bb8790ee19117eaa7f5f9a') in 0.002683 seconds
+  Import took 0.004930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055831 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs
+  artifactKey: Guid(d4d815a2bfd253342bfd6542c08315fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs using Guid(d4d815a2bfd253342bfd6542c08315fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a05803d25c19e90d108220e98900c2a') in 0.005624 seconds
+  Import took 0.096113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.003993 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll
+  artifactKey: Guid(5f3147f7af4c49739579b966c458f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll using Guid(5f3147f7af4c49739579b966c458f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aec7ede02be91ca57d60bf5baab2fb9') in 0.007219 seconds
+  Import took 0.035464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065116 seconds.
+  path: Assets/Plugins/mod.io/AnyCPU/modio.UnityPlugin.dll
+  artifactKey: Guid(1ecdfd902ce27944197b3a6773c95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/mod.io/AnyCPU/modio.UnityPlugin.dll using Guid(1ecdfd902ce27944197b3a6773c95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c3d023ba2e8e8809703aa415e35300') in 0.025257 seconds
+  Import took 0.051418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034667 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs
+  artifactKey: Guid(bda5b631304c8cb4485d60ef8bda618b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs using Guid(bda5b631304c8cb4485d60ef8bda618b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf669ba7d5336b623eabc91d0dc0d03') in 0.005926 seconds
+  Import took 0.033268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057984 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/EditorRuntime/Amplitude.Mercury.Fx.dll
+  artifactKey: Guid(23439033c2a2ac447b7fa603282f9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/EditorRuntime/Amplitude.Mercury.Fx.dll using Guid(23439033c2a2ac447b7fa603282f9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4021c941f5ce98844dbe6cedeaa3008') in 0.020816 seconds
+  Import took 0.046060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007122 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs
+  artifactKey: Guid(5d496f720527c984b8acc75a238bbd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs using Guid(5d496f720527c984b8acc75a238bbd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7161a5b0b7fc5c5a221a76453bf05ea') in 0.007114 seconds
+  Import took 0.017872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329539 seconds.
+  path: Assets/Databases/Unit/UnitPrototypeDescriptor.asset
+  artifactKey: Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/UnitPrototypeDescriptor.asset using Guid(5cf94226a869b8641a502c295f7d573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51762c1277f4092cb546dff3ad4d4c2d') in 0.010529 seconds
+  Import took 0.067629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031148 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Wwise.dll
+  artifactKey: Guid(dec3eebb7fb1a6b4aa0a86c669b354b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Wwise.dll using Guid(dec3eebb7fb1a6b4aa0a86c669b354b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93862dc227e3be58409f6550cb24fa15') in 0.002921 seconds
+  Import took 0.005162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022791 seconds.
+  path: Assets/Databases/Unit/LandUnitDescriptor.asset
+  artifactKey: Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Unit/LandUnitDescriptor.asset using Guid(66fa6bacf8595a946944985aa6e3fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5327f493b64b4a0e2bb1b2e7283e4319') in 0.007360 seconds
+  Import took 0.032381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048581 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.WorldGenerator.dll
+  artifactKey: Guid(9dacf171f03737e48b4a8b5d8635beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.WorldGenerator.dll using Guid(9dacf171f03737e48b4a8b5d8635beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635ccae570f462556a0538d38c0c5a21') in 0.005819 seconds
+  Import took 0.037657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008624 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.IO.dll
+  artifactKey: Guid(0d80da4a06ef5464b898ada830c60864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.IO.dll using Guid(0d80da4a06ef5464b898ada830c60864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e263d2a4d4ac7f82a3b4bf21ab760a8') in 0.002987 seconds
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043139 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs
+  artifactKey: Guid(dd3672808cdf76541aa3d383c87a5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs using Guid(dd3672808cdf76541aa3d383c87a5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f251cdb8c8416f2f7afad725e792c6b4') in 0.006168 seconds
+  Import took 0.008409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003896 seconds.
+  path: Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+  artifactKey: Guid(8704763357ee6164f951a6b3ca91622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset using Guid(8704763357ee6164f951a6b3ca91622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab85d40670a60216273325e93e35ef') in 0.009355 seconds
+  Import took 0.032274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025382 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Wwise.Editor.dll
+  artifactKey: Guid(853ea127794bcf048b26b420595ed055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Wwise.Editor.dll using Guid(853ea127794bcf048b26b420595ed055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9104aa2e3a5dca5c918ecd83b063c') in 0.005611 seconds
+  Import took 0.030314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038839 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Animation.dll
+  artifactKey: Guid(400974a241d053a4c8ac63d273b51524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Animation.dll using Guid(400974a241d053a4c8ac63d273b51524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeee8b5eac5f32cd69a95b4b31b5cda') in 0.005762 seconds
+  Import took 0.035853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327037 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Production.dll
+  artifactKey: Guid(178226bde0f1b9c409493a2e47154539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Production.dll using Guid(178226bde0f1b9c409493a2e47154539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589174ad573e642141eedf6a6017c3fb') in 0.005794 seconds
+  Import took 0.008419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034394 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.UI.dll
+  artifactKey: Guid(f8c4d2d2a3a246a0909e3c6973d4a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.UI.dll using Guid(f8c4d2d2a3a246a0909e3c6973d4a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28e1f74471603df5f5dc03bbd850603') in 0.006689 seconds
+  Import took 0.032418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029357 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Framework.dll
+  artifactKey: Guid(9234a64dcb4d46d68a24aff339ec6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Framework.dll using Guid(9234a64dcb4d46d68a24aff339ec6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405a8095b9213be99e81ba226692a47d') in 0.005491 seconds
+  Import took 0.028001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031367 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Graphics.dll
+  artifactKey: Guid(7534f3a653174657a6e155e89955e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Standalone/Amplitude.Graphics.dll using Guid(7534f3a653174657a6e155e89955e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abde461829228620ef7b7a8fe18db1f0') in 0.005747 seconds
+  Import took 0.034855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027327 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll
+  artifactKey: Guid(5978f8f3dd274e848fbb7a123bde1fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll using Guid(5978f8f3dd274e848fbb7a123bde1fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89388d845daf5efd7191b8309ffbfec') in 0.002760 seconds
+  Import took 0.027111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029688 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Graphics.Editor.dll
+  artifactKey: Guid(7a2feef1726e95e499f805783588338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Graphics.Editor.dll using Guid(7a2feef1726e95e499f805783588338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d8b21211dbbe78018fede2c4acc667') in 0.007027 seconds
+  Import took 0.030721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046253 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Firstpass.dll
+  artifactKey: Guid(b758277dfa0af2343b0f3b4eb4af4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/AnyCPU/Amplitude.Mercury.Firstpass.dll using Guid(b758277dfa0af2343b0f3b4eb4af4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e059a93a29ffcdf1635eeb3fba3ccd') in 0.005631 seconds
+  Import took 0.027099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044898 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Fx.Editor.dll
+  artifactKey: Guid(57ac9011cd45bf44a8667738bd940c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Fx.Editor.dll using Guid(57ac9011cd45bf44a8667738bd940c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f4fda4832897a7db894c16011297b5') in 0.006237 seconds
+  Import took 0.035437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042367 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs
+  artifactKey: Guid(2fc48d59edff00f49b8ae717c776ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs using Guid(2fc48d59edff00f49b8ae717c776ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52db7b86cc48d5cac3f1f96b2ac30b65') in 0.006391 seconds
+  Import took 0.008930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057101 seconds.
+  path: Assets/[Amplitude.Framework]/Editor/Binaries/VisualStudioFileOpenTool.exe
+  artifactKey: Guid(e86f93536e4ad7145a1d5777dca0c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Editor/Binaries/VisualStudioFileOpenTool.exe using Guid(e86f93536e4ad7145a1d5777dca0c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e5d7065689350872813109f8aa5c13') in 0.006997 seconds
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009517 seconds.
+  path: Assets/Databases/Technologies/TechnologyDefinition.asset
+  artifactKey: Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/Technologies/TechnologyDefinition.asset using Guid(9b5b1c33cb8a9164c862fcd4581bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c679c4df284db7355b583088c5f1b55a') in 0.023296 seconds
+  Import took 0.026100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044301 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs
+  artifactKey: Guid(047c7e4af9c032a428c12b7c564a6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs using Guid(047c7e4af9c032a428c12b7c564a6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b6c12778c1c3b16f486345e9337747') in 0.006100 seconds
+  Import took 0.032028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029662 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll
+  artifactKey: Guid(a4865f1ab4504ed8a368670db22f409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll using Guid(a4865f1ab4504ed8a368670db22f409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac61edae5c65e6c646fe4226ba1e45e') in 0.006541 seconds
+  Import took 0.008780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008953 seconds.
+  path: Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Terrain.Editor.dll
+  artifactKey: Guid(0f1210b2182122d4fb491cd800a4b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Mercury]/Plugins/Editor/Amplitude.Mercury.Terrain.Editor.dll using Guid(0f1210b2182122d4fb491cd800a4b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6d4e72021f7fa5cda6e631ccabfdc7') in 0.005867 seconds
+  Import took 0.035358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189299 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.UI.dll
+  artifactKey: Guid(722acb04e362a9243a944ac3117daa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.UI.dll using Guid(722acb04e362a9243a944ac3117daa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3c0fe7578159e660ab31106ff66efb') in 0.026009 seconds
+  Import took 0.028686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308964 seconds.
+  path: Assets/Plugins/SharpZipLib/I18N.West.dll
+  artifactKey: Guid(d2537cda41565764389ec9cde1e8d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SharpZipLib/I18N.West.dll using Guid(d2537cda41565764389ec9cde1e8d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288f8d977528d67b8c6735b8e23b6788') in 0.030147 seconds
+  Import took 0.032345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155821 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll
+  artifactKey: Guid(5651992cdad94894a3af7dc3f1da9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll using Guid(5651992cdad94894a3af7dc3f1da9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295077307aef1579d5a5e92c0f80ebc1') in 0.020266 seconds
+  Import took 0.037931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028156 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll
+  artifactKey: Guid(d2a8f0021d6b47c5923d8972dfb81ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll using Guid(d2a8f0021d6b47c5923d8972dfb81ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77d09d981cbb64b9d97b21bd15b9af') in 0.017514 seconds
+  Import took 0.028174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102337 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Framework.Editor.dll
+  artifactKey: Guid(a9e11b97b7e097c4587585513254fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/Editor/EditorWindows/Amplitude.Framework.Editor.dll using Guid(a9e11b97b7e097c4587585513254fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365977dfbc540651680f0f9a7fa2559') in 0.020362 seconds
+  Import took 0.023998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128308 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Graphics.dll
+  artifactKey: Guid(dbd608b719264174db62500e875598b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Graphics.dll using Guid(dbd608b719264174db62500e875598b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de420c58284f6026724f53a0b5b6671') in 0.003656 seconds
+  Import took 0.006313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044317 seconds.
+  path: Assets/Plugins/SharpZipLib/ICSharpCode.SharpZipLib.dll
+  artifactKey: Guid(080af919b8c7bbb479b6e3cff7e457a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SharpZipLib/ICSharpCode.SharpZipLib.dll using Guid(080af919b8c7bbb479b6e3cff7e457a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d744fd2a86e1882c4488e38696e1a2') in 0.006734 seconds
+  Import took 0.008958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023246 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs
+  artifactKey: Guid(a2f1c424a60dfbd4fa331449baeac351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs using Guid(a2f1c424a60dfbd4fa331449baeac351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a7848a6494274975389153efd79c3b') in 0.007448 seconds
+  Import took 0.037530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063117 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Framework.dll
+  artifactKey: Guid(783efdfc86c10be41b33bb17a2a60f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.Framework.dll using Guid(783efdfc86c10be41b33bb17a2a60f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feffc4d8cf37693265526a1aeab27a2') in 0.005125 seconds
+  Import took 0.007428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011029 seconds.
+  path: Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.AI.dll
+  artifactKey: Guid(b1cd3a1bd736e704c8d12464f84677fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Amplitude.Framework]/Plugins/EditorWindows/Amplitude.AI.dll using Guid(b1cd3a1bd736e704c8d12464f84677fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaa2a2e72304785d1f2d4fda251cc6c') in 0.003479 seconds
+  Import took 0.042034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004934 seconds.
+  path: Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
+  artifactKey: Guid(1e68556ff4556f949a0b51e54ff108b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset using Guid(1e68556ff4556f949a0b51e54ff108b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8842fbd90fe8ec1eaa0383f83085cf86') in 0.008452 seconds
+  Import took 0.011863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057869 seconds.
+  path: Assets/Plugins/Json.Net 11.0.1/Newtonsoft.Json.dll
+  artifactKey: Guid(bb269583ee0c4ed4c951ca01e24c79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Json.Net 11.0.1/Newtonsoft.Json.dll using Guid(bb269583ee0c4ed4c951ca01e24c79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1381c3528979a2288d6c3c3e8c770e1b') in 0.006961 seconds
+  Import took 0.009135 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
