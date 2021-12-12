@@ -1,3 +1,4 @@
 ArtifactDB
 ArtifactDB-lock
 Artifacts/
+*.log
