@@ -85,9 +85,6 @@ MonoBehaviour:
   - Resource: 2
     ConstantType: 0
     ConstantValue: 2
-  - Resource: 6
-    ConstantType: 0
-    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:

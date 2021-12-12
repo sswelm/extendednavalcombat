@@ -2,6 +2,7 @@ SourceAssetDB
 ArtifactDB
 ArtifactDB-lock
 SceneVisibilityState.asset
+CurrentLayout-default.dwlt
 Artifacts/
 *.log
 *.dwlt
