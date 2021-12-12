@@ -1,4 +1,9 @@
+SourceAssetDB
 ArtifactDB
 ArtifactDB-lock
+SceneVisibilityState.asset
 Artifacts/
 *.log
+*.dwlt
+
+
