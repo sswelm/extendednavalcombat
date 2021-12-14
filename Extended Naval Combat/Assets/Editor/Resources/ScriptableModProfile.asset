@@ -27,32 +27,52 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces 20 modern military units and 13 new technologies to create
+      value: Introduces 20 modern military units and 14 new technologies to create
         a longer, more interesting and historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
-      value: '<p>The goal of this mod is to create a longer, more interesting, and
-        realistic end game experience with 20 units and tweaks to existing combat
-        units. I tried to make this mod as compatible as possible with other mods
-        by putting most new units and bonuses spread over 13 new Technologies, and
-        no changes to any cultures, or civics. The new Technologies also help to
-        make the Industrial and Contemporary Era last longer, especially the late
-        Industrial and early Contemporary era (WW1/WW2) period with 10 technologies.
-        To make technology beelining less effective, many of the optional technologies
-        give bonuses to late-game naval combat Units. Nuclear weapons have become
-        more useful (with increased range) and accessible (with reduced Uranium strategic
-        resource requirement) and the addition of a true ICBM weapon (unlocked after
-        ICBM Test). The state of Nuclear weapons proliferation is made more intuitive
-        as the National Nuclear Weapon Test Programs strategic resource requirements
-        are made the same as the missile weapons they unlock, meaning if someone
-        manages to build a nuclear weapon test project (including ICBM weapon test),
-        they can also build and use them (given they also constructed a missile silo).
-        To help get a more natural Science progression, research cost until the early
-        modern age has been slightly reduced and starts to increase in the industrial
-        era up to double the cost for the end game technologies.</p>
+      value: '<p><strong>Introduction:</strong></p>
 
-        <p>13
-        New Technologies:</p>
+        <p>The goal of this
+        mod is to create a longer, more interesting, and realistic end game experience
+        with 20 units and tweaks to existing combat units. I tried to make this mod
+        as compatible as possible with other mods by putting most new units and bonuses
+        spread over 14 new Technologies, and no changes to any cultures, or civics.
+        The new Technologies also help to make the Industrial and Contemporary Era
+        last longer, especially the late Industrial and early Contemporary era (WW1/WW2)
+        period with 11 technologies. To make technology beelining less effective,
+        many of the optional technologies give bonuses to late-game naval combat
+        Units.</p>
+
+        <p><strong>Nuclear Proliferation:</strong></p>
+
+        <p>Nuclear
+        weapons have become more useful (with increased range) and accessible (with
+        reduced Uranium strategic resource requirement) and with the addition of
+        a true ICBM weapon (unlocked after ICBM Test). The state of Nuclear weapons
+        proliferation is made more intuitive as the National Nuclear Weapon Test
+        Programs strategic resource requirements are made the same as the missile
+        weapons they unlock, meaning if someone manages to build a nuclear weapon
+        test project (including ICBM weapon test), they can also build and use them
+        (given they also constructed a Missile Silo).</p>
+
+        <p><strong>Science:</strong></p>
+
+        <p>To
+        help get a more natural Science progression, research cost until the early
+        modern age has been slightly reduced and base research starts to increase
+        in the industrial era up to double the cost for the end game technologies.
+        Also, the final <span style="font-size: 1em; font-weight: 400;">research
+        cost is progressively decreased based on the number of unlocked technologies
+        (rather than the reverse in vanilla), meaning beelining ( skipping technologies)
+        becomes excessively expansive and the most economical way to unlock the entire
+        tech tree is to always choose the cheapest unlockable technologies. These
+        changes and the introduction of 14 new technologies have the effect of creating
+        a significantly longer end game and it is therefore recommended you disable
+        the turn limit when creating a new game.<br></span></p>
+
+        <p>14 new
+        Technologies:</p>
 
         <ol>
 
@@ -64,14 +84,18 @@ MonoBehaviour:
         Destroyer</li>
 
         <li>Bunker Construction; requires Trench Warfare;
-        unlocks bunkers and underground construction</li>
+        unlocks Bunker, Missile Silo, and underground construction</li>
 
-        <li>Submarine
-        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Air
+        Transport; requires Aeronautics, unlocks Aluminium strategic resource and
+        Airport district</li>
 
-        <li>Anti
-        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
-        improves naval unit speed</li>
+        <li>Submarine Warfare; requires Dreadnought
+        Design, unlocks U-Boat/Fleet Submarine Unit</li>
+
+        <li>Anti Submarine
+        Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
+        naval unit speed</li>
 
         <li>Antitank Warfare; requires Continuous
         Track, unlocks Antitank Gun unit</li>
@@ -86,8 +110,8 @@ MonoBehaviour:
         <li>Advanced Nuclear Reactors; requires
         Nuclear Fission, unlocks Nuclear powered unit upgrades</li>
 
-        <li>Angled
-        Flightdeck; requires Aerial Warfare, unlocks Nuclear Aircraft Carrier</li>
+        <li>Jet
+        Engine; requires Aerial Warfare, unlocks Cruise Missile</li>
 
         <li>Guided
         Missiles; requires Computing, unlocks Missile Cruiser, Missile Destroyer,
@@ -102,15 +126,55 @@ MonoBehaviour:
 
         </ol>
 
-        <p>11 new Naval units:</p>
+        <p>Techtree changes:</p>
+
+        <ul>
+
+        <li>Added
+        Wireless Telegraphy as a prerequisite of Research Insitute</li>
+
+        <li>Replaced
+        Dreadnought Design as a prerequisite of Continuous Track and Naval Air Strategy</li>
+
+        <li>Replaced
+        Guided Missiles as a prerequisite of Rocket Science</li>
+
+        <li>Replaced
+        Jet Engine as a prerequisite of Fighter Jets</li>
+
+        <li>Replaced Naval
+        Air Strategy as a prerequisite for Radar</li>
+
+        <li>Made Continuous
+        Track unlockable in Industrial Age</li>
+
+        </ul>
+
+        <p><strong>Combat:</strong></p>
+
+        <p>Both
+        naval, land and air units have been added and existing units are tweaked
+        to achieve a longer more satisfying end game experience. The naval unit''s
+        role progressively gets more important as the era advances with longer attack
+        and bombardment ranges. Combat has been been made more interesting with new
+        rock scissor paper mechanics between the classes. For example, Submarines
+        are more effective versus Battleship, Destroyers are more effective versus
+        Submarine and Battleship are more effective versus Destroyers. <span style="font-size:
+        1em; font-weight: 400;">Classes now progress through identifiable WW1, WW2,
+        Cold War en Stealth era generation, making it feel more historically accurate.
+        The early (WW1) units have reduced strategic resource requirements, making
+        them more likely to appear in combat.<br></span></p>
+
+        <p>11 new Naval
+        units:</p>
 
         <ol>
 
-        <li>Added
-        Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
+        <li>Added Sloops of War, unlocked with
+        Flintlock, upgrades to Steam Corvette</li>
 
-        <li>Added
-        Steam Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
+        <li>Added Steam Corvette,
+        unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
 
         <li>Added
         Dreadnought, unlocks with Dreadnought design, upgrades to Battleship</li>
@@ -128,14 +192,14 @@ MonoBehaviour:
         Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>
 
         <li>Added
-        Nuclear Aircraft Carrier, unlocks with Angled Flightdeck, upgrades with Advanced
-        Nuclear Reactor</li>
+        Guided Missile Destroyer, unlocks with Guided Missiles</li>
 
-        <li>Added Guided Missile Destroyer, unlocks
-        with Guided Missiles</li>
+        <li>Added
+        Nuclear Aircraft Carrier, unlocks with Angled Flightdeck, upgrades with Advanced
+        Nuclear Reactors</li>
 
         <li>Added Guided Missile Submarine, unlocks
-        with Guided Missiles upgrades with Advanced Nuclear Reactor</li>
+        with Guided Missiles upgrades with Advanced Nuclear Reactors</li>
 
         <li>Added
         (common) Stealth Corvette, unlocks with Stealth Technology</li>
@@ -207,25 +271,28 @@ MonoBehaviour:
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
         Battleships, Carriers, Cruisers)</li>
 
-        <li>Aircraft Carrier gained
-        Armoured property, Stealth Corvette Loses Armoured property</li>
+        <li>Submarine can hide better
+        in deep Ocean water, giving them a +5 strength bonus when fighting on Ocean
+        tiles</li>
 
-        <li>Missile
-        Cruiser special ability Anti Air is replaced by special ability Multiple
-        Missile Bombardment</li>
+        <li>Aircraft Carrier gained Armoured property, Stealth
+        Corvette Loses Armoured property</li>
 
-        <li>Commando gains ability to move through
-        cliffs and forest without penalty</li>
+        <li>Missile Cruiser special
+        ability Anti Air is replaced by special ability Multiple Missile Bombardment</li>
+
+        <li>Commando
+        gains ability to move through cliffs and forest without penalty</li>
 
         </ul>
 
-        <p>Added Unit
-        performance upgrades:</p>
+        <p>Added
+        Unit performance upgrades:</p>
 
         <ul>
 
-        <li>Naval Transport: +1
-        movement with Fluid Dynamics</li>
+        <li>Naval Transport:
+        +1 movement with Fluid Dynamics</li>
 
         <li>Guided Missile Submarine:
         +2 movement +1 strength with Fluid Dynamics</li>
@@ -487,7 +554,7 @@ MonoBehaviour:
         <ul>
 
         <li>Cruise Missile: reduced strategic
-        resource requirements, maintenance cost and removed population cost</li>
+        resource requirements, maintenance cost, population cost, and increased range</li>
 
         <li>Nuclear
         Missile: reduced strategic resource requirements, maintenance cost, and base
@@ -538,52 +605,31 @@ MonoBehaviour:
         Frigate is unlocked earlier with Steam Engine</li>
 
         <li>U-Boat is
-        unlocked later with Submarine Warfare</li>
+        unlocked later with Submarine Warfare (Germany gains 50% reach bonus)</li>
 
-        <li>Medium Tank is unlocked
-        later with Sloped Armor</li>
+        <li>Medium
+        Tank is unlocked later with Sloped Armor</li>
 
-        <li>Commando is unlocked earlier with
-        Insurrection Theory</li>
+        <li>Commando is unlocked
+        earlier with Insurrection Theory</li>
 
-        <li>Multirole Fighter is unlocked earlier
-        as Jet Fighter is unlocked after Radar</li>
+        <li>Multirole Fighter is unlocked
+        earlier as Fighter Jets is unlocked after Jet Engine</li>
 
-        <li>Missile Destroyer
-        (originally called Missile Cruiser) unlocked later with Rocket Science</li>
+        <li>Missile
+        Destroyer (originally called Missile Cruiser) unlocked later with Rocket
+        Science</li>
 
-        <li>Nuclear
-        Submarine is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>
+        <li>Nuclear Submarine is unlocked with Fluid Dynamics
+        and upgraded with Nuclear Reactor</li>
 
-        <li>Cruise
-        Missile is unlocked earlier with Computing</li>
-
-        </ul>
-
-        <p>Techtree
-        changes:</p>
-
-        <ul>
-
-        <li>Replaced Wireless Telegraphy as a
-        prerequisite of Research Insitute</li>
-
-        <li>Replaced Dreadnought
-        Design as a prerequisite of Continuous Track and Naval Air Strategy</li>
-
-        <li>Replaced
-        Guided Missiles as a prerequisite of Rocket Science</li>
-
-        <li>Replaced
-        Radar as a prerequisite of Fighter Jets</li>
-
-        <li>Made Continuous
-        Track unlockable in Industrial Age</li>
+        <li>Cruise Missile is unlocked
+        earlier with Jet Engines</li>
 
         </ul>
 
-        <p>Unit Upgrade
-        paths details:</p>
+        <p>Unit Upgrade paths
+        details:</p>
 
         <ul>
 
@@ -592,10 +638,10 @@ MonoBehaviour:
         Submarine</li>
 
         <li>Man O''War =&gt; Steam Frigate =&gt; Torpedo
-        Boat Destroyer =&gt; Destroyer =&gt; Missile Destroyer</li>
+        Boat Destroyer =&gt; Destroyer =&gt; Guided Missile Destroyer</li>
 
         <li>Ironclad
-        =&gt; Dreadnought =&gt; Battleship =&gt; Missile Cruiser</li>
+        =&gt; Dreadnought =&gt; Battleship =&gt; Guided Missile Cruiser</li>
 
         <li>Cuirassiers
         =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
@@ -612,27 +658,30 @@ MonoBehaviour:
         =&gt; Multiple Launch Rocket System</li>
 
         <li>Line Infantry =&gt;
-        Rifles =&gt; All Terrain PMV</li>
+        Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
 
-        <li>Heavy Machinegun =&gt; Armored
-        Personnel Carrier (APC)</li>
+        <li>Heavy Machinegun
+        =&gt; Armored Personnel Carrier (APC)</li>
 
-        <li>Biplane =&gt; M Multi Role Fighter
-        =&gt; Stealth Fighter</li>
+        <li>Biplane =&gt; Monoplane
+        Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
 
         </ul>
 
-        <p>National Wonder changes:</p>
+        <p><strong>Environment</strong></p>
+
+        <p>National
+        Wonder changes:</p>
 
         <ul>
 
-        <li>Fission
-        Test: + 2 Aluminium + 2 Oil</li>
+        <li>Fission Test: + 2 Aluminium
+        + 2 Oil</li>
 
-        <li>Fusion Test: +2 Aluminium +
-        2 Oil</li>
+        <li>Fusion Test: +2 Aluminium + 2 Oil</li>
 
-        <li>ICBM Test: +1 Aluminium +2 Oil</li>
+        <li>ICBM
+        Test: +1 Aluminium +2 Oil, unlocks ICBM unit</li>
 
         </ul>
 
@@ -642,11 +691,17 @@ MonoBehaviour:
         <ul>
 
         <li>Lowered Pollution Missile Silo (from
-        15 down to 5)</li>
+        15 down to 5), added 5 fortification bonus</li>
+
+        <li>Lowered Pollution
+        Airport (from 15 down to 5)</li>
+
+        <li>Airfields can be built at outposts
+        with culture, and now need access to oil</li>
 
         </ul>
 
-        <p>Verified compatibility:</p>
+        <p>Compatibility:</p>
 
         <ul>
 

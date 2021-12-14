@@ -21,7 +21,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &-5735248630844952922
@@ -45,7 +45,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &-3857987403958977110
@@ -69,7 +69,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &11400000
@@ -106,7 +106,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &4448296417454888562
@@ -130,7 +130,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &4814196939956238924
@@ -154,6 +154,6 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: 
+    serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 

@@ -2672,7 +2672,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AntiEntrenchment
+  SerializableFamily: UnitFamily_AntiTank
   Level: 30
   Unicity: 0
   ConstructibleVisualAffinity:
