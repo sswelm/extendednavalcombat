@@ -21,7 +21,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &-5735248630844952922
@@ -45,7 +45,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &-3857987403958977110
@@ -69,7 +69,33 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-45123541368690496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FreightTruck
+  m_EditorClassIdentifier: 
+  Title: Freight Trucks
+  Description: Not only are trucks the most flexible, responsive and economic mode
+    of transport for the vast majority of goods and freight, they are also essential
+    to the functioning of the larger, integrated  logistics and transport system
+  Images:
+  - Value:
+      guid:
+        a: 1423693222
+        b: 1087140274
+        c: -1386574406
+        d: 766165326
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &11400000
@@ -106,7 +132,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &4448296417454888562
@@ -130,7 +156,7 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
 --- !u!114 &4814196939956238924
@@ -154,6 +180,6 @@ MonoBehaviour:
         b: 1162561268
         c: -1886176121
         d: 162447018
-    serializableKey: Small
+    serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 

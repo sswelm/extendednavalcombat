@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2310137119
+CRC: 1050031595
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f659325ebf599bd4eee8f7cc75019edd
+    Hash: ac8ac2c0ceeb45dc5e1b74020fe655a8
   TypeTreeHash:
     serializedVersion: 2
     Hash: dac3a4da6af3a1b35ac868268a17ab1f
@@ -109,6 +109,7 @@ Assets:
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
+- Assets/Resources/armouredCar212.png
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
@@ -153,6 +154,7 @@ Assets:
 - Assets/Resources/marine212.png
 - Assets/Resources/dreadnough360.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
+- Assets/Resources/armouredCar360.png
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/UnitClass.asset

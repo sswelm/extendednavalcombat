@@ -180,6 +180,51 @@ MonoBehaviour:
       b: 1314603901
       c: -1844106052
       d: 489527813
+--- !u!114 &-4670723889227702504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PresentationLandUnit_Era6_Common_AntiAirGuns_Default
+  m_EditorClassIdentifier: 
+  UnitDefinitionReference:
+    serializableElementName: LandUnit_Era6_Common_AntiAirGuns
+  PresentationFormationDefinition:
+    serializableElementName: Formation_1
+  FormationBehaviourDefinition:
+    serializableElementName: 
+  ChoreographyOverride: 0
+  FacingAngleOffset: 0
+  MinDistanceBetweenFormationDummies: 0
+  RestrictionPerSlot: []
+  UnitSpecification: 0
+  CoordinationMasterValue: 0.5
+  CoordinationValues:
+    DummyOffsetPosition: {x: 0.1, y: 0.175}
+    DummyOffsetAngle: {x: 10, y: 15}
+    AnimationDelay: {x: 0, y: 0.5}
+    MinDistanceReformationMultiplier: 1
+    CoordinateAttackMovement: 0
+    SameRowAttack: 1
+    AveragePathLength: 0
+    UseDisciplinedVariation: 0
+  StealthRevealAudioEvent:
+    guid:
+      a: -1326129278
+      b: 1160368417
+      c: 1151361188
+      d: -1076931018
+  unitVoiceProviderReference:
+    guid:
+      a: 1105253785
+      b: 1278372376
+      c: 30546838
+      d: -1364448626
 --- !u!114 &-4601186814630905477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,10 +593,10 @@ MonoBehaviour:
       d: -1076931018
   unitVoiceProviderReference:
     guid:
-      a: 1573052704
-      b: 1314603901
-      c: -1844106052
-      d: 489527813
+      a: -921338218
+      b: 1269767660
+      c: 252247203
+      d: 39755952
 --- !u!114 &3998323738233579491
 MonoBehaviour:
   m_ObjectHideFlags: 0
