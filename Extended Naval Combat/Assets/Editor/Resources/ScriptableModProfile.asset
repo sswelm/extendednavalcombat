@@ -260,7 +260,7 @@ MonoBehaviour:
         Light Tank</li>
 
         <li>Added Armoured Car (uses vannila Arti Aircraft
-        graphics), unlocked with Automobile, upgrades to Anti Aircraft Guns</li>
+        graphics), unlocked with Automobile, upgrades to Armored Personnel Carrier.</li>
 
         <li>Added
         Horse Drawn Artillery (uses vanilla Artillery graphics), unlocked with Trench
@@ -765,8 +765,12 @@ MonoBehaviour:
       isDirty: 0
     galleryImageLocators:
       value:
+      - fileName: 20211216024100_1.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/20211216024100_1.jpg
       - fileName: 20211214232839_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211214232839_1.jpg
       - fileName: 20211209005706_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211209005706_1.jpg
+      - fileName: 20211216024049_1.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/20211216024049_1.jpg
       isDirty: 0
