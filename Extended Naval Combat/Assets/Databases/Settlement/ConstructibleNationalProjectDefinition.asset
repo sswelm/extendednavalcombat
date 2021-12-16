@@ -220,12 +220,12 @@ MonoBehaviour:
   EraPrerequisite:
     Operator: 1
     EraReference:
-      serializableElementName: Era1
+      serializableElementName: Era6
   FactionPrerequisite:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
-    CampConstraint: 0
+    CampConstraint: 2
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
@@ -507,12 +507,12 @@ MonoBehaviour:
   EraPrerequisite:
     Operator: 1
     EraReference:
-      serializableElementName: Era1
+      serializableElementName: Era6
   FactionPrerequisite:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
-    CampConstraint: 0
+    CampConstraint: 2
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
@@ -794,12 +794,12 @@ MonoBehaviour:
   EraPrerequisite:
     Operator: 1
     EraReference:
-      serializableElementName: Era1
+      serializableElementName: Era6
   FactionPrerequisite:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
-    CampConstraint: 0
+    CampConstraint: 2
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 

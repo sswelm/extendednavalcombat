@@ -26,7 +26,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
@@ -48,6 +48,21 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 2048
+    - Name: Importance
+      Entry: 3
+      Data: 1
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
     - Name: Importance
       Entry: 3
       Data: 2
@@ -96,9 +111,9 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: ProductionCost_Extension_Base_Medium
   MoneyInstantCostDefinition:
-    Constant: 0
+    Constant: -1
     RpnDefinitionReference:
-      serializableElementName: 
+      serializableElementName: ProductionCost_Unit_Era6_Medium
   InfluenceInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -119,7 +134,7 @@ MonoBehaviour:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
-    CampConstraint: 3
+    CampConstraint: 2
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
@@ -138,7 +153,7 @@ MonoBehaviour:
   Prototype: Extension_Prototype_BaseMilitary
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_Airfield
-  - serializableElementName: Tag_Extension_PublicOrderLoss
+  - serializableElementName: Effect_Extension_Base_Military
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -206,7 +221,7 @@ MonoBehaviour:
   DistrictType: 4
   HasPublicOrderCost: 1
   ExploitationRuleReference:
-    serializableElementName: ExploitationRule_Neighbours
+    serializableElementName: ExploitationRule_Mine_AllFIMS
   ExtractResource: 0
   WondrousResourceType: 32
   UnitSpawnType: 2
@@ -471,7 +486,7 @@ MonoBehaviour:
       Data: 4
     - Name: Importance
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: Gates
       Entry: 6
       Data: 
@@ -682,7 +697,7 @@ MonoBehaviour:
   DistrictType: 5
   HasPublicOrderCost: 1
   ExploitationRuleReference:
-    serializableElementName: ExploitationRule_Neighbours
+    serializableElementName: ExploitationRule_Neighbours_AllFIMS
   ExtractResource: 0
   WondrousResourceType: 32
   UnitSpawnType: -1

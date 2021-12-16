@@ -305,6 +305,24 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_SpecialtyLevel1
   - serializableElementName: Effect_UnitAbility_SiegeHigherStabilityDrain
   BattleAbilityReference: []
+--- !u!114 &-6157363493032742542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_Missile
+  m_EditorClassIdentifier: 
+  TagAsAbility: 18
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_Missile
+  BattleAbilityReference: []
 --- !u!114 &-5314941294436945862
 MonoBehaviour:
   m_ObjectHideFlags: 0

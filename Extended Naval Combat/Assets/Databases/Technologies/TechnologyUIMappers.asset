@@ -206,8 +206,8 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 236
-  TechTreeY: 6
+  TechTreeX: 240
+  TechTreeY: 8
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6588536164902287644
 MonoBehaviour:
@@ -247,7 +247,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 215
+  TechTreeX: 220
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6429280157116610571
@@ -413,7 +413,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 242
+  TechTreeX: 250
   TechTreeY: 9
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-5301559558899262810
@@ -620,7 +620,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 230
+  TechTreeX: 235
   TechTreeY: 4
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-4573239346070044393
@@ -1417,7 +1417,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 205
+  TechTreeX: 210
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &563095779675340934
@@ -1499,7 +1499,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 255
+  TechTreeX: 260
   TechTreeY: 5
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1159820209259537947
@@ -1628,7 +1628,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 249
+  TechTreeX: 255
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1729809604418014442
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   TechTreeX: 247
   TechTreeY: 17
   OptionalUnlockTechnologyMovie: 
---- !u!114 &4104757100819926161
+--- !u!114 &3781065325486731092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1888,11 +1888,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_Era6_MechanizedInfantryDoctrine
+  m_Name: Technology_Era6_PrecisionGuidedMunition
   m_EditorClassIdentifier: 
-  Title: Mechanized Infantry Doctrine
-  Description: Mechanized infantry are infantry units equipped with armored personnel
-    carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat
+  Title: Precision-guided munition
+  Description: Precision-guided munition is a guided munition intended to precisely
+    hit a specific target, to minimize collateral damage and increase lethality against
+    intended targets
   Images:
   - Value:
       guid:
@@ -1917,7 +1918,57 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 242
+  TechTreeX: 245
+  TechTreeY: 4
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &4104757100819926161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_MechanizedInfantryDoctrine
+  m_EditorClassIdentifier: 
+  Title: Mechanized Infantry Doctrine
+  Description: 'As the speed of battle has risen, with the advent of armored vehicles,
+    artillery and of course air power, modern infantry too has had to get faster
+    and more maneuverable. Most modern infantry units are now "mechanized," moving
+    about the battlefield on armored personnel carriers. These vehicles are usually
+    equipped with one or more heavy machine guns and grenade launchers. They are
+    not tough enough to stand up to modern armor, but they do provide protection
+    from bullets and shrapnel and other battlefield menaces to those inside. Depending
+    upon the situation the soldiers can fight from inside the vehicle or dismount
+    and proceed on foot, in the traditional manner of infantry soldiers since the
+    dawn of warfare. '
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 230
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &4232014196943866266

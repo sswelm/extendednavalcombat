@@ -27,41 +27,41 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces 20 modern military units and 14 new technologies to create
-        a longer, more interesting and historically accurate end game experience
+      value: Introduces 21 modern military units and 16 new modern technologies to
+        create a longer, more interesting, and historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
       value: '<p><strong>Introduction:</strong></p>
 
         <p>The goal of this
         mod is to create a longer, more interesting, and realistic end game experience
-        with 20 units and tweaks to existing combat units. I tried to make this mod
-        as compatible as possible with other mods by putting most new units and bonuses
-        spread over 14 new Technologies, and no changes to any cultures, or civics.
-        The new Technologies also help to make the Industrial and Contemporary Era
-        last longer, especially the late Industrial and early Contemporary era (WW1/WW2)
-        period with 11 technologies. To make technology beelining less effective,
-        many of the optional technologies give bonuses to late-game naval combat
-        Units.</p>
+        with the addition of new technologies and military units and some minor tweaks
+        to keep it overal balanced. I tried to make this mod as compatible as possible
+        with other mods by putting most new units and bonuses spread over the new
+        Technologies, and no changes to any cultures, or civics. The new Technologies
+        also help to make the Industrial and Contemporary Era last longer, especially
+        the late Industrial and early Contemporary era (WW1/WW2) period with 12 new
+        technologies.</p>
 
         <p><strong>Nuclear Proliferation:</strong></p>
 
         <p>Nuclear
         weapons have become more useful (with increased range) and accessible (with
         reduced Uranium strategic resource requirement) and with the addition of
-        a true ICBM weapon (unlocked after ICBM Test). The state of Nuclear weapons
-        proliferation is made more intuitive as the National Nuclear Weapon Test
-        Programs strategic resource requirements are made the same as the missile
-        weapons they unlock, meaning if someone manages to build a nuclear weapon
-        test project (including ICBM weapon test), they can also build and use them
-        (given they also constructed a Missile Silo).</p>
+        a true ICBM weapon (unlocked after ICBM Test) making it more likely they
+        are build and actualy used by the AI. The state of Nuclear weapons proliferation
+        is made more intuitive as the National Nuclear Weapon Test Programs strategic
+        resource requirements are made the same as the missile weapons they unlock,
+        meaning if someone manages to build a nuclear weapon test project (including
+        ICBM weapon test), they can also build and use them (given they also constructed
+        a Missile Silo).</p>
 
         <p><strong>Science:</strong></p>
 
         <p>To
-        help get a more natural Science progression, research cost until the early
-        modern age has been slightly reduced and base research starts to increase
-        in the industrial era up to double the cost for the end game technologies.
+        help get a more natural Science progression, until the early modern age the
+        research cost has been slightly reduced and base research cost starts to
+        ramp up in the industrial era up to double the cost for the end game technologies.
         Also, the final <span style="font-size: 1em; font-weight: 400;">research
         cost is progressively decreased based on the number of unlocked technologies
         (rather than the reverse in vanilla), meaning beelining ( skipping technologies)
@@ -71,24 +71,23 @@ MonoBehaviour:
         a significantly longer end game and it is therefore recommended you disable
         the turn limit when creating a new game.<br></span></p>
 
-        <p>14 new
-        Technologies:</p>
+        <p>New Technologies:</p>
 
         <ol>
 
-        <li>Breachloader; requires Line
-        Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
+        <li>Automobile;
+        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
+        bonus</li>
 
-        <li>Dreadnought
-        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
-        Destroyer</li>
+        <li>Breachloader; requires Line Formation, unlocks Siege
+        Artillery and Horse Drawn Siege Artillery</li>
 
-        <li>Bunker Construction; requires Trench Warfare;
-        unlocks Bunker, Missile Silo, and underground construction</li>
+        <li>Dreadnought Design;
+        requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
 
-        <li>Air
-        Transport; requires Aeronautics, unlocks Aluminium strategic resource and
-        Airport district</li>
+        <li>Bunker
+        Construction; requires Trench Warfare; unlocks Bunker, Missile Silo, and
+        underground construction</li>
 
         <li>Submarine Warfare; requires Dreadnought
         Design, unlocks U-Boat/Fleet Submarine Unit</li>
@@ -97,21 +96,21 @@ MonoBehaviour:
         Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
         naval unit speed</li>
 
-        <li>Antitank Warfare; requires Continuous
-        Track, unlocks Antitank Gun unit</li>
+        <li>Air Transportation; requires Aeronautics,
+        unlocks Aluminium strategic resource and Airport district</li>
 
-        <li>Sloped Armor; requires
-        Antitank Warfare, unlocks Medium Tank and (Soviet) Red Army Tank</li>
+        <li>Antitank
+        Warfare; requires Continuous Track, unlocks Antitank Gun unit</li>
 
-        <li>Fluid
-        Dynamics; requires Anti Submarine Warfare, unlocks Diesel Submarine Unit
-        and Nuclear Submarine</li>
+        <li>Sloped
+        Armor; requires Antitank Warfare, unlocks Medium Tank and (Soviet) Red Army
+        Tank</li>
 
-        <li>Advanced Nuclear Reactors; requires
-        Nuclear Fission, unlocks Nuclear powered unit upgrades</li>
+        <li>Fluid Dynamics; requires Anti Submarine Warfare, unlocks
+        Diesel Submarine Unit and Nuclear Submarine</li>
 
-        <li>Jet
-        Engine; requires Aerial Warfare, unlocks Cruise Missile</li>
+        <li>Jet Engine;
+        requires Aerial Warfare, unlocks Cruise Missile</li>
 
         <li>Guided
         Missiles; requires Computing, unlocks Missile Cruiser, Missile Destroyer,
@@ -120,8 +119,15 @@ MonoBehaviour:
         <li>Mechanized Infantry Doctrine, requires
         Sloped Armor. unlocks APC and All-Terrain PMV</li>
 
-        <li>Stealth Technology;
-        requires Rocket Science, unlock Stealth Corvette, Stealth Missile and Stealth
+        <li>Advanced
+        Nuclear Reactors; requires Nuclear Fission, unlocks Nuclear powered unit
+        upgrades</li>
+
+        <li>Precision-guided munition, requires Jet Fighters,
+        unlocks Helicopter Gunship</li>
+
+        <li>Stealth Technology; requires
+        Precision-guided munition, unlock Stealth Corvette, Stealth Missile and Stealth
         Fighter</li>
 
         </ol>
@@ -134,7 +140,10 @@ MonoBehaviour:
         Wireless Telegraphy as a prerequisite of Research Insitute</li>
 
         <li>Replaced
-        Dreadnought Design as a prerequisite of Continuous Track and Naval Air Strategy</li>
+        Automobile as a prerequisite of Continuous Track and Naval Air Strategy</li>
+
+        <li>Replaced
+        Air Transportation as a prerequisite for Aerial Warfare</li>
 
         <li>Replaced
         Guided Missiles as a prerequisite of Rocket Science</li>
@@ -150,6 +159,41 @@ MonoBehaviour:
 
         </ul>
 
+        <p><span
+        style="font-size: 1em; font-weight: 400;">Unit/District/Infrastructure Tech
+        Unlocking Changes:</span></p>
+
+        <ul>
+
+        <li>Steam Frigate is
+        unlocked earlier with Steam Engine</li>
+
+        <li>U-Boat is unlocked later
+        with Submarine Warfare (Germany gains 50% reach bonus)</li>
+
+        <li>Medium
+        Tank is unlocked later with Sloped Armor</li>
+
+        <li>Commando is unlocked
+        earlier with Insurrection Theory</li>
+
+        <li>Missile Silo is unlocked
+        earlier with Bunkers</li>
+
+        <li>Helicopter Gunship is unlocked later
+        with Precision-guided munition</li>
+
+        <li>Missile Destroyer (originally
+        called Missile Cruiser) unlocked later with Guided Missiles</li>
+
+        <li>Nuclear
+        Submarine is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>
+
+        <li>Cruise
+        Missile is unlocked earlier with Jet Engines</li>
+
+        </ul>
+
         <p><strong>Combat:</strong></p>
 
         <p>Both
@@ -159,13 +203,13 @@ MonoBehaviour:
         and bombardment ranges. Combat has been been made more interesting with new
         rock scissor paper mechanics between the classes. For example, Submarines
         are more effective versus Battleship, Destroyers are more effective versus
-        Submarine and Battleship are more effective versus Destroyers. <span style="font-size:
+        Submarines and Battleship are more effective versus Destroyers. <span style="font-size:
         1em; font-weight: 400;">Classes now progress through identifiable WW1, WW2,
         Cold War en Stealth era generation, making it feel more historically accurate.
         The early (WW1) units have reduced strategic resource requirements, making
         them more likely to appear in combat.<br></span></p>
 
-        <p>11 new Naval
+        <p>New Naval
         units:</p>
 
         <ol>
@@ -206,43 +250,47 @@ MonoBehaviour:
 
         </ol>
 
-        <p>6
-        new Land units:</p>
+        <p>New
+        Land units:</p>
 
         <ol>
 
-        <li>Added (common) Cuirassiers
-        (uses vanilla Cuirassiers graphics), unlocked with Line Formations, upgrades
-        to Light Tank</li>
+        <li>Added (common) Cuirassiers (uses
+        vanilla Cuirassiers graphics), unlocked with Line Formations, upgrades to
+        Light Tank</li>
 
-        <li>Added Horse Drawn Artillery (uses vanilla
-        Artillery graphics), unlocked with Trench Warfare, upgrades to MLRS</li>
+        <li>Added Armoured Car (uses vannila Arti Aircraft
+        graphics), unlocked with Automobile, upgrades to Anti Aircraft Guns</li>
 
         <li>Added
-        Light Tank (uses vanilla Medium Tank graphics) unlocked with Continuous Track,
-        upgrades to Medium Tank</li>
+        Horse Drawn Artillery (uses vanilla Artillery graphics), unlocked with Trench
+        Warfare, upgrades to MLRS</li>
 
-        <li>Added Marines (uses vanilla Red
-        Army Tank graphics) unlocked Amphibious Warfare, upgrades to All-Terrain
-        PMV,</li>
+        <li>Added Light Tank (uses vanilla
+        Medium Tank graphics) unlocked with Continuous Track, upgrades to Medium
+        Tank</li>
 
-        <li>Added Multiple Launch Rocket System &#40;MLRS&#41;,
-        unlocks with Computing</li>
+        <li>Added Marines (uses vanilla Red Army Tank graphics)
+        unlocked Amphibious Warfare, upgrades to All-Terrain PMV,</li>
 
-        <li>Added (common) All-Terrain PMV,
-        unlocks with Composite Armor</li>
+        <li>Added
+        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
+
+        <li>Added
+        (common) All-Terrain PMV, unlocks with Composite Armor</li>
 
         </ol>
 
-        <p>3 new Air units:</p>
+        <p>New
+        Air units:</p>
 
         <ol>
 
-        <li>Added
-        (common) Stealth Fighter, unlocked with Stealth technology</li>
+        <li>Added (common) Stealth Fighter,
+        unlocked with Stealth technology</li>
 
-        <li>Added
-        (common) Stealth Cruise Missile, unlocked with Stealth technology</li>
+        <li>Added (common) Stealth
+        Cruise Missile, unlocked with Stealth technology</li>
 
         <li>Added
         Intercontinental Ballistic Missile (ICBM) unlocked by ICBM Test national
@@ -596,49 +644,17 @@ MonoBehaviour:
 
         </ul>
 
-        <p><span
-        style="font-size: 1em; font-weight: 400;">Unit Tech Unlocking Changes:</span></p>
+        <p>Unit
+        Upgrade paths details:</p>
 
         <ul>
 
-        <li>Steam
-        Frigate is unlocked earlier with Steam Engine</li>
+        <li>Sloop of War =&gt;
+        Steam Corvette =&gt; Torpedo Boat =&gt; Fleet Submarine =&gt; Diesel Submarine
+        =&gt; Missile Submarine</li>
 
-        <li>U-Boat is
-        unlocked later with Submarine Warfare (Germany gains 50% reach bonus)</li>
-
-        <li>Medium
-        Tank is unlocked later with Sloped Armor</li>
-
-        <li>Commando is unlocked
-        earlier with Insurrection Theory</li>
-
-        <li>Multirole Fighter is unlocked
-        earlier as Fighter Jets is unlocked after Jet Engine</li>
-
-        <li>Missile
-        Destroyer (originally called Missile Cruiser) unlocked later with Rocket
-        Science</li>
-
-        <li>Nuclear Submarine is unlocked with Fluid Dynamics
-        and upgraded with Nuclear Reactor</li>
-
-        <li>Cruise Missile is unlocked
-        earlier with Jet Engines</li>
-
-        </ul>
-
-        <p>Unit Upgrade paths
-        details:</p>
-
-        <ul>
-
-        <li>Sloop of War =&gt; Steam Corvette
-        =&gt; Torpedo Boat =&gt; Fleet Submarine =&gt; Diesel Submarine =&gt; Missile
-        Submarine</li>
-
-        <li>Man O''War =&gt; Steam Frigate =&gt; Torpedo
-        Boat Destroyer =&gt; Destroyer =&gt; Guided Missile Destroyer</li>
+        <li>Man O''War =&gt; Steam Frigate
+        =&gt; Torpedo Boat Destroyer =&gt; Destroyer =&gt; Guided Missile Destroyer</li>
 
         <li>Ironclad
         =&gt; Dreadnought =&gt; Battleship =&gt; Guided Missile Cruiser</li>
@@ -647,24 +663,25 @@ MonoBehaviour:
         =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
 
         <li>Dragoon
-        =&gt; Attack Helicopter</li>
+        =&gt; Armoured Cars =&gt; Armored Personnel Carrier (APC)</li>
 
-        <li>Partisans =&gt;Commados</li>
+        <li>Partisans
+        =&gt;Commados</li>
 
-        <li>Howitzer
-        =&gt; Anti Tank =&gt; Main Battle Tank</li>
+        <li>Howitzer =&gt; Anti Tank =&gt; Main Battle
+        Tank</li>
 
-        <li>Mortar =&gt; Artillery
-        =&gt; Multiple Launch Rocket System</li>
+        <li>Mortar =&gt; Artillery =&gt; Multiple Launch Rocket
+        System</li>
 
-        <li>Line Infantry =&gt;
-        Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
+        <li>Line Infantry =&gt; Riflemen =&gt; Marines =&gt;
+        All Terrain PMV</li>
 
-        <li>Heavy Machinegun
-        =&gt; Armored Personnel Carrier (APC)</li>
+        <li>Heavy Machinegun =&gt; Armored Personnel
+        Carrier (APC)</li>
 
-        <li>Biplane =&gt; Monoplane
-        Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
+        <li>Biplane =&gt; Monoplane Fighter =&gt; Multi
+        Role Fighter =&gt; Stealth Fighter</li>
 
         </ul>
 

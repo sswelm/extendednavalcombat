@@ -670,7 +670,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AntiAircraft
+  SerializableFamily: UnitFamily_MechanizedInfantry
   Level: 36
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -1795,7 +1795,7 @@ MonoBehaviour:
     serializableElementName: 
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era5_Common_EarlyRiflemen
-  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era5
   - serializableElementName: Effect_Unit_Era5_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:

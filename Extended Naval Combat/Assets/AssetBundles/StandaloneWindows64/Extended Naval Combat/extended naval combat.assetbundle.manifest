@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1050031595
+CRC: 2282816780
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ac8ac2c0ceeb45dc5e1b74020fe655a8
+    Hash: 0d60b2d021934ebeac3da60dfe865ea3
   TypeTreeHash:
     serializedVersion: 2
     Hash: dac3a4da6af3a1b35ac868268a17ab1f
@@ -103,9 +103,10 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
 - Assets/Resources/transparant360.png
-- Assets/Resources/torpedboatDestroyer360.png
+- Assets/Resources/missileCruiser212.png
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
@@ -113,6 +114,7 @@ Assets:
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
+- Assets/Resources/earlyRiflemen720.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
@@ -126,14 +128,16 @@ Assets:
 - Assets/Resources/torpedboatDestroyer212.png
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Resources/horseDrawnSiegeArtillery212.png
+- Assets/Resources/Rifles360.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
 - Assets/Resources/seawolf212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Resources/Rifles212.png
+- Assets/Resources/earlyRiflemen360.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
-- Assets/Resources/marine360.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
@@ -151,7 +155,6 @@ Assets:
 - Assets/Resources/transparant212.png
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
-- Assets/Resources/marine212.png
 - Assets/Resources/dreadnough360.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Resources/armouredCar360.png
@@ -162,5 +165,5 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/AssetBundleContentDescriptor.asset
-- Assets/Resources/missileCruiser212.png
+- Assets/Resources/earlyRiflemen212.png
 Dependencies: []

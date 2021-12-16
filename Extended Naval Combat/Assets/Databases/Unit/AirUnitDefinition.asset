@@ -261,7 +261,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High
+      serializableElementName: ProductionCost_Unit_Era6_Medium
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -271,7 +271,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 1
+    Constant: 0
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
@@ -380,7 +380,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 1
+    Constant: 0
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
@@ -938,7 +938,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 1
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0

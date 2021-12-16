@@ -1441,7 +1441,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier3_Cost
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_SlopedArmor
@@ -1607,7 +1607,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -1662,49 +1662,6 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: LandUnit_Era6_Common_HelicopterGunships
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
       Data: AirUnit_Era6_Common_CruiseMissiles
     - Name: 
       Entry: 8
@@ -1734,7 +1691,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier1_Cost
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_01
@@ -2535,7 +2492,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era6_11
+    - Technology_Era6_PrecisionGuidedMunition
   Visibility: -1
 --- !u!114 &-2598393795847611641
 MonoBehaviour:
@@ -3740,7 +3697,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -3796,49 +3753,6 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: Extension_NationalProject_SpaceRace_Level1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Infrastructure_Military_Family06_02
     - Name: 
       Entry: 8
       Data: 
@@ -6172,7 +6086,7 @@ MonoBehaviour:
       Data: Empire
     - Name: Amount
       Entry: 3
-      Data: 2109
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -7479,6 +7393,121 @@ MonoBehaviour:
     SerializableTechnologyNames:
     - Technology_Era5_11
   Visibility: -1
+--- !u!114 &4595912680225500545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_PrecisionGuidedMunition
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era6_Common_HelicopterGunships
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 89
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era6_Tier2_Cost
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_19
+  Visibility: -1
 --- !u!114 &4978394647104269827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7814,7 +7843,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 5
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -8062,6 +8091,49 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: Effect_EmpireBonus_Airstrike
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 13|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Infrastructure_Military_Family06_02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
     - Name: 
       Entry: 8
       Data: 
