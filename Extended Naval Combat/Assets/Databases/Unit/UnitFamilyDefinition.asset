@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Name: UnitFamily_ShockCavalry
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_Cavalry
+  SerializableNextFamilyName: UnitFamily_LightTank
 --- !u!114 &6078885346142366411
 MonoBehaviour:
   m_ObjectHideFlags: 0
