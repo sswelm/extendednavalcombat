@@ -1050,6 +1050,43 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitAbility_AntiAircraft_Half
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromTargetClassGunship
+--- !u!114 &4050177204207650733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_LandMovement
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 1
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference: []
+--- !u!114 &4343488332897979514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_LandUnit
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_LandUnit
+  - serializableElementName: GameEffect_BattleAction_TileMilitary
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Common
 --- !u!114 &5400484585933519595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1071,6 +1108,29 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_Common
   - serializableElementName: BattleAbility_NavalTerrain
+--- !u!114 &5646576014018463487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_ArmouredCar
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_ArmouredCar
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_RansackStrength1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
+  - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &5679274910184149538
 MonoBehaviour:
   m_ObjectHideFlags: 0

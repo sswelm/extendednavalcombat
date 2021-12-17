@@ -701,7 +701,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 7700000
+      - RawValue: 7800000
       PropertyLocalName: []
     - Note: 
       TargetProperty: LandCombatStrength
@@ -709,13 +709,6 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 50000
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: VisionRange
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass

@@ -1720,10 +1720,10 @@ MonoBehaviour:
     serializableKey: Default_Small
   - Value:
       guid:
-        a: 191517785
-        b: 1248630324
-        c: 771167671
-        d: 757669655
+        a: 1648835826
+        b: 1164863609
+        c: -1452609407
+        d: 251181847
     serializableKey: Default_Tooltip
   - Value:
       guid:

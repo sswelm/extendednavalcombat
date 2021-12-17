@@ -423,6 +423,426 @@ MonoBehaviour:
   UnitTags: 57
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-5971323997032331809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era2_Goths_GothicCavalry
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 48
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyCavalry
+  Level: 13
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era2_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 2
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era2_Goths
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StrengthFromEnemyDistrict_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era2_Goths_GothicCavalry
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era2_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777417
+  visualAffinityEraReference:
+    serializableElementName: Era2
+--- !u!114 &-5863589765915389684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era2_Common_Horsemen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 21
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_LightCavalry
+  Level: 14
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era2_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 2
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_Cavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era2_Common_Horsemen
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Era2_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777289
+  visualAffinityEraReference:
+    serializableElementName: Era2
+--- !u!114 &-5542778607742433965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era2_Huns_HunnicHorde
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 19
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Horde
+  Level: 15
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era2_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 2
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era2_Huns
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedNomad
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_MoveUntilExhausted
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era2_Huns_HunnicHorde
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era2_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16842769
+  visualAffinityEraReference:
+    serializableElementName: Era2
+--- !u!114 &-4880958959355594160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_ScoutCavalry
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 16
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_ScoutCavalry
+  Level: 8
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_Cavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Common_ScoutCavalry
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Era1_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777321
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &-4345576407312077761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +949,113 @@ MonoBehaviour:
   UnitTags: 217
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-3703481116140703441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_Chariots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 18
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyCavalry
+  Level: 10
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Common_Chariots
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777673
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &-3058172335934898927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,6 +1164,115 @@ MonoBehaviour:
   UnitTags: 3089
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-1897218011405819274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_ZhouChina_WarChariots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 91
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyCavalry
+  Level: 11
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_ZhouChina
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StrengthFromStability_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_ZhouChina_WarChariots
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777673
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &-1121845806983733968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +1319,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High
+      serializableElementName: ProductionCost_Unit_Era5_Medium
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -727,13 +1363,13 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_ArmouredVehicle
+    serializableElementName: UnitClass_ArmouredCar
   UnitSpecialty:
     serializableElementName: UnitSpecialty_AfterAttackingAllowMove
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era5_Common_ArmouredCar
   - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Effect_Unit_Era5_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -1395,108 +2031,6 @@ MonoBehaviour:
   UnitTags: 217
   visualAffinityEraReference:
     serializableElementName: Era6
---- !u!114 &1092178715660505208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era5_BritishEmpire_Redcoats
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
-  Key: 83
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_IndustrialInfantry
-  Level: 33
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Low
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 4
-  ResourceAccessPrerequisites: []
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era5_BritishEmpire
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
-  UnitClass:
-    serializableElementName: UnitClass_Gunner
-  UnitSpecialty:
-    serializableElementName: UnitSpecialty_RegenerateAnywhere
-  OwnDescriptorReferences:
-  - serializableElementName: 'Effect_LandUnit_Era5_BritishEmpire_Redcoats '
-  - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era5_Tier1
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 25
-  visualAffinityEraReference:
-    serializableElementName: Era5
 --- !u!114 &1126477910840425410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,6 +2347,223 @@ MonoBehaviour:
   UnitTags: 16777673
   visualAffinityEraReference:
     serializableElementName: Era3
+--- !u!114 &1846661752509657550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 43
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Ranged
+  Level: 11
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_EgyptianKingdom
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedRanged
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777681
+  visualAffinityEraReference:
+    serializableElementName: Era1
+--- !u!114 &2343851448617540402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_HittiteEmpire_NobleChariots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 2
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyCavalry
+  Level: 11
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_HittiteEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_DebuffTargetStun
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_HittiteEmpire_NobleChariots
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777673
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &2459921459610097276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,6 +2870,108 @@ MonoBehaviour:
   UnitTags: 3089
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &3280945294974309588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era2_MauryaEmpire_ElephantArchers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 65
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Ranged
+  Level: 13
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era2_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era2_MauryaEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedRanged
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_NoPenaltyFromMelee
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era2_MauryaEmpire_ElephantArchers
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era2_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777689
+  visualAffinityEraReference:
+    serializableElementName: Era2
 --- !u!114 &4452773875639316696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2690,7 +3543,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era6_High
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:

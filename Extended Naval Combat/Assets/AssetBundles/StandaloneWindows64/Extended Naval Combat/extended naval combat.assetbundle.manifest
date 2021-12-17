@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1858560545
+CRC: 1272594911
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 05f6bf092d6cae83a14f7ccadcabb7e8
+    Hash: 70dd76c01a901ab6a4581d0f1170fa2c
   TypeTreeHash:
     serializedVersion: 2
     Hash: dac3a4da6af3a1b35ac868268a17ab1f
@@ -103,10 +103,9 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
 - Assets/Resources/transparant360.png
-- Assets/Resources/missileCruiser212.png
+- Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
-- Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
@@ -114,7 +113,6 @@ Assets:
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
-- Assets/Resources/earlyRiflemen720.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
@@ -132,10 +130,10 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
+- Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/seawolf212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
 - Assets/Resources/Rifles212.png
-- Assets/Resources/earlyRiflemen360.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
 - Assets/Databases/Technologies/TechnologyDefinition.asset
@@ -144,8 +142,7 @@ Assets:
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Resources/dreadnough212.png
-- Assets/Resources/escortCorvette212.png
-- Assets/Resources/escortCorvette360.png
+- Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
 - Assets/Databases/Unit/LandUnitDefinition.asset
@@ -157,7 +154,7 @@ Assets:
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
 - Assets/Resources/dreadnough360.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
-- Assets/Resources/armouredCar360.png
+- Assets/Resources/nuclearCarrier212.png
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/UnitClass.asset
@@ -165,5 +162,5 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/AssetBundleContentDescriptor.asset
-- Assets/Resources/earlyRiflemen212.png
+- Assets/Resources/missileCruiser212.png
 Dependencies: []

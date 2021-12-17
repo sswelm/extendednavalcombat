@@ -1277,7 +1277,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_AircraftCarrier
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_ZoneOfControlIncreasedSize_Level1
+    serializableElementName: 
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era6_Common_AircraftCarriers
   - serializableElementName: Effect_Unit_Era6

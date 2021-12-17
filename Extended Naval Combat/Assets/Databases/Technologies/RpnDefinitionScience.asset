@@ -102,11 +102,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era3_Tier2_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 2030000
+  - RawValue: 25000
+  - RawValue: 12500
+  - RawValue: 1000
+  - RawValue: 500
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -130,7 +135,7 @@ MonoBehaviour:
   - RawValue: 36000
   - RawValue: 18000
   - RawValue: 1000
-  - RawValue: 1200
+  - RawValue: 1250
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -178,7 +183,7 @@ MonoBehaviour:
   - RawValue: 78000
   - RawValue: 39000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 2750
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -205,7 +210,7 @@ MonoBehaviour:
   - RawValue: 43000
   - RawValue: 21500
   - RawValue: 1000
-  - RawValue: 1600
+  - RawValue: 1750
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -225,11 +230,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era3_Tier1_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 1430000
+  - RawValue: 22000
+  - RawValue: 11000
+  - RawValue: 1000
+  - RawValue: 250
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -253,7 +263,7 @@ MonoBehaviour:
   - RawValue: 100000
   - RawValue: 50000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 3500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -280,7 +290,7 @@ MonoBehaviour:
   - RawValue: 47000
   - RawValue: 23500
   - RawValue: 1000
-  - RawValue: 1800
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -333,11 +343,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era3_Tier3_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 2730000
+  - RawValue: 29000
+  - RawValue: 14500
+  - RawValue: 1000
+  - RawValue: 750
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -403,7 +418,7 @@ MonoBehaviour:
   - RawValue: 41000
   - RawValue: 20500
   - RawValue: 1000
-  - RawValue: 1400
+  - RawValue: 1500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -430,7 +445,7 @@ MonoBehaviour:
   - RawValue: 56000
   - RawValue: 28000
   - RawValue: 1000
-  - RawValue: 2000
+  - RawValue: 2250
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -457,7 +472,7 @@ MonoBehaviour:
   - RawValue: 90000
   - RawValue: 45000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 3000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -484,7 +499,7 @@ MonoBehaviour:
   - RawValue: 65000
   - RawValue: 32500
   - RawValue: 1000
-  - RawValue: 2250
+  - RawValue: 2500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies

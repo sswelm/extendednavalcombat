@@ -49,7 +49,7 @@ MonoBehaviour:
         weapons have become more useful (with increased range) and accessible (with
         reduced Uranium strategic resource requirement) and with the addition of
         a true ICBM weapon (unlocked after ICBM Test) making it more likely they
-        are build and actualy used by the AI. The state of Nuclear weapons proliferation
+        are built and actually used by the AI. The state of Nuclear weapons proliferation
         is made more intuitive as the National Nuclear Weapon Test Programs strategic
         resource requirements are made the same as the missile weapons they unlock,
         meaning if someone manages to build a nuclear weapon test project (including
@@ -58,18 +58,21 @@ MonoBehaviour:
 
         <p><strong>Science:</strong></p>
 
-        <p>To
-        help get a more natural Science progression, until the early modern age the
-        research cost has been slightly reduced and base research cost starts to
-        ramp up in the industrial era up to double the cost for the end game technologies.
-        Also, the final <span style="font-size: 1em; font-weight: 400;">research
-        cost is progressively decreased based on the number of unlocked technologies
-        (rather than the reverse in vanilla), meaning beelining ( skipping technologies)
-        becomes excessively expansive and the most economical way to unlock the entire
-        tech tree is to always choose the cheapest unlockable technologies. These
-        changes and the introduction of 14 new technologies have the effect of creating
-        a significantly longer end game and it is therefore recommended you disable
-        the turn limit when creating a new game.<br></span></p>
+        <p>In
+        order to create a more historically accurate experience, it was necessary
+        to restructure the tech tree with separate branches starting at the end of
+        the industrial era. To help get a more natural progression, starting from
+        the modern age the minimum research cost increases up to double the cost
+        for the end game technologies. The final <span style="font-size: 1em; font-weight:
+        400;">research cost depends inversely on the number of unlocked technologies,
+        meaning the more technologies you have unlocked from a previous generation,
+        the relatively easier it becomes to research new technologies. This mechanic
+        makes beeling technologies (skipping technologies) excessively expansive
+        and the most economical way to unlock the entire tech tree would be to always
+        choose the cheapest unlockable technologies. These changes and the introduction
+        of 16 new technologies have the effect of creating a significantly longer
+        end game and it is therefore recommended you disable the turn limit when
+        creating a new game.<br></span></p>
 
         <p>New Technologies:</p>
 
@@ -123,7 +126,7 @@ MonoBehaviour:
         Nuclear Reactors; requires Nuclear Fission, unlocks Nuclear powered unit
         upgrades</li>
 
-        <li>Precision-guided munition, requires Jet Fighters,
+        <li>Precision-guided munition requires Jet Fighters,
         unlocks Helicopter Gunship</li>
 
         <li>Stealth Technology; requires
@@ -137,7 +140,7 @@ MonoBehaviour:
         <ul>
 
         <li>Added
-        Wireless Telegraphy as a prerequisite of Research Insitute</li>
+        Wireless Telegraphy as a prerequisite to Research Insitute</li>
 
         <li>Replaced
         Automobile as a prerequisite of Continuous Track and Naval Air Strategy</li>
@@ -156,6 +159,53 @@ MonoBehaviour:
 
         <li>Made Continuous
         Track unlockable in Industrial Age</li>
+
+        </ul>
+
+        <p>Tech-tree
+        branch structure:</p>
+
+        <ul>
+
+        <li>Combustion =&gt;
+
+        <ul>
+
+        <li>Automobile
+        =&gt; Continuously Tracked =&gt; Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized
+        Infantry Doctrine =&gt; Composite Armor</li>
+
+        <li>Aer0nautics =&gt;
+        Air Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets
+        =&gt; Precision-guided munition =&gt; Stealth Technology</li>
+
+        <li>Dreadnought
+        Design =&gt;
+
+        <ul>
+
+        <li>Naval Air Strategy =&gt; Radar =&gt;
+        Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt; Communication
+        Satellites</li>
+
+        <li>Submarine Warfare =&gt; Anti Submarine Warfare
+        =&gt; Fluid Dynamics</li>
+
+        </ul>
+
+        </li>
+
+        </ul>
+
+        </li>
+
+        <li>Line
+        Formation=&gt; Breachloader =&gt; Trench Warfare =&gt; Bunker C0nstruction
+        =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>
+
+        <li>Wireless
+        Telegraphy =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear
+        Fission =&gt; Advanced Nuclear Reactors =&gt; Fusion Reactor</li>
 
         </ul>
 
@@ -178,13 +228,13 @@ MonoBehaviour:
         earlier with Insurrection Theory</li>
 
         <li>Missile Silo is unlocked
-        earlier with Bunkers</li>
+        earlier with Bunkers Construction</li>
 
-        <li>Helicopter Gunship is unlocked later
-        with Precision-guided munition</li>
+        <li>Helicopter Gunship is
+        unlocked later with Precision-guided munition</li>
 
-        <li>Missile Destroyer (originally
-        called Missile Cruiser) unlocked later with Guided Missiles</li>
+        <li>Missile Destroyer
+        (originally called Missile Cruiser) unlocked later with Guided Missiles</li>
 
         <li>Nuclear
         Submarine is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>
@@ -259,7 +309,7 @@ MonoBehaviour:
         vanilla Cuirassiers graphics), unlocked with Line Formations, upgrades to
         Light Tank</li>
 
-        <li>Added Armoured Car (uses vannila Arti Aircraft
+        <li>Added Armoured Car (uses vanilla Arti Aircraft
         graphics), unlocked with Automobile, upgrades to Armored Personnel Carrier.</li>
 
         <li>Added
@@ -319,7 +369,7 @@ MonoBehaviour:
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
         Battleships, Carriers, Cruisers)</li>
 
-        <li>Submarine can hide better
+        <li>Submarines can hide better
         in deep Ocean water, giving them a +5 strength bonus when fighting on Ocean
         tiles</li>
 
@@ -659,14 +709,14 @@ MonoBehaviour:
         <li>Ironclad
         =&gt; Dreadnought =&gt; Battleship =&gt; Guided Missile Cruiser</li>
 
-        <li>Cuirassiers
-        =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
+        <li>Knight
+        =&gt; Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
 
         <li>Dragoon
         =&gt; Armoured Cars =&gt; Armored Personnel Carrier (APC)</li>
 
         <li>Partisans
-        =&gt;Commados</li>
+        =&gt; Commados</li>
 
         <li>Howitzer =&gt; Anti Tank =&gt; Main Battle
         Tank</li>
