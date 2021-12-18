@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1272594911
+CRC: 1901001514
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 70dd76c01a901ab6a4581d0f1170fa2c
+    Hash: 0581ef08150792dadb6ff9d8c24e3eb5
   TypeTreeHash:
     serializedVersion: 2
     Hash: dac3a4da6af3a1b35ac868268a17ab1f
@@ -133,6 +133,7 @@ Assets:
 - Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/seawolf212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Resources/ArmoredRecon720.png
 - Assets/Resources/Rifles212.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
@@ -160,6 +161,7 @@ Assets:
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/missileCruiser360.png
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/ArmoredRecon212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Resources/missileCruiser212.png
