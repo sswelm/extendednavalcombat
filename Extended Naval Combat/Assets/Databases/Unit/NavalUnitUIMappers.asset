@@ -1394,17 +1394,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 537120088
-        b: 1229826222
-        c: -1426415232
-        d: 1966844544
+        a: 1054618590
+        b: 1331802782
+        c: -1677561451
+        d: -1351586332
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -35779451
-        b: 1197842750
-        c: -487701571
-        d: 289382286
+        a: -1315759670
+        b: 1259269141
+        c: -657226601
+        d: 463112080
     serializableKey: Default_Tooltip
   - Value:
       guid:
@@ -2612,7 +2612,9 @@ MonoBehaviour:
   m_Name: NavalUnit_Era5_Common_SteamCorvettes
   m_EditorClassIdentifier: 
   Title: Steam Corvette
-  Description: '%NavalUnit_Era5_Common_SteamFrigatesDescription'
+  Description: 'At the close of the Age of Sail came the first ''paddle-wheelers'',
+    or steam-powered ships. These vessels used large steam engines to drive mounted
+    paddles for propulsion as well as sails. '
   Images:
   - Value:
       guid:
@@ -2623,17 +2625,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 893458382
-        b: 1303885617
-        c: -1787419745
-        d: -230675734
+        a: 622286484
+        b: 1229080191
+        c: -588548681
+        d: 1982959137
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -168625112
-        b: 1270622988
-        c: 636786574
-        d: -1249342022
+        a: 563508317
+        b: 1269619431
+        c: -1314799456
+        d: 1398323928
     serializableKey: Default_Tooltip
   - Value:
       guid:
@@ -2903,158 +2905,6 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
   SortPriority: 8400
-  ConstructibleTraits: 
---- !u!114 &5893197681991685516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era5_Common_SteamFrigates
-  m_EditorClassIdentifier: 
-  Title: '%NavalUnit_Era5_Common_SteamFrigatesTitle'
-  Description: '%NavalUnit_Era5_Common_SteamFrigatesDescription'
-  Images:
-  - Value:
-      guid:
-        a: -5622813
-        b: 1249176334
-        c: -1333746273
-        d: 1903272453
-    serializableKey: Picto
-  - Value:
-      guid:
-        a: 893458382
-        b: 1303885617
-        c: -1787419745
-        d: -230675734
-    serializableKey: Default_Small
-  - Value:
-      guid:
-        a: -168625112
-        b: 1270622988
-        c: 636786574
-        d: -1249342022
-    serializableKey: Default_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation1_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation1_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation2_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation2_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation3_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation3_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation4_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation4_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation5_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation5_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation6_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation6_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation7_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation7_Tooltip
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation8_Small
-  - Value:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-    serializableKey: Variation8_Tooltip
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  Symbol: 
-  SortPriority: 8500
   ConstructibleTraits: 
 --- !u!114 &8329200622999773330
 MonoBehaviour:

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1901001514
+CRC: 2374637060
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0581ef08150792dadb6ff9d8c24e3eb5
+    Hash: dbed3e5a417d2f6dd5b2aeaac05c42ff
   TypeTreeHash:
     serializedVersion: 2
     Hash: dac3a4da6af3a1b35ac868268a17ab1f
@@ -107,22 +107,26 @@ Assets:
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Databases/Unit/AirUnitDescriptor.asset
+- Assets/Resources/steamCorvette212.png
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
 - Assets/Resources/armouredCar212.png
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
+- Assets/Resources/dreadnoughtTransparent600.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Resources/destroyer360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+- Assets/Resources/dreadnoughtTransparent212.png
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Resources/seawolf360.png
 - Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/destroyer212.png
+- Assets/Resources/SteamCorvette685.png
 - Assets/Resources/torpedboatDestroyer212.png
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Resources/horseDrawnSiegeArtillery212.png
@@ -142,7 +146,6 @@ Assets:
 - Assets/Databases/Unit/AirUnitUIMappers.asset
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Unit/NavalUnitDefinition.asset
-- Assets/Resources/dreadnough212.png
 - Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
@@ -153,7 +156,6 @@ Assets:
 - Assets/Resources/transparant212.png
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
-- Assets/Resources/dreadnough360.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Resources/nuclearCarrier212.png
 - Assets/Databases/Unit/UnitClassUIMappers.asset
