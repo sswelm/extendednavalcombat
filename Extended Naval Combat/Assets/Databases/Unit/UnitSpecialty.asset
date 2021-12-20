@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
-  - serializableElementName: UnitAbility_StrengthFromHarbor_Level1
+  - serializableElementName: UnitAbility_SpeedFromHarbor_Level0
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-6507093748019383610
@@ -244,6 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_EmbarkFree
+  - serializableElementName: UnitAbility_SpeedFromHarbor_Level0
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-5785312605346122313
@@ -462,6 +463,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_Charge_Level2
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4135766928370727079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthSubmarine_Level3
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  - serializableElementName: UnitAbility_AntiSubmarine_Level1
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-3964085177961820334
@@ -705,6 +724,7 @@ MonoBehaviour:
   AbilityReferences:
   - serializableElementName: UnitAbility_Stealth
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  - serializableElementName: UnitAbility_SpeedFromHarbor_Level0
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-238457193291132296
@@ -1386,7 +1406,6 @@ MonoBehaviour:
   AbilityReferences:
   - serializableElementName: UnitAbility_Stealth
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
-  - serializableElementName: UnitAbility_AntiSubmarine_Level1
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &6831838589650074364
@@ -1403,6 +1422,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_SiegeHigherStabilityDrain_Level1
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &6874729591091651611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_SpeedFromHarbor_Level0
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_SpeedFromHarbor_Level0
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &6934392562692141488

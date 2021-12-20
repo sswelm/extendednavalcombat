@@ -1587,7 +1587,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 185
+  TechTreeX: 184
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1360778264634092665

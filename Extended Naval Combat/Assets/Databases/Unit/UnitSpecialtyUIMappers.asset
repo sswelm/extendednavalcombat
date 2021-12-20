@@ -102,6 +102,24 @@ MonoBehaviour:
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &-4291822672163000068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_StealthSubmarine_Level3
+  m_EditorClassIdentifier: 
+  Title: Stealth Anti Armor
+  Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
+    Armoured Vessels and Submarines
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &-3877864627185068688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +184,7 @@ MonoBehaviour:
   m_Name: UnitSpecialty_StealthSubmarine_Level2
   m_EditorClassIdentifier: 
   Title: Stealth Anti Armor
-  Description: Cannot be seen except by adjacent and gains +11 strength bonus versus
+  Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
     Armoured Vessels
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
@@ -214,6 +232,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: '%UnitSpecialty_StrengthFromTargetClassArmouredTitle'
   Description: '%UnitSpecialty_StrengthFromTargetClassArmouredDescription'
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &2808583894227006623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_SpeedFromHarbor_Level0
+  m_EditorClassIdentifier: 
+  Title: '%UnitSpecialty_SpeedFromHarborTitle'
+  Description: '%UnitSpecialty_SpeedFromHarborDescription'
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -299,7 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Stealth Anti Armor
   Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
-    Armoured Vessels
+    Armoured Vessels and has +2 Movement in allied Territory
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -350,8 +385,8 @@ MonoBehaviour:
   m_Name: UnitSpecialty_TorpedoBoat
   m_EditorClassIdentifier: 
   Title: Horbour defence
-  Description: Gains +5 strength bonus versus Armoured Vessels and +5 strength when
-    starting near Allied Harbour
+  Description: Gains +5 strength bonus versus Armoured Vessels and +2 Movement when
+    starting in Allied Territory
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 

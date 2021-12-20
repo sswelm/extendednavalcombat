@@ -391,7 +391,8 @@ MonoBehaviour:
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_Destroyer
   - serializableElementName: UnitAbility_Seafaring
-  - serializableElementName: UnitAbility_CanAttackFortification
+  - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
   AutoResolveBattleStrengthBonus:
     RawValue: 1000
 --- !u!114 &-2040993829340985946
@@ -881,25 +882,6 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_CanAttackFortification
   AutoResolveBattleStrengthBonus:
     RawValue: 2000
---- !u!114 &6508733959027597989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitClass_Corvette
-  m_EditorClassIdentifier: 
-  Prototype:
-    serializableElementName: UnitClass_Prototype_NavalUnit
-  OwnAbilityReferences:
-  - serializableElementName: UnitAbility_Prototype_Corvette
-  - serializableElementName: UnitAbility_Seafaring
-  AutoResolveBattleStrengthBonus:
-    RawValue: 1000
 --- !u!114 &6602224412736706403
 MonoBehaviour:
   m_ObjectHideFlags: 0

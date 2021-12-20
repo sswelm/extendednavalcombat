@@ -1476,7 +1476,7 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 8249
+  UnitTags: 57
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &-978751132090095459
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 8249
+  UnitTags: 57
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &1054424019890810337

@@ -752,30 +752,6 @@ MonoBehaviour:
   Images: []
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
---- !u!114 &2352259392151175737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
-  m_Name: UnitClass_Corvette
-  m_EditorClassIdentifier: 
-  Title: '%UnitClass_GunPlatformTitle'
-  Description: '%UnitClass_GunPlatformDescription'
-  Images:
-  - Value:
-      guid:
-        a: -5622813
-        b: 1249176334
-        c: -1333746273
-        d: 1903272453
-    serializableKey: Small
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  Symbol: '[UnitClass_GunPlatform]'
 --- !u!114 &2629534617434002906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,8 +999,8 @@ MonoBehaviour:
   m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
   m_Name: UnitClass_Destroyer
   m_EditorClassIdentifier: 
-  Title: '%UnitClass_GunPlatformTitle'
-  Description: '%UnitClass_GunPlatformDescription'
+  Title: '%UnitClass_TorpedoVesselTitle'
+  Description: Can shoot at targets without having a clear Line of Sight to it.
   Images:
   - Value:
       guid:

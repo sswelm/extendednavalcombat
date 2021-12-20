@@ -207,7 +207,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_MissileSubmarine
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StealthSubmarine_Level1
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level2
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era6_Common_MissileSubmarine
   - serializableElementName: Effect_Unit_Era6
@@ -313,7 +313,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_NuclearSubmarine
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StealthSubmarine_Level2
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level3
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era6_Common_NuclearSubmarines
   - serializableElementName: Effect_Unit_Era6
@@ -845,7 +845,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_TorpedoVessel
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StrengthFromTargetClassArmoured_Level0
+    serializableElementName: UnitSpecialty_TorpedoBoat
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era5_Common_TorpedoBoats
   - serializableElementName: Effect_Unit_Era5
@@ -1614,7 +1614,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StealthSubmarine_Level1
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level2
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era5_Germany_UBoats
   - serializableElementName: Effect_Unit_Era5
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 82
+  UnitTags: 8274
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &6653319924109131475
@@ -2255,7 +2255,7 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_GunPlatform
+    serializableElementName: UnitClass_Destroyer
   UnitSpecialty:
     serializableElementName: 
   OwnDescriptorReferences:
@@ -2363,7 +2363,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StealthSubmarine_Level1
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level2
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era5_Common_FleetSubmarines
   - serializableElementName: Effect_Unit_Era5
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_DieselSubmarine
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_StealthSubmarine_Level1
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level2
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era6_Common_DieselSubmarines
   - serializableElementName: Effect_Unit_Era6

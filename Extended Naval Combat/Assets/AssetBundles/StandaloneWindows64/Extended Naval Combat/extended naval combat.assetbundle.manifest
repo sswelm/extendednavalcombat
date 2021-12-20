@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2374637060
+CRC: 3750018475
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dbed3e5a417d2f6dd5b2aeaac05c42ff
+    Hash: 32419494aa5af073c8a36c5482b84aa0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: dac3a4da6af3a1b35ac868268a17ab1f
+    Hash: a88ebe96069f36134ef587a773ad1ff5
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -34,6 +34,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1918750774, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
+  Script: {fileID: 1966399051, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
   Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1841102959, guid: b310e23bee821cb478da05296ba685d0, type: 3}
@@ -57,6 +59,10 @@ ClassTypes:
   Script: {fileID: -590115569, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -801326508, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1665513432, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -107,6 +113,7 @@ Assets:
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Databases/Unit/AirUnitDescriptor.asset
+- Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/steamCorvette212.png
 - Assets/Databases/Unit/UnitStatusDefinition.asset
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
@@ -116,18 +123,21 @@ Assets:
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
 - Assets/Resources/dreadnoughtTransparent600.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
+- Assets/Resources/steamTransport212.png
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
-- Assets/Resources/destroyer360.png
+- Assets/Databases/World/TerrainTypeDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/dreadnoughtTransparent212.png
-- Assets/Resources/dieselSubmarine360Manual.png
+- Assets/Resources/destroyer360.png
 - Assets/Resources/seawolf360.png
-- Assets/Resources/horseDrawnSiegeArtillery360.png
+- Assets/Databases/Unit/NavalTransportDescriptor.asset
+- Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/destroyer212.png
 - Assets/Resources/SteamCorvette685.png
 - Assets/Resources/torpedboatDestroyer212.png
+- Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Rifles360.png
@@ -137,6 +147,8 @@ Assets:
 - Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/seawolf212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Databases/Unit/NavalTransportDefinition.asset
+- Assets/Resources/steamTransport864.png
 - Assets/Resources/ArmoredRecon720.png
 - Assets/Resources/Rifles212.png
 - Assets/Resources/dieselSubmarine212Manual.png
