@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3750018475
+CRC: 1726267174
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 32419494aa5af073c8a36c5482b84aa0
+    Hash: 7ba2755b2b4e025395d1dd8f49cdcede
   TypeTreeHash:
     serializedVersion: 2
     Hash: a88ebe96069f36134ef587a773ad1ff5
@@ -112,6 +112,7 @@ Assets:
 - Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/steamCorvette212.png

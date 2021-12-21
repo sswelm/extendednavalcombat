@@ -37,10 +37,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 3580000
   - RawValue: 1189
-  - RawValue: 32000
-  - RawValue: 16000
+  - RawValue: 34000
+  - RawValue: 17000
   - RawValue: 1000
-  - RawValue: 1000
+  - RawValue: 2250
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -60,11 +60,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era2_Tier1_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 310000
+  - RawValue: 12000
+  - RawValue: 6000
+  - RawValue: 1000
+  - RawValue: 500
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -81,11 +86,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era2_Tier2_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 590000
+  - RawValue: 17000
+  - RawValue: 8500
+  - RawValue: 1000
+  - RawValue: 1000
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -105,10 +115,10 @@ MonoBehaviour:
   RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 2030000
-  - RawValue: 25000
-  - RawValue: 12500
+  - RawValue: 27000
+  - RawValue: 13500
   - RawValue: 1000
-  - RawValue: 500
+  - RawValue: 1750
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -132,10 +142,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 4570000
   - RawValue: 1414
-  - RawValue: 36000
-  - RawValue: 18000
+  - RawValue: 38000
+  - RawValue: 19000
   - RawValue: 1000
-  - RawValue: 1250
+  - RawValue: 2500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -180,10 +190,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 14690000
   - RawValue: 4757
-  - RawValue: 78000
-  - RawValue: 39000
+  - RawValue: 81000
+  - RawValue: 40500
   - RawValue: 1000
-  - RawValue: 2750
+  - RawValue: 3400
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -207,10 +217,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 6960000
   - RawValue: 2000
-  - RawValue: 43000
-  - RawValue: 21500
+  - RawValue: 45000
+  - RawValue: 22500
   - RawValue: 1000
-  - RawValue: 1750
+  - RawValue: 3000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -233,10 +243,10 @@ MonoBehaviour:
   RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 1430000
-  - RawValue: 22000
-  - RawValue: 11000
+  - RawValue: 24000
+  - RawValue: 12000
   - RawValue: 1000
-  - RawValue: 250
+  - RawValue: 1500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -260,10 +270,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 19890000
   - RawValue: 8000
-  - RawValue: 100000
-  - RawValue: 50000
+  - RawValue: 103000
+  - RawValue: 52500
   - RawValue: 1000
-  - RawValue: 3500
+  - RawValue: 3600
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -287,10 +297,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 8470000
   - RawValue: 2378
-  - RawValue: 47000
-  - RawValue: 23500
+  - RawValue: 49000
+  - RawValue: 24500
   - RawValue: 1000
-  - RawValue: 2000
+  - RawValue: 3100
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -322,11 +332,16 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Technology_Era2_Tier3_Cost
   m_EditorClassIdentifier: 
-  RpnOperationStack: 
+  RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 960000
+  - RawValue: 21000
+  - RawValue: 10500
+  - RawValue: 1000
+  - RawValue: 1250
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -346,10 +361,10 @@ MonoBehaviour:
   RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 2730000
-  - RawValue: 29000
-  - RawValue: 14500
+  - RawValue: 31000
+  - RawValue: 15500
   - RawValue: 1000
-  - RawValue: 750
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -415,10 +430,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 5670000
   - RawValue: 1682
-  - RawValue: 41000
-  - RawValue: 20500
+  - RawValue: 43000
+  - RawValue: 21500
   - RawValue: 1000
-  - RawValue: 1500
+  - RawValue: 2750
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -442,10 +457,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 10250000
   - RawValue: 3364
-  - RawValue: 53000
-  - RawValue: 26500
+  - RawValue: 56000
+  - RawValue: 28000
   - RawValue: 1000
-  - RawValue: 2250
+  - RawValue: 3200
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -469,10 +484,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 17320000
   - RawValue: 6727
-  - RawValue: 90000
-  - RawValue: 45000
+  - RawValue: 93000
+  - RawValue: 46500
   - RawValue: 1000
-  - RawValue: 3000
+  - RawValue: 3500
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -496,10 +511,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 12420000
   - RawValue: 4000
-  - RawValue: 65000
-  - RawValue: 32500
+  - RawValue: 68000
+  - RawValue: 34000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 3300
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
