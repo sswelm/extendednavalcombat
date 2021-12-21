@@ -2003,7 +2003,10 @@ MonoBehaviour:
   m_Name: NavalUnit_Era4_Common_SloopsOfWar
   m_EditorClassIdentifier: 
   Title: Sloop of War
-  Description: '%NavalUnit_Era4_Common_PrivateersDescription'
+  Description: The sloop of war is a fore-and-aft-rigged vessel equipped with one
+    or two square sails before the mast. Essentially a slightly larger version of
+    the sloop, the sloop of war is fast and exceptionally maneuverable - better than
+    almost any other ship in light winds.
   Images:
   - Value:
       guid:
