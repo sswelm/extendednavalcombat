@@ -74,7 +74,7 @@ MonoBehaviour:
         end game and it is therefore recommended you disable the turn limit when
         creating a new game.<br></span></p>
 
-        <p>New Technologies:</p>
+        <p><em>New Technologies:</em></p>
 
         <ol>
 
@@ -260,18 +260,28 @@ MonoBehaviour:
         1em; font-weight: 400;">Classes now progress through identifiable WW1, WW2,
         Cold War en Stealth era generation, making it feel more historically accurate.
         The early (WW1) units have reduced strategic resource requirements, making
-        them more likely to appear in combat.<br></span></p>
+        them more likely to appear in combat. <br></span></p>
 
-        <p>New Naval
-        units:</p>
+        <p><em>Strategic
+        Resource cost and Construction:</em></p>
+
+        <p>A major difference from
+        vannilla human kind is in way how the cost of advanced unit is determined,
+        which is no longer static but depends on the sufficient avaialbility of strategic
+        resoures, while minimising the the minimum resources amount of resource.
+        This mean that units will be accesable earlier and are easier to upgrade,
+        but at increase construction cost or gold.</p>
+
+        <p><em>New Naval
+        units:</em></p>
 
         <ol>
 
-        <li>Added Sloops of War, unlocked with
-        Flintlock, upgrades to Steam Corvette</li>
+        <li>Added Sloops of War, unlocked
+        with Flintlock, upgrades to Steam Corvette</li>
 
-        <li>Added Steam Transport,
-        unlocked with Steam Engine, upgrades to Landing Craft</li>
+        <li>Added Steam
+        Transport, unlocked with Steam Engine, upgrades to Landing Craft</li>
 
         <li>Added
         Steam Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
@@ -306,16 +316,16 @@ MonoBehaviour:
 
         </ol>
 
-        <p>New
-        Land units:</p>
+        <p><em>New
+        Land units:</em></p>
 
         <ol>
 
-        <li>Added (common) Cuirassiers, unlocked
-        with Line Formations, upgrades to Light Tank</li>
+        <li>Added (common) Cuirassiers,
+        unlocked with Line Formations, upgrades to Light Tank</li>
 
-        <li>Added Horse
-        Drawn Artillery, unlocked with Trench Warfare, upgrades to MLRS</li>
+        <li>Added
+        Horse Drawn Artillery, unlocked with Trench Warfare, upgrades to MLRS</li>
 
         <li>Added
         Armoured Car , unlocked with Automobile, upgrades Armoured Recon</li>
@@ -338,42 +348,43 @@ MonoBehaviour:
 
         </ol>
 
-        <p>New Air
-        units:</p>
+        <p><em>New
+        Air units:</em></p>
 
         <ol>
 
-        <li>Added (common) Stealth Fighter, unlocked
-        with Stealth technology</li>
-
-        <li>Added (common) Stealth Cruise Missile,
+        <li>Added (common) Stealth Fighter,
         unlocked with Stealth technology</li>
 
-        <li>Added Intercontinental
-        Ballistic Missile (ICBM) unlocked by ICBM Test national project</li>
+        <li>Added (common) Stealth
+        Cruise Missile, unlocked with Stealth technology</li>
+
+        <li>Added
+        Intercontinental Ballistic Missile (ICBM) unlocked by ICBM Test national
+        project</li>
 
         </ol>
 
-        <p>Special
-        ability changes:</p>
+        <p><em>Special ability changes:</em></p>
 
         <ul>
 
-        <li>Cog, Carrack Man O''War,
-        and Steam Frigate gain 5% health regenerate outside allied waters</li>
+        <li>Cog,
+        Carrack Man O''War, and Steam Frigate gain 5% health regenerate outside allied
+        waters</li>
 
-        <li>Man
-        O'' War and Carrack gain special ability Shatter (similar to Howitzer)</li>
+        <li>Man O'' War and Carrack gain special ability Shatter
+        (similar to Howitzer)</li>
 
-        <li>Units
-        that cannot attack fortifications (Cavalry, Tankts, etc) require 2 movement
-        in Rocky Field</li>
+        <li>Units that cannot attack fortifications
+        (Cavalry, Tankts, etc) require 2 movement in Rocky Field</li>
 
-        <li>Ironclad special ability Inner Sea Mastodonte
-        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
+        <li>Ironclad
+        special ability Inner Sea Mastodonte (+11 in Coastal Waters) is replaced
+        by Bombard (similar to Battleship)</li>
 
-        <li>Dreadnought,
-        Battleship en Missile Cruiser gain extended Zone of Control</li>
+        <li>Dreadnought, Battleship
+        en Missile Cruiser gain extended Zone of Control</li>
 
         <li>Torpedo
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
@@ -394,8 +405,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p>Added
-        Unit performance upgrades:</p>
+        <p><em>Added
+        Unit performance upgrades:</em></p>
 
         <ul>
 
@@ -423,8 +434,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p>Unit
-        Balance Changes:</p>
+        <p><em>Unit
+        Balance Changes:</em></p>
 
         <table class="table is-bordered is-hoverable">
 
@@ -656,22 +667,23 @@ MonoBehaviour:
 
         </table>
 
-        <p>Missile
-        unit changes:</p>
+        <p><em>Missile
+        unit changes:</em></p>
 
         <ul>
 
-        <li>Cruise Missile: reduced strategic
-        resource requirements, maintenance cost, population cost, and increased range</li>
+        <li>Cruise Missile: reduced
+        strategic resource requirements, maintenance cost, population cost, and increased
+        range</li>
 
-        <li>Nuclear
-        Missile: reduced strategic resource requirements, maintenance cost, and base
-        attack range doubled</li>
+        <li>Nuclear Missile: reduced strategic resource requirements,
+        maintenance cost, and base attack range doubled</li>
 
-        <li>Thermal Nuclear Missile: <span style="font-size:
-        1em; font-weight: 400;">reduced strategic resource </span><span style="font-size:
-        1em; font-weight: 400;">requirements, </span><span style="font-size: 1em;
-        font-weight: 400;">maintenance cost, and base attack range doubled</span></li>
+        <li>Thermal
+        Nuclear Missile: <span style="font-size: 1em; font-weight: 400;">reduced
+        strategic resource </span><span style="font-size: 1em; font-weight: 400;">requirements,
+        </span><span style="font-size: 1em; font-weight: 400;">maintenance cost,
+        and base attack range doubled</span></li>
 
         </ul>
 
@@ -704,8 +716,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p>Unit
-        Upgrade paths details:</p>
+        <p><em>Unit
+        Upgrade paths details:</em></p>
 
         <ul>
 
@@ -750,8 +762,8 @@ MonoBehaviour:
 
         <p><strong>Environment</strong></p>
 
-        <p>National
-        Wonder changes:</p>
+        <p><em>National
+        Wonder changes:</em></p>
 
         <ul>
 
@@ -765,23 +777,23 @@ MonoBehaviour:
 
         </ul>
 
-        <p>District
-        changes:</p>
+        <p><em>District
+        changes:</em></p>
 
         <ul>
 
-        <li>Lowered Pollution Missile Silo (from
-        15 down to 5), added 5 fortification bonus</li>
+        <li>Lowered Pollution Missile Silo
+        (from 15 down to 5), added 5 fortification bonus</li>
 
-        <li>Lowered Pollution
-        Airport (from 15 down to 5)</li>
+        <li>Lowered
+        Pollution Airport (from 15 down to 5)</li>
 
-        <li>Airfields can be built at outposts
-        with culture, and now need access to oil</li>
+        <li>Airfields can be
+        built at outposts with culture, and now need access to oil</li>
 
         </ul>
 
-        <p>Compatibility:</p>
+        <p><em>Compatibility:</em></p>
 
         <ul>
 
