@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3472424149
+CRC: 1626333442
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 317a7d79ec500eedec224a2aab6678f5
+    Hash: 4d07418fc8e3a5c524e69b6775f79853
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a88ebe96069f36134ef587a773ad1ff5
+    Hash: 8566008fef7922bd7e786c4d4d1fb024
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -50,9 +50,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -436458503, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
+  Script: {fileID: 1516956188, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 250386103, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
   Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -318024364, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -110,13 +118,16 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
 - Assets/Resources/transparant360.png
 - Assets/Resources/torpedboatDestroyer360.png
+- Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
+- Assets/Resources/GasPowerStation212.png
 - Assets/Resources/steamCorvette212.png
 - Assets/Databases/Unit/UnitStatusDefinition.asset
+- Assets/Resources/undergroundIndustry212.png
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
 - Assets/Resources/armouredCar212.png
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
@@ -126,18 +137,19 @@ Assets:
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Resources/steamTransport212.png
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
-- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
+- Assets/Databases/Settlement/RpnIndustryDefinition.asset
+- Assets/Databases/Settlement/ConstructibleCommonExtensionUIMappers.asset
 - Assets/Databases/World/TerrainTypeDefinition.asset
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
-- Assets/Resources/dreadnoughtTransparent212.png
 - Assets/Resources/destroyer360.png
-- Assets/Resources/seawolf360.png
+- Assets/Resources/dreadnoughtTransparent212.png
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
 - Assets/Resources/dieselSubmarine360Manual.png
+- Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
+- Assets/Resources/seawolf360.png
 - Assets/Resources/destroyer212.png
-- Assets/Resources/SteamCorvette685.png
-- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Resources/horseDrawnSiegeArtillery212.png
@@ -146,14 +158,18 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
 - Assets/Resources/nuclearCarrier720.png
+- Assets/Databases/Settlement/SynergyDefinition.asset
+- Assets/Databases/Settlement/ConstructibleInfrastructureUIMappers.asset
 - Assets/Resources/seawolf212.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/steamTransport864.png
 - Assets/Resources/ArmoredRecon720.png
 - Assets/Resources/Rifles212.png
+- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
+- Assets/Resources/SteamCorvette685.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
@@ -169,8 +185,12 @@ Assets:
 - Assets/Resources/transparant212.png
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
+- Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
+- Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
 - Assets/Resources/nuclearCarrier212.png
+- Assets/Resources/UCGprocessfigure212.png
+- Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/UnitClass.asset
@@ -178,6 +198,6 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Resources/ArmoredRecon212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
-- Assets/AssetBundleContentDescriptor.asset
+- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 - Assets/Resources/missileCruiser212.png
 Dependencies: []

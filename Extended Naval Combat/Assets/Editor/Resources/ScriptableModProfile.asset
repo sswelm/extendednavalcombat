@@ -27,7 +27,8 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: 
+      value: Introduces 23 modern military units and 17 new modern technologies to
+        create a longer, more interesting, and historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
       value: '<p><strong>Introduction:</strong></p>
@@ -78,7 +79,7 @@ MonoBehaviour:
         <ol>
 
         <li>Railroad;
-        requires Steam Engine, unlocks Transtation and industrial era Settlement
+        requires Steam Engine, unlocks Train Station and Industrial era Settlement
         package</li>
 
         <li>Automobile; requires Combustion Engine, unlocks
@@ -364,12 +365,15 @@ MonoBehaviour:
         <li>Man
         O'' War and Carrack gain special ability Shatter (similar to Howitzer)</li>
 
-        <li>Ironclad
-        special ability Inner Sea Mastodonte (+11 in Coastal Waters) is replaced
-        by Bombard (similar to Battleship)</li>
+        <li>Units
+        that cannot attack fortifications (Cavalry, Tankts, etc) require 2 movement
+        in Rocky Field</li>
 
-        <li>Dreadnought, Battleship
-        en Missile Cruiser gain extended Zone of Control</li>
+        <li>Ironclad special ability Inner Sea Mastodonte
+        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
+
+        <li>Dreadnought,
+        Battleship en Missile Cruiser gain extended Zone of Control</li>
 
         <li>Torpedo
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
@@ -830,6 +834,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/steamcorvette.jpg
       - fileName: 20211217201148_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217201148_1.1.jpg
+      - fileName: 20211221214710_1.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/20211221214710_1.jpg
       - fileName: 20211220232322_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211220232322_1.jpg
       - fileName: 20211219183621_1.jpg

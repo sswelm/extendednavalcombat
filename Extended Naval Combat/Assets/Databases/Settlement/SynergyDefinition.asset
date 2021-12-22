@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2157241915757213908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_Synergy02
+  m_EditorClassIdentifier: 
+  DistrictReferences:
+  - serializableElementName: Extension_Base_Industry
+  DescriptorReferences:
+  - serializableElementName: Effect_Infrastructure_Industry_Family01_Synergy02
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -318024364, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: SynergyDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &737107004306883569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_Synergy05
+  m_EditorClassIdentifier: 
+  DistrictReferences:
+  - serializableElementName: Extension_Base_Industry
+  DescriptorReferences:
+  - serializableElementName: Effect_Infrastructure_Industry_Family01_Synergy05
+--- !u!114 &2549668951725148986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_Synergy03
+  m_EditorClassIdentifier: 
+  DistrictReferences:
+  - serializableElementName: Extension_Base_Industry
+  DescriptorReferences:
+  - serializableElementName: Effect_Infrastructure_Industry_Family01_Synergy03
+--- !u!114 &3352997208509113670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_Synergy01
+  m_EditorClassIdentifier: 
+  DistrictReferences:
+  - serializableElementName: Extension_Base_Industry
+  DescriptorReferences:
+  - serializableElementName: Effect_Infrastructure_Industry_Family01_Synergy01
+--- !u!114 &5249470820915479751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_Synergy04
+  m_EditorClassIdentifier: 
+  DistrictReferences:
+  - serializableElementName: Extension_Base_Industry
+  DescriptorReferences:
+  - serializableElementName: Effect_Infrastructure_Industry_Family01_Synergy04

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8916662455444533366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_05
+  m_EditorClassIdentifier: 
+  Title: Underground Coal Gasification
+  Description: 'Underground coal gasification (UCG) is an industrial process which
+    converts coal into product gas. UCG is an in-situ gasification process, carried
+    out in non-mined coal seams using injection of oxidants and steam. The product
+    gas is brought to the surface through production wells drilled from the surface.The
+    predominant product gases are methane, hydrogen, carbon monoxide and carbon dioxide.
+    Gas output may be combusted for electricity production. Alternatively, the gas
+    output can be used to produce synthetic natural gas, or hydrogen and carbon monoxide
+    can be used as a chemical feedstock for the production of fuels , fertilizer,
+    explosives and other products. '
+  Images:
+  - Value:
+      guid:
+        a: -1865322556
+        b: 1332078321
+        c: 1727747507
+        d: -1480845282
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1720942839
+        b: 1279108665
+        c: -1943647607
+        d: -563038329
+    serializableKey: Tooltip
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  SortPriority: 5008
+  ConstructibleTraits: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: ConstructibleInfrastructureUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &1304639891437323170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_03
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleInfrastructure_Industry_Family01_03Title'
+  Description: '%ConstructibleInfrastructure_Industry_Family01_03Description'
+  Images:
+  - Value:
+      guid:
+        a: 868107762
+        b: 1314682839
+        c: -1717064318
+        d: 895274353
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 917289339
+        b: 1160161820
+        c: -1302194013
+        d: 585214787
+    serializableKey: Tooltip
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  SortPriority: 5008
+  ConstructibleTraits: 
+--- !u!114 &6408727413288305344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Infrastructure_Industry_Family01_04
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleInfrastructure_Industry_Family01_04Title'
+  Description: '%ConstructibleInfrastructure_Industry_Family01_04Description'
+  Images:
+  - Value:
+      guid:
+        a: 1213061867
+        b: 1325667023
+        c: 487592604
+        d: -1176245993
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -2074460988
+        b: 1277332807
+        c: 697109401
+        d: -134035639
+    serializableKey: Tooltip
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  SortPriority: 5008
+  ConstructibleTraits: 

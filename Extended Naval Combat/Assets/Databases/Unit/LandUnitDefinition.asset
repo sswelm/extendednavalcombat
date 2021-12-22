@@ -46,7 +46,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High
+      serializableElementName: ProductionCost_Unit_Era6_High_Iron3_Oil3_Uranium2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -60,10 +60,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 7
     ConstantType: 0
     ConstantValue: 1
@@ -109,6 +109,221 @@ MonoBehaviour:
   UnitTags: 473
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-8810309338746088189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_HolyRomanEmpire_TeutonicKnights
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 87
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_ShockCavalry
+  Level: 21
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_High_Horse2_Iron2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_HolyRomanEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StrengthFromDifferentReligion_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_HolyRomanEmpire_TeutonicKnights
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era3_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777417
+  visualAffinityEraReference:
+    serializableElementName: Era3
+--- !u!114 &-8786755101033151225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_Common_Musketeers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 79
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_GunpowderInfantry
+  Level: 28
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_Gunner
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_MoveOrAttack
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_Common_Musketeers
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 153
+  visualAffinityEraReference:
+    serializableElementName: Era4
 --- !u!114 &-8695722099797314368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +370,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High
+      serializableElementName: ProductionCost_Unit_Era4_High_Copper2_Salpeter2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -170,12 +385,9 @@ MonoBehaviour:
   - Resource: 1
     ConstantType: 0
     ConstantValue: 1
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 1
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -218,7 +430,7 @@ MonoBehaviour:
   UnitTags: 2065
   visualAffinityEraReference:
     serializableElementName: Era4
---- !u!114 &-8336407899141096137
+--- !u!114 &-8638214526279106703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -228,7 +440,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era5_Italy_Alpinis
+  m_Name: LandUnit_Era3_FrankishKingdom_CapetianKnights
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -245,14 +457,14 @@ MonoBehaviour:
     - Name: SynergyDistrictType
       Entry: 6
       Data: 
-  Key: 5
+  Key: 24
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_IndustrialInfantry
-  Level: 33
+  SerializableFamily: UnitFamily_ShockCavalry
+  Level: 21
   Unicity: 0
   ConstructibleVisualAffinity:
     serializableElementName: 
@@ -264,7 +476,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Low
+      serializableElementName: ProductionCost_Unit_Era3_High_Horse2_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -274,8 +486,14 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 3
-  ResourceAccessPrerequisites: []
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -285,7 +503,7 @@ MonoBehaviour:
   FactionPrerequisite:
     Operator: 1
     serializableFactionNames:
-    - Civilization_Era5_Italy
+    - Civilization_Era3_FrankishKingdom
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -303,23 +521,24 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_Gunner
+    serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_CanCrossCliffs
+    serializableElementName: UnitSpecialty_Charge_Level2
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era5_Italy_Alpinis
-  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_LandUnit_Era3_FrankishKingdom_CapetianKnights
+  - serializableElementName: Effect_Unit_Era3
   - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era5_Tier1
+  - serializableElementName: Effect_Unit_SpecialtyLevel2
+  - serializableElementName: Effect_Unit_Era3_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  UnitTags: 89
+  UnitTags: 16777417
   visualAffinityEraReference:
-    serializableElementName: Era5
+    serializableElementName: Era3
 --- !u!114 &-6988568927972428924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +585,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Low
+      serializableElementName: ProductionCost_Unit_Era6_Low_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -423,6 +642,219 @@ MonoBehaviour:
   UnitTags: 57
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-6717456194331620495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_MughalEmpire_CanonElephants
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 89
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_MobileArtillery
+  Level: 27
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_High_Copper2_Salpeter2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_MughalEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedGunner
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_MughalEmpire_CanonElephants
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16779737
+  visualAffinityEraReference:
+    serializableElementName: Era4
+--- !u!114 &-6479803252821603514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_MongolEmpire_MongolHorde
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 47
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Horde
+  Level: 18
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Medium_Horse2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_MongolEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedNomad
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_MoveUntilExhausted
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_MongolEmpire_MongolHorde
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era3_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16842769
+  visualAffinityEraReference:
+    serializableElementName: Era3
 --- !u!114 &-5971323997032331809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,7 +901,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Low
+      serializableElementName: ProductionCost_Unit_Era2_Low_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -483,7 +915,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 2
     ConstantType: 0
     ConstantValue: 1
@@ -578,7 +1010,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Medium
+      serializableElementName: ProductionCost_Unit_Era2_Medium_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -592,7 +1024,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -681,7 +1113,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Medium
+      serializableElementName: ProductionCost_Unit_Era2_Medium_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -695,7 +1127,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -740,6 +1172,113 @@ MonoBehaviour:
   UnitTags: 16842769
   visualAffinityEraReference:
     serializableElementName: Era2
+--- !u!114 &-5501195670879199528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_Chariots
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 18
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyCavalry
+  Level: 10
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_HeavyCavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Common_Chariots
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777673
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &-5091368103145749545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,7 +1528,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron3_Oil2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1003,10 +1542,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1049,7 +1588,7 @@ MonoBehaviour:
   UnitTags: 217
   visualAffinityEraReference:
     serializableElementName: Era6
---- !u!114 &-3703481116140703441
+--- !u!114 &-3868038106120005864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1059,7 +1598,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era1_Common_Chariots
+  m_Name: LandUnit_Era3_KhmerEmpire_SiegeElephants
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -1076,14 +1615,14 @@ MonoBehaviour:
     - Name: SynergyDistrictType
       Entry: 6
       Data: 
-  Key: 18
+  Key: 78
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_HeavyCavalry
-  Level: 10
+  SerializableFamily: UnitFamily_MobileArtillery
+  Level: 21
   Unicity: 0
   ConstructibleVisualAffinity:
     serializableElementName: 
@@ -1095,7 +1634,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High
+      serializableElementName: ProductionCost_Unit_Era3_High_Copper2_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1105,12 +1644,12 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 1
+    Constant: 2
   ResourceAccessPrerequisites:
-  - Resource: 0
+  - Resource: 1
     ConstantType: 0
     ConstantValue: 1
-  - Resource: 1
+  - Resource: 2
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -1121,7 +1660,8 @@ MonoBehaviour:
       serializableElementName: 
   FactionPrerequisite:
     Operator: 1
-    serializableFactionNames: []
+    serializableFactionNames:
+    - Civilization_Era3_KhmerEmpire
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -1139,23 +1679,23 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_HeavyCavalry
+    serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:
-    serializableElementName: 
+    serializableElementName: UnitSpecialty_AfterAttackingAllowMove
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era1_Common_Chariots
-  - serializableElementName: Effect_Unit_Era1
-  - serializableElementName: Effect_Unit_SpecialtyLevel1
-  - serializableElementName: Effect_Unit_Era1_Tier3
+  - serializableElementName: Effect_LandUnit_Era3_KhmerEmpire_SiegeElephants
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era3_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  UnitTags: 16777673
+  UnitTags: 16779729
   visualAffinityEraReference:
-    serializableElementName: Era1
+    serializableElementName: Era3
 --- !u!114 &-3058172335934898927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,7 +1742,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High
+      serializableElementName: ProductionCost_Unit_Era6_High_Oil2_Uranium2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1216,8 +1756,11 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 6
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 7
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -1261,9 +1804,114 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 3089
+  UnitTags: 3345
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-2842990975335873919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_MingChina_RocketCarts
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 66
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_LightArtillery
+  Level: 26
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_MingChina
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_FieldArtillery
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_DebuffTargetStun
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_MingChina_RocketCart
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 145
+  visualAffinityEraReference:
+    serializableElementName: Era4
 --- !u!114 &-1897218011405819274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,7 +1958,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1373,6 +2021,114 @@ MonoBehaviour:
   UnitTags: 16777673
   visualAffinityEraReference:
     serializableElementName: Era1
+--- !u!114 &-1296060522819009718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era5_RussianEmpire_Cossacks
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 72
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Cavalry
+  Level: 31
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse3
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 3
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era5_RussianEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedGunner
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_MoveUntilExhausted
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era5_RussianEmpire_Cossacks
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era5_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777305
+  visualAffinityEraReference:
+    serializableElementName: Era5
 --- !u!114 &-1121845806983733968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1525,7 +2281,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron2_Oil3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1542,7 +2298,7 @@ MonoBehaviour:
     ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1633,7 +2389,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High
+      serializableElementName: ProductionCost_Unit_Era5_High_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1650,7 +2406,7 @@ MonoBehaviour:
     ConstantValue: 1
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1751,7 +2507,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1765,7 +2521,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 4
     ConstantType: 0
     ConstantValue: 1
@@ -1857,7 +2613,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Low
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron3_Oil2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1871,10 +2627,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1919,6 +2675,114 @@ MonoBehaviour:
   UnitTags: 121
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &622298156908662914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_OttomanEmpire_Janissaries
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 74
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_SiegeInfantry
+  Level: 25
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_OttomanEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_Gunner
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StrengthFromSiege_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_OttomanEmpire_Janissaries
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 153
+  visualAffinityEraReference:
+    serializableElementName: Era4
 --- !u!114 &776703929785231484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2071,7 +2935,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Low
+      serializableElementName: ProductionCost_Unit_Era6_Low_Oil2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2177,7 +3041,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron2_Oil3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2194,7 +3058,7 @@ MonoBehaviour:
     ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2283,7 +3147,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse3_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2297,10 +3161,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2492,7 +3356,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era3_High
+      serializableElementName: ProductionCost_Unit_Era3_High_Horse2_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2506,10 +3370,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2599,7 +3463,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2707,7 +3571,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3016,7 +3880,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High
+      serializableElementName: ProductionCost_Unit_Era6_High_Oil2_Uranium2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3030,8 +3894,11 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 6
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 7
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -3073,111 +3940,9 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 3089
+  UnitTags: 3345
   visualAffinityEraReference:
     serializableElementName: Era6
---- !u!114 &3280945294974309588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era2_MauryaEmpire_ElephantArchers
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
-  Key: 65
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_Ranged
-  Level: 13
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_High
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ResourceAccessPrerequisites: []
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era2_MauryaEmpire
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
-  UnitClass:
-    serializableElementName: UnitClass_MountedRanged
-  UnitSpecialty:
-    serializableElementName: UnitSpecialty_NoPenaltyFromMelee
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era2_MauryaEmpire_ElephantArchers
-  - serializableElementName: Effect_Unit_Era2
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era2_Tier3
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 16777689
-  visualAffinityEraReference:
-    serializableElementName: Era2
 --- !u!114 &4452773875639316696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3324,7 +4089,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High
+      serializableElementName: ProductionCost_Unit_Era5_High_Oil2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3341,7 +4106,7 @@ MonoBehaviour:
     ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3430,7 +4195,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron2_Oil3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3444,10 +4209,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3490,6 +4255,111 @@ MonoBehaviour:
   UnitTags: 249
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &5508875810101511584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_UmayyadCaliphate_AlHaras
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 85
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_DesertCavalry
+  Level: 20
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Medium_Horse2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_UmayyadCaliphate
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_Cavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_SiegeHigherStabilityDrain_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_UmayyadCaliphate_AlHaras
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era3_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777417
+  visualAffinityEraReference:
+    serializableElementName: Era3
 --- !u!114 &5655551565785740266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3536,7 +4406,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Oil2_Aluminium3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3550,10 +4420,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3642,7 +4512,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse3_Iron2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3656,10 +4526,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 1
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3749,7 +4619,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High
+      serializableElementName: ProductionCost_Unit_Era5_High_Iron2_Oil2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3763,7 +4633,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 5
     ConstantType: 0
     ConstantValue: 1
@@ -3855,7 +4725,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High
+      serializableElementName: ProductionCost_Unit_Era4_High_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3869,7 +4739,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 2
     ConstantType: 0
     ConstantValue: 1
@@ -4066,7 +4936,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High
+      serializableElementName: ProductionCost_Unit_Era5_High_Copper3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -4080,11 +4950,8 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 1
   - Resource: 4
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 2
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
