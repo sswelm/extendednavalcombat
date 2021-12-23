@@ -138,7 +138,7 @@ MonoBehaviour:
 
         </ol>
 
-        <p>Techtree changes:</p>
+        <p><em>Techtree changes:</em></p>
 
         <ul>
 
@@ -165,8 +165,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p>Tech-tree
-        branch structure:</p>
+        <p><em>Tech-tree
+        branch structure:</em></p>
 
         <ul>
 
@@ -212,17 +212,17 @@ MonoBehaviour:
 
         </ul>
 
-        <p><span
+        <p><em><span
         style="font-size: 1em; font-weight: 400;">Unit/District/Infrastructure Tech
-        Unlocking Changes:</span></p>
+        Unlocking Changes:</span></em></p>
 
         <ul>
 
-        <li>Steam Frigate is
-        unlocked earlier with Steam Engine</li>
+        <li>Steam Frigate
+        is unlocked earlier with Steam Engine</li>
 
-        <li>U-Boat is unlocked later
-        with Submarine Warfare (Germany gains 50% reach bonus)</li>
+        <li>U-Boat is unlocked
+        later with Submarine Warfare (Germany gains 50% reach bonus)</li>
 
         <li>Medium
         Tank is unlocked later with Sloped Armor</li>
@@ -267,21 +267,21 @@ MonoBehaviour:
 
         <p>A major difference from
         vannilla human kind is in way how the cost of advanced unit is determined,
-        which is no longer static but depends on the sufficient avaialbility of strategic
-        resoures, while minimising the the minimum resources amount of resource.
-        This mean that units will be accesable earlier and are easier to upgrade,
-        but at increase construction cost or gold.</p>
+        which is no longer static but  also depends on the sufficient avaialbility
+        of strategic resoures, while minimizing the the minimum strategic resource
+        amount. This mean that units will be accesable easier for both player and
+        AI and will be easier to upgrade, but at increase construction cost or gold
+        price (up to doubl the base cost).</p>
 
-        <p><em>New Naval
-        units:</em></p>
+        <p><em>New Naval units:</em></p>
 
         <ol>
 
-        <li>Added Sloops of War, unlocked
-        with Flintlock, upgrades to Steam Corvette</li>
+        <li>Added
+        Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
 
-        <li>Added Steam
-        Transport, unlocked with Steam Engine, upgrades to Landing Craft</li>
+        <li>Added
+        Steam Transport, unlocked with Steam Engine, upgrades to Landing Craft</li>
 
         <li>Added
         Steam Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
