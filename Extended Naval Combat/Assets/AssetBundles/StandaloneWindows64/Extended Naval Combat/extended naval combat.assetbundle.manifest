@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2689852244
+CRC: 2079449567
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 174cef171cd815e092d46f33e52000bf
+    Hash: 5dbcf5c18315fdecaae3718d546290e9
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8566008fef7922bd7e786c4d4d1fb024
@@ -184,6 +184,7 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Resources/transparant212.png
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
+- Assets/Resources/missileCruiser764.png
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
@@ -194,7 +195,6 @@ Assets:
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/UnitClass.asset
-- Assets/Resources/missileCruiser360.png
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Resources/ArmoredRecon212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset

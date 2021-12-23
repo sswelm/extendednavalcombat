@@ -267,7 +267,7 @@ MonoBehaviour:
 
         <p>A major difference from
         vannilla human kind is in way how the cost of advanced unit is determined,
-        which is no longer static but  also depends on the sufficient avaialbility
+        which is no longer static but also depends on the sufficient avaialbility
         of strategic resoures, while minimizing the the minimum strategic resource
         amount. This mean that units will be accesable easier for both player and
         AI and will be easier to upgrade, but at increase construction cost or gold
@@ -437,235 +437,45 @@ MonoBehaviour:
         <p><em>Unit
         Balance Changes:</em></p>
 
-        <table class="table is-bordered is-hoverable">
+        <ul>
 
-        <tbody>
+        <li>Man O'' War; +1 strength,
+        +1 vision</li>
 
-        <tr>
+        <li>Ironclad; +1 vision</li>
 
-        <td><strong>Unit</strong></td>
+        <li>U-Boat;
+        -2 movement, +1 vision, +5 Bonus Armoured Units (ironclad, battleships, carrier,
+        cruisers, etc)</li>
 
-        <td><strong>Strength</strong></td>
+        <li>Heavy Machinegun; +3 strength</li>
 
-        <td><strong>movement</strong></td>
+        <li>Antitank
+        gun +3 strength</li>
 
-        <td><strong>vision</strong></td>
+        <li>Battleship; +3 strength +1 movement +2
+        vision, +2 attack range Increased zone of control</li>
 
-        <td><strong>Range</strong></td>
+        <li>Aircraft
+        Carrier, +1 movement, +2 vision +Amoured (immune to suppression, vulnerable
+        versus submarines)</li>
 
-        <td><strong>Special</strong></td>
+        <li>Nuclear Submarine, +2 vision, +2 range,
+        +5 Bonus Armoured Units (battleship, carrier, cruisers)</li>
 
-        </tr>
+        <li>Missile
+        Cruiser, +3 strength, +4 vision, +5 range, Increased zone of control</li>
 
-        <tr>
+        <li>Red
+        Army Tank, +3 strength, +1 vision, +1 range</li>
 
-        <td>Man
-        O'' War</td>
+        <li>Main Battle
+        Tank, +2 vision +2 range</li>
 
-        <td>+1</td>
+        <li>Sweden Stealth Corvette +3 strength,
+        +1 vision, +1 range, +Anti Airpower (50% strength)</li>
 
-        <td></td>
-
-        <td>+1</td>
-
-        <td></td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>Ironclad</td>
-
-        <td></td>
-
-        <td></td>
-
-        <td>+1</td>
-
-        <td></td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>U-Boat</td>
-
-        <td></td>
-
-        <td>-2</td>
-
-        <td>+1</td>
-
-        <td></td>
-
-        <td>+5
-        Bonus Armoured Units</td>
-
-        </tr>
-
-        <tr>
-
-        <td>Heavy
-        Machinegun</td>
-
-        <td>+3</td>
-
-        <td></td>
-
-        <td></td>
-
-        <td></td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>Antitank
-        gun</td>
-
-        <td>+3</td>
-
-        <td></td>
-
-        <td></td>
-
-        <td></td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>Battleship</td>
-
-        <td>+3</td>
-
-        <td>+1</td>
-
-        <td>+2</td>
-
-        <td></td>
-
-        <td>Increased
-        zone of control range</td>
-
-        </tr>
-
-        <tr>
-
-        <td>Aircraft
-        Carrier</td>
-
-        <td></td>
-
-        <td>+1</td>
-
-        <td>+2</td>
-
-        <td></td>
-
-        <td>+Amoured
-        (immune to suppression)</td>
-
-        </tr>
-
-        <tr>
-
-        <td>Nuclear
-        Submarine</td>
-
-        <td></td>
-
-        <td></td>
-
-        <td>+2</td>
-
-        <td>+2</td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>Missile
-        Cruiser</td>
-
-        <td>+3</td>
-
-        <td></td>
-
-        <td>+4</td>
-
-        <td>+5</td>
-
-        <td>Increased
-        zone of control range</td>
-
-        </tr>
-
-        <tr>
-
-        <td>Red
-        Army Tank</td>
-
-        <td>+2</td>
-
-        <td></td>
-
-        <td>+1</td>
-
-        <td>+1</td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>Main
-        Battle Tank</td>
-
-        <td></td>
-
-        <td></td>
-
-        <td>+2</td>
-
-        <td>+2</td>
-
-        <td></td>
-
-        </tr>
-
-        <tr>
-
-        <td>(Sweden)Stealth
-        Corvette</td>
-
-        <td>+3</td>
-
-        <td></td>
-
-        <td>+1</td>
-
-        <td>+1</td>
-
-        <td>+
-        Anti Airpower (50% strength)</td>
-
-        </tr>
-
-        </tbody>
-
-        </table>
+        </ul>
 
         <p><em>Missile
         unit changes:</em></p>
@@ -687,8 +497,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p><span
-        style="font-size: 1em; font-weight: 400;">Unit resource requirement changes:</span></p>
+        <p><em><span
+        style="font-size: 1em; font-weight: 400;">Unit resource requirement changes:</span></em></p>
 
         <ul>
 
@@ -842,6 +652,8 @@ MonoBehaviour:
       value:
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
+      - fileName: finalmissilecruiser.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
       - fileName: steamcorvette.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/steamcorvette.jpg
       - fileName: 20211217201148_1.1.jpg
