@@ -95,7 +95,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromCoastHalf
+      Data: Effective in Coastal waters
     - Name: 
       Entry: 8
       Data: 
@@ -206,7 +206,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromCoastHalf
+      Data: Effective in Coastal waters
     - Name: 
       Entry: 8
       Data: 
@@ -293,7 +293,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromCoastHalf
+      Data: Effective in Coastal waters
     - Name: 
       Entry: 8
       Data: 
@@ -389,7 +389,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromCoastHalf
+      Data: Effective in Coastal waters
     - Name: 
       Entry: 8
       Data: 
@@ -508,7 +508,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromOceanHalf
+      Data: Effective in Deep waters
     - Name: 
       Entry: 8
       Data: 
@@ -619,7 +619,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromOceanHalf
+      Data: Effective in Deep waters
     - Name: 
       Entry: 8
       Data: 
@@ -706,7 +706,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromOceanHalf
+      Data: Effective in Deep waters
     - Name: 
       Entry: 8
       Data: 
@@ -802,7 +802,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromOceanHalf
+      Data: Effective in Deep waters
     - Name: 
       Entry: 8
       Data: 
@@ -826,1498 +826,6 @@ MonoBehaviour:
       Data: 
   BattleTagAsAbility: 0
   AIBattleAbility: 256
---- !u!114 &-5280820825873779039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 983106801, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: BattleAbility_AdvancedTerrain
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: BattleActions
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.BattleAction[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 9
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Add Elevation
-    - Name: EventType
-      Entry: 3
-      Data: 1024
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_ElevationBonus
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Unit_IgnoreTerrainBonuses
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 4
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Unit_IgnoreTerrainPenalties
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareElevation,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 4
-    - Name: ComparisonType
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_IsEmbarked
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 1
-    - Name: Conditions
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_ElevationBonus
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove elevation
-    - Name: EventType
-      Entry: 3
-      Data: 4096
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 15|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 16|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_ElevationBonus
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 17|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 1
-    - Name: Conditions
-      Entry: 7
-      Data: 18|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 19|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 20|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 21|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 22|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_ElevationBonus
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 23|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Add fortified status
-    - Name: EventType
-      Entry: 3
-      Data: 512
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 24|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 25|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 26|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Unit_IgnoreTerrainBonuses
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 27|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareDistrictProperty,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: Value
-      Entry: 4
-      Data: 0
-    - Name: PropertyName
-      Entry: 1
-      Data: FortificationHealthRatio
-    - Name: ComparisonType
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 28|Amplitude.Mercury.Data.Simulation.BattleCondition_DistrictHasDescriptor,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_Exploitation
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 29|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 2
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 30|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 31|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 32|Amplitude.Mercury.Data.Simulation.BattleEffect_AddStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 33|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove fortified status
-    - Name: EventType
-      Entry: 3
-      Data: 256
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 34|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 35|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 36|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 2
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 37|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 38|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 39|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 40|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove fortified status destroyed
-    - Name: EventType
-      Entry: 3
-      Data: 4096
-    - Name: IsGlobal
-      Entry: 5
-      Data: true
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 41|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 42|Amplitude.Mercury.Data.Simulation.BattleCondition_EntityType, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 3
-    - Name: Type
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 43|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 44|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareDistance,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 3
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: ComparisonType
-      Entry: 3
-      Data: 0
-    - Name: Distance
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 45|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareDistrictProperty,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 3
-    - Name: Value
-      Entry: 4
-      Data: 0
-    - Name: PropertyName
-      Entry: 1
-      Data: FortificationHealthRatio
-    - Name: ComparisonType
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 46|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 47|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 48|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Add fortified descriptor
-    - Name: EventType
-      Entry: 3
-      Data: 1024
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 4
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 49|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 50|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 3
-    - Name: RightTarget
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 51|Amplitude.Mercury.Data.Simulation.BattleCondition_IsSeparatedByFortification,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 52|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 4
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 53|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 54|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 55|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 56|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove fortified descriptor
-    - Name: EventType
-      Entry: 3
-      Data: 4096
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 57|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 58|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 59|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 60|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 61|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_TileFortified
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 62|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Add bonus range
-    - Name: EventType
-      Entry: 3
-      Data: 512
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 63|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 64|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 65|Amplitude.Mercury.Data.Simulation.BattleCondition_DistrictHasDescriptor,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 3
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Extension_Era3_MedievalEngland
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 66|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareDistrictProperty,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 3
-    - Name: Value
-      Entry: 4
-      Data: 0
-    - Name: PropertyName
-      Entry: 1
-      Data: FortificationHealthRatio
-    - Name: ComparisonType
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 67|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_IncreaseRange
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 68|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Unit_HasRangedAttack
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 69|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 70|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_IncreaseRange
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 71|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove bonus range
-    - Name: EventType
-      Entry: 3
-      Data: 256
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 72|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 73|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_IncreaseRange
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 74|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 75|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 76|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_IncreaseRange
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  BattleTagAsAbility: 0
-  AIBattleAbility: 0
 --- !u!114 &-4200983599996950581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2398,7 +906,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_AntiSubmarine
+      Data: Effective versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -2500,7 +1008,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_AntiSubmarine
+      Data: Effective versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -2572,7 +1080,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_AntiSubmarine
+      Data: Effective versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -2653,7 +1161,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_AntiSubmarine
+      Data: Effective versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -2677,318 +1185,6 @@ MonoBehaviour:
       Data: 
   BattleTagAsAbility: 0
   AIBattleAbility: 16
---- !u!114 &-3875320658668524324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 983106801, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: BattleAbility_FocusedFire
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: BattleActions
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.BattleAction[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Buff attack if next to target
-    - Name: EventType
-      Entry: 3
-      Data: 1024
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.BattleCondition_CompareDistance,
-        Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 4
-    - Name: ComparisonType
-      Entry: 3
-      Data: 2
-    - Name: Distance
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_FocusedFire
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_FocusedFire
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove buff after attack
-    - Name: EventType
-      Entry: 3
-      Data: 4096
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_FocusedFire
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 15|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_FocusedFire
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  BattleTagAsAbility: 0
-  AIBattleAbility: 0
 --- !u!114 &-3764156130140913931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3069,7 +1265,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromTargetClassArmouredHalf
+      Data: Effective versus Armoured Vessels
     - Name: 
       Entry: 8
       Data: 
@@ -3171,7 +1367,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromTargetClassArmouredHalf
+      Data: Effective versus Armoured Vessels
     - Name: 
       Entry: 8
       Data: 
@@ -3243,7 +1439,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromTargetClassArmouredHalf
+      Data: Effective versus Armoured Vessels
     - Name: 
       Entry: 8
       Data: 
@@ -3324,7 +1520,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_StrengthFromTargetClassArmouredHalf
+      Data: Effective versus Armoured Vessels
     - Name: 
       Entry: 8
       Data: 
@@ -3428,7 +1624,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_WeaknessVersusSubmarines
+      Data: Weakness versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -3530,7 +1726,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_WeaknessVersusSubmarines
+      Data: Weakness versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -3602,7 +1798,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_WeaknessVersusSubmarines
+      Data: Weakness versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -3683,7 +1879,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_WeaknessVersusSubmarines
+      Data: Weakness versus Submarines
     - Name: 
       Entry: 8
       Data: 
@@ -3707,7 +1903,19 @@ MonoBehaviour:
       Data: 
   BattleTagAsAbility: 0
   AIBattleAbility: 16
---- !u!114 &-2593793238808411085
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1786578759, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: BattleAbilityDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &3440382178391755549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3717,7 +1925,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 983106801, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: BattleAbility_DugIn
+  m_Name: BattleAbility_IndirectFireVersusFortification
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -3733,502 +1941,13 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.BattleAction[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 6
+      Data: 2
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
     - Name: Note
       Entry: 1
-      Data: Add "Dug In" to units that haven't moved
-    - Name: EventType
-      Entry: 3
-      Data: 8
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 1
-    - Name: RightTarget
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Tag_Unit_HasMoved
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Status_Unit_IsEmbarked
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.BattleEffect_AddStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: 'Defenders begin battle with "Dug In" status '
-    - Name: EventType
-      Entry: 3
-      Data: 524288
-    - Name: IsGlobal
-      Entry: 5
-      Data: true
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 6
-    - Name: 
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_UnitPrototype_Animal
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.BattleCondition_IsRoundX, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Round
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.BattleCondition_IsTurnToPlay, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 15|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 16|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Tag_Unit_HasMoved
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 17|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Status_Unit_IsEmbarked
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 18|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 19|Amplitude.Mercury.Data.Simulation.BattleEffect_AddStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Duration
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 20|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove "Dug In" status when unit moves
-    - Name: EventType
-      Entry: 3
-      Data: 64
-    - Name: IsGlobal
-      Entry: 5
-      Data: false
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 1
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 21|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 22|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 23|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: LeftTarget
-      Entry: 3
-      Data: 2
-    - Name: RightTarget
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 24|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 25|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 26|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveStatus, Amplitude.Mercury.Data
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 27|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Add "Dug In" bonus when being targeted by Ranged if has status
+      Data: Give penalty versus units in fortifications with indirect fire
     - Name: EventType
       Entry: 3
       Data: 1024
@@ -4258,61 +1977,29 @@ MonoBehaviour:
       Data: 0
     - Name: Conditions
       Entry: 7
-      Data: 28|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
+      Data: 2|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 3
     - Name: 
       Entry: 7
-      Data: 29|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
+      Data: 3|Amplitude.Mercury.Data.Simulation.BattleCondition_IsSettlementBattle,
+        Amplitude.Mercury.Data
     - Name: InvertConditionResult
       Entry: 5
       Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 30|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: true
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_DugInDefenseBuff
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 31|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
+      Data: 4|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
     - Name: InvertConditionResult
       Entry: 5
       Data: false
     - Name: LeftTarget
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: RightTarget
       Entry: 3
       Data: 1
@@ -4321,7 +2008,8 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 32|Amplitude.Mercury.Data.Simulation.BattleCondition_IsRangedUnit, Amplitude.Mercury.Data
+      Data: 5|Amplitude.Mercury.Data.Simulation.BattleCondition_HasLineOfSightObstacleTo,
+        Amplitude.Mercury.Data
     - Name: InvertConditionResult
       Entry: 5
       Data: false
@@ -4339,10 +2027,61 @@ MonoBehaviour:
       Data: 
     - Name: ConditionBlocks
       Entry: 7
-      Data: 33|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
+      Data: 6|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
+    - Name: Operator
+      Entry: 3
+      Data: 1
+    - Name: Conditions
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.BattleCondition_EntityType, Amplitude.Mercury.Data
+    - Name: InvertConditionResult
+      Entry: 5
+      Data: false
+    - Name: Target
+      Entry: 3
+      Data: 3
+    - Name: Type
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.BattleCondition_IsFortified, Amplitude.Mercury.Data
+    - Name: InvertConditionResult
+      Entry: 5
+      Data: false
+    - Name: Target
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ConditionBlocks
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4354,19 +2093,19 @@ MonoBehaviour:
       Data: 
     - Name: Effects
       Entry: 7
-      Data: 34|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
+      Data: 10|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 35|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
+      Data: 11|Amplitude.Mercury.Data.Simulation.BattleEffect_AddDescriptor, Amplitude.Mercury.Data
     - Name: Descriptor
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_DugInDefenseBuff
+      Data: Indirect fire versus Fortification
     - Name: 
       Entry: 8
       Data: 
@@ -4387,10 +2126,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 36|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
+      Data: 12|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
     - Name: Note
       Entry: 1
-      Data: Remove "Dug In" bonus after being targeted
+      Data: Remove penalty versus units in fortifications with indirect fire
     - Name: EventType
       Entry: 3
       Data: 4096
@@ -4402,7 +2141,7 @@ MonoBehaviour:
       Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
     - Name: MainTarget
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: Filter
       Entry: 3
       Data: 0
@@ -4420,172 +2159,40 @@ MonoBehaviour:
       Data: 0
     - Name: Conditions
       Entry: 7
-      Data: 37|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
+      Data: 13|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 38|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 1
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: GameEffect_BattleAction_DugInDefenseBuff
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 39|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
+      Data: 14|Amplitude.Mercury.Data.Simulation.BattleCondition_SameEntity, Amplitude.Mercury.Data
     - Name: InvertConditionResult
       Entry: 5
       Data: false
     - Name: LeftTarget
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: RightTarget
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlocks
-      Entry: 7
-      Data: 40|Amplitude.Mercury.Data.Simulation.ConditionBlock[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Effects
-      Entry: 7
-      Data: 41|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
     - Name: 
       Entry: 7
-      Data: 42|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
+      Data: 15|Amplitude.Mercury.Data.Simulation.BattleCondition_HasDescriptor, Amplitude.Mercury.Data
+    - Name: InvertConditionResult
+      Entry: 5
+      Data: false
+    - Name: Target
+      Entry: 3
+      Data: 2
     - Name: Descriptor
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_DugInDefenseBuff
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 43|Amplitude.Mercury.Data.Simulation.BattleAction, Amplitude.Mercury.Data
-    - Name: Note
-      Entry: 1
-      Data: Remove "defending" status if already dug in
-    - Name: EventType
-      Entry: 3
-      Data: 12
-    - Name: IsGlobal
-      Entry: 5
-      Data: true
-    - Name: BattleEffectTargeting
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.BattleEffectTargeting, Amplitude.Mercury.Data
-    - Name: MainTarget
-      Entry: 3
-      Data: 3
-    - Name: Filter
-      Entry: 3
-      Data: 0
-    - Name: FilterParameter
-      Entry: 3
-      Data: -1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ConditionBlock
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.ConditionBlock, Amplitude.Mercury.Data
-    - Name: Operator
-      Entry: 3
-      Data: 0
-    - Name: Conditions
-      Entry: 7
-      Data: 44|Amplitude.Mercury.Data.Simulation.BattleCondition[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 45|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 3
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_DugIn
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 46|Amplitude.Mercury.Data.Simulation.BattleCondition_HasStatus, Amplitude.Mercury.Data
-    - Name: InvertConditionResult
-      Entry: 5
-      Data: false
-    - Name: Target
-      Entry: 3
-      Data: 3
-    - Name: Status
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Status_Unit_Defending01
+      Data: Indirect fire versus Fortification
     - Name: 
       Entry: 8
       Data: 
@@ -4606,19 +2213,19 @@ MonoBehaviour:
       Data: 
     - Name: Effects
       Entry: 7
-      Data: 47|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
+      Data: 16|Amplitude.Mercury.Data.Simulation.BattleEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 48|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveStatus, Amplitude.Mercury.Data
-    - Name: Status
+      Data: 17|Amplitude.Mercury.Data.Simulation.BattleEffect_RemoveDescriptor, Amplitude.Mercury.Data
+    - Name: Descriptor
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Status_Unit_Defending01
+      Data: Indirect fire versus Fortification
     - Name: 
       Entry: 8
       Data: 
@@ -4641,16 +2248,4 @@ MonoBehaviour:
       Entry: 8
       Data: 
   BattleTagAsAbility: 0
-  AIBattleAbility: 8192
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1786578759, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: BattleAbilityDefinition
-  m_EditorClassIdentifier: 
+  AIBattleAbility: 0

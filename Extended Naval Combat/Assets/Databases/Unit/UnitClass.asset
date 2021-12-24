@@ -672,6 +672,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Prototype_LandUnit
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_Ranged
+  - serializableElementName: UnitAbility_IndirectFireVersusFortification
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &2668924960992579170

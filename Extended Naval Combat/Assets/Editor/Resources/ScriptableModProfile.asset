@@ -35,22 +35,23 @@ MonoBehaviour:
 
         <p>The goal of this
         mod is to create a longer, more interesting, and realistic end game experience
-        with the addition of new technologies and military units and some minor tweaks
-        to keep it overal balanced. I tried to make this mod as compatible as possible
-        with other mods by putting most new units and bonuses spread over the new
-        Technologies, and no changes to any cultures, or civics. The new Technologies
-        also help to make the Industrial and Contemporary Era last longer, especially
-        the late Industrial and early Contemporary era (WW1/WW2) period with 12 new
-        technologies.</p>
+        with the addition of new technologies and military units and tweaks to existing
+        units to keep it overal balanced. I tried to make this mod as compatible
+        as possible with other mods by putting most new units and bonuses spread
+        over the new Technologies, and no changes to any cultures, or civics. The
+        new Technologies also help to make the Industrial and Contemporary Era last
+        significantly longer, especially the late Industrial and early Contemporary
+        era (WW1/WW2) period with 12 new technologies.</p>
 
-        <p><strong>Nuclear Proliferation:</strong></p>
+        <p><strong>Nuclear
+        Proliferation:</strong></p>
 
-        <p>Nuclear
-        weapons have become more useful (with increased range) and accessible (with
-        reduced Uranium strategic resource requirement) and with the addition of
-        a true ICBM weapon (unlocked after ICBM Test) making it more likely they
-        are built and actually used by the AI. The state of Nuclear weapons proliferation
-        is made more intuitive as the National Nuclear Weapon Test Programs strategic
+        <p>Nuclear weapons have become more
+        useful (with increased range) and accessible (with reduced strategic resource
+        requirement) and with the addition of a true ICBM weapon (unlocked after
+        ICBM Test) making it more likely they are built and actually used by the
+        AI with devistating effects. The state of Nuclear weapons proliferation is
+        made more intuitive as the National Nuclear Weapon Test Programs strategic
         resource requirements are made the same as the missile weapons they unlock,
         meaning if someone manages to build a nuclear weapon test project (including
         ICBM weapon test), they can also build and use them (given they also constructed
@@ -65,14 +66,14 @@ MonoBehaviour:
         the modern age the minimum research cost increases up to double the cost
         for the end game technologies. The final <span style="font-size: 1em; font-weight:
         400;">research cost depends inversely on the number of unlocked technologies,
-        meaning the more technologies you have unlocked from a previous generation,
-        the relatively easier it becomes to research new technologies. This mechanic
-        makes beeling technologies (skipping technologies) excessively expansive
-        and the most economical way to unlock the entire tech tree would be to always
-        choose the cheapest unlockable technologies. These changes and the introduction
-        of 17 new technologies have the effect of creating a significantly longer
-        end game and it is therefore recommended you disable the turn limit when
-        creating a new game.<br></span></p>
+        meaning the more technologies you have unlocked from a previous technology
+        generation, the relatively easier it becomes to research additional technologies.
+        This mechanic makes beelining technologies (skipping technologies) excessively
+        expansive and the most economical way to unlock the entire tech tree is to
+        always choose the cheapest unlockable technologies. These changes and the
+        introduction of 17 new technologies have the effect of creating a significantly
+        longer end game and it is therefore recommended you disable the turn limit
+        when creating a new game.<br></span></p>
 
         <p><em>New Technologies:</em></p>
 
@@ -572,6 +573,15 @@ MonoBehaviour:
 
         <p><strong>Environment</strong></p>
 
+        <p><em>Infrastructure:</em></p>
+
+        <ul>
+
+        <li>Level
+        5 Coal Power: Underground Caol Gasification</li>
+
+        </ul>
+
         <p><em>National
         Wonder changes:</em></p>
 
@@ -672,6 +682,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/20211209005706_1.jpg
       - fileName: 20211216024049_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211216024049_1.jpg
+      - fileName: 20211223144936_1.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/20211223144936_1.jpg
       - fileName: steamtranportinaction.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/steamtranportinaction.jpg
       isDirty: 0

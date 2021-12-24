@@ -401,6 +401,31 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences: []
   BattleAbilityReference: []
+--- !u!114 &-4758430957075796711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_MountedRanged
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_MountedRanged
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_RansackStrength1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_WeakAgainstMelee
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
+  - serializableElementName: BattleAbility_IndirectFire
+  - serializableElementName: BattleAbility_IndirectFireVersusFortification
 --- !u!114 &-4517484400610676979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +608,24 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasRangedAttack
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
+--- !u!114 &-3574334539869919167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_IndirectFire
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_IndirectFire
 --- !u!114 &-3006728656012692827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,6 +841,24 @@ MonoBehaviour:
   m_Script: {fileID: 932230282, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: UnitAbility
   m_EditorClassIdentifier: 
+--- !u!114 &225916862668814436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_IndirectFireVersusFortification
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_IndirectFireVersusFortification
 --- !u!114 &255721283438737559
 MonoBehaviour:
   m_ObjectHideFlags: 0
