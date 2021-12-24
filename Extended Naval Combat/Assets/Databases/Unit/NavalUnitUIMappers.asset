@@ -1394,17 +1394,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 1054618590
-        b: 1331802782
-        c: -1677561451
-        d: -1351586332
+        a: -128621108
+        b: 1171356072
+        c: 754880653
+        d: 245468251
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -1315759670
-        b: 1259269141
-        c: -657226601
-        d: 463112080
+        a: -792049001
+        b: 1078958327
+        c: 483814031
+        d: 996484294
     serializableKey: Default_Tooltip
   - Value:
       guid:

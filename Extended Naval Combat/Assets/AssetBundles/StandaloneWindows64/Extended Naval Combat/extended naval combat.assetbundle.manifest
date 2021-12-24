@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2026603601
+CRC: 1807765152
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 95def2d49fe3ce1bb92e396eb5cee182
+    Hash: b70f06e1634e6b484f536e52e956c2b2
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8566008fef7922bd7e786c4d4d1fb024
@@ -133,7 +133,6 @@ Assets:
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
-- Assets/Resources/dreadnoughtTransparent600.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Resources/steamTransport212.png
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
@@ -143,7 +142,7 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/destroyer360.png
-- Assets/Resources/dreadnoughtTransparent212.png
+- Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
@@ -189,12 +188,13 @@ Assets:
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
+- Assets/Resources/battleshipDreadnought212.png
 - Assets/Resources/nuclearCarrier212.png
-- Assets/Resources/UCGprocessfigure212.png
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/UnitClass.asset
+- Assets/Resources/UCGprocessfigure212.png
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Resources/ArmoredRecon212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset

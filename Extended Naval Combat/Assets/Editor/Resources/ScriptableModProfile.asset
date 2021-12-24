@@ -377,15 +377,18 @@ MonoBehaviour:
         <li>Man O'' War and Carrack gain special ability Shatter
         (similar to Howitzer)</li>
 
-        <li>Units that cannot attack fortifications
-        (Cavalry, Tankts, etc) require 2 movement in Rocky Field</li>
+        <li>Indirect ranged attacks by Archer
+        units on Fortified units get reduced my 6 strength</li>
 
-        <li>Ironclad
-        special ability Inner Sea Mastodonte (+11 in Coastal Waters) is replaced
-        by Bombard (similar to Battleship)</li>
+        <li>Units
+        that cannot attack fortifications (Cavalry, Tankts, etc) require 2 movement
+        in Rocky Field</li>
 
-        <li>Dreadnought, Battleship
-        en Missile Cruiser gain extended Zone of Control</li>
+        <li>Ironclad special ability Inner Sea Mastodonte
+        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
+
+        <li>Dreadnought,
+        Battleship en Missile Cruiser gain extended Zone of Control</li>
 
         <li>Torpedo
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
@@ -662,6 +665,8 @@ MonoBehaviour:
       value:
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
+      - fileName: dreadnought.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: finalmissilecruiser.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
       - fileName: steamcorvette.jpg
