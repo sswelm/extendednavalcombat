@@ -56,6 +56,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_MissileDestroyer
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-8604017665434599178
@@ -138,6 +139,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasNuclearReactor
   - serializableElementName: Effect_Unit_CanSubmerge
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromOceanHalf
 --- !u!114 &-8312930917585391182
@@ -265,6 +267,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_MissileCruiser
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_WeaknessVersusSubmarine
@@ -323,6 +326,25 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_Missile
   BattleAbilityReference: []
+--- !u!114 &-5587038387739762543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_MultiRoleAircraft
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_MultiRoleAircraft
+  - serializableElementName: Effect_Unit_HasRadarCapability
+  BattleAbilityReference: []
 --- !u!114 &-5314941294436945862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,6 +363,7 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_GunPlatform
   - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-5254693627268215866
@@ -487,6 +510,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_Destroyer
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-4124668496938899451
@@ -568,6 +592,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_Ironclad
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-3765878835673958512
@@ -644,6 +669,27 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Tag_Unit_Seafaring
   BattleAbilityReference: []
+--- !u!114 &-2603191438535186085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_NavalTransport
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_NavalTransport
+  - serializableElementName: Effect_UnitPrototype_NavalUnit
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Common
+  - serializableElementName: BattleAbility_NavalTerrain
 --- !u!114 &-2319400829214359874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,7 +707,28 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_FighterAircraft
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference: []
+--- !u!114 &-2033420201999419504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_Gunship
+  m_EditorClassIdentifier: 
+  TagAsAbility: 32
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_Gunship
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-1995929719551070284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +893,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasNuclearReactor
   - serializableElementName: Effect_Unit_HasFluidDynamics
   - serializableElementName: Effect_Unit_CanSubmerge
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_StrengthFromOceanHalf
@@ -988,6 +1056,7 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_StealthCorvette
   - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &1845795257896861115
@@ -1125,6 +1194,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_DieselSubmarine
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_CanSubmerge
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromOceanHalf
 --- !u!114 &4035841026115345825
@@ -1342,6 +1412,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_AircraftCarrier
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference: []
 --- !u!114 &7902238108390665138
 MonoBehaviour:
@@ -1362,6 +1433,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_Battleship
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_WeaknessVersusSubmarine
@@ -1403,6 +1475,7 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_Dreadnought
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
+  - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &8992771398118010430

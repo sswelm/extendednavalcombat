@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3057959269
+CRC: 4229492539
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b99b705bff0ba3a22829e1fe65c6df62
+    Hash: e618f80a45653779e5043ee34aa4b07f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8566008fef7922bd7e786c4d4d1fb024
@@ -121,6 +121,7 @@ Assets:
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/ww2destroyer792.png
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
@@ -130,6 +131,7 @@ Assets:
 - Assets/Resources/undergroundIndustry212.png
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
 - Assets/Resources/armouredCar212.png
+- Assets/Resources/ww2destroyer212.png
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Empire/EmpireBonusUIMappers.asset
@@ -141,15 +143,15 @@ Assets:
 - Assets/Databases/World/TerrainTypeDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
-- Assets/Resources/destroyer360.png
+- Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
-- Assets/Resources/dieselSubmarine360Manual.png
+- Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/seawolf360.png
-- Assets/Resources/destroyer212.png
-- Assets/Resources/horseDrawnSiegeArtillery360.png
+- Assets/Resources/torpedboatDestroyer212.png
+- Assets/Resources/SteamCorvette685.png
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Rifles360.png
@@ -165,10 +167,8 @@ Assets:
 - Assets/Resources/steamTransport864.png
 - Assets/Resources/ArmoredRecon720.png
 - Assets/Resources/Rifles212.png
-- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
-- Assets/Resources/SteamCorvette685.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset

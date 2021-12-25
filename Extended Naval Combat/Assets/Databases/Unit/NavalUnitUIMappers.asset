@@ -3074,8 +3074,12 @@ MonoBehaviour:
   m_Name: NavalUnit_Era6_Common_Destroyers
   m_EditorClassIdentifier: 
   Title: Destroyer
-  Description: This fast warship provides defence from the air and its sunk bombs
-    drive away submarines.
+  Description: 'The Destroyer is a Modern Era multipurpose naval melee attack unit
+    designed to defend your fleet from all new dangers of modern combat. It is small
+    and agile, but at the same time it packs quite a punch in naval melee combat.
+    It is especially useful against submarines thanks to its sonar systems, which
+    allow it to detect them from afar; and its depth-charges, which can destroy them
+    even though they''re under the water. '
   Images:
   - Value:
       guid:
@@ -3086,17 +3090,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 1435973463
-        b: 1221289618
-        c: -128332648
-        d: 100875490
+        a: -1456757596
+        b: 1268515328
+        c: 1251079311
+        d: 1011566898
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -329448132
-        b: 1162437398
-        c: -2037342019
-        d: 1379024472
+        a: 445598473
+        b: 1306266433
+        c: -519358789
+        d: -608256454
     serializableKey: Default_Tooltip
   - Value:
       guid:

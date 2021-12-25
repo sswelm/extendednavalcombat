@@ -436,8 +436,8 @@ MonoBehaviour:
   m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
   m_Name: UnitSpecialty_AntiAircraft_Level0
   m_EditorClassIdentifier: 
-  Title: '%UnitSpecialty_AntiAircraftTitle'
-  Description: '%UnitSpecialty_AntiAircraftDescription'
+  Title: Anti-aircraft
+  Description: Provides anti-air power equal to half the Unit's Combat Strength.
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
