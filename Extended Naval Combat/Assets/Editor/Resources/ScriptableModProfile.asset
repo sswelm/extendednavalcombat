@@ -62,49 +62,49 @@ MonoBehaviour:
         <p>In
         order to create a more historically accurate experience, it was necessary
         to restructure the tech tree with separate branches starting at the end of
-        the industrial era. To help get a more natural progression, starting from
-        the modern age the minimum research cost increases up to double the cost
-        for the end game technologies. The final <span style="font-size: 1em; font-weight:
-        400;">research cost depends inversely on the number of unlocked technologies,
-        meaning the more technologies you have unlocked from a previous technology
-        generation, the relatively easier it becomes to research additional technologies.
-        This mechanic makes beelining technologies (skipping technologies) excessively
-        expansive and the most economical way to unlock the entire tech tree is to
-        always choose the cheapest unlockable technologies. These changes and the
-        introduction of 17 new technologies have the effect of creating a significantly
-        longer end game and it is therefore recommended you disable the turn limit
-        when creating a new game.<br></span></p>
+        the industrial era. Starting from the modern age the minimum research cost
+        increases up to double the cost for the end game technologies. The final
+        <span style="font-size: 1em; font-weight: 400;">research cost depends inversely
+        on the number of unlocked technologies, meaning the more technologies you
+        have unlocked from a previous technology generation, the relatively easier
+        it becomes to research additional technologies. This mechanic makes beelining
+        technologies (skipping technologies) excessively expansive and the most economical
+        way to unlock the entire tech tree is to always choose the cheapest unlockable
+        technologies. These changes and the introduction of 17 new technologies have
+        the effect of creating a significantly longer end game and it is therefore
+        recommended you disable the turn limit when creating a new game.<br></span></p>
 
-        <p><em>New Technologies:</em></p>
+        <p><em>New
+        Technologies:</em></p>
 
         <ol>
 
-        <li>Railroad;
-        requires Steam Engine, unlocks Train Station and Industrial era Settlement
-        package</li>
+        <li>Railroad; requires Steam
+        Engine, unlocks Train Station and Industrial era Settlement package</li>
 
-        <li>Automobile; requires Combustion Engine, unlocks
-        Armoured Car and freight trucks trade bonus</li>
+        <li>Automobile;
+        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
+        bonus</li>
 
-        <li>Breachloader;
-        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
+        <li>Breachloader; requires Line Formation, unlocks Siege
+        Artillery and Horse Drawn Siege Artillery</li>
 
-        <li>Dreadnought
-        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
-        Destroyer</li>
+        <li>Dreadnought Design;
+        requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
 
-        <li>Bunker Construction; requires Trench Warfare;
-        unlocks Bunker, Missile Silo, and underground construction</li>
+        <li>Bunker
+        Construction; requires Trench Warfare; unlocks Bunker, Missile Silo, and
+        underground construction</li>
 
-        <li>Submarine
-        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Submarine Warfare; requires Dreadnought
+        Design, unlocks U-Boat/Fleet Submarine Unit</li>
 
-        <li>Anti
-        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
-        improves naval unit speed</li>
+        <li>Anti Submarine
+        Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
+        naval unit speed</li>
 
-        <li>Air Transportation; requires
-        Aeronautics, unlocks Aluminium strategic resource and Airport district</li>
+        <li>Air Transportation; requires Aeronautics,
+        unlocks Aluminium strategic resource and Airport district</li>
 
         <li>Antitank
         Warfare; requires Continuous Track, unlocks Antitank Gun unit and Armoured
@@ -417,6 +417,9 @@ MonoBehaviour:
         <li>Naval Transport:
         +1 movement with Fluid Dynamics</li>
 
+        <li>modern Naval en Air Units:
+        +1 combat +2 Vision range with Radar</li>
+
         <li>Guided Missile Submarine:
         +2 movement +1 strength with Fluid Dynamics</li>
 
@@ -665,6 +668,8 @@ MonoBehaviour:
       value:
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
+      - fileName: finaldestroyer.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/finaldestroyer.jpg
       - fileName: dreadnought.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: finalmissilecruiser.jpg

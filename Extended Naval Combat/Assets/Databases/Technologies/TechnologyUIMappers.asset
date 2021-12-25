@@ -1081,6 +1081,54 @@ MonoBehaviour:
   TechTreeX: 163
   TechTreeY: 12
   OptionalUnlockTechnologyMovie: 
+--- !u!114 &-2894058784330110265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era4_ShipOfTheLine
+  m_EditorClassIdentifier: 
+  Title: Ship Of The Line
+  Description: 'Ships of the line are the largest and most powerful sailing vessels
+    ever built. They formed the backbone of Europe''s great navies from the 17th
+    to the mid 19th centuries. Ships of the line were named for the classic formation
+    that these ships fought in. In battle, each side''s ships would approach the
+    enemy in a line, and as the opposing ships passed, each would let off a thundering
+    broadside of cannon fire, doing horrific damage to the vessels and to those aboard
+    her. Victory usually went to the side with the most cannon and the best-trained
+    sailors. '
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 135
+  TechTreeY: 3
+  OptionalUnlockTechnologyMovie: TechnologyDiscovery_Era4_05
 --- !u!114 &-2793300075421698851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2967,8 +3015,8 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 132
-  TechTreeY: 2
+  TechTreeX: 129
+  TechTreeY: 0
   OptionalUnlockTechnologyMovie: TechnologyDiscovery_Era4_05
 --- !u!114 &8368515414675006476
 MonoBehaviour:
