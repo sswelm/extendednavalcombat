@@ -27,7 +27,7 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces 23 modern military units and 17 new modern technologies to
+      value: Introduces 23 modern military units and 18 new modern technologies to
         create a longer, more interesting, and historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
@@ -70,8 +70,8 @@ MonoBehaviour:
         it becomes to research additional technologies. This mechanic makes beelining
         technologies (skipping technologies) excessively expansive and the most economical
         way to unlock the entire tech tree is to always choose the cheapest unlockable
-        technologies. These changes and the introduction of 17 new technologies have
-        the effect of creating a significantly longer end game and it is therefore
+        technologies. These changes and the introduction of 187 new technologies
+        have the effect of creating a significantly longer end game and it is therefore
         recommended you disable the turn limit when creating a new game.<br></span></p>
 
         <p><em>New
@@ -79,8 +79,11 @@ MonoBehaviour:
 
         <ol>
 
-        <li>Railroad; requires Steam
-        Engine, unlocks Train Station and Industrial era Settlement package</li>
+        <li>Ship of the Line, unlocks
+        Man O'' War and Sloop of War</li>
+
+        <li>Railroad; requires Steam Engine,
+        unlocks Train Station and Industrial era Settlement package</li>
 
         <li>Automobile;
         requires Combustion Engine, unlocks Armoured Car and freight trucks trade
@@ -143,57 +146,61 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Added
-        Wireless Telegraphy as a prerequisite to Research Insitute</li>
+        <li><span
+        style="font-size: 1em; font-weight: 400;">Replaced Ship of the Line as a
+        prerequisite to Steam Engine</span></li>
 
-        <li>Replaced
-        Automobile as a prerequisite of Continuous Track and Naval Air Strategy</li>
+        <li><span style="font-size:
+        1em; font-weight: 400;">Added Wireless Telegraphy as a prerequisite to Research
+        Insitute</span></li>
 
-        <li>Replaced
-        Air Transportation as a prerequisite for Aerial Warfare</li>
+        <li>Replaced Automobile as a prerequisite of
+        Continuous Track and Naval Air Strategy</li>
 
-        <li>Replaced
-        Guided Missiles as a prerequisite of Rocket Science</li>
+        <li>Replaced Air Transportation
+        as a prerequisite for Aerial Warfare</li>
 
-        <li>Replaced
-        Jet Engine as a prerequisite of Fighter Jets</li>
+        <li>Replaced Guided Missiles
+        as a prerequisite of Rocket Science</li>
 
-        <li>Replaced Naval
-        Air Strategy as a prerequisite for Radar</li>
+        <li>Replaced Jet Engine
+        as a prerequisite of Fighter Jets</li>
 
-        <li>Made Continuous
-        Track unlockable in Industrial Age</li>
+        <li>Replaced Naval Air Strategy
+        as a prerequisite for Radar</li>
+
+        <li>Made Continuous Track unlockable
+        in Industrial Age</li>
 
         </ul>
 
-        <p><em>Tech-tree
-        branch structure:</em></p>
+        <p><em>Tech-tree branch structure:</em></p>
 
         <ul>
 
-        <li>Combustion =&gt;
+        <li>Combustion
+        =&gt;
 
         <ul>
 
-        <li>Automobile
-        =&gt; Continuously Tracked =&gt; Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized
-        Infantry Doctrine =&gt; Composite Armor</li>
+        <li>Automobile =&gt; Continuously Tracked =&gt;
+        Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized Infantry Doctrine =&gt;
+        Composite Armor</li>
 
-        <li>Aer0nautics =&gt;
-        Air Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets
-        =&gt; Precision-guided munition =&gt; Stealth Technology</li>
+        <li>Aer0nautics =&gt; Air Transportation =&gt;
+        Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets =&gt; Precision-guided
+        munition =&gt; Stealth Technology</li>
 
-        <li>Dreadnought
-        Design =&gt;
+        <li>Dreadnought Design =&gt;
 
         <ul>
 
-        <li>Naval Air Strategy =&gt; Radar =&gt;
-        Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt; Communication
-        Satellites</li>
+        <li>Naval
+        Air Strategy =&gt; Radar =&gt; Computing =&gt; Guided Missiles =&gt; Rocket
+        Science =&gt; Communication Satellites</li>
 
-        <li>Submarine Warfare =&gt; Anti Submarine Warfare
-        =&gt; Fluid Dynamics</li>
+        <li>Submarine Warfare
+        =&gt; Anti Submarine Warfare =&gt; Fluid Dynamics</li>
 
         </ul>
 
@@ -218,9 +225,6 @@ MonoBehaviour:
         Unlocking Changes:</span></em></p>
 
         <ul>
-
-        <li>Steam Frigate
-        is unlocked earlier with Steam Engine</li>
 
         <li>U-Boat is unlocked
         later with Submarine Warfare (Germany gains 50% reach bonus)</li>
@@ -282,7 +286,7 @@ MonoBehaviour:
         Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
 
         <li>Added
-        Steam Transport, unlocked with Steam Engine, upgrades to Landing Craft</li>
+        Steam Transport, unlocked with Popeller, upgrades to Landing Craft</li>
 
         <li>Added
         Steam Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
