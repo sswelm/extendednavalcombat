@@ -553,6 +553,115 @@ MonoBehaviour:
   UnitTags: 474
   visualAffinityEraReference:
     serializableElementName: Era4
+--- !u!114 &-6200681227843086404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era4_Common_Galleon
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 15
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 26
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_GunPlatform
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_RegenerateAnywhereSlow
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era4_Common_SloopsOfWar
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 82
+  visualAffinityEraReference:
+    serializableElementName: Era4
 --- !u!114 &-5301352656802938396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,7 +695,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_NavalTransport
   Level: 20
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -637,20 +746,18 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_BoardingVessel
+    serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
     serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
-  - serializableElementName: Effect_Unit_Era3
-  - serializableElementName: Effect_Unit_Era3_Tier2
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  UnitTags: 10
+  UnitTags: 18
   visualAffinityEraReference:
     serializableElementName: Era3
 --- !u!114 &-4798926081103716256
@@ -914,7 +1021,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Medium
+      serializableElementName: ProductionCost_Unit_Era3_High
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -925,13 +1032,7 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 1
-  ResourceAccessPrerequisites:
-  - Resource: 1
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 4
-    ConstantType: 0
-    ConstantValue: 1
+  ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -958,9 +1059,9 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_GunPlatform
+    serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_RegenerateAnywhereSlow
+    serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era4_Common_Carracks
   - serializableElementName: Effect_Unit_Era4
@@ -1669,7 +1770,7 @@ MonoBehaviour:
       Entry: 6
       Data: 
   Key: 15
-  Hidden: 0
+  Hidden: 1
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
