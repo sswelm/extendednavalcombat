@@ -47,11 +47,11 @@ MonoBehaviour:
         Proliferation:</strong></p>
 
         <p>Nuclear weapons have become more
-        useful (with increased range) and accessible (with reduced strategic resource
-        requirement) and with the addition of a true ICBM weapon (unlocked after
-        ICBM Test) making it more likely they are built and actually used by the
-        AI with devistating effects. The state of Nuclear weapons proliferation is
-        made more intuitive as the National Nuclear Weapon Test Programs strategic
+        useful (with increased range) and accessible (with reduced minimum strategic
+        resource requirements) and with the addition of a true ICBM weapon (unlocked
+        after ICBM Test) making it more likely they are built and actually used by
+        the AI with devistating effects. The state of Nuclear weapons proliferation
+        is made more intuitive as the National Nuclear Weapon Test Programs strategic
         resource requirements are made the same as the missile weapons they unlock,
         meaning if someone manages to build a nuclear weapon test project (including
         ICBM weapon test), they can also build and use them (given they also constructed
@@ -385,7 +385,7 @@ MonoBehaviour:
         <li>Carrack Gunplatform
         is replaced by Boarding Vessel</li>
 
-        <li>Man O'' War  gain special
+        <li>Man O'' War gain special
         ability Shatter (similar to Howitzer)</li>
 
         <li>Indirect ranged attacks
@@ -583,8 +583,8 @@ MonoBehaviour:
         <li>Biplane =&gt; Monoplane
         Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
 
-        <li>Caravel
-        =&gt; Steam Tranport =&gt; Landing Craft</li>
+        <li>Transport
+        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
 
         </ul>
 
@@ -681,12 +681,14 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
       - fileName: finaldestroyer.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/finaldestroyer.jpg
-      - fileName: sloopofwar.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/sloopofwar.jpg
-      - fileName: dreadnought.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: finalmissilecruiser.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
+      - fileName: dreadnought.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
+      - fileName: sloopofwar.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/sloopofwar.jpg
+      - fileName: galleon.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/galleon.jpg
       - fileName: steamcorvette.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/steamcorvette.jpg
       - fileName: 20211217201148_1.1.jpg

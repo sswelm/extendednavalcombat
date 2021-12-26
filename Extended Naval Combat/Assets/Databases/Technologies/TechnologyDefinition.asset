@@ -2232,7 +2232,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -2288,6 +2288,49 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: AirUnit_Era6_Common_CruiseMissiles
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Extension_Base_MissileSilo
     - Name: 
       Entry: 8
       Data: 
@@ -6048,7 +6091,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Extension_Base_MissileSilo
+      Data: Extension_Base_Industry_Underground
     - Name: 
       Entry: 8
       Data: 
@@ -6091,7 +6134,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Extension_Base_Industry_Underground
+      Data: Infrastructure_Military_Family01_04
     - Name: 
       Entry: 8
       Data: 
@@ -10695,7 +10738,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 3
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
@@ -10796,50 +10839,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Infrastructure_Military_Family01_04
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -10852,7 +10852,7 @@ MonoBehaviour:
       Data: false
     - Name: GainValues
       Entry: 7
-      Data: 8|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+      Data: 6|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 4
