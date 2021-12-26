@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: PresentationNavalUnit_Era4_Common_Carracks_Default
   m_EditorClassIdentifier: 
   UnitDefinitionReference:
-    serializableElementName: NavalUnit_Era4_Common_Carracks
+    serializableElementName: NavalUnit_Era4_Common_CarracksEarly
   PresentationFormationDefinition:
     serializableElementName: Formation_1
   FormationBehaviourDefinition:
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: PresentationNavalUnit_Era4_Common_Galleons_Default
   m_EditorClassIdentifier: 
   UnitDefinitionReference:
-    serializableElementName: NavalUnit_Era4_Common_Galleon
+    serializableElementName: NavalUnit_Era4_Common_Carracks
   PresentationFormationDefinition:
     serializableElementName: Formation_1
   FormationBehaviourDefinition:

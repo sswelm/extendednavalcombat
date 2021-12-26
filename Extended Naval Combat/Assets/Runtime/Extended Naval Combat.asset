@@ -26,8 +26,9 @@ MonoBehaviour:
   m_Name: Extended Naval Combat
   m_EditorClassIdentifier: 
   Author: FreeThinker
-  Description: Introduces 23 modern military units and 17 new modern technologies
-    to create a longer, more interesting, and historically accurate end game experience
+  Description: Introduces  military units and  technologies, and adjusted late game
+    technology cost  to create a longer, more interesting, and historically accurate
+    end game experience
   Homepage: 
   ReleaseNotes: 
   RuntimeModuleType: 2

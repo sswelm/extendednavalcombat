@@ -6632,7 +6632,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: NavalUnit_Era4_Common_Galleon
+      Data: NavalUnit_Era4_Common_Carracks
     - Name: 
       Entry: 8
       Data: 
@@ -6881,7 +6881,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: NavalUnit_Era4_Common_Carracks
+      Data: NavalUnit_Era4_Common_CarracksEarly
     - Name: 
       Entry: 8
       Data: 

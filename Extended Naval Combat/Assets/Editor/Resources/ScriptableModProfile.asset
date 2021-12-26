@@ -27,8 +27,8 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces 23 modern military units and 18 new modern technologies to
-        create a longer, more interesting, and historically accurate end game experience
+      value: Introduces 24 military units and 19 new technologies to create a longer,
+        more interesting, and historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
       value: '<p><strong>Introduction:</strong></p>
@@ -79,35 +79,37 @@ MonoBehaviour:
 
         <ol>
 
-        <li>Ship of the Line, unlocks
-        Man O'' War and Sloop of War</li>
+        <li>Two Masted Ship; unlocks
+        Carrack</li>
 
-        <li>Railroad; requires Steam Engine,
-        unlocks Train Station and Industrial era Settlement package</li>
+        <li>Ship of the Line, unlocks Man O'' War and Sloop
+        of War</li>
 
-        <li>Automobile;
-        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
-        bonus</li>
+        <li>Railroad; requires Steam Engine, unlocks Train Station
+        and Industrial era Settlement package</li>
 
-        <li>Breachloader; requires Line Formation, unlocks Siege
-        Artillery and Horse Drawn Siege Artillery</li>
+        <li>Automobile; requires
+        Combustion Engine, unlocks Armoured Car and freight trucks trade bonus</li>
 
-        <li>Dreadnought Design;
-        requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
+        <li>Breachloader;
+        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
 
-        <li>Bunker
-        Construction; requires Trench Warfare; unlocks Bunker, Missile Silo, and
-        underground construction</li>
+        <li>Dreadnought
+        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
+        Destroyer</li>
 
-        <li>Submarine Warfare; requires Dreadnought
-        Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Bunker Construction; requires Trench Warfare;
+        unlocks Bunker, Missile Silo, and underground construction</li>
 
-        <li>Anti Submarine
-        Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
-        naval unit speed</li>
+        <li>Submarine
+        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
 
-        <li>Air Transportation; requires Aeronautics,
-        unlocks Aluminium strategic resource and Airport district</li>
+        <li>Anti
+        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
+        improves naval unit speed</li>
+
+        <li>Air Transportation; requires
+        Aeronautics, unlocks Aluminium strategic resource and Airport district</li>
 
         <li>Antitank
         Warfare; requires Continuous Track, unlocks Antitank Gun unit and Armoured
@@ -283,6 +285,9 @@ MonoBehaviour:
         <ol>
 
         <li>Added
+        Galleon, unlocked with Naval Artillery, upgrades to Man O''War</li>
+
+        <li>Added
         Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
 
         <li>Added
@@ -374,15 +379,17 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Cog,
-        Carrack Man O''War, and Steam Frigate gain 5% health regenerate outside allied
-        waters</li>
+        <li>Cog
+        is converted into a Transport vessel</li>
 
-        <li>Man O'' War and Carrack gain special ability Shatter
-        (similar to Howitzer)</li>
+        <li>Carrack Gunplatform
+        is replaced by Boarding Vessel</li>
 
-        <li>Indirect ranged attacks by Archer
-        units on Fortified units get reduced my 6 strength</li>
+        <li>Man O'' War  gain special
+        ability Shatter (similar to Howitzer)</li>
+
+        <li>Indirect ranged attacks
+        by Archer units on Fortified units get reduced my 6 strength</li>
 
         <li>Units
         that cannot attack fortifications (Cavalry, Tankts, etc) require 2 movement
@@ -674,6 +681,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
       - fileName: finaldestroyer.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/finaldestroyer.jpg
+      - fileName: sloopofwar.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/sloopofwar.jpg
       - fileName: dreadnought.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: finalmissilecruiser.jpg
@@ -682,20 +691,10 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/steamcorvette.jpg
       - fileName: 20211217201148_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217201148_1.1.jpg
-      - fileName: 20211221214710_1.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/20211221214710_1.jpg
       - fileName: 20211220232322_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211220232322_1.jpg
       - fileName: 20211218020553_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211218020553_1.jpg
-      - fileName: 20211216024100_1.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/20211216024100_1.jpg
-      - fileName: 20211209005706_1.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/20211209005706_1.jpg
-      - fileName: 20211216024049_1.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/20211216024049_1.jpg
       - fileName: 20211223144936_1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211223144936_1.jpg
-      - fileName: steamtranportinaction.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/steamtranportinaction.jpg
       isDirty: 0
