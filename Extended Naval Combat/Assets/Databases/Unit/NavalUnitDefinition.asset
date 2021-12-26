@@ -662,104 +662,6 @@ MonoBehaviour:
   UnitTags: 82
   visualAffinityEraReference:
     serializableElementName: Era4
---- !u!114 &-5301352656802938396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era3_Common_Cog
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
-  Key: 10
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_NavalTransport
-  Level: 20
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 1
-  ResourceAccessPrerequisites: []
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
-  UnitClass:
-    serializableElementName: UnitClass_NavalTransport
-  UnitSpecialty:
-    serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 18
-  visualAffinityEraReference:
-    serializableElementName: Era3
 --- !u!114 &-4798926081103716256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2813,3 +2715,101 @@ MonoBehaviour:
   UnitTags: 50
   visualAffinityEraReference:
     serializableElementName: Era5
+--- !u!114 &9050074286603201452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1966399051, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era3_Common_Cog
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 5
+  Hidden: 1
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_NavalTransport
+  Level: 20
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: 70
+    RpnDefinitionReference:
+      serializableElementName: 
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_NavalTransport
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 18
+  visualAffinityEraReference:
+    serializableElementName: Era3
