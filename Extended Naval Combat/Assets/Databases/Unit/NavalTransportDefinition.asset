@@ -548,7 +548,7 @@ MonoBehaviour:
   CanBeBoughtOutWithPopulation: 1
   ProductionCostDefinition:
     Type: 1
-    Constant: 148
+    Constant: 0
     RpnDefinitionReference:
       serializableElementName: 
   MoneyInstantCostDefinition:

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3268291670
+CRC: 73883020
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ba01457d79495c5429314b988869a922
+    Hash: a9b9657963045e97bb6a2365cadc8990
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8566008fef7922bd7e786c4d4d1fb024
@@ -159,6 +159,7 @@ Assets:
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/ww2destroyer792.png
 - Assets/Resources/undergroundIndustry212.png
@@ -175,6 +176,7 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+- Assets/Resources/sloopOfWar720.png
 - Assets/Resources/seawolf360.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Resources/torpedboatDestroyer212.png

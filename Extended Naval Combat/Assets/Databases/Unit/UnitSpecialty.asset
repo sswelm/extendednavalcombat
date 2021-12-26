@@ -382,7 +382,6 @@ MonoBehaviour:
   AbilityReferences:
   - serializableElementName: UnitAbility_LostAtSeaDamage_Level3
   - serializableElementName: UnitAbility_CoastalVessel
-  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-4484020408543378632
@@ -462,7 +461,6 @@ MonoBehaviour:
   m_Name: UnitSpecialty_Corvette
   m_EditorClassIdentifier: 
   AbilityReferences:
-  - serializableElementName: UnitAbility_RegenerateAnywhereSlow
   - serializableElementName: UnitAbility_AfterAttackingAllowMove
   AutoResolveBattleStrengthBonus:
     RawValue: 0

@@ -2017,17 +2017,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 1403154986
-        b: 1310407291
-        c: -891537755
-        d: -7561559
+        a: -1101413042
+        b: 1230371617
+        c: 463262623
+        d: 814420613
     serializableKey: Default_Small
   - Value:
       guid:
-        a: 1603601216
-        b: 1213087424
-        c: 819591861
-        d: 1886395217
+        a: -1588033274
+        b: 1207283357
+        c: -823726930
+        d: -1358252284
     serializableKey: Default_Tooltip
   - Value:
       guid:
