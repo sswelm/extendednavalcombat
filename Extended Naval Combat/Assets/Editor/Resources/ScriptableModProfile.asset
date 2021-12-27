@@ -27,8 +27,9 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces 24 military units and 19 new technologies to create a longer,
-        more interesting, and historically accurate end game experience
+      value: Introduces  military units and  technologies, and adjusted late game
+        technology cost  to create a longer, more interesting, and historically accurate
+        end game experience
       isDirty: 0
     descriptionAsHTML:
       value: '<p><strong>Introduction:</strong></p>

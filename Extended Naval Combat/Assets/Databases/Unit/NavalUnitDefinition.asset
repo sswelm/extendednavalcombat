@@ -2804,6 +2804,7 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
+  - serializableElementName: Effect_Unit_Era3_Embarked
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
