@@ -312,14 +312,14 @@ MonoBehaviour:
       c: 736567689
       d: 673011804
   Title: Transport Galley is now available for Hire
-  Description: "r at some point that turn (can end back in deep water), or they started
-    in shallow water.naval transport unit you have unlocked, and gain the status
-    \u2018embarked\u2019. This service is not for free, you need to pay an additional
-    upkeep while beeing 'embarked'. Notice the Transport Galley has limited seaworthiness
-    and is destroyed after spending more than one turn in deep water without ever
-    being in shallow water. So in other words - they need to touch a shallow water
-    tile at least once in their path during every turn, since they either start in
-    deep water and need to touch shallow water at some point that turn (can end back
-    in deep water), or they started in shallow water."
+  Description: When land units move onto a water tile, they are automaticly transformed
+    into the best naval transport unit that  you have unlocked, and gain the status
+    'embarked'. This service is however not for free, you need to pay an additional
+    upkeep cost while beeing 'embarked'. Notice the Transport Galley has a limited
+    seaworthiness and is destroyed after spending more than one turn in deep water
+    without ever being in shallow water. So in other words - they need to touch a
+    shallow water tile at least once in their path during every turn, since they
+    either start in deep water and need to touch shallow water at some point that
+    turn (can end back in deep water), or they started in shallow water.
   GeoLocalizationID: 
   Notes: 

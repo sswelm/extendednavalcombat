@@ -71,8 +71,8 @@ MonoBehaviour:
         it becomes to research additional technologies. This mechanic makes beelining
         technologies (skipping technologies) excessively expansive and the most economical
         way to unlock the entire tech tree is to always choose the cheapest unlockable
-        technologies. These changes and the introduction of 187 new technologies
-        have the effect of creating a significantly longer end game and it is therefore
+        technologies. These changes and the introduction of 19 new technologies have
+        the effect of creating a significantly longer end game and it is therefore
         recommended you disable the turn limit when creating a new game.<br></span></p>
 
         <p><em>New
@@ -80,17 +80,18 @@ MonoBehaviour:
 
         <ol>
 
-        <li>Two Masted Ship; unlocks
-        Carrack</li>
+        <li>Two Masted Ship; requires
+        Seafaring, unlocks Carrack</li>
 
-        <li>Ship of the Line, unlocks Man O'' War and Sloop
-        of War</li>
+        <li>Ship of the Line, requires Chartered
+        Companies, unlocks Man O'' War and Sloop of War</li>
 
-        <li>Railroad; requires Steam Engine, unlocks Train Station
-        and Industrial era Settlement package</li>
+        <li>Railroad;
+        requires Steam Engine, unlocks Train Station and Industrial era Settlement
+        package</li>
 
-        <li>Automobile; requires
-        Combustion Engine, unlocks Armoured Car and freight trucks trade bonus</li>
+        <li>Automobile; requires Combustion Engine, unlocks
+        Armoured Car and freight trucks trade bonus</li>
 
         <li>Breachloader;
         requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
@@ -286,7 +287,7 @@ MonoBehaviour:
         <ol>
 
         <li>Added
-        Galleon, unlocked with Naval Artillery, upgrades to Man O''War</li>
+        Galleon, unlocked with Naval Artillery, upgrades to Steam Frigate</li>
 
         <li>Added
         Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
@@ -554,14 +555,15 @@ MonoBehaviour:
         Steam Corvette =&gt; Torpedo Boat =&gt; Fleet Submarine =&gt; Diesel Submarine
         =&gt; Missile Submarine</li>
 
-        <li>Man O''War =&gt; Steam Frigate
-        =&gt; Torpedo Boat Destroyer =&gt; Destroyer =&gt; Guided Missile Destroyer</li>
+        <li>Carrack =&gt; Galleon =&gt; Steam
+        Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer =&gt; Guided Missile
+        Destroyer</li>
 
-        <li>Ironclad
-        =&gt; Dreadnought =&gt; Battleship =&gt; Guided Missile Cruiser</li>
+        <li>Galleas =&gt; Man O''War =&gt; Ir Dreadnought
+        =&gt; Battleship =&gt; Guided Missile Cruiser</li>
 
-        <li>Knight
-        =&gt; Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
+        <li>Knight =&gt;
+        Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
 
         <li>Dragoon
         =&gt; Armoured Cars =&gt; Armoured Recon =&gt; Armored Personnel Carrier
@@ -686,12 +688,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
       - fileName: dreadnought.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
-      - fileName: sloopofwar.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/sloopofwar.jpg
       - fileName: galleon.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/galleon.jpg
-      - fileName: steamcorvette.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/steamcorvette.jpg
       - fileName: 20211217201148_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217201148_1.1.jpg
       - fileName: 20211220232322_1.jpg

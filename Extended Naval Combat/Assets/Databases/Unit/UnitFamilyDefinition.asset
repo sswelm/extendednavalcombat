@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: UnitFamily_HeavyWarship
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_CapitalShip
+  SerializableNextFamilyName: UnitFamily_ShipOfTheLine
 --- !u!114 &-3733033673463899645
 MonoBehaviour:
   m_ObjectHideFlags: 0

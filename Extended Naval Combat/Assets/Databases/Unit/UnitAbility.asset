@@ -687,6 +687,7 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_NavalTransport
   - serializableElementName: Effect_UnitPrototype_NavalUnit
+  - serializableElementName: Effect_Unit_Era2_Embarked
   BattleAbilityReference:
   - serializableElementName: BattleAbility_Common
   - serializableElementName: BattleAbility_NavalTerrain
