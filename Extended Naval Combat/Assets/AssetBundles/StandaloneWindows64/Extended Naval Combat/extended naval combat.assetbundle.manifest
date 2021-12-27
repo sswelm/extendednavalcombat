@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 980466120
+CRC: 2056628403
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 65f18f648c892bd7c9fd64e2a59ebc0e
+    Hash: cff8dcecc71730253ae8eea7a32d9d29
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8566008fef7922bd7e786c4d4d1fb024
+    Hash: fa04794b1d763f5dc3c925c183dde011
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -31,6 +31,14 @@ ClassTypes:
   Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 15112015, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 2123347310, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -2044257964, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: 1918750774, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -117,9 +125,10 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
 - Assets/Resources/transparant360.png
-- Assets/Resources/missileCruiser212.png
+- Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Resources/missileCruiser212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
@@ -145,6 +154,7 @@ Assets:
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
+- Assets/Databases/Narrative/NarrativeEventDefinition.asset
 - Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
@@ -201,6 +211,7 @@ Assets:
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/ArmoredRecon212.png
+- Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 - Assets/Resources/torpedboatDestroyer360.png

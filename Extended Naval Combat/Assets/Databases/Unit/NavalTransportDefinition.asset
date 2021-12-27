@@ -285,6 +285,7 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_LostAtSeaDeath
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era2_Common_TransportGalleys
+  - serializableElementName: Effect_Unit_Embarked
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
