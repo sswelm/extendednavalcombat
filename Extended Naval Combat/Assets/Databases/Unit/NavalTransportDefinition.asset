@@ -288,6 +288,8 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era2_Common_TransportGalleys
   - serializableElementName: Effect_Unit_Era2_Embarked
+  - serializableElementName: Effect_Unit_Era2_Melee
+  - serializableElementName: Effect_Unit_Era2_Ranged
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5

@@ -18,6 +18,7 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_CoastalMovement
   - serializableElementName: UnitAbility_Prototype_NavalTransport
   - serializableElementName: UnitAbility_CannotTargetLand
+  - serializableElementName: UnitAbility_IndirectFire
   AutoResolveBattleStrengthBonus:
     RawValue: -1000
 --- !u!114 &-8173494596261241200

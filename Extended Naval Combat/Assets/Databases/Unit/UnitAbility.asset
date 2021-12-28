@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9075445488097211930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_DebuffTargetMove
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_DebuffTargetMove
 --- !u!114 &-9032345560924196665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,6 +36,24 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitAbility_RegenerateAnywhereSlow
   BattleAbilityReference: []
+--- !u!114 &-8875645053113266950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_DebuffTargetStun
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_DebuffTargetStun
 --- !u!114 &-8840227549927910816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +361,23 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_Missile
+  BattleAbilityReference: []
+--- !u!114 &-6051670852320211538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CannotAttack
+  m_EditorClassIdentifier: 
+  TagAsAbility: 10
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
   BattleAbilityReference: []
 --- !u!114 &-5587038387739762543
 MonoBehaviour:
@@ -651,6 +704,25 @@ MonoBehaviour:
   DescriptorReferences: []
   BattleAbilityReference:
   - serializableElementName: BattleAbility_IndirectFire
+--- !u!114 &-3127065566613518604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_ChargeNoRetaliation_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_ChargeNoRetaliation
 --- !u!114 &-3006728656012692827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,6 +781,23 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_FighterAircraft
   - serializableElementName: Effect_Unit_HasRadarCapability
+  BattleAbilityReference: []
+--- !u!114 &-2107280671700770960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CannotTargetLand
+  m_EditorClassIdentifier: 
+  TagAsAbility: 13
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
   BattleAbilityReference: []
 --- !u!114 &-2033420201999419504
 MonoBehaviour:
@@ -898,6 +987,23 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_StrengthFromOceanHalf
+--- !u!114 &-776232634584738651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CannotTargetSeafaring
+  m_EditorClassIdentifier: 
+  TagAsAbility: 12
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,6 +1070,24 @@ MonoBehaviour:
   PathfindingFlags: 12582912
   DescriptorReferences: []
   BattleAbilityReference: []
+--- !u!114 &947018102545858060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CanAttackFortification
+  m_EditorClassIdentifier: 
+  TagAsAbility: 15
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &1054651896731124500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,6 +1107,23 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_SpecialtyLevel1
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromCoast
+--- !u!114 &1056067019636460515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CannotClimbFortification
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 131072
+  DescriptorReferences: []
+  BattleAbilityReference: []
 --- !u!114 &1240928971961724321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,6 +1162,23 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitAbility_AntiAircraft
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromTargetClassGunship
+--- !u!114 &1347083198636164217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Civilian
+  m_EditorClassIdentifier: 
+  TagAsAbility: 2
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference: []
 --- !u!114 &1498389944563869592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1039,6 +1197,25 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitAbility_LostAtSeaDamage_Level3
   BattleAbilityReference: []
+--- !u!114 &1588450094619933803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Charge_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Charge
 --- !u!114 &1639193849434487270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1277,25 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitAbility_LostAtSeaDamage
   - serializableElementName: Effect_Unit_SpecialtyLevel1
   BattleAbilityReference: []
+--- !u!114 &2277904824827296192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Charge_Level2
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel2
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Charge
 --- !u!114 &2397941413239302340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,6 +1315,25 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_SpecialtyLevel1
   BattleAbilityReference:
   - serializableElementName: BattleAbility_WeaknessVersusSubmarine
+--- !u!114 &2630050060641274519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Charge_Level3
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel3
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Charge
 --- !u!114 &3074467085209969065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,6 +1490,40 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_Common
   - serializableElementName: BattleAbility_NavalTerrain
+--- !u!114 &5512144791202894801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CanCrossCliffs
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 2
+  DescriptorReferences: []
+  BattleAbilityReference: []
+--- !u!114 &5514717731640906716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CannotRetaliate
+  m_EditorClassIdentifier: 
+  TagAsAbility: 8
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference: []
 --- !u!114 &5646576014018463487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1336,6 +1585,25 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasNuclearReactor
   - serializableElementName: Effect_Unit_HasSteamTurbine
   BattleAbilityReference: []
+--- !u!114 &6248783652791426924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_ChargePushBack_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_ChargePushBack
 --- !u!114 &6304009096003720399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,6 +1662,25 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitAbility_SpeedFromHarbor
   BattleAbilityReference: []
+--- !u!114 &6715700127106629531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_DebuffTargetPoison_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_DebuffTargetPoison
 --- !u!114 &6826512262747945047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1415,6 +1702,41 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasSteamTurbine
   - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference: []
+--- !u!114 &6881568623965681669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_CoastalMovement
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 6
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference: []
+--- !u!114 &7409356571735296188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Charge_HeavyCavalry
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_Charge
 --- !u!114 &7902238108390665138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,3 +1819,22 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_Bomber
   BattleAbilityReference: []
+--- !u!114 &9200173796340605108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_BuffAlliesStrengthFromStrongerTarget_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_BuffAlliesStrengthFromStrongerTarget
