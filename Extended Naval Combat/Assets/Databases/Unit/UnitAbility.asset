@@ -398,6 +398,26 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitPrototype_MultiRoleAircraft
   - serializableElementName: Effect_Unit_HasRadarCapability
   BattleAbilityReference: []
+--- !u!114 &-5513578927829791487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_BoardingVessel
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_BoardingVessel
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_NavalSpeedFromBattle
 --- !u!114 &-5314941294436945862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1353,6 +1373,24 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_Shatter
+--- !u!114 &3222759959339570043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_NavalSpeedFromBattle_Level1
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_NavalSpeedFromBattle
 --- !u!114 &3242726782442464362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1760,7 +1798,7 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
   - serializableElementName: BattleAbility_WeaknessVersusSubmarine
---- !u!114 &8699356556927128399
+--- !u!114 &8436723223640924329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1770,15 +1808,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitAbility_StrengthFromCoast_Level0
+  m_Name: UnitAbility_Prototype_Cavalry
   m_EditorClassIdentifier: 
   TagAsAbility: 0
   MovementAbility: 0
   PathfindingFlags: 0
   DescriptorReferences:
-  - serializableElementName: Effect_Unit_SpecialtyLevel1
+  - serializableElementName: Effect_UnitPrototype_Cavalry
+  - serializableElementName: Effect_Unit_RansackStrength2
   BattleAbilityReference:
-  - serializableElementName: BattleAbility_StrengthFromCoastHalf
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
 --- !u!114 &8814066082018842134
 MonoBehaviour:
   m_ObjectHideFlags: 0

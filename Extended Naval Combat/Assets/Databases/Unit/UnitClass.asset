@@ -175,6 +175,7 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_Seafaring
   - serializableElementName: UnitAbility_CannotTargetLand
   - serializableElementName: UnitAbility_DebuffTargetMove
+  - serializableElementName: UnitAbility_StrengthFromCoast_Level1
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-4489916444606248579

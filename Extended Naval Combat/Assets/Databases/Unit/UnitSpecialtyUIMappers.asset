@@ -320,23 +320,6 @@ MonoBehaviour:
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
---- !u!114 &4377942986587179847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
-  m_Name: UnitSpecialty_StrengthFromCoast_Level0
-  m_EditorClassIdentifier: 
-  Title: '%UnitSpecialty_StrengthFromCoastTitle'
-  Description: '%UnitSpecialty_StrengthFromCoastDescription'
-  Images: []
-  Color: {r: 0, g: 0, b: 0, a: 0}
-  Symbol: 
 --- !u!114 &4589859131165349997
 MonoBehaviour:
   m_ObjectHideFlags: 0

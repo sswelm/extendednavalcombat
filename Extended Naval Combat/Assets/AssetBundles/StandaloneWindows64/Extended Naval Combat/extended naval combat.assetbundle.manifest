@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 108897290
+CRC: 4078087630
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 39eb06a92ba82831acc8558e906ec89a
+    Hash: 71080b69dae8376f2f2e3413ecf4557b
   TypeTreeHash:
     serializedVersion: 2
     Hash: fa04794b1d763f5dc3c925c183dde011
@@ -201,6 +201,7 @@ Assets:
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
+- Assets/Resources/Galleass.png
 - Assets/Databases/Unit/LandUnitDefinition.asset
 - Assets/Databases/Unit/UnitAbility.asset
 - Assets/Databases/Unit/AirUnitDefinition.asset
