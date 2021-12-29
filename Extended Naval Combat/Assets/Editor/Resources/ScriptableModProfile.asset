@@ -608,7 +608,7 @@ MonoBehaviour:
         <ul>
 
         <li>Level
-        5 Coal Power: Underground Caol Gasification</li>
+        5 Coal Power: Underground Coal Gasification</li>
 
         </ul>
 
@@ -652,13 +652,12 @@ MonoBehaviour:
         (must be loaded after Extended Naval Combat )</li>
 
         <li>mostly compatible
-        compatible with <a href="https://humankind.mod.io/superpack">Super Pack for
-        Humankind</a>, (just make sure to load it later)</li>
+        with <a href="https://humankind.mod.io/superpack">Super Pack for Humankind</a>,
+        (just make sure to load it later)</li>
 
-        <li>no need
-        to use <a href="https://humankind.mod.io/long-range-nuclear-missiles" style="font-size:
-        1em;">Long Range Nuclear Missiles Mod</a><span style="font-size: 1em; font-weight:
-        400;"> as its already integrated</span></li>
+        <li>no need to use <a href="https://humankind.mod.io/long-range-nuclear-missiles"
+        style="font-size: 1em;">Long Range Nuclear Missiles Mod</a><span style="font-size:
+        1em; font-weight: 400;"> as its already integrated</span></li>
 
         </ul>'
       isDirty: 0

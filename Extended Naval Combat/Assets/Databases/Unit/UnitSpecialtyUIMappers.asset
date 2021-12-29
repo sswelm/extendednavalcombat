@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Name: UnitSpecialty_StealthSubmarine_Level3
   m_EditorClassIdentifier: 
   Title: Stealth Anti Armor
-  Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
-    Armoured Vessels and Submarines
+  Description: Cannot be seen except by adjacent units and gains +5 strength bonus
+    versus Armoured Vessels and Submarines
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -184,8 +184,8 @@ MonoBehaviour:
   m_Name: UnitSpecialty_StealthSubmarine_Level2
   m_EditorClassIdentifier: 
   Title: Stealth Anti Armor
-  Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
-    Armoured Vessels
+  Description: Cannot be seen except by adjacent units and gains +5 strength bonus
+    versus Armoured Vessels
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -333,8 +333,8 @@ MonoBehaviour:
   m_Name: UnitSpecialty_StealthSubmarine_Level1
   m_EditorClassIdentifier: 
   Title: Stealth Anti Armor
-  Description: Cannot be seen except by adjacent and gains +5 strength bonus versus
-    Armoured Vessels and has +2 Movement in allied Territory
+  Description: Cannot be seen except by adjacent units and gains +5 strength bonus
+    versus Armoured Vessels and has +2 Movement in allied Territory
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
   m_Name: UnitSpecialty_TorpedoBoat
   m_EditorClassIdentifier: 
-  Title: Horbour defence
+  Title: 'Harbor Defense '
   Description: Gains +5 strength bonus versus Armoured Vessels and +2 Movement when
     starting in Allied Territory
   Images: []

@@ -89,7 +89,8 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_EmbarkFree
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era6_Common_LandingCrafts
-  - serializableElementName: Effect_Unit_Era6_Embarked
+  - serializableElementName: Effect_Unit_Era6_Embarked_Cost
+  - serializableElementName: Effect_Unit_Era6_Embarked_Marine
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -188,7 +189,10 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_LostAtSeaNever
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era4_Common_TransportCaravels
-  - serializableElementName: Effect_Unit_Era4_Embarked
+  - serializableElementName: Effect_Unit_Era4_Embarked_Cost
+  - serializableElementName: Effect_Unit_Embarked_Melee
+  - serializableElementName: Effect_Unit_Embarked_Ranged
+  - serializableElementName: Effect_Unit_Embarked_MountedRanged
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -287,9 +291,10 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_LostAtSeaDeath
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era2_Common_TransportGalleys
-  - serializableElementName: Effect_Unit_Era2_Embarked
-  - serializableElementName: Effect_Unit_Era2_Melee
-  - serializableElementName: Effect_Unit_Era2_Ranged
+  - serializableElementName: Effect_Unit_Era2_Embarked_Cost
+  - serializableElementName: Effect_Unit_Embarked_Melee
+  - serializableElementName: Effect_Unit_Embarked_Ranged
+  - serializableElementName: Effect_Unit_Embarked_MountedRanged
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -401,7 +406,10 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_LostAtSeaNever
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era3_Vikings_Longships
-  - serializableElementName: Effect_Unit_Era3_Embarked
+  - serializableElementName: Effect_Unit_Era3_Embarked_Cost
+  - serializableElementName: Effect_Unit_Embarked_Melee
+  - serializableElementName: Effect_Unit_Embarked_Ranged
+  - serializableElementName: Effect_Unit_Embarked_MountedRanged
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -501,7 +509,10 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_SpeedFromHarbor_Level0
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era4_Holland_Fluyts
-  - serializableElementName: Effect_Unit_Era4_Embarked
+  - serializableElementName: Effect_Unit_Era4_Embarked_Cost
+  - serializableElementName: Effect_Unit_Embarked_Melee
+  - serializableElementName: Effect_Unit_Embarked_Ranged
+  - serializableElementName: Effect_Unit_Embarked_MountedRanged
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -600,7 +611,7 @@ MonoBehaviour:
     serializableElementName: UnitSpecialty_SpeedFromHarbor_Level0
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era5_Common_SteamTransports
-  - serializableElementName: Effect_Unit_Era5_Embarked
+  - serializableElementName: Effect_Unit_Era5_Embarked_Cost
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
