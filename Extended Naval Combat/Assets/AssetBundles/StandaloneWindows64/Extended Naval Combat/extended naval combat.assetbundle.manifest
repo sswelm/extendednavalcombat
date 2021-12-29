@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4078087630
+CRC: 1219594225
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 71080b69dae8376f2f2e3413ecf4557b
+    Hash: ec7b1af33c1018a218c1fddf49f70297
   TypeTreeHash:
     serializedVersion: 2
     Hash: fa04794b1d763f5dc3c925c183dde011
@@ -128,6 +128,7 @@ Assets:
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Databases/Empire/EmpireBonusDescriptor 1.asset
 - Assets/Resources/missileCruiser212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png

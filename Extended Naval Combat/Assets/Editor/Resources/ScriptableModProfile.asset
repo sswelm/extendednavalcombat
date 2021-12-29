@@ -84,34 +84,34 @@ MonoBehaviour:
         Seafaring, unlocks Carrack</li>
 
         <li>Ship of the Line, requires Chartered
-        Companies, unlocks Man O'' War and Sloop of War</li>
+        Companies, unlocks Man O'' War</li>
 
-        <li>Railroad;
-        requires Steam Engine, unlocks Train Station and Industrial era Settlement
-        package</li>
+        <li>Railroad; requires Steam
+        Engine, unlocks Train Station and Industrial era Settlement package</li>
 
-        <li>Automobile; requires Combustion Engine, unlocks
-        Armoured Car and freight trucks trade bonus</li>
+        <li>Automobile;
+        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
+        bonus</li>
 
-        <li>Breachloader;
-        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
+        <li>Breachloader; requires Line Formation, unlocks Siege
+        Artillery and Horse Drawn Siege Artillery</li>
 
-        <li>Dreadnought
-        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
-        Destroyer</li>
+        <li>Dreadnought Design;
+        requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
 
-        <li>Bunker Construction; requires Trench Warfare;
-        unlocks Bunker, Missile Silo, and underground construction</li>
+        <li>Bunker
+        Construction; requires Trench Warfare; unlocks Bunker, Missile Silo, and
+        underground construction</li>
 
-        <li>Submarine
-        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Submarine Warfare; requires Dreadnought
+        Design, unlocks U-Boat/Fleet Submarine Unit</li>
 
-        <li>Anti
-        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
-        improves naval unit speed</li>
+        <li>Anti Submarine
+        Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
+        naval unit speed</li>
 
-        <li>Air Transportation; requires
-        Aeronautics, unlocks Aluminium strategic resource and Airport district</li>
+        <li>Air Transportation; requires Aeronautics,
+        unlocks Aluminium strategic resource and Airport district</li>
 
         <li>Antitank
         Warfare; requires Continuous Track, unlocks Antitank Gun unit and Armoured
@@ -230,8 +230,11 @@ MonoBehaviour:
 
         <ul>
 
-        <li>U-Boat is unlocked
-        later with Submarine Warfare (Germany gains 50% reach bonus)</li>
+        <li>Transport Galley
+        is unlocked earlier with Sailing (with an event)</li>
+
+        <li>U-Boat
+        is unlocked later with Submarine Warfare (Germany gains 50% reach bonus)</li>
 
         <li>Medium
         Tank is unlocked later with Sloped Armor</li>
@@ -239,20 +242,21 @@ MonoBehaviour:
         <li>Commando is unlocked
         earlier with Insurrection Theory</li>
 
-        <li>Missile Silo is unlocked
-        earlier with Bunkers Construction</li>
+        <li>Missile Silo and Cruise
+        Missile is unlocked earlier with Jet Engine Construction</li>
 
-        <li>Helicopter Gunship is
-        unlocked later with Precision-guided munition</li>
+        <li>Helicopter
+        Gunship is unlocked later with Precision-guided munition</li>
 
-        <li>Missile Destroyer
-        (originally called Missile Cruiser) unlocked later with Guided Missiles</li>
+        <li>Missile
+        Destroyer (originally called Missile Cruiser) unlocked later with Guided
+        Missiles</li>
 
-        <li>Nuclear
-        Submarine is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>
+        <li>Nuclear Submarine is unlocked with Fluid Dynamics
+        and upgraded with Nuclear Reactor</li>
 
-        <li>Cruise
-        Missile is unlocked earlier with Jet Engines</li>
+        <li>Cruise Missile is unlocked
+        earlier with Jet Engines</li>
 
         </ul>
 
@@ -287,16 +291,13 @@ MonoBehaviour:
         <ol>
 
         <li>Added
+        Galeass, unlocked with Gunpowder (with event), upgrades to Man O War</li>
+
+        <li>Added
         Galleon, unlocked with Naval Artillery, upgrades to Steam Frigate</li>
 
         <li>Added
-        Sloops of War, unlocked with Flintlock, upgrades to Steam Corvette</li>
-
-        <li>Added
-        Steam Transport, unlocked with Popeller, upgrades to Landing Craft</li>
-
-        <li>Added
-        Steam Corvette, unlocked with Steam Engine, upgrades to Torpedo Boat Destroyer</li>
+        Steam Transport, unlocked with Propeller, upgrades to Landing Craft</li>
 
         <li>Added
         Dreadnought, unlocks with Dreadnought design, upgrades to Battleship</li>
@@ -381,6 +382,9 @@ MonoBehaviour:
 
         <ul>
 
+        <li>Transport
+        Galley and all other naval transport Units now require upkeep when used</li>
+
         <li>Cog
         is converted into a Transport vessel</li>
 
@@ -459,8 +463,14 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Man O'' War; +1 strength,
-        +1 vision</li>
+        <li>Pentekonter +1 strength,
+        +2 bonus movement in battle, +5 bonus strength on Shallow Water</li>
+
+        <li>Quadrireme
+        +2 strength, +2 bonus movement in battle, +5 bonus strength on Shallow Water</li>
+
+        <li>Man
+        O'' War; +1 strength, +1 vision</li>
 
         <li>Ironclad; +1 vision</li>
 
@@ -551,19 +561,19 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Sloop of War =&gt;
-        Steam Corvette =&gt; Torpedo Boat =&gt; Fleet Submarine =&gt; Diesel Submarine
-        =&gt; Missile Submarine</li>
+        <li>Torpedo Boat =&gt;
+        Fleet Submarine =&gt; Diesel Submarine =&gt; Missile Submarine</li>
 
-        <li>Carrack =&gt; Galleon =&gt; Steam
-        Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer =&gt; Guided Missile
-        Destroyer</li>
+        <li>Carrack
+        =&gt; Galleon =&gt; Steam Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer
+        =&gt; Guided Missile Destroyer</li>
 
-        <li>Galleas =&gt; Man O''War =&gt; Ir Dreadnought
-        =&gt; Battleship =&gt; Guided Missile Cruiser</li>
+        <li>Pentekonter =&gt; Quadrireme
+        =&gt; Galleass=&gt; Man O''War =&gt; Ir0nclad =&gt; Dreadnought =&gt; Battleship
+        =&gt; Guided Missile Cruiser</li>
 
-        <li>Knight =&gt;
-        Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
+        <li>Knight =&gt; Cuirassiers =&gt;
+        Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
 
         <li>Dragoon
         =&gt; Armoured Cars =&gt; Armoured Recon =&gt; Armored Personnel Carrier
@@ -641,9 +651,14 @@ MonoBehaviour:
         compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>
         (must be loaded after Extended Naval Combat )</li>
 
-        <li>no need to
-        use <a href="https://humankind.mod.io/long-range-nuclear-missiles">Long Range
-        Nuclear Missiles Mod</a> as its already integrated</li>
+        <li>mostly compatible
+        compatible with <a href="https://humankind.mod.io/superpack">Super Pack for
+        Humankind</a>, (just make sure to load it later)</li>
+
+        <li>no need
+        to use <a href="https://humankind.mod.io/long-range-nuclear-missiles" style="font-size:
+        1em;">Long Range Nuclear Missiles Mod</a><span style="font-size: 1em; font-weight:
+        400;"> as its already integrated</span></li>
 
         </ul>'
       isDirty: 0
@@ -655,6 +670,7 @@ MonoBehaviour:
       - Balance
       - Gameplay
       - Mod
+      - Narrative event
       - Other
       - Technology
       - Unit
