@@ -160,6 +160,7 @@ MonoBehaviour:
   AbilityReferences:
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
   - serializableElementName: UnitAbility_SpeedFromHarbor_Level0
+  - serializableElementName: UnitAbility_NavalSpeedFromBattle_Level1
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-6507093748019383610

@@ -121,6 +121,30 @@ MonoBehaviour:
     serializableKey: Default_Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &-1583714608939676375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_ThermalNuclearWeaponsPowerIncrease
+  m_EditorClassIdentifier: 
+  Title: Improved Thermal Nuclear Weapon Damage
+  Description: Improves spash radius of thermal nuclear weapons
+  Images:
+  - Value:
+      guid:
+        a: 1423693222
+        b: 1087140274
+        c: -1386574406
+        d: 766165326
+    serializableKey: Default_Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &-45123541368690496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +246,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Special Forces
   Description: Improves Commandos combat effectiveness
+  Images:
+  - Value:
+      guid:
+        a: 1423693222
+        b: 1087140274
+        c: -1386574406
+        d: 766165326
+    serializableKey: Default_Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &7506940121185589324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_CanBuildThermalNuclearWeapons
+  m_EditorClassIdentifier: 
+  Title: Can build Thermalnuclear Weapons
+  Description: This unlocks the ability to build Thermalnuclear Weapons
   Images:
   - Value:
       guid:

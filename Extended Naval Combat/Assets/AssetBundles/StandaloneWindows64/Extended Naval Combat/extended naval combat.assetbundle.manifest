@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 807250502
+CRC: 2308571520
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f69ae7ab711a1bd6f61bf22cacc50f18
+    Hash: e7416f6d1f0bfe8c1a097266975fb577
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fa04794b1d763f5dc3c925c183dde011
+    Hash: 1ede02c5f42362fd9eaa138cb72f4a3c
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -29,6 +29,10 @@ ClassTypes:
   Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 413569288, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -128,8 +132,7 @@ Assets:
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
-- Assets/Databases/Empire/EmpireBonusDescriptor 1.asset
-- Assets/Resources/missileCruiser212.png
+- Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
@@ -153,6 +156,7 @@ Assets:
 - Assets/Resources/steamTransport864.png
 - Assets/Resources/Rifles212.png
 - Assets/Resources/dieselSubmarine212Manual.png
+- Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Databases/Narrative/NarrativeEventDefinition.asset
@@ -189,10 +193,11 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/sloopOfWar720.png
 - Assets/Resources/seawolf360.png
+- Assets/Databases/World/LootTableCuriosityDefinition.asset
 - Assets/Resources/battleshipDreadnought784.png
-- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/SteamCorvette685.png
+- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Rifles360.png
 - Assets/Resources/seawolf212.png
@@ -216,5 +221,5 @@ Assets:
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
-- Assets/Resources/torpedboatDestroyer360.png
+- Assets/Resources/missileCruiser212.png
 Dependencies: []

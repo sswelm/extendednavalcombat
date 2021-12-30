@@ -5757,6 +5757,235 @@ MonoBehaviour:
     SerializableTechnologyNames:
     - Technology_Era6_NuclearReactor
   Visibility: -1
+--- !u!114 &1158220628402637079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era1_01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Extension_Base_Luxury
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Infrastructure_Food_Family03_01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ForceCalendar,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: true
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_CanBuildThermalNuclearWeapons
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockAction,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ActionType
+      Entry: 3
+      Data: 45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 84
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era1
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era1_Tier1_Cost
+  TechnologyPrerequisite:
+    SerializableTechnologyNames: []
+  Visibility: -1
 --- !u!114 &1427582653319617732
 MonoBehaviour:
   m_ObjectHideFlags: 0

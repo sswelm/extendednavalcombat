@@ -91,6 +91,7 @@ MonoBehaviour:
   - serializableElementName: Effect_NavalTransport_Era6_Common_LandingCrafts
   - serializableElementName: Effect_Unit_Era6_Embarked_Cost
   - serializableElementName: Effect_Unit_Era6_Embarked_Marine
+  - serializableElementName: Effect_Unit_Embarked_Gunner
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -190,9 +191,8 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era4_Common_TransportCaravels
   - serializableElementName: Effect_Unit_Era4_Embarked_Cost
-  - serializableElementName: Effect_Unit_Embarked_Melee
-  - serializableElementName: Effect_Unit_Embarked_Ranged
-  - serializableElementName: Effect_Unit_Embarked_MountedRanged
+  - serializableElementName: Effect_Unit_Embarked_FieldArtillery
+  - serializableElementName: Effect_Unit_Embarked_Gunner
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -410,6 +410,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_Embarked_Melee
   - serializableElementName: Effect_Unit_Embarked_Ranged
   - serializableElementName: Effect_Unit_Embarked_MountedRanged
+  - serializableElementName: Effect_Unit_Embarked_Gunner
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -510,9 +511,8 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era4_Holland_Fluyts
   - serializableElementName: Effect_Unit_Era4_Embarked_Cost
-  - serializableElementName: Effect_Unit_Embarked_Melee
-  - serializableElementName: Effect_Unit_Embarked_Ranged
-  - serializableElementName: Effect_Unit_Embarked_MountedRanged
+  - serializableElementName: Effect_Unit_Embarked_FieldArtillery
+  - serializableElementName: Effect_Unit_Embarked_Gunner
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -612,6 +612,8 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalTransport_Era5_Common_SteamTransports
   - serializableElementName: Effect_Unit_Era5_Embarked_Cost
+  - serializableElementName: Effect_Unit_Embarked_Gunner
+  - serializableElementName: Effect_UnitPrototype_FieldArtillery
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -620,4 +622,4 @@ MonoBehaviour:
   - 1.03
   UnitTags: 82
   visualAffinityEraReference:
-    serializableElementName: Era6
+    serializableElementName: Era5

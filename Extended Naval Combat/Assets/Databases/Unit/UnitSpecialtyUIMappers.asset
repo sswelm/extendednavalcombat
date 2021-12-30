@@ -385,8 +385,8 @@ MonoBehaviour:
   m_Name: UnitSpecialty_TorpedoBoat
   m_EditorClassIdentifier: 
   Title: 'Harbor Defense '
-  Description: Gains +5 strength bonus versus Armoured Vessels and +2 Movement when
-    starting in Allied Territory
+  Description: Gains +5 strength bonus versus Armoured Vessels, +2 Movement when
+    starting in Allied Territory and +2 Movement durring battle
   Images: []
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 

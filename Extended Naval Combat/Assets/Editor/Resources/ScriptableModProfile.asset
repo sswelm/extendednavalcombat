@@ -37,7 +37,7 @@ MonoBehaviour:
         <p>The goal of this
         mod is to create a longer, more interesting, and realistic end game experience
         with the addition of new technologies and military units and tweaks to existing
-        units to keep it overal balanced. I tried to make this mod as compatible
+        units to keep it overall balanced. I tried to make this mod as compatible
         as possible with other mods by putting most new units and bonuses spread
         over the new Technologies, and no changes to any cultures, or civics. The
         new Technologies also help to make the Industrial and Contemporary Era last
@@ -50,13 +50,13 @@ MonoBehaviour:
         <p>Nuclear weapons have become more
         useful (with increased range) and accessible (with reduced minimum strategic
         resource requirements) and with the addition of a true ICBM weapon (unlocked
-        after ICBM Test) making it more likely they are built and actually used by
-        the AI with devistating effects. The state of Nuclear weapons proliferation
-        is made more intuitive as the National Nuclear Weapon Test Programs strategic
-        resource requirements are made the same as the missile weapons they unlock,
-        meaning if someone manages to build a nuclear weapon test project (including
-        ICBM weapon test), they can also build and use them (given they also constructed
-        a Missile Silo).</p>
+        after researching Rocket Science and developing Thermal Nuclear Weapons)
+        making it more likely they are built and actually used by the AI with devastating
+        effects. The state of Nuclear weapons proliferation is made more intuitive
+        as the National Nuclear Weapon Test Programs strategic resource requirements
+        are made the same as the missile weapons they unlock, meaning if someone
+        manages to build a nuclear weapon test project (including ICBM weapon test),
+        they can also build and use them (given they also constructed a Missile Silo).</p>
 
         <p><strong>Science:</strong></p>
 
@@ -141,7 +141,7 @@ MonoBehaviour:
         unlocks Helicopter Gunship</li>
 
         <li>Stealth Technology; requires
-        Precision-guided munition, unlocks Stealth Corvette, Stealth Missile and
+        precision-guided munition, unlocks Stealth Corvette, Stealth Missile and
         Stealth Fighter</li>
 
         </ol>
@@ -263,7 +263,7 @@ MonoBehaviour:
         <p><strong>Combat:</strong></p>
 
         <p>Both
-        naval, land and air units have been added and existing units are tweaked
+        naval, land, and air units have been added and existing units are tweaked
         to achieve a longer more satisfying end game experience. The naval unit''s
         role progressively gets more important as the era advances with longer attack
         and bombardment ranges. Combat has been been made more interesting with new
@@ -275,23 +275,19 @@ MonoBehaviour:
         The early (WW1) units have reduced strategic resource requirements, making
         them more likely to appear in combat. <br></span></p>
 
-        <p><em>Strategic
-        Resource cost and Construction:</em></p>
+        <p>While maintaining
+        a minimum strategic resource requirement, Unitcost is no longer fixed but
+        can depend on the excess availability of strategic resources. This means
+        that units will be more accessible and will be easier to upgrade, but at
+        increased construction cost or gold price (up to double the base cost).</p>
 
-        <p>A major difference from
-        vannilla human kind is in way how the cost of advanced unit is determined,
-        which is no longer static but also depends on the sufficient avaialbility
-        of strategic resoures, while minimizing the the minimum strategic resource
-        amount. This mean that units will be accesable easier for both player and
-        AI and will be easier to upgrade, but at increase construction cost or gold
-        price (up to doubl the base cost).</p>
-
-        <p><em>New Naval units:</em></p>
+        <p><em>New
+        Naval units:</em></p>
 
         <ol>
 
-        <li>Added
-        Galeass, unlocked with Gunpowder (with event), upgrades to Man O War</li>
+        <li>Added Galleass, unlocked
+        with Gunpowder (with an event), upgrades to Man O War</li>
 
         <li>Added
         Galleon, unlocked with Naval Artillery, upgrades to Steam Frigate</li>
@@ -341,13 +337,13 @@ MonoBehaviour:
         Horse Drawn Artillery, unlocked with Trench Warfare, upgrades to MLRS</li>
 
         <li>Added
-        Armoured Car , unlocked with Automobile, upgrades Armoured Recon</li>
+        Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>
 
         <li>Added
         Light Tank unlocked with Continuous Track, upgrades to Medium Tank</li>
 
         <li>Added
-        Armoured Recon , unlocked with Anti Tank Warfare upgrades to Armoured Personel
+        Armoured Recon, unlocked with Anti Tank Warfare upgrades to Armoured Personel
         Carrier</li>
 
         <li>Added Marines, unlocked Amphibious Warfare, upgrades
@@ -388,7 +384,7 @@ MonoBehaviour:
         <li>Cog
         is converted into a Transport vessel</li>
 
-        <li>Carrack Gunplatform
+        <li>Carrack Gun platform
         is replaced by Boarding Vessel</li>
 
         <li>Man O'' War gain special
@@ -398,14 +394,18 @@ MonoBehaviour:
         by Archer units on Fortified units get reduced my 6 strength</li>
 
         <li>Units
-        that cannot attack fortifications (Cavalry, Tankts, etc) require 2 movement
-        in Rocky Field</li>
+        that cannot attack fortifications (Cavalry, Tanks, etc) require 2 movement
+        points in Rocky Field</li>
 
-        <li>Ironclad special ability Inner Sea Mastodonte
-        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
+        <li>Ironclad special ability Inner Sea
+        Mastodonte (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
 
-        <li>Dreadnought,
-        Battleship en Missile Cruiser gain extended Zone of Control</li>
+        <li>Oar
+        propelled units (Pentekonter, Quadrireme, Galleass ) gain +5 strength in
+        Coastal Waters and +2 speed in combat</li>
+
+        <li>Dreadnought, Battleship
+        en Missile Cruiser gain extended Zone of Control</li>
 
         <li>Torpedo
         Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
@@ -426,16 +426,44 @@ MonoBehaviour:
 
         </ul>
 
-        <p><em>Added
-        Unit performance upgrades:</em></p>
+        <p>Naval
+        Transporting has been augmented; The Type of unit can now have an effect
+        on the combat strength and attack range of the Naval transport, making them
+        more strategically important</p>
+
+        <p><em>Naval transport modifiers:</em></p>
+
+        <ul>
+
+        <li>Melee
+        +2 strength in Galley or Cog</li>
+
+        <li>Ranged: -1 strength, +2 range
+        in Galley or Cog</li>
+
+        <li>Mounted Ranged: +1 range in Galley or
+        Cog</li>
+
+        <li>Gunner +2 strength in Caravel, Steamer or Landing Craft</li>
+
+        <li>Field
+        Artillery: +3 strength, +3 range in Caravel or Steamer</li>
+
+        <li>Marine:
+        +5 strength in Landing Craft</li>
+
+        </ul>
+
+        <p><em>Added Unit
+        performance upgrades:</em></p>
 
         <ul>
 
         <li>Naval Transport:
         +1 movement with Fluid Dynamics</li>
 
-        <li>modern Naval en Air Units:
-        +1 combat +2 Vision range with Radar</li>
+        <li>Naval and Air Units: +1
+        combat +2 Vision range with Radar</li>
 
         <li>Guided Missile Submarine:
         +2 movement +1 strength with Fluid Dynamics</li>
@@ -443,9 +471,6 @@ MonoBehaviour:
         <li>Turbine powered
         ships (Battleship, Carrier, Destroyer, Cruiser): +2 movement +1 vision with
         Anti Submarine Warfare</li>
-
-        <li>Airplanes: +1 attack range +1 vision
-        with Angled Flightdeck</li>
 
         <li>Nuclear Submarine: + movement +1
         attack range +2 strength with Nuclear Reactor</li>
@@ -572,29 +597,29 @@ MonoBehaviour:
         =&gt; Galleass=&gt; Man O''War =&gt; Ir0nclad =&gt; Dreadnought =&gt; Battleship
         =&gt; Guided Missile Cruiser</li>
 
-        <li>Knight =&gt; Cuirassiers =&gt;
-        Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>
+        <li>Scout Riders=&gt; Horsemen
+        =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main
+        Battle Tank</li>
 
-        <li>Dragoon
-        =&gt; Armoured Cars =&gt; Armoured Recon =&gt; Armored Personnel Carrier
-        (APC)</li>
+        <li>Dragoon =&gt; Armoured Cars =&gt; Armoured
+        Recon =&gt; Armored Personnel Carrier (APC)</li>
 
-        <li>Partisans =&gt; Commados</li>
+        <li>Partisans =&gt;
+        Commados</li>
 
-        <li>Howitzer
-        =&gt; Anti Tank =&gt; Main Battle Tank</li>
+        <li>Howitzer =&gt; Anti Tank =&gt; Main Battle Tank</li>
 
-        <li>Mortar =&gt; Artillery
-        =&gt; Multiple Launch Rocket System</li>
+        <li>Mortar
+        =&gt; Artillery =&gt; Multiple Launch Rocket System</li>
 
-        <li>Line Infantry =&gt;
-        Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
+        <li>Line
+        Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
 
-        <li>Heavy Machinegun
-        =&gt; Armored Personnel Carrier (APC)</li>
+        <li>Heavy
+        Machinegun =&gt; Armored Personnel Carrier (APC)</li>
 
-        <li>Biplane =&gt; Monoplane
-        Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
+        <li>Biplane
+        =&gt; Monoplane Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
 
         <li>Transport
         Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
@@ -610,20 +635,8 @@ MonoBehaviour:
         <li>Level
         5 Coal Power: Underground Coal Gasification</li>
 
-        </ul>
-
-        <p><em>National
-        Wonder changes:</em></p>
-
-        <ul>
-
-        <li>Fission Test: + 2 Aluminium
-        + 2 Oil</li>
-
-        <li>Fusion Test: +2 Aluminium + 2 Oil</li>
-
-        <li>ICBM
-        Test: +1 Aluminium +2 Oil, unlocks ICBM unit</li>
+        <li><span style="font-weight:
+        400;"> removed pollution on Anti-Air Surveillance and Surface-to-Air Missile</span></li>
 
         </ul>
 
@@ -638,8 +651,8 @@ MonoBehaviour:
         <li>Lowered
         Pollution Airport (from 15 down to 5)</li>
 
-        <li>Airfields can be
-        built at outposts with culture, and now need access to oil</li>
+        <li>Lowered Pollution
+        Airfields down to 1, can be built at outposts but requires access to oil</li>
 
         </ul>
 
