@@ -58,7 +58,7 @@ MonoBehaviour:
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 5
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyExperienceModifier,
@@ -185,6 +185,34 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddPollution,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 500
+    - Name: PollutionType
+      Entry: 3
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -419,7 +447,7 @@ MonoBehaviour:
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -484,6 +512,34 @@ MonoBehaviour:
     - Name: Amount
       Entry: 3
       Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddPollution,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 500
+    - Name: PollutionType
+      Entry: 3
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -706,7 +762,7 @@ MonoBehaviour:
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -802,6 +858,34 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddPollution,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 500
+    - Name: PollutionType
+      Entry: 3
+      Data: 1
     - Name: 
       Entry: 8
       Data: 

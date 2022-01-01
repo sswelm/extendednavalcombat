@@ -645,14 +645,15 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Lowered Pollution Missile Silo
-        (from 15 down to 5), added 5 fortification bonus</li>
+        <li>Lowered Pollution Airport to
+        5</li>
 
-        <li>Lowered
-        Pollution Airport (from 15 down to 5)</li>
+        <li>Lowered Pollution Airfields down to 1, can be built at
+        outposts but requires access to oil</li>
 
-        <li>Lowered Pollution
-        Airfields down to 1, can be built at outposts but requires access to oil</li>
+        <li>Lowered Pollution Missile
+        down to 1, can be built at outposts but requires access to oil and aluminium,
+        added 5 fortification bonus</li>
 
         </ul>
 

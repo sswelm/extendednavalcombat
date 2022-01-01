@@ -1442,6 +1442,13 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: BaseStrength
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
 --- !u!114 &2451082048925644463
@@ -1540,7 +1547,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       PropertyLocalName: []
     - Note: 
       TargetProperty: BaseStrength
@@ -1984,7 +1991,7 @@ MonoBehaviour:
       ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 2000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass

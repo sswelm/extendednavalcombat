@@ -1,0 +1,479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8210868163508338469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FluidDynamics
+  m_EditorClassIdentifier: 
+  Title: Improved Submerged Speed
+  Description: Improves movement speed of Missile Submarine
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-5043453599784476554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_ThermalNuclearWeaponsPowerIncrease
+  m_EditorClassIdentifier: 
+  Title: Improved Thermal Nuclear Weapon Damage
+  Description: Improves spash radius of thermal nuclear weapons
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-4735831120799289798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Radar
+  m_EditorClassIdentifier: 
+  Title: Radar
+  Description: Add Radar to capable naval and air Units
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-4461206877227337543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_NavalTransportSpeedBonus
+  m_EditorClassIdentifier: 
+  Title: Faster Naval Transport
+  Description: Increases naval speed of naval transport by 1
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-3994865688186935272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SteamTurbine
+  m_EditorClassIdentifier: 
+  Title: Improved Steam Turbine
+  Description: Improves movement speed and vision on Battleship, Aircraft Carrier,
+    Missile Cruisers, Missile Destroyer
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-3482471346879134060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SpecialForces
+  m_EditorClassIdentifier: 
+  Title: Special Forces
+  Description: Improves Commandos combat effectiveness
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: TechnologyUnlockUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &946599224593676446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_CanBuildThermalNuclearWeapons
+  m_EditorClassIdentifier: 
+  Title: Can build Thermalnuclear Weapons
+  Description: This unlocks the ability to build Thermalnuclear Weapons
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &1211591492955142576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FreightTruck
+  m_EditorClassIdentifier: 
+  Title: Freight Trucks
+  Description: Not only are trucks the most flexible, responsive and economic mode
+    of transport for the vast majority of goods and freight, they are also essential
+    to the functioning of the larger, integrated  logistics and transport system
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[resourceMoney]'
+--- !u!114 &1729311510693818374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FreightCarrack
+  m_EditorClassIdentifier: 
+  Title: 'Cargo Trade  '
+  Description: Carracks were large enough to be stable in heavy seas, and capacious
+    enough to carry a large cargo and the provisions needed for very long voyages.
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &1900676494238754302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_HamletPollution
+  m_EditorClassIdentifier: 
+  Title: House Appliances
+  Description: The population demands better house appliances that pollute the enviroment.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &3056515051710683301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_NuclearReactor
+  m_EditorClassIdentifier: 
+  Title: Upgrades Nuclear Powered Vessels
+  Description: Improves speed, strength and range of Nuclear Powered vessels
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &3173975411528543350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Airstrike
+  m_EditorClassIdentifier: 
+  Title: Improved Airstrike Performance
+  Description: Improves attack and detection range of all airplanes
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[combatStrength]'
+--- !u!114 &3184059388234408714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FoodPollution
+  m_EditorClassIdentifier: 
+  Title: New Agricultural Techniques
+  Description: New agricultural techniques increase the pollution generated by farms.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &5659722520540306911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_MoneyPollution
+  m_EditorClassIdentifier: 
+  Title: Marketing Strategies
+  Description: Development in marketing and business fronts increase their carbon
+    footprint.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &6170381401343243195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_PublicOrderPollution
+  m_EditorClassIdentifier: 
+  Title: Air Conditioning
+  Description: Confort for the public increases with heating and cooling devices
+    that pollute even more.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &7213197353046033159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_IndustryPollution
+  m_EditorClassIdentifier: 
+  Title: Improved Machinery
+  Description: The improved industry machinery pollutes the enviroment even more.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &7461716961961460501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_HarbourPollution
+  m_EditorClassIdentifier: 
+  Title: Modern Shipping
+  Description: Improvements in shipping and the widespread use of non-renewable materials
+    increase the enviromental impact of Harbours.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &8194237790892514623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SciencePollution
+  m_EditorClassIdentifier: 
+  Title: Improved Lab Equipment
+  Description: New laboratory equipment helps researchers, but have a higher impact
+    on the environment.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &8940033627788478827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_GarrisonPollution
+  m_EditorClassIdentifier: 
+  Title: Luxurious Military Quarters
+  Description: Improved accomodations for your military staff increase the pollution
+    footprint of your garrisons.
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'

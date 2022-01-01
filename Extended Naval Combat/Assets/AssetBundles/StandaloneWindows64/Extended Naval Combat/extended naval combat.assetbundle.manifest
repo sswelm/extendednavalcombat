@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2308571520
+CRC: 2586274566
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e7416f6d1f0bfe8c1a097266975fb577
+    Hash: 0fbc3cf2c6f52350451df40060c1bd76
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1ede02c5f42362fd9eaa138cb72f4a3c
+    Hash: 17a2d9fba7d52cadff92194973c0ddd0
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -104,6 +104,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 678159749, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
+  Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+- Class: 114
+  Script: {fileID: -286750100, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+- Class: 114
   Script: {fileID: -457851255, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
 - Class: 114
   Script: {fileID: -2122520293, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
@@ -138,7 +142,6 @@ Assets:
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/steamCorvette212.png
 - Assets/Resources/armouredCar212.png
-- Assets/Databases/Empire/EmpireBonusUIMappers.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
 - Assets/Runtime/Extended Naval Combat.asset
 - Assets/Databases/Settlement/ConstructibleCommonExtensionUIMappers.asset
@@ -165,6 +168,7 @@ Assets:
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
 - Assets/Resources/battleshipDreadnought212.png
 - Assets/Resources/transparant212.png
+- Assets/Databases/World/TerrainDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
@@ -174,6 +178,7 @@ Assets:
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Databases/World/PollutionDescriptor.asset
 - Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/ww2destroyer792.png
@@ -214,7 +219,9 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Resources/missileCruiser764.png
+- Assets/Databases/EffectMapper/ValidationMapperCollection.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
+- Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/ArmoredRecon212.png
