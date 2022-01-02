@@ -74,15 +74,37 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 0a0000000a0000000a000000080000000a0000000800000002000000010000000600000008000000030000000200000000000000
+      RpnOperationStack: 080000000a00000002000000080000000a0000000200000000000000080000000a0000000200000000000000080000000a00000002000000000000000a0000000800000006000000030000000a000000080000000a00000008000000020000000100000006000000020000000a000000080000000a00000002000000080000000a0000000200000000000000080000000a0000000200000000000000080000000a00000002000000000000000a000000080000000600000003000000020000000a000000080000000a000000080000000200000001000000060000000200000000000000
       ConstantStack:
-      - RawValue: 90000
-      - RawValue: 10000
+      - RawValue: 4236
+      - RawValue: 2618
+      - RawValue: 1618
+      - RawValue: 1000
+      - RawValue: 1000
+      - RawValue: 0
+      - RawValue: 20000
+      - RawValue: 2000
+      - RawValue: 4236
+      - RawValue: 2618
+      - RawValue: 1618
+      - RawValue: 1000
+      - RawValue: 1000
       - RawValue: 0
       - RawValue: 50000
       PropertyLocalName:
+      - PopulationAssignedToIndustry
+      - PopulationAssignedToScience
+      - PopulationAssignedToFood
+      - PopulationAssignedToMoney
+      - Population
       - PollutionNet
       - TerritoryCount
+      - PopulationAssignedToIndustry
+      - PopulationAssignedToScience
+      - PopulationAssignedToFood
+      - PopulationAssignedToMoney
+      - Population
+      - PollutionNet
       - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
@@ -270,14 +292,22 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 0a0000000a000000080000000a00000008000000020000000100000006000000080000000300000002000000
+      RpnOperationStack: 080000000a00000002000000080000000a0000000200000000000000080000000a0000000200000000000000080000000a00000002000000000000000a0000000800000006000000030000000a000000080000000a0000000800000002000000010000000600000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 4236
+      - RawValue: 2618
+      - RawValue: 1618
+      - RawValue: 1000
+      - RawValue: 1000
       - RawValue: 1000
       - RawValue: 20000
       PropertyLocalName:
+      - PopulationAssignedToIndustry
+      - PopulationAssignedToScience
+      - PopulationAssignedToFood
+      - PopulationAssignedToMoney
+      - Population
       - PollutionNet
-      - TerritoryCount
       - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
