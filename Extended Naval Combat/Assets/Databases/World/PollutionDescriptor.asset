@@ -66,25 +66,24 @@ MonoBehaviour:
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
-      - Districts
+      - Region
       - Settlement
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
+      Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 0a000000080000000a000000010000000a0000000300000000000000
+      RpnOperationStack: 0a0000000a0000000a000000080000000a0000000800000002000000010000000600000008000000030000000200000000000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 90000
+      - RawValue: 10000
+      - RawValue: 0
       - RawValue: 50000
-      - RawValue: 5000
       PropertyLocalName:
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -96,51 +95,63 @@ MonoBehaviour:
     - Note: 
       TargetProperty: ScienceNet
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
+      RpnOperationStack: 090000000a0000000a000000080000000a000000080000000200000001000000060000000a000000030000000800000003000000000000000a0000000700000002000000
       ConstantStack:
       - RawValue: 300
+      - RawValue: 0
       - RawValue: 50000
       - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictScienceNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
+      RpnOperationStack: 090000000a0000000a000000080000000a000000080000000200000001000000060000000a000000030000000800000003000000000000000a0000000700000002000000
       ConstantStack:
       - RawValue: 300
+      - RawValue: 0
       - RawValue: 50000
       - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictMoneyNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
+      RpnOperationStack: 090000000a0000000a000000080000000a000000080000000200000001000000060000000a000000030000000800000003000000000000000a0000000700000002000000
       ConstantStack:
       - RawValue: 300
+      - RawValue: 0
       - RawValue: 50000
       - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictFoodNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: ProductionNet
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
+      RpnOperationStack: 090000000a0000000a000000080000000a000000080000000200000001000000060000000a000000030000000800000003000000000000000a0000000700000002000000
       ConstantStack:
       - RawValue: 300
+      - RawValue: 0
       - RawValue: 50000
       - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictIndustryNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow: []
@@ -251,24 +262,23 @@ MonoBehaviour:
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
-      - Districts
+      - Region
       - Settlement
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
+      Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 080000000a000000010000000a00000003000000
+      RpnOperationStack: 0a0000000a000000080000000a00000008000000020000000100000006000000080000000300000002000000
       ConstantStack:
+      - RawValue: 3000
+      - RawValue: 1000
       - RawValue: 20000
-      - RawValue: 10000
       PropertyLocalName:
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -280,43 +290,55 @@ MonoBehaviour:
     - Note: 
       TargetProperty: ScienceNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
+      RpnOperationStack: 090000000a000000080000000a000000080000000200000001000000060000000a00000003000000080000000300000002000000
       ConstantStack:
+      - RawValue: 1000
       - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictScienceNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
+      RpnOperationStack: 090000000a000000080000000a000000080000000200000001000000060000000a00000003000000080000000300000002000000
       ConstantStack:
+      - RawValue: 1000
       - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictMoneyNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
+      RpnOperationStack: 090000000a000000080000000a000000080000000200000001000000060000000a00000003000000080000000300000002000000
       ConstantStack:
+      - RawValue: 1000
       - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictFoodNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
     - Note: 
       TargetProperty: ProductionNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
+      RpnOperationStack: 090000000a000000080000000a000000080000000200000001000000060000000a00000003000000080000000300000002000000
       ConstantStack:
+      - RawValue: 1000
       - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictIndustryNet
       - PollutionNet
+      - TerritoryCount
+      - TerritoryCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow: []
