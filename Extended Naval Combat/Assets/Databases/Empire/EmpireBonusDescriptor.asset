@@ -33,13 +33,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource07AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -60,13 +53,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource07AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -87,13 +73,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource07AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -114,13 +93,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource07AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-8675471611525154093
@@ -156,13 +128,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource04AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -183,13 +148,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource04AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -210,13 +168,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource04AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -228,22 +179,7 @@ MonoBehaviour:
         Inverted: 0
         serializableElementName: Effect_Extension_Base_Industry
       specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: IndustryProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - Resource04AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
+    PropertyEffects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-8454711485157580701
@@ -268,6 +204,10 @@ MonoBehaviour:
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
+        serializableElementName: Effect_Extension_Base_LandBased
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
         serializableElementName: Effect_Extension_Base_Money
       specificTargetType: 
     PropertyEffects:
@@ -276,7 +216,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 500
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -347,13 +287,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource08AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -374,13 +307,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource08AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -401,13 +327,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource08AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -428,13 +347,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - Resource08AccessCount
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-4841195275761855245
@@ -602,6 +514,10 @@ MonoBehaviour:
       - Settlements
       - Districts
       Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_LandBased
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
@@ -797,6 +713,10 @@ MonoBehaviour:
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
+        serializableElementName: Effect_Extension_Base_LandBased
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
         serializableElementName: Effect_Extension_Base_Food
       specificTargetType: 
     PropertyEffects:
@@ -961,12 +881,16 @@ MonoBehaviour:
   m_Name: Effect_EmpireBonus_SciencePollution
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
       - Settlements
       - Districts
       Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_LandBased
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
@@ -978,7 +902,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 500
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

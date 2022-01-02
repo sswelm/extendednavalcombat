@@ -369,17 +369,18 @@ MonoBehaviour:
         Cruise Missile, unlocked with Stealth technology</li>
 
         <li>Added
-        Intercontinental Ballistic Missile (ICBM) unlocked by ICBM Test national
-        project</li>
+        Intercontinental Ballistic Missile (ICBM) unlockedafter research Rocket Science
+        and building 2th Nuclear Test Project</li>
 
         </ol>
 
-        <p><em>Special ability changes:</em></p>
+        <p><em>Special
+        ability changes:</em></p>
 
         <ul>
 
-        <li>Transport
-        Galley and all other naval transport Units now require upkeep when used</li>
+        <li>Transport Galley and
+        all other naval transport Units now require upkeep when used</li>
 
         <li>Cog
         is converted into a Transport vessel</li>
@@ -426,36 +427,8 @@ MonoBehaviour:
 
         </ul>
 
-        <p>Naval
-        Transporting has been augmented; The Type of unit can now have an effect
-        on the combat strength and attack range of the Naval transport, making them
-        more strategically important</p>
-
-        <p><em>Naval transport modifiers:</em></p>
-
-        <ul>
-
-        <li>Melee
-        +2 strength in Galley or Cog</li>
-
-        <li>Ranged: -1 strength, +2 range
-        in Galley or Cog</li>
-
-        <li>Mounted Ranged: +1 range in Galley or
-        Cog</li>
-
-        <li>Gunner +2 strength in Caravel, Steamer or Landing Craft</li>
-
-        <li>Field
-        Artillery: +3 strength, +3 range in Caravel or Steamer</li>
-
-        <li>Marine:
-        +5 strength in Landing Craft</li>
-
-        </ul>
-
-        <p><em>Added Unit
-        performance upgrades:</em></p>
+        <p><em>Added
+        Unit performance upgrades:</em></p>
 
         <ul>
 
@@ -508,14 +481,14 @@ MonoBehaviour:
         <li>Antitank
         gun +3 strength</li>
 
-        <li>Battleship; +3 strength +1 movement +2
-        vision, +2 attack range Increased zone of control</li>
+        <li>Battleship; +3 strength +1 movement +1
+        vision, +2 attack range, Increased zone of control</li>
 
         <li>Aircraft
-        Carrier, +1 movement, +2 vision +Amoured (immune to suppression, vulnerable
+        Carrier, +1 movement, +1 vision +Amoured (immune to suppression, vulnerable
         versus submarines)</li>
 
-        <li>Nuclear Submarine, +2 vision, +2 range,
+        <li>Nuclear Submarine, +2 vision, +1 range,
         +5 Bonus Armoured Units (battleship, carrier, cruisers)</li>
 
         <li>Missile
@@ -626,17 +599,85 @@ MonoBehaviour:
 
         </ul>
 
-        <p><strong>Environment</strong></p>
+        <p><strong>Transportation</strong></p>
 
-        <p><em>Infrastructure:</em></p>
+        <p>Besides
+        the addition of two intermediate transport vessels durring medival and indtrial
+        era, naval Transporting has been augmented; The Type of unit can now have
+        an effect on the combat strength and attack range of the Naval transport,
+        making them more strategically important</p>
+
+        <p><em>Naval transport
+        modifiers:</em></p>
+
+        <ul>
+
+        <li>Melee +2 strength in Galley
+        or Cog</li>
+
+        <li>Ranged: -1 strength, +2 range in Galley or Cog</li>
+
+        <li>Mounted
+        Ranged: +1 range in Galley or Cog</li>
+
+        <li>Gunner +2 strength in
+        Caravel, Steamer or Landing Craft</li>
+
+        <li>Field Artillery: +3 strength,
+        +3 range in Caravel or Steamer</li>
+
+        <li>Marine: +5 strength in Landing
+        Craft</li>
+
+        </ul>
+
+        <p><strong>Pollution</strong></p>
+
+        <p>Pollution
+        in valina was a serious problem late game which needs to be correctly to
+        keep the game playable and not phohibit the player strategic options with
+        late game militairy districts and infratructure. Therefore I have integrated
+        Docktor Kain''s Pollution Rework for Humankind which creates a much more
+        fun and realistic experience of pollution</p>
+
+        <p><em>Added Infrastructure:</em></p>
 
         <ul>
 
         <li>Level
         5 Coal Power: Underground Coal Gasification</li>
 
-        <li><span style="font-weight:
-        400;"> removed pollution on Anti-Air Surveillance and Surface-to-Air Missile</span></li>
+        </ul>
+
+        <p><em>Infrastructure
+        changes :</em></p>
+
+        <ul>
+
+        <li><span style="font-weight: 400;">Hydroeletric
+        Dam now generate -10% pollution on all districts instead of its normal pollution
+        reduction</span></li>
+
+        <li><span style="font-weight: 400;">Wind Farm
+        now costs 9055 industry to build, but now generate -25% pollution on all
+        districts instead of its normal pollution reduction</span></li>
+
+        <li><span
+        style="font-weight: 400;">Solar Farm now generate -20% pollution on all districts
+        instead of its normal pollution reduction</span></li>
+
+        <li><span
+        style="font-weight: 400;">Nuclear Plant now generate -15% pollution on all
+        districts instead of its normal pollution reduction</span></li>
+
+        <li><span
+        style="font-weight: 400;">Sewage System now generate -10% pollution on all
+        districts instead of its normal pollution reduction</span></li>
+
+        <li><span
+        style="font-weight: 400;">Factory Farming, Industrial Silos, Anti-Air Surveillance,
+        Command Compound, Tech Park, Financial District, Surface-to-Air Missile and
+        Supercomputer Lab do not generate pollution anymore.</span></li>
 
         </ul>
 
@@ -645,19 +686,40 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Lowered Pollution Airport to
-        5</li>
+        <li><span style="font-weight: 400;">Saltpeter
+        Extractors now produce 1 pollution.</span></li>
 
-        <li>Lowered Pollution Airfields down to 1, can be built at
-        outposts but requires access to oil</li>
+        <li aria-level="2"><span
+        style="font-weight: 400;">Coal Extractors now produce 3 pollution.</span></li>
 
-        <li>Lowered Pollution Missile
-        down to 1, can be built at outposts but requires access to oil and aluminium,
-        added 5 fortification bonus</li>
+        <li
+        aria-level="2"><span style="font-weight: 400;">Oil Extractors now produce
+        2 pollution.</span></li>
+
+        <li aria-level="2"><span style="font-weight:
+        400;">Aluminum Extractors now produce 1 pollution.</span></li>
+
+        <li
+        aria-level="2"><span style="font-weight: 400;">Uranium Extractors now produce
+        2 pollution.</span></li>
+
+        <li aria-level="2"><span style="font-weight:
+        400;">Train Stations now produce 1 pollution instead of 5.</span></li>
+
+        <li
+        aria-level="2"><span style="font-weight: 400;">Aerodromes now produce 1 pollution
+        instead of 5, can be built at outposts but requires access to oil</span></li>
+
+        <li
+        aria-level="2"><span style="font-weight: 400;">Airports now produce 3 pollution
+        instead of 15.</span></li>
+
+        <li aria-level="2"><span style="font-weight:
+        400;">Missile Silos now produce 2 pollution instead of 15.</span></li>
 
         </ul>
 
-        <p><em>Compatibility:</em></p>
+        <p><strong>Compatibility</strong><em>:</em></p>
 
         <ul>
 
@@ -669,9 +731,14 @@ MonoBehaviour:
         with <a href="https://humankind.mod.io/superpack">Super Pack for Humankind</a>,
         (just make sure to load it later)</li>
 
-        <li>no need to use <a href="https://humankind.mod.io/long-range-nuclear-missiles"
-        style="font-size: 1em;">Long Range Nuclear Missiles Mod</a><span style="font-size:
-        1em; font-weight: 400;"> as its already integrated</span></li>
+        <li>not compatible with<a
+        href="https://humankind.mod.io/long-range-nuclear-missiles" style="font-size:
+        1em;"> Nuclear Missiles Mod</a><span style="font-size: 1em; font-weight:
+        400;"> but it is already integrated</span></li>
+
+        <li>not compatible
+        with <a href="https://humankind.mod.io/docktor-kains-pollution-rework">Docktor
+        Kain''s Pollution Rework</a>, but it is already integrated</li>
 
         </ul>'
       isDirty: 0

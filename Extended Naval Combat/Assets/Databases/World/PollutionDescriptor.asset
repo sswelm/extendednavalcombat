@@ -78,10 +78,11 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 080000000a000000030000000a00000001000000
+      RpnOperationStack: 0a000000080000000a000000010000000a0000000300000000000000
       ConstantStack:
+      - RawValue: 3000
+      - RawValue: 50000
       - RawValue: 5000
-      - RawValue: 4000
       PropertyLocalName:
       - PollutionNet
   - ApplyEffectOnSource: 0
@@ -95,10 +96,11 @@ MonoBehaviour:
     - Note: 
       TargetProperty: ScienceNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000030000000a000000010000000a0000000700000002000000
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
+      - RawValue: 300
       - RawValue: 50000
-      - RawValue: 400
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictScienceNet
@@ -106,10 +108,11 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000030000000a000000010000000a0000000700000002000000
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
+      - RawValue: 300
       - RawValue: 50000
-      - RawValue: 520
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictMoneyNet
@@ -117,21 +120,23 @@ MonoBehaviour:
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 1
-      RpnOperationStack: 09000000080000000a000000030000000a000000010000000a0000000700000002000000
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
+      - RawValue: 300
       - RawValue: 50000
-      - RawValue: 400
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictFoodNet
       - PollutionNet
     - Note: 
       TargetProperty: ProductionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 09000000080000000a000000030000000a000000010000000a0000000700000002000000
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
-      - RawValue: 100000
-      - RawValue: 150
+      - RawValue: 300
+      - RawValue: 50000
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictIndustryNet
@@ -145,19 +150,27 @@ MonoBehaviour:
     - Note: 
       TargetProperty: FaithProducedByPollution
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a00000002000000
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
+      - RawValue: 300
+      - RawValue: 50000
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictFaithNet
+      - PollutionNet
     - Note: 
       TargetProperty: CultureProducedByPollution
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a00000002000000
+      RpnOperationStack: 090000000a000000080000000a000000010000000a00000003000000000000000a0000000700000002000000
       ConstantStack:
+      - RawValue: 300
+      - RawValue: 50000
+      - RawValue: 50000
       - RawValue: 1000
       PropertyLocalName:
       - DistrictInfluenceNet
+      - PollutionNet
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Territory, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000
@@ -250,9 +263,9 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PublicOrderTarget
       ToTargetOperation: 1
-      RpnOperationStack: 0a000000080000000a0000000300000000000000
+      RpnOperationStack: 080000000a000000010000000a00000003000000
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 20000
       - RawValue: 10000
       PropertyLocalName:
       - PollutionNet
@@ -267,9 +280,9 @@ MonoBehaviour:
     - Note: 
       TargetProperty: ScienceNet
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000030000000000000002000000
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 100
+      - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictScienceNet
@@ -277,30 +290,30 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000030000000000000002000000
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 100
-      - RawValue: 80000
+      - RawValue: 20000
+      - RawValue: 100000
       PropertyLocalName:
       - DistrictMoneyNet
       - PollutionNet
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a000000080000000a000000030000000000000002000000
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 100
+      - RawValue: 20000
       - RawValue: 100000
       PropertyLocalName:
       - DistrictFoodNet
       - PollutionNet
     - Note: 
       TargetProperty: ProductionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 090000000a000000080000000a000000030000000000000002000000
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 100
-      - RawValue: 200000
+      - RawValue: 20000
+      - RawValue: 100000
       PropertyLocalName:
       - DistrictIndustryNet
       - PollutionNet
@@ -313,18 +326,22 @@ MonoBehaviour:
     - Note: 
       TargetProperty: FaithProducedByPollution
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a00000002000000
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 500
+      - RawValue: 20000
+      - RawValue: 100000
       PropertyLocalName:
       - DistrictFaithNet
+      - PollutionNet
     - Note: 
       TargetProperty: CultureProducedByPollution
       ToTargetOperation: 1
-      RpnOperationStack: 090000000a00000002000000
+      RpnOperationStack: 09000000080000000a000000010000000a0000000300000002000000
       ConstantStack:
-      - RawValue: 500
+      - RawValue: 20000
+      - RawValue: 100000
       PropertyLocalName:
       - DistrictInfluenceNet
+      - PollutionNet
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Territory, Amplitude.Mercury.Firstpass
