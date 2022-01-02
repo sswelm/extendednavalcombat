@@ -1,2 +1,3 @@
-# extendednavalcombat
-Extended Naval Combat for Humankind
+# Introduction:
+
+The goal of this mod is to create a longer, more interesting, and realistic end game experience with the addition of new technologies and military units and tweaks to existing units to keep it overall balanced. I tried to make this mod as compatible as possible with other mods by putting most new units and bonuses spread over the new Technologies, and no changes to any cultures, or civics. The new Technologies also help to make the Industrial and Contemporary Era last significantly longer, especially the late Industrial and early Contemporary era (WW1/WW2) period with 12 new technologies.
