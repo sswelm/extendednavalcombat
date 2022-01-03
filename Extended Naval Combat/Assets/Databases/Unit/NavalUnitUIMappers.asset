@@ -1,5 +1,157 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8324699414709568211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era4_Common_MenOfWar
+  m_EditorClassIdentifier: 
+  Title: '%NavalUnit_Era4_VenetianRepublic_GalleassesTitle'
+  Description: '%NavalUnit_Era4_VenetianRepublic_GalleassesDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1386808100
+        b: 1321650977
+        c: 1364255166
+        d: 416393367
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 376456756
+        b: 1089629669
+        c: -106341499
+        d: -331232330
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 8600
+  ConstructibleTraits: 
 --- !u!114 &-8017959450537508373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,29 +1229,29 @@ MonoBehaviour:
   m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: NavalUnit_Era3_Common_Cog
   m_EditorClassIdentifier: 
-  Title: '%NavalUnit_Era3_Common_CogTitle'
-  Description: '%NavalUnit_Era3_Common_CogDescription'
+  Title: '%NavalUnit_Era4_Common_CarracksTitle'
+  Description: '%NavalUnit_Era4_Common_CarracksDescription'
   Images:
   - Value:
       guid:
-        a: -824710551
-        b: 1338005461
-        c: -1009416831
-        d: 1251461539
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
     serializableKey: Picto
   - Value:
       guid:
-        a: 539366459
-        b: 1319409866
-        c: -1169554255
-        d: 1391329709
+        a: 1708925235
+        b: 1230017814
+        c: -24892482
+        d: 1581400841
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -1845927669
-        b: 1310925318
-        c: 2117007517
-        d: -706755590
+        a: 1918589144
+        b: 1294186733
+        c: -493248077
+        d: 407359277
     serializableKey: Default_Tooltip
   - Value:
       guid:
@@ -1686,6 +1838,158 @@ MonoBehaviour:
   m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
   m_Name: NavalUnitUIMappers
   m_EditorClassIdentifier: 
+--- !u!114 &362501034564697054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era4_Common_MenOfWarSail
+  m_EditorClassIdentifier: 
+  Title: '%NavalUnit_Era4_Common_MenOfWarTitle'
+  Description: '%NavalUnit_Era4_Common_MenOfWarDescription'
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2129013023
+        b: 1190289271
+        c: 1698283667
+        d: 613620098
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 745607147
+        b: 1189401724
+        c: 1345223308
+        d: -1515764777
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 8600
+  ConstructibleTraits: 
 --- !u!114 &946931224618944437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3384,10 +3688,10 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: -824710551
-        b: 1338005461
-        c: -1009416831
-        d: 1251461539
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
     serializableKey: Picto
   - Value:
       guid:

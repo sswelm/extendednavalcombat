@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Name: PresentationNavalUnit_Era3_Common_Cog_Default
   m_EditorClassIdentifier: 
   UnitDefinitionReference:
-    serializableElementName: NavalUnit_Era3_Common_Cog
+    serializableElementName: NavalTransport_Era3_Common_CogTransport
   PresentationFormationDefinition:
     serializableElementName: Formation_1
   FormationBehaviourDefinition:

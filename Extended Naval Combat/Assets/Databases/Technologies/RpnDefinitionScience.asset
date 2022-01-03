@@ -37,7 +37,7 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 3580000
   - RawValue: 1189
-  - RawValue: 35000
+  - RawValue: 34000
   - RawValue: 17500
   - RawValue: 1000
   - RawValue: 2200
@@ -142,7 +142,7 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 4570000
   - RawValue: 1414
-  - RawValue: 39000
+  - RawValue: 38000
   - RawValue: 19500
   - RawValue: 1000
   - RawValue: 2400
@@ -196,7 +196,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 14690000
   - RawValue: 4757
-  - RawValue: 83000
+  - RawValue: 82000
   - RawValue: 10000
   - RawValue: 41500
   - RawValue: 1000
@@ -225,7 +225,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 6960000
   - RawValue: 2000
-  - RawValue: 47000
+  - RawValue: 46000
   - RawValue: 23500
   - RawValue: 1000
   - RawValue: 2800
@@ -279,7 +279,7 @@ MonoBehaviour:
   - RawValue: 1500
   - RawValue: 19890000
   - RawValue: 8000
-  - RawValue: 105000
+  - RawValue: 104000
   - RawValue: 20000
   - RawValue: 52500
   - RawValue: 1000
@@ -308,7 +308,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 8470000
   - RawValue: 2378
-  - RawValue: 51000
+  - RawValue: 50000
   - RawValue: 25500
   - RawValue: 1000
   - RawValue: 3000
@@ -372,7 +372,7 @@ MonoBehaviour:
   RpnOperationStack: 0a0000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
   ConstantStack:
   - RawValue: 2730000
-  - RawValue: 32000
+  - RawValue: 31000
   - RawValue: 16000
   - RawValue: 1000
   - RawValue: 2000
@@ -446,7 +446,7 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 5670000
   - RawValue: 1682
-  - RawValue: 44000
+  - RawValue: 43000
   - RawValue: 22000
   - RawValue: 1000
   - RawValue: 2600
@@ -474,7 +474,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 10250000
   - RawValue: 3364
-  - RawValue: 58000
+  - RawValue: 57000
   - RawValue: 29000
   - RawValue: 1000
   - RawValue: 3200
@@ -502,7 +502,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 17320000
   - RawValue: 6727
-  - RawValue: 95000
+  - RawValue: 94000
   - RawValue: 15000
   - RawValue: 47500
   - RawValue: 1000
@@ -531,7 +531,7 @@ MonoBehaviour:
   - RawValue: 1250
   - RawValue: 12420000
   - RawValue: 4000
-  - RawValue: 70000
+  - RawValue: 69000
   - RawValue: 5000
   - RawValue: 35000
   - RawValue: 1000

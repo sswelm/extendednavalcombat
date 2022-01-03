@@ -37,12 +37,12 @@ MonoBehaviour:
         <p>The goal of this
         mod is to create a longer, more interesting, and realistic end game experience
         with the addition of new technologies and military units and tweaks to existing
-        units to keep it overall balanced. I tried to make this mod as compatible
-        as possible with other mods by putting most new units and bonuses spread
-        over the new Technologies, and no changes to any cultures, or civics. The
-        new Technologies also help to make the Industrial and Contemporary Era last
-        significantly longer, especially the late Industrial and early Contemporary
-        era (WW1/WW2) period with 12 new technologies.</p>
+        units strength, production and pollution to keep it overall balanced. I tried
+        to make this mod as compatible as possible with other mods by putting most
+        new units and bonuses spread over the new Technologies, and no changes to
+        any cultures, or civics. The new Technologies also help to make the Industrial
+        and Contemporary Era last significantly longer, especially the late Industrial
+        and early Contemporary era (WW1/WW2) period with 12 new technologies.</p>
 
         <p><strong>Nuclear
         Proliferation:</strong></p>
@@ -100,18 +100,18 @@ MonoBehaviour:
         requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
 
         <li>Bunker
-        Construction; requires Trench Warfare; unlocks Bunker, Missile Silo, and
-        underground construction</li>
+        Construction; requires Trench Warfare; unlocks Bunker, Bomb Shelters, Mountain
+        Industry and underground construction</li>
 
-        <li>Submarine Warfare; requires Dreadnought
-        Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Submarine Warfare;
+        requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
 
-        <li>Anti Submarine
-        Warfare; requires Submarine Warfare, unlocks Destroyer Unit and improves
-        naval unit speed</li>
+        <li>Anti
+        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
+        improves naval unit speed</li>
 
-        <li>Air Transportation; requires Aeronautics,
-        unlocks Aluminium strategic resource and Airport district</li>
+        <li>Air Transportation; requires
+        Aeronautics, unlocks Aluminium strategic resource and Airport district</li>
 
         <li>Antitank
         Warfare; requires Continuous Track, unlocks Antitank Gun unit and Armoured
@@ -125,10 +125,10 @@ MonoBehaviour:
         Submarine</li>
 
         <li>Jet Engine; requires Aerial Warfare, unlocks
-        Cruise Missile</li>
+        Cruise Missile and Missile Silo</li>
 
-        <li>Guided Missiles; requires Computing, unlocks
-        Missile Cruiser, Missile Destroyer, Missile Submarine</li>
+        <li>Guided Missiles; requires
+        Computing, unlocks Missile Cruiser, Missile Destroyer, Missile Submarine</li>
 
         <li>Mechanized
         Infantry Doctrine, requires Sloped Armor. unlocks APC and All-Terrain PMV</li>
@@ -277,9 +277,9 @@ MonoBehaviour:
 
         <p>While maintaining
         a minimum strategic resource requirement, Unitcost is no longer fixed but
-        can depend on the excess availability of strategic resources. This means
-        that units will be more accessible and will be easier to upgrade, but at
-        increased construction cost or gold price (up to double the base cost).</p>
+        depends on the excess availability of strategic resources. This means that
+        units will be more accessible and will be easier to upgrade, but at increased
+        construction cost or gold price (up to double the base cost).</p>
 
         <p><em>New
         Naval units:</em></p>
@@ -525,35 +525,6 @@ MonoBehaviour:
 
         </ul>
 
-        <p><em><span
-        style="font-size: 1em; font-weight: 400;">Unit resource requirement changes:</span></em></p>
-
-        <ul>
-
-        <li>Torpedo
-        Boat: -1 Iron</li>
-
-        <li>Ironclad: -1 Coal +1 Copper</li>
-
-        <li>Battleship:
-        +1 Copper</li>
-
-        <li>Aircraft Carrier: -1 Aluminium +1 Copper</li>
-
-        <li>Main
-        Battle Tank: -1 Uranium</li>
-
-        <li>Cruise Missile: -1 Uranium (was
-        1), -2 Aluminium (was 3), -1 Population cost (was 1)</li>
-
-        <li>Nuclear
-        Missile: -1 Uranium (was 2), -1 Aluminium (was 3)</li>
-
-        <li>Thermal
-        Nuclear Missile: -1 Uranium (was 3), -1 Oil (was 3), -1 Aluminium (was 3)</li>
-
-        </ul>
-
         <p><em>Unit
         Upgrade paths details:</em></p>
 
@@ -634,23 +605,25 @@ MonoBehaviour:
         <p><strong>Pollution</strong></p>
 
         <p>Pollution
-        in valina was a serious problem late game which needs to be correctly to
-        keep the game playable and not phohibit the player strategic options with
-        late game militairy districts and infratructure. Therefore I have integrated
-        Docktor Kain''s Pollution Rework for Humankind which creates a much more
-        fun and realistic experience of pollution</p>
+        in vanilla Humankind was a serious problem late game which needs to be correctly
+        to keep the game playable and not phohibit the player strategic options with
+        late game militairy districts and infratructure. Pollution will now mosty
+        be unavoidable but its effects will be more gradual and bening and public
+        order can be mitigated by giving your population less industrial and science
+        occupations and more finanial and archicultural occupations.</p>
 
-        <p><em>Added Infrastructure:</em></p>
+        <p><em>Added
+        Infrastructure:</em></p>
 
         <ul>
 
-        <li>Level
-        5 Coal Power: Underground Coal Gasification</li>
+        <li>Level 5 Coal Power: Underground
+        Coal Gasification</li>
 
         </ul>
 
-        <p><em>Infrastructure
-        changes :</em></p>
+        <p><em>Infrastructure changes
+        :</em></p>
 
         <ul>
 
@@ -679,25 +652,28 @@ MonoBehaviour:
         Command Compound, Tech Park, Financial District, Surface-to-Air Missile and
         Supercomputer Lab do not generate pollution anymore.</span></li>
 
+        <li>Bomb
+        Shelters are unlocked earlier with Bunker Construction (at end of Industrial
+        Era)</li>
+
         </ul>
 
-        <p><em>District
-        changes:</em></p>
+        <p><em>District changes:</em></p>
 
         <ul>
 
-        <li><span style="font-weight: 400;">Saltpeter
-        Extractors now produce 1 pollution.</span></li>
-
-        <li aria-level="2"><span
-        style="font-weight: 400;">Coal Extractors now produce 3 pollution.</span></li>
+        <li><span
+        style="font-weight: 400;">Saltpeter Extractors now produce 1 pollution.</span></li>
 
         <li
-        aria-level="2"><span style="font-weight: 400;">Oil Extractors now produce
-        2 pollution.</span></li>
+        aria-level="2"><span style="font-weight: 400;">Coal Extractors now produce
+        3 pollution.</span></li>
 
         <li aria-level="2"><span style="font-weight:
-        400;">Aluminum Extractors now produce 1 pollution.</span></li>
+        400;">Oil Extractors now produce 2 pollution.</span></li>
+
+        <li aria-level="2"><span
+        style="font-weight: 400;">Aluminum Extractors now produce 1 pollution.</span></li>
 
         <li
         aria-level="2"><span style="font-weight: 400;">Uranium Extractors now produce
@@ -740,7 +716,12 @@ MonoBehaviour:
         with <a href="https://humankind.mod.io/docktor-kains-pollution-rework">Docktor
         Kain''s Pollution Rework</a>, but it is already integrated</li>
 
-        </ul>'
+        </ul>
+
+        <p><strong>License</strong></p>
+
+        <p><em>Non
+        of the art used in this mod is created or owned by me full credit to artists</em></p>'
       isDirty: 0
     homepageURL:
       value: 

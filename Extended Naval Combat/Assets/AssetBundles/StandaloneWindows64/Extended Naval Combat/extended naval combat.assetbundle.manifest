@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1402651727
+CRC: 3920366719
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 446f7c602051cfa79fd015535f7a79ad
+    Hash: 5d55039cd617f897ea8898c84eee87f5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 17a2d9fba7d52cadff92194973c0ddd0
+    Hash: e4101caddec5eaa9f044f5197abc97ec
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -29,10 +29,6 @@ ClassTypes:
   Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-- Class: 114
-  Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-- Class: 114
-  Script: {fileID: 413569288, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -124,6 +120,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 130328062, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
 - Class: 114
+  Script: {fileID: 925526427, guid: 9dacf171f03737e48b4a8b5d8635beaa, type: 3}
+- Class: 114
+  Script: {fileID: 1166067208, guid: 9dacf171f03737e48b4a8b5d8635beaa, type: 3}
+- Class: 114
   Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
 - Class: 114
   Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
@@ -198,11 +198,11 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/sloopOfWar720.png
 - Assets/Resources/seawolf360.png
-- Assets/Databases/World/LootTableCuriosityDefinition.asset
 - Assets/Resources/battleshipDreadnought784.png
+- Assets/Resources/torpedboatDestroyer212.png
+- Assets/Databases/Fame/RpnFameDefinition.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/SteamCorvette685.png
-- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Rifles360.png
 - Assets/Resources/seawolf212.png
@@ -212,6 +212,7 @@ Assets:
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
+- Assets/Resources/cogtransport.png
 - Assets/Resources/Galleass.png
 - Assets/Databases/Unit/LandUnitDefinition.asset
 - Assets/Databases/Unit/UnitAbility.asset
@@ -222,6 +223,7 @@ Assets:
 - Assets/Databases/EffectMapper/ValidationMapperCollection.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
+- Assets/Databases/World/WorldGeneratorSetting.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/ArmoredRecon212.png
