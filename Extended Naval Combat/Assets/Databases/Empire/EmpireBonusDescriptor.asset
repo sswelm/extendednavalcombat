@@ -425,10 +425,17 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PollutionNet
       ToTargetOperation: 0
-      RpnOperationStack: 
+      RpnOperationStack: 0a0000000a0000000a00000009000000090000000000000009000000000000000a0000000100000006000000070000000a0000000300000001000000
       ConstantStack:
-      - RawValue: 500
-      PropertyLocalName: []
+      - RawValue: 1000
+      - RawValue: 1000
+      - RawValue: 100
+      - RawValue: 33000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-4406436696221115103
