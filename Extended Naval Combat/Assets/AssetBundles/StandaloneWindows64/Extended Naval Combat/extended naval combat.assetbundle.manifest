@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2886276786
+CRC: 2494184567
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce3b30f50a3889b2a213d96a08e18ddd
+    Hash: 4ed81b625fd6b976eeafc2e786b29bc3
   TypeTreeHash:
     serializedVersion: 2
     Hash: e4101caddec5eaa9f044f5197abc97ec
@@ -178,6 +178,7 @@ Assets:
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/earlyRiffleman212.png
 - Assets/Databases/World/PollutionDescriptor.asset
 - Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
@@ -213,6 +214,7 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
 - Assets/Resources/cogtransport.png
+- Assets/Resources/earlyRiffleman720.png
 - Assets/Resources/Galleass.png
 - Assets/Databases/Unit/LandUnitDefinition.asset
 - Assets/Databases/Unit/UnitAbility.asset

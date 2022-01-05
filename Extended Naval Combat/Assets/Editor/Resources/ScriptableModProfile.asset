@@ -80,31 +80,31 @@ MonoBehaviour:
 
         <ol>
 
-        <li>Two Masted Ship; requires
-        Seafaring, unlocks Carrack</li>
+        <li>Ship of the Line; requires
+        Chartered Companies, unlocks Man O'' War</li>
 
-        <li>Ship of the Line, requires Chartered
-        Companies, unlocks Man O'' War</li>
+        <li>Naval Steam Engine;
+        requires Steam Engine, unlocks Steam Frigate and Steam Transport</li>
 
-        <li>Railroad; requires Steam
-        Engine, unlocks Train Station and Industrial era Settlement package</li>
+        <li>Railroad;
+        requires Steam Engine, unlocks Train Station and Industrial era Settlement
+        package</li>
 
-        <li>Automobile;
-        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
-        bonus</li>
+        <li>Automobile; requires Combustion Engine, unlocks
+        Armoured Car and freight trucks trade bonus</li>
 
-        <li>Breachloader; requires Line Formation, unlocks Siege
-        Artillery and Horse Drawn Siege Artillery</li>
+        <li>Breachloader;
+        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
 
-        <li>Dreadnought Design;
-        requires Combustion Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>
+        <li>Dreadnought
+        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
+        Destroyer</li>
 
-        <li>Bunker
-        Construction; requires Trench Warfare; unlocks Bunker, Bomb Shelters, Mountain
-        Industry and underground construction</li>
+        <li>Bunker Construction; requires Trench Warfare;
+        unlocks Bunker, Bomb Shelters, Mountain Industry, and underground construction</li>
 
-        <li>Submarine Warfare;
-        requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
+        <li>Submarine
+        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
 
         <li>Anti
         Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
@@ -128,7 +128,7 @@ MonoBehaviour:
         Cruise Missile and Missile Silo</li>
 
         <li>Guided Missiles; requires
-        Computing, unlocks Missile Cruiser, Missile Destroyer, Missile Submarine</li>
+        Computing, unlocks Missile Cruiser, Missile Destroyer and Missile Submarine</li>
 
         <li>Mechanized
         Infantry Doctrine, requires Sloped Armor. unlocks APC and All-Terrain PMV</li>
@@ -558,14 +558,14 @@ MonoBehaviour:
         <li>Line Infantry =&gt; Riflemen =&gt;
         Marines =&gt; All Terrain PMV</li>
 
-        <li>Heavy Machinegun =&gt; Armored
-        Personnel Carrier (APC)</li>
+        <li>Heavy Machinegun =&gt; Anti
+        Aircraft Gun</li>
 
-        <li>Biplane =&gt; Monoplane Fighter
-        =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
+        <li>Biplane =&gt; Monoplane Fighter =&gt; Multi
+        Role Fighter =&gt; Stealth Fighter</li>
 
-        <li>Transport
-        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
+        <li>Transport Galley =&gt;
+        Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
 
         </ul>
 
@@ -695,6 +695,9 @@ MonoBehaviour:
         </ul>
 
         <p><strong>Compatibility</strong><em>:</em></p>
+
+        <p>I
+        general it is recommended to load this mod before any other humankind mods.</p>
 
         <ul>
 

@@ -176,129 +176,129 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 948781698
-        b: 1122839731
-        c: 631945376
-        d: 583326164
+        a: 1222791087
+        b: 1190932303
+        c: 776049852
+        d: 141672434
     serializableKey: Default_Small
   - Value:
       guid:
-        a: 1645824489
-        b: 1250389651
-        c: 152619188
-        d: 2140933508
+        a: 660773431
+        b: 1109587177
+        c: 1048866725
+        d: 1542950231
     serializableKey: Default_Tooltip
   - Value:
       guid:
-        a: -42685141
-        b: 1285316335
-        c: 1315390908
-        d: -1558206521
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation1_Small
   - Value:
       guid:
-        a: -1311432913
-        b: 1314680671
-        c: 927685310
-        d: 1324291906
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation1_Tooltip
   - Value:
       guid:
-        a: -42685141
-        b: 1285316335
-        c: 1315390908
-        d: -1558206521
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation2_Small
   - Value:
       guid:
-        a: -1311432913
-        b: 1314680671
-        c: 927685310
-        d: 1324291906
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation2_Tooltip
   - Value:
       guid:
-        a: 288001087
-        b: 1102424951
-        c: -110395460
-        d: -1210257681
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation3_Small
   - Value:
       guid:
-        a: -142278123
-        b: 1200609558
-        c: -184310851
-        d: 222119940
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation3_Tooltip
   - Value:
       guid:
-        a: 12650819
-        b: 1082803350
-        c: -166220908
-        d: 787691569
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation4_Small
   - Value:
       guid:
-        a: 624004220
-        b: 1128113772
-        c: -945139274
-        d: -1105872802
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation4_Tooltip
   - Value:
       guid:
-        a: -1218967798
-        b: 1282571705
-        c: 233987471
-        d: 815611724
-    serializableKey: Variation5_Small
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation51_Small
   - Value:
       guid:
-        a: 1775738283
-        b: 1268283753
-        c: 1413573521
-        d: -1109541423
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation5_Tooltip
   - Value:
       guid:
-        a: 165044830
-        b: 1110823340
-        c: -472942191
-        d: 1963578978
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation6_Small
   - Value:
       guid:
-        a: 2059936358
-        b: 1101400251
-        c: 1932254131
-        d: 1908132150
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation6_Tooltip
   - Value:
       guid:
-        a: 12650819
-        b: 1082803350
-        c: -166220908
-        d: 787691569
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation7_Small
   - Value:
       guid:
-        a: 624004220
-        b: 1128113772
-        c: -945139274
-        d: -1105872802
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation7_Tooltip
   - Value:
       guid:
-        a: -78055679
-        b: 1132713713
-        c: -224624460
-        d: -1860498498
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation8_Small
   - Value:
       guid:
-        a: -574597677
-        b: 1162617854
-        c: 1954496390
-        d: 1710140493
+        a: 0
+        b: 0
+        c: 0
+        d: 0
     serializableKey: Variation8_Tooltip
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
