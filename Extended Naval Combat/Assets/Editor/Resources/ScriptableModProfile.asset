@@ -511,17 +511,15 @@ MonoBehaviour:
         <ul>
 
         <li>Cruise Missile: reduced
-        strategic resource requirements, maintenance cost, population cost, and increased
-        range</li>
+        maintenance cost, population cost, and increased range</li>
 
-        <li>Nuclear Missile: reduced strategic resource requirements,
-        maintenance cost, and base attack range doubled</li>
+        <li>Nuclear
+        Missile: reduced maintenance cost, and base attack range doubled</li>
 
         <li>Thermal
         Nuclear Missile: <span style="font-size: 1em; font-weight: 400;">reduced
-        strategic resource </span><span style="font-size: 1em; font-weight: 400;">requirements,
-        </span><span style="font-size: 1em; font-weight: 400;">maintenance cost,
-        and base attack range doubled</span></li>
+        </span><span style="font-size: 1em; font-weight: 400;"></span><span style="font-size:
+        1em; font-weight: 400;">maintenance cost and base attack range doubled</span></li>
 
         </ul>
 
@@ -548,22 +546,23 @@ MonoBehaviour:
         <li>Dragoon =&gt; Armoured Cars =&gt; Armoured
         Recon =&gt; Armored Personnel Carrier (APC)</li>
 
-        <li>Partisans =&gt;
-        Commados</li>
+        <li>Saboteur =&gt;
+        Partisans =&gt; Commados</li>
 
-        <li>Howitzer =&gt; Anti Tank =&gt; Main Battle Tank</li>
+        <li>Howitzer =&gt; Anti Tank =&gt;
+        Main Battle Tank</li>
 
-        <li>Mortar
-        =&gt; Artillery =&gt; Multiple Launch Rocket System</li>
+        <li>Mortar =&gt; Artillery =&gt; Multiple
+        Launch Rocket System</li>
 
-        <li>Line
-        Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
+        <li>Line Infantry =&gt; Riflemen =&gt;
+        Marines =&gt; All Terrain PMV</li>
 
-        <li>Heavy
-        Machinegun =&gt; Armored Personnel Carrier (APC)</li>
+        <li>Heavy Machinegun =&gt; Armored
+        Personnel Carrier (APC)</li>
 
-        <li>Biplane
-        =&gt; Monoplane Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
+        <li>Biplane =&gt; Monoplane Fighter
+        =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
 
         <li>Transport
         Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
@@ -627,7 +626,7 @@ MonoBehaviour:
 
         <ul>
 
-        <li><span style="font-weight: 400;">Hydroeletric
+        <li><span style="font-weight: 400;">Hydroelectric
         Dam now generate -10% pollution on all districts instead of its normal pollution
         reduction</span></li>
 
