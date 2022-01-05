@@ -165,7 +165,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier2_Cost
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -3496,7 +3496,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier2_Cost
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -4753,7 +4753,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier1_Cost
+    serializableElementName: Technology_Era5_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_11
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier2_Cost
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_09
@@ -5961,7 +5961,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier1_Cost
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_DreadnoughtDesign
@@ -6301,7 +6301,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier2_Cost
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -7788,7 +7788,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier1_Cost
+    serializableElementName: Technology_Era5_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_ShipOfTheLine
@@ -8549,7 +8549,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier1_Cost
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_BunkerConstruction

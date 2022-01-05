@@ -39,7 +39,7 @@ MonoBehaviour:
   - RawValue: 34000
   - RawValue: 17000
   - RawValue: 1000
-  - RawValue: 1800
+  - RawValue: 1600
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -65,7 +65,7 @@ MonoBehaviour:
   - RawValue: 12000
   - RawValue: 6000
   - RawValue: 1000
-  - RawValue: 600
+  - RawValue: 400
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -91,7 +91,7 @@ MonoBehaviour:
   - RawValue: 17000
   - RawValue: 8500
   - RawValue: 1000
-  - RawValue: 800
+  - RawValue: 600
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -117,7 +117,7 @@ MonoBehaviour:
   - RawValue: 27000
   - RawValue: 13500
   - RawValue: 1000
-  - RawValue: 1400
+  - RawValue: 1200
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -143,7 +143,7 @@ MonoBehaviour:
   - RawValue: 38000
   - RawValue: 19000
   - RawValue: 1000
-  - RawValue: 2000
+  - RawValue: 1800
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -169,7 +169,7 @@ MonoBehaviour:
   - RawValue: 8000
   - RawValue: 4000
   - RawValue: 1000
-  - RawValue: 400
+  - RawValue: 200
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -221,10 +221,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 8470000
   - RawValue: 1414
-  - RawValue: 48000
-  - RawValue: 24000
+  - RawValue: 50000
+  - RawValue: 25000
   - RawValue: 1000
-  - RawValue: 2600
+  - RawValue: 2400
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -252,7 +252,7 @@ MonoBehaviour:
   - RawValue: 5000
   - RawValue: 35000
   - RawValue: 1000
-  - RawValue: 3400
+  - RawValue: 3200
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -278,7 +278,7 @@ MonoBehaviour:
   - RawValue: 24000
   - RawValue: 12000
   - RawValue: 1000
-  - RawValue: 1200
+  - RawValue: 1000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -330,10 +330,10 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 10250000
   - RawValue: 1682
-  - RawValue: 52000
-  - RawValue: 26000
+  - RawValue: 54000
+  - RawValue: 27000
   - RawValue: 1000
-  - RawValue: 2800
+  - RawValue: 2600
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -371,7 +371,7 @@ MonoBehaviour:
   - RawValue: 21000
   - RawValue: 10500
   - RawValue: 1000
-  - RawValue: 1000
+  - RawValue: 800
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -397,7 +397,7 @@ MonoBehaviour:
   - RawValue: 31000
   - RawValue: 15500
   - RawValue: 1000
-  - RawValue: 1600
+  - RawValue: 1400
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -445,7 +445,7 @@ MonoBehaviour:
   - RawValue: 46000
   - RawValue: 23000
   - RawValue: 1000
-  - RawValue: 2400
+  - RawValue: 2200
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -471,7 +471,7 @@ MonoBehaviour:
   - RawValue: 4000
   - RawValue: 2000
   - RawValue: 1000
-  - RawValue: 200
+  - RawValue: 0
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -497,7 +497,7 @@ MonoBehaviour:
   - RawValue: 43000
   - RawValue: 21500
   - RawValue: 1000
-  - RawValue: 2200
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -524,7 +524,7 @@ MonoBehaviour:
   - RawValue: 58000
   - RawValue: 29000
   - RawValue: 1000
-  - RawValue: 3000
+  - RawValue: 2800
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -580,7 +580,7 @@ MonoBehaviour:
   - RawValue: 2500
   - RawValue: 33000
   - RawValue: 1000
-  - RawValue: 3200
+  - RawValue: 3000
   Note: 
   PropertyLocalNameStack:
   - NumberOfUnlockedTechnologies
@@ -604,9 +604,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 19890000
   - RawValue: 4000
-  - RawValue: 74000
+  - RawValue: 76000
   - RawValue: 5000
-  - RawValue: 37000
+  - RawValue: 38000
   - RawValue: 1000
   - RawValue: 3400
   Note: 
