@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2494184567
+CRC: 3278497720
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4ed81b625fd6b976eeafc2e786b29bc3
+    Hash: 37adad9d56387da464bb8fc4f0303e94
   TypeTreeHash:
     serializedVersion: 2
     Hash: e4101caddec5eaa9f044f5197abc97ec
@@ -214,6 +214,7 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset
 - Assets/Resources/cogtransport.png
+- Assets/Resources/framethrowerMarine500.png
 - Assets/Resources/earlyRiffleman720.png
 - Assets/Resources/Galleass.png
 - Assets/Databases/Unit/LandUnitDefinition.asset
