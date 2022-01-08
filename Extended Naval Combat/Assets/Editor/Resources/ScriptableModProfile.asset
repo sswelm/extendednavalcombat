@@ -141,7 +141,7 @@ MonoBehaviour:
         unlocks Helicopter Gunship</li>
 
         <li>Stealth Technology; requires
-        precision-guided munition, unlocks Stealth Corvette, Stealth Missile and
+        precision-guided munition, unlocks Stealth Corvette, Stealth Missile, and
         Stealth Fighter</li>
 
         </ol>
@@ -234,7 +234,7 @@ MonoBehaviour:
         is unlocked earlier with Sailing (with an event)</li>
 
         <li>U-Boat
-        is unlocked later with Submarine Warfare (Germany gains 50% reach bonus)</li>
+        is unlocked later with Submarine Warfare (Germany gains 50% research bonus)</li>
 
         <li>Medium
         Tank is unlocked later with Sloped Armor</li>
@@ -369,8 +369,8 @@ MonoBehaviour:
         Cruise Missile, unlocked with Stealth technology</li>
 
         <li>Added
-        Intercontinental Ballistic Missile (ICBM) unlockedafter research Rocket Science
-        and building 2th Nuclear Test Project</li>
+        Intercontinental Ballistic Missile (ICBM) unlocked after research Rocket
+        Science and building 2th Nuclear Test Project</li>
 
         </ol>
 
@@ -572,7 +572,7 @@ MonoBehaviour:
         <p><strong>Transportation</strong></p>
 
         <p>Besides
-        the addition of two intermediate transport vessels durring medival and indtrial
+        the addition of two intermediate transport vessels during medieval and industrial
         era, naval Transporting has been augmented; The Type of unit can now have
         an effect on the combat strength and attack range of the Naval transport,
         making them more strategically important</p>
@@ -604,12 +604,12 @@ MonoBehaviour:
         <p><strong>Pollution</strong></p>
 
         <p>Pollution
-        in vanilla Humankind was a serious problem late game which needs to be correctly
-        to keep the game playable and not phohibit the player strategic options with
-        late game militairy districts and infratructure. Pollution will now mosty
-        be unavoidable but its effects will be more gradual and bening and public
-        order can be mitigated by giving your population less industrial and science
-        occupations and more finanial and archicultural occupations.</p>
+        in vanilla Humankind was a serious problem in late-game which needs to be
+        corrected to keep the game playable and not prohibit the player strategic
+        options with late-game military districts and infrastructure. Pollution will
+        now mostly be unavoidable but its effects will be more gradual and bening
+        and public order can be mitigated by giving your population fewer industrial
+        and science occupations and more financial and agricultural occupations.</p>
 
         <p><em>Added
         Infrastructure:</em></p>
@@ -627,32 +627,32 @@ MonoBehaviour:
         <ul>
 
         <li><span style="font-weight: 400;">Hydroelectric
-        Dam now generate -10% pollution on all districts instead of its normal pollution
+        Dam now generate -10% pollution in all districts instead of its normal pollution
         reduction</span></li>
 
         <li><span style="font-weight: 400;">Wind Farm
-        now costs 9055 industry to build, but now generate -25% pollution on all
+        now costs 9055 industry to build, but now generate -25% pollution in all
         districts instead of its normal pollution reduction</span></li>
 
         <li><span
-        style="font-weight: 400;">Solar Farm now generate -20% pollution on all districts
+        style="font-weight: 400;">Solar Farm now generate -20% pollution in all districts
         instead of its normal pollution reduction</span></li>
 
         <li><span
-        style="font-weight: 400;">Nuclear Plant now generate -15% pollution on all
-        districts instead of its normal pollution reduction</span></li>
+        style="font-weight: 400;">Nuclear Plant now generate -15% pollution in all
+        districts instead of their normal pollution reduction</span></li>
 
         <li><span
-        style="font-weight: 400;">Sewage System now generate -10% pollution on all
+        style="font-weight: 400;">Sewage System now generate -10% pollution in all
         districts instead of its normal pollution reduction</span></li>
 
         <li><span
         style="font-weight: 400;">Factory Farming, Industrial Silos, Anti-Air Surveillance,
-        Command Compound, Tech Park, Financial District, Surface-to-Air Missile and
-        Supercomputer Lab do not generate pollution anymore.</span></li>
+        Command Compound, Tech Park, Financial District, Surface-to-Air Missile,
+        and Supercomputer Lab do not generate pollution anymore.</span></li>
 
         <li>Bomb
-        Shelters are unlocked earlier with Bunker Construction (at end of Industrial
+        Shelters are unlocked earlier with Bunker Construction (at end of the Industrial
         Era)</li>
 
         </ul>
@@ -703,19 +703,19 @@ MonoBehaviour:
 
         <li>mostly
         compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>
-        (must be loaded after Extended Naval Combat )</li>
+        , but for best experience, you should also load the <a href="https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod">DeepSea
+        Compatibility Patch</a></li>
 
-        <li>mostly compatible
-        with <a href="https://humankind.mod.io/superpack">Super Pack for Humankind</a>,
-        (just make sure to load it later)</li>
+        <li>mostly compatible with <a href="https://humankind.mod.io/superpack">Super
+        Pack for Humankind</a>, (just make sure to load it later)</li>
 
-        <li>not compatible with<a
-        href="https://humankind.mod.io/long-range-nuclear-missiles" style="font-size:
-        1em;"> Nuclear Missiles Mod</a><span style="font-size: 1em; font-weight:
-        400;"> but it is already integrated</span></li>
+        <li>not
+        compatible with<a href="https://humankind.mod.io/long-range-nuclear-missiles"
+        style="font-size: 1em;"> Nuclear Missiles Mod</a><span style="font-size:
+        1em; font-weight: 400;"> but it is already integrated</span></li>
 
-        <li>not compatible
-        with <a href="https://humankind.mod.io/docktor-kains-pollution-rework">Docktor
+        <li>not
+        compatible with <a href="https://humankind.mod.io/docktor-kains-pollution-rework">Docktor
         Kain''s Pollution Rework</a>, but it is already integrated</li>
 
         </ul>
