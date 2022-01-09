@@ -607,9 +607,24 @@ MonoBehaviour:
         in vanilla Humankind was a serious problem in late-game which needs to be
         corrected to keep the game playable and not prohibit the player strategic
         options with late-game military districts and infrastructure. Pollution will
-        now mostly be unavoidable but its effects will be more gradual and bening
+        now mostly be unavoidable but its effects will be more gradual and less shocking
         and public order can be mitigated by giving your population fewer industrial
         and science occupations and more financial and agricultural occupations.</p>
+
+        <p><em>Global
+        Warming:</em></p>
+
+        <ul>
+
+        <li>Increased Global Warming Threshold
+        by 44%</li>
+
+        <li>Public order effect depend on Net Global Pollution</li>
+
+        <li>Food
+        reduction is affected by Net Global Pollution</li>
+
+        </ul>
 
         <p><em>Added
         Infrastructure:</em></p>
