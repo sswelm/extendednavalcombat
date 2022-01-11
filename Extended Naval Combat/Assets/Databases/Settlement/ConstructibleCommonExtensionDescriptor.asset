@@ -52,7 +52,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
@@ -96,27 +96,6 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &-7554770020814604493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Base_Extractor
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-7328788153535572548
@@ -458,7 +437,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
     - Note: 
       TargetProperty: FortificationBonus
@@ -524,21 +503,6 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &-2990150437824250127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Base_Science
-  m_EditorClassIdentifier: 
-  Effects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-2045503512650622536
@@ -661,21 +625,6 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 5000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &-377714366421323105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Base_Industry
-  m_EditorClassIdentifier: 
-  Effects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-328398393561701233
@@ -1222,21 +1171,6 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 6000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &7267101641017102529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Base_LandBased
-  m_EditorClassIdentifier: 
-  Effects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &7513799325178535127

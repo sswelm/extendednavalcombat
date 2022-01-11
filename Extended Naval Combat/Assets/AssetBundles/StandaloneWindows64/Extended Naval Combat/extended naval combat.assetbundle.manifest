@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1188280696
+CRC: 1436775445
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e66424506c7f93034b8003062dd58e13
+    Hash: 693fb32161afb802e521b07b2cd841d0
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -136,10 +136,12 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
-- Assets/Resources/transparant360.png
+- Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
-- Assets/AssetBundleContentDescriptor.asset
+- Assets/Resources/transparant360.png
+- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/AssetBundleContentDescriptor.asset
 - Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
@@ -152,8 +154,9 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionUIMappers.asset
 - Assets/Databases/World/TerrainTypeDefinition.asset
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
-- Assets/Resources/horseDrawnSiegeArtillery360.png
+- Assets/Resources/artillerty720.png
 - Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
+- Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
@@ -237,6 +240,6 @@ Assets:
 - Assets/Resources/ArmoredRecon212.png
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
-- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
+- Assets/Resources/artillerty212.png
 - Assets/Resources/missileCruiser212.png
 Dependencies: []

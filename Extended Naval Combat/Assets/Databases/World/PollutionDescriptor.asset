@@ -31,7 +31,7 @@ MonoBehaviour:
       ToTargetOperation: 1
       RpnOperationStack: 0a0000000a00000009000000020000000a0000000a0000000900000006000000020000000a000000000000000a000000050000000300000000000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       - RawValue: 20
       - RawValue: 2000
       - RawValue: 500
@@ -51,10 +51,10 @@ MonoBehaviour:
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 4
-      RpnOperationStack: 0a0000000a00000009000000020000000a0000000a0000000900000006000000020000000a000000000000000a000000050000000300000000000000
+      RpnOperationStack: 0a000000090000000a00000005000000020000000a0000000a0000000900000006000000020000000a000000000000000a0000000500000003000000
       ConstantStack:
-      - RawValue: -150
-      - RawValue: -4
+      - RawValue: -100
+      - RawValue: 500
       - RawValue: 2000
       - RawValue: 500
       - RawValue: 500
@@ -261,9 +261,8 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PublicOrderProduced
       ToTargetOperation: 1
-      RpnOperationStack: 0a0000000a00000009000000020000000a0000000a0000000900000006000000020000000a000000000000000a000000050000000300000000000000
+      RpnOperationStack: 0a00000009000000020000000a0000000a0000000900000006000000020000000a000000000000000a0000000500000003000000
       ConstantStack:
-      - RawValue: 1000
       - RawValue: 20
       - RawValue: 2000
       - RawValue: 500
@@ -283,10 +282,10 @@ MonoBehaviour:
     - Note: 
       TargetProperty: FoodProduced
       ToTargetOperation: 4
-      RpnOperationStack: 0a0000000a00000009000000020000000a0000000a0000000900000006000000020000000a000000000000000a000000050000000300000000000000
+      RpnOperationStack: 0a000000090000000a00000005000000020000000a0000000a0000000900000006000000020000000a000000000000000a0000000500000003000000
       ConstantStack:
-      - RawValue: -50
-      - RawValue: -4
+      - RawValue: -100
+      - RawValue: 500
       - RawValue: 2000
       - RawValue: 500
       - RawValue: 500
