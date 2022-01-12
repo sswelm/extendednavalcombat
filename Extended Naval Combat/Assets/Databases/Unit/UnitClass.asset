@@ -597,6 +597,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Prototype_LandUnit
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_Gunner
+  - serializableElementName: UnitAbility_WeaknessVersusShips
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &1547207792678073132
@@ -616,6 +617,7 @@ MonoBehaviour:
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_MountedNomad
   - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  - serializableElementName: UnitAbility_WeaknessVersusShips
   AutoResolveBattleStrengthBonus:
     RawValue: 2000
 --- !u!114 &1835471148747960235
@@ -712,6 +714,7 @@ MonoBehaviour:
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_Ranged
   - serializableElementName: UnitAbility_IndirectFireVersusFortification
+  - serializableElementName: UnitAbility_WeaknessVersusShips
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &2668924960992579170
@@ -857,6 +860,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Prototype_Mounted
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_MountedRanged
+  - serializableElementName: UnitAbility_WeaknessVersusShips
   AutoResolveBattleStrengthBonus:
     RawValue: 1000
 --- !u!114 &5591723773233551218
@@ -997,6 +1001,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Prototype_Mounted
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_MountedGunner
+  - serializableElementName: UnitAbility_WeaknessVersusShips
   AutoResolveBattleStrengthBonus:
     RawValue: 1000
 --- !u!114 &8067982171587343813

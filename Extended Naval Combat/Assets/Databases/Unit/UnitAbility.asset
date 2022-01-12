@@ -563,6 +563,24 @@ MonoBehaviour:
   - serializableElementName: BattleAbility_MoneyFromAnimals
   - serializableElementName: BattleAbility_AdvancedTerrain
   - serializableElementName: BattleAbility_CanAttackFortification
+--- !u!114 &-4435514943210135221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_WeaknessVersusShips
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences: []
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_WeaknessVersusShips
 --- !u!114 &-4153420715044191984
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -243,7 +243,7 @@ MonoBehaviour:
         earlier with Insurrection Theory</li>
 
         <li>Missile Silo and Cruise
-        Missile is unlocked earlier with Jet Engine Construction</li>
+        Missile is unlocked earlier with Jet Engine</li>
 
         <li>Helicopter
         Gunship is unlocked later with Precision-guided munition</li>
@@ -254,9 +254,6 @@ MonoBehaviour:
 
         <li>Nuclear Submarine is unlocked with Fluid Dynamics
         and upgraded with Nuclear Reactor</li>
-
-        <li>Cruise Missile is unlocked
-        earlier with Jet Engines</li>
 
         </ul>
 
@@ -334,26 +331,26 @@ MonoBehaviour:
         unlocked with Line Formations, upgrades to Light Tank</li>
 
         <li>Added
-        Horse Drawn Artillery, unlocked with Trench Warfare, upgrades to MLRS</li>
-
-        <li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>
 
         <li>Added
-        Light Tank unlocked with Continuous Track, upgrades to Medium Tank</li>
+        Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
+        MLRS</li>
+
+        <li>Added Light Tank unlocked with Continuous Track, upgrades
+        to Medium Tank</li>
+
+        <li>Added Armoured Recon, unlocked with Anti
+        Tank Warfare upgrades to Armoured Personel Carrier</li>
 
         <li>Added
-        Armoured Recon, unlocked with Anti Tank Warfare upgrades to Armoured Personel
-        Carrier</li>
+        Marines, unlocked Amphibious Warfare, upgrades to All-Terrain PMV,</li>
 
-        <li>Added Marines, unlocked Amphibious Warfare, upgrades
-        to All-Terrain PMV,</li>
+        <li>Added
+        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
 
-        <li>Added Multiple Launch Rocket System
-        &#40;MLRS&#41;, unlocks with Computing</li>
-
-        <li>Added (common) All-Terrain
-        PMV, unlocks with Composite Armor</li>
+        <li>Added
+        (common) All-Terrain PMV, unlocks with Composite Armor</li>
 
         </ol>
 
@@ -369,8 +366,8 @@ MonoBehaviour:
         Cruise Missile, unlocked with Stealth technology</li>
 
         <li>Added
-        Intercontinental Ballistic Missile (ICBM) unlocked after research Rocket
-        Science and building 2th Nuclear Test Project</li>
+        Intercontinental Ballistic Missile (ICBM) unlocked after researching Rocket
+        Science and building 2nd Nuclear Test Project</li>
 
         </ol>
 
@@ -552,20 +549,20 @@ MonoBehaviour:
         <li>Howitzer =&gt; Anti Tank =&gt;
         Main Battle Tank</li>
 
-        <li>Mortar =&gt; Artillery =&gt; Multiple
-        Launch Rocket System</li>
+        <li>Mortar =&gt; Siege Artillery =&gt; Towed
+        Artillery =&gt; Multiple Launch Rocket System</li>
 
-        <li>Line Infantry =&gt; Riflemen =&gt;
-        Marines =&gt; All Terrain PMV</li>
+        <li>Line Infantry
+        =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
 
-        <li>Heavy Machinegun =&gt; Anti
-        Aircraft Gun</li>
+        <li>Heavy
+        Machinegun =&gt; Anti Aircraft Gun</li>
 
-        <li>Biplane =&gt; Monoplane Fighter =&gt; Multi
-        Role Fighter =&gt; Stealth Fighter</li>
+        <li>Biplane =&gt; Monoplane
+        Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
 
-        <li>Transport Galley =&gt;
-        Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
+        <li>Transport
+        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
 
         </ul>
 
