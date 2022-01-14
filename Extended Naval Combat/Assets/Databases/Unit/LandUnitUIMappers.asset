@@ -1067,6 +1067,162 @@ MonoBehaviour:
   Symbol: 
   SortPriority: 7350
   ConstructibleTraits: 
+--- !u!114 &-5567420520391310179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era6_Common_SelfpropelledHowitzer
+  m_EditorClassIdentifier: 
+  Title: Self-propelled Howitzer
+  Description: Self-propelled Howitzer is artillery equipped with its own propulsion
+    system to move towards its firing position. The key advantage of self-propelled
+    over towed artillery is that it can be brought into action much faster. This
+    shoot-and-scoot ability is very useful in a mobile conflict and particularly
+    on the advance.
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1695071069
+        b: 1216657169
+        c: 1188665753
+        d: 1793067765
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 1025180188
+        b: 1198127271
+        c: 1153120935
+        d: -1154891802
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 7600
+  ConstructibleTraits: 
 --- !u!114 &-5114418047368563165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,10 +2013,10 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: 2111627768
-        b: 1293319289
-        c: 1898946968
-        d: 1851869009
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
     serializableKey: Picto
   - Value:
       guid:
@@ -2011,10 +2167,10 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: 2111627768
-        b: 1293319289
-        c: 1898946968
-        d: 1851869009
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
     serializableKey: Picto
   - Value:
       guid:

@@ -1729,7 +1729,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_ModernArtillery
+  SerializableFamily: UnitFamily_MLRS
   Level: 38
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -2443,6 +2443,112 @@ MonoBehaviour:
   UnitTags: 217
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-133756563773261501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era6_Common_SelfpropelledHowitzer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 44
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_ModernArtillery
+  Level: 36
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Iron2_Coal2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  UnitClass:
+    serializableElementName: UnitClass_SelfpropelledHowitzer
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_Bombard_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era6_Common_SelfpropelledHowitzer
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 3089
+  visualAffinityEraReference:
+    serializableElementName: Era5
 --- !u!114 &-80484627671555948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,7 +3295,7 @@ MonoBehaviour:
   UnitSpecialty:
     serializableElementName: UnitSpecialty_NoMovementPenaltiesFromLandTerrain
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era6_Australia_AllTerrainAPC
+  - serializableElementName: Effect_LandUnit_Era6_Common_AllTerrainPMV
   - serializableElementName: Effect_Unit_Era6
   - serializableElementName: Effect_Unit_Era6_Tier2
   BaseMovementSpeed: 1.8
@@ -4068,7 +4174,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_ModernArtillery
+  SerializableFamily: UnitFamily_MLRS
   Level: 37
   Unicity: 0
   ConstructibleVisualAffinity:

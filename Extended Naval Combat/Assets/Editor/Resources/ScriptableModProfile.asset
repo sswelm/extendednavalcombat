@@ -27,9 +27,9 @@ MonoBehaviour:
       value: extended-naval-combat
       isDirty: 0
     summary:
-      value: Introduces  military units and  technologies, and adjusted late game
-        technology cost  to create a longer, more interesting, and historically accurate
-        end game experience
+      value: Introduces  new military units, technologies, adjusted late-game technology
+        cost and infrastructure pollution to create a longer, more interesting, and
+        historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
       value: '<p><strong>Introduction:</strong></p>
@@ -376,14 +376,14 @@ MonoBehaviour:
 
         <ul>
 
-        <li>Transport Galley and
-        all other naval transport Units now require upkeep when used</li>
+        <li>Land-based Archer and
+        Gunner units are less effective (-10 strength) versus naval units in battle</li>
+
+        <li>Transport
+        Galley and all other naval transport Units now require upkeep when used</li>
 
         <li>Cog
         is converted into a Transport vessel</li>
-
-        <li>Carrack Gun platform
-        is replaced by Boarding Vessel</li>
 
         <li>Man O'' War gain special
         ability Shatter (similar to Howitzer)</li>
@@ -744,6 +744,7 @@ MonoBehaviour:
       value:
       - Balance
       - Gameplay
+      - Infrastructure
       - Mod
       - Narrative event
       - Other

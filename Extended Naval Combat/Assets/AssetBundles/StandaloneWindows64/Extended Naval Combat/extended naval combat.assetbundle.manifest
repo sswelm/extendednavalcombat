@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3616686548
+CRC: 2823794305
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c52d959e146061db23a7e6ac1ee81aec
+    Hash: 1fbf992072503c9b2ccde3cf9f71d355
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -175,6 +175,7 @@ Assets:
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
 - Assets/Resources/battleshipDreadnought212.png
+- Assets/Resources/selfpropelledHowitzer720.png
 - Assets/Resources/transparant212.png
 - Assets/Databases/World/TerrainDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
@@ -237,6 +238,7 @@ Assets:
 - Assets/Databases/World/PollutionDefinition.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Databases/Unit/UnitClass.asset
+- Assets/Resources/selfpropelledHowitzer212.png
 - Assets/Resources/ArmoredRecon212.png
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
