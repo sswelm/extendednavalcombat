@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2761533176
+CRC: 556798303
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 49e181cf3de70ef289d4d7f6a8386cf6
+    Hash: 771f0619af7f6db715571b75a1449ba5
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -193,6 +193,7 @@ Assets:
 - Assets/Databases/World/PollutionDescriptor.asset
 - Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/Seawolf720.png
 - Assets/Resources/ww2destroyer792.png
 - Assets/Resources/undergroundIndustry212.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
@@ -209,14 +210,13 @@ Assets:
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
 - Assets/Resources/sloopOfWar720.png
-- Assets/Resources/seawolf360.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Fame/RpnFameDefinition.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/SteamCorvette685.png
 - Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Rifles360.png
-- Assets/Resources/seawolf212.png
+- Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/ArmoredRecon720.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset

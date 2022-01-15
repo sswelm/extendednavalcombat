@@ -3531,7 +3531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Attack Submarine
   Description: ' A stealthy, torpedo carrying submarine, very suited to hunt down
-    enemy capital ships.'
+    enemy capital ships and other submarines'
   Images:
   - Value:
       guid:
@@ -3549,10 +3549,10 @@ MonoBehaviour:
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -946499072
-        b: 1323491144
-        c: -1119613045
-        d: -1550623607
+        a: 350664211
+        b: 1235029454
+        c: -215891301
+        d: 1645988352
     serializableKey: Default_Tooltip
   - Value:
       guid:
