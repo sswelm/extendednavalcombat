@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 1772441479, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: Calendar_Holocene
   m_EditorClassIdentifier: 
-  StartingDate: -5000
+  StartingDate: 0
   Periods:
   - NumberOfTurns: 20
-    YearsPerTurn: 500
+    YearsPerTurn: 250
   - NumberOfTurns: 60
     YearsPerTurn: 58
   - NumberOfTurns: 60
@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 1772441479, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: Calendar_Gregorian
   m_EditorClassIdentifier: 
-  StartingDate: -15000
+  StartingDate: -10000
   Periods:
   - NumberOfTurns: 20
-    YearsPerTurn: 500
+    YearsPerTurn: 250
   - NumberOfTurns: 60
     YearsPerTurn: 58
   - NumberOfTurns: 60

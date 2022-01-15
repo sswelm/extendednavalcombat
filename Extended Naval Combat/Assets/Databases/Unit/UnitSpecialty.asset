@@ -1520,6 +1520,27 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_BuffAlliesStrengthFromStrongerTarget_Level1
   AutoResolveBattleStrengthBonus:
     RawValue: 0
+--- !u!114 &7974527245516100187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_StealthCruiser
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_AntiAircraft_Level1
+  - serializableElementName: UnitAbility_BombardMultipleUses_Level1
+  - serializableElementName: UnitAbility_Shatter
+  - serializableElementName: UnitAbility_Artillery
+  - serializableElementName: UnitAbility_CanAttackFortification
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
 --- !u!114 &8393380506761654441
 MonoBehaviour:
   m_ObjectHideFlags: 0

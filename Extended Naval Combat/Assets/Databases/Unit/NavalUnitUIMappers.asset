@@ -3670,6 +3670,160 @@ MonoBehaviour:
   Symbol: 
   SortPriority: 8400
   ConstructibleTraits: 
+--- !u!114 &5466328404695013553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_StealthCruisers
+  m_EditorClassIdentifier: 
+  Title: Stealth Missile Cruiser
+  Description: 'These stealthy guided missile cruisers have superior offensive capabilities.
+    These new warships are optimized for land attack operations, but also possess
+    great anti-aircraft and anti-submarine capability. '
+  Images:
+  - Value:
+      guid:
+        a: -5622813
+        b: 1249176334
+        c: -1333746273
+        d: 1903272453
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1433033021
+        b: 1106366619
+        c: -436547940
+        d: -146499371
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 1013558384
+        b: 1223182667
+        c: 140989572
+        d: -1439437128
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 8350
+  ConstructibleTraits: 
 --- !u!114 &7443937057041637323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4005,17 +4159,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: -1456757596
-        b: 1268515328
-        c: 1251079311
-        d: 1011566898
+        a: 420675981
+        b: 1198786290
+        c: 2048985729
+        d: 1169972815
     serializableKey: Default_Small
   - Value:
       guid:
-        a: 445598473
-        b: 1306266433
-        c: -519358789
-        d: -608256454
+        a: 2072901091
+        b: 1280079954
+        c: 1923327873
+        d: -1513243865
     serializableKey: Default_Tooltip
   - Value:
       guid:

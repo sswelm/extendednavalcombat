@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 556798303
+CRC: 1358233046
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 771f0619af7f6db715571b75a1449ba5
+    Hash: 49be6e16815b97081c6bec8f24d5ee99
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -148,6 +148,7 @@ Assets:
 - Assets/Resources/torpedoboatdestroyer212.png
 - Assets/Resources/steamCorvette212.png
 - Assets/Resources/armouredCar212.png
+- Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
 - Assets/Runtime/Extended Naval Combat.asset
@@ -166,13 +167,13 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
 - Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/steamTransport864.png
-- Assets/Resources/Rifles212.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
 - Assets/Resources/guidedmissilecruiser720.png
 - Assets/Databases/Narrative/NarrativeEventDefinition.asset
+- Assets/Resources/zumwalt212.png
 - Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
@@ -184,6 +185,7 @@ Assets:
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
+- Assets/Resources/destroyer782.png
 - Assets/Resources/nuclearCarrier212.png
 - Assets/Resources/UCGprocessfigure212.png
 - Assets/Resources/GasPowerStation720.png
@@ -194,12 +196,10 @@ Assets:
 - Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/Seawolf720.png
-- Assets/Resources/ww2destroyer792.png
 - Assets/Resources/undergroundIndustry212.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Resources/GasPowerStation212.png
 - Assets/Databases/Unit/UnitStatusDefinition.asset
-- Assets/Resources/ww2destroyer212.png
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
@@ -215,7 +215,6 @@ Assets:
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/SteamCorvette685.png
 - Assets/Resources/horseDrawnSiegeArtillery212.png
-- Assets/Resources/Rifles360.png
 - Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/ArmoredRecon720.png
@@ -235,6 +234,7 @@ Assets:
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Resources/missileCruiser764.png
 - Assets/Databases/EffectMapper/ValidationMapperCollection.asset
+- Assets/Resources/destroyer212.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
 - Assets/Databases/World/PollutionDefinition.asset

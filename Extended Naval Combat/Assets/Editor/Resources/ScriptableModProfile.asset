@@ -778,12 +778,14 @@ MonoBehaviour:
       value:
       - fileName: guidedmissilecruiser.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/guidedmissilecruiser.jpg
+      - fileName: zumwalt.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/zumwalt.jpg
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
-      - fileName: finaldestroyer.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/finaldestroyer.jpg
       - fileName: finalmissilecruiser.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
+      - fileName: destroyerwithdescription.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/destroyerwithdescription.jpg
       - fileName: dreadnought.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: galleon.jpg
