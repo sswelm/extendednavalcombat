@@ -128,10 +128,10 @@ MonoBehaviour:
         Cruise Missile and Missile Silo</li>
 
         <li>Guided Missiles; requires
-        Computing, unlocks Missile Cruiser, Missile Destroyer and Missile Submarine</li>
+        Computing, unlocks Missile Cruiser, Missile Destroyer, and Missile Submarine</li>
 
         <li>Mechanized
-        Infantry Doctrine, requires Sloped Armor. unlocks APC, All-Terrain PMV and
+        Infantry Doctrine, requires Sloped Armor. unlocks APC, All-Terrain PMV, and
         Self-propelled Howitzer</li>
 
         <li>Advanced Nuclear Reactors; requires
@@ -142,7 +142,7 @@ MonoBehaviour:
 
         <li>Stealth
         Technology; requires precision-guided munition, unlocks Stealth Corvette,
-        Stealth Missile, and Stealth Fighter</li>
+        Stealth Missile Cruiser, Stealth Missile, and Stealth Fighter</li>
 
         </ol>
 
@@ -320,6 +320,9 @@ MonoBehaviour:
 
         <li>Added
         (common) Stealth Corvette, unlocks with Stealth Technology</li>
+
+        <li>Added
+        Stealth Missile Cruiser, unlocks with Stealth Technology</li>
 
         </ol>
 
@@ -782,10 +785,6 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/zumwalt.jpg
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
-      - fileName: finalmissilecruiser.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/finalmissilecruiser.jpg
-      - fileName: destroyerwithdescription.jpg
-        url: https://image.modcdn.io/mods/49ca/1549034/destroyerwithdescription.jpg
       - fileName: dreadnought.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: galleon.jpg

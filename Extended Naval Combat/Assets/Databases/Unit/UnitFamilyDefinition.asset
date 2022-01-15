@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Name: UnitFamily_Cavalry
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_MechanizedInfantry
+  SerializableNextFamilyName: UnitFamily_AntiEntrenchment
 --- !u!114 &1295529704584051843
 MonoBehaviour:
   m_ObjectHideFlags: 0

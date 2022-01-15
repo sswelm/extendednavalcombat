@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1358233046
+CRC: 1339802902
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 49be6e16815b97081c6bec8f24d5ee99
+    Hash: 44c602463d70bde3bc2303d742760519
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -139,9 +139,9 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/Resources/transparant360.png
-- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
-- Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/AssetBundleContentDescriptor.asset
+- Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Resources/missileCruiser212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
@@ -165,8 +165,9 @@ Assets:
 - Assets/Databases/Settlement/SynergyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleInfrastructureUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
-- Assets/Resources/nuclearCarrier720.png
+- Assets/Resources/attackHelicopter939.png
 - Assets/Resources/steamTransport864.png
+- Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
@@ -204,6 +205,7 @@ Assets:
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
 - Assets/Databases/Unit/LandUnitDescriptor.asset
+- Assets/Resources/attackHelicopter212.png
 - Assets/Resources/steamTransport212.png
 - Assets/Databases/Empire/EmpireBonusDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
@@ -245,5 +247,5 @@ Assets:
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/Resources/artillerty212.png
-- Assets/Resources/missileCruiser212.png
+- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 Dependencies: []
