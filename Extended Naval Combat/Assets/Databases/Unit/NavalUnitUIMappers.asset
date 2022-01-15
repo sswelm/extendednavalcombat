@@ -2918,7 +2918,8 @@ MonoBehaviour:
   m_Name: NavalUnit_Era5_Common_TorpedoBoatDestroyers
   m_EditorClassIdentifier: 
   Title: Torpedo Boat Destroyer
-  Description: '%NavalUnit_Era5_Common_TorpedoBoatsDescription'
+  Description: Torpedo Boat Destroyers were large, swift, and powerfully armed torpedo
+    boats designed to destroy other torpedo boats.
   Images:
   - Value:
       guid:
@@ -2929,17 +2930,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 493378038
-        b: 1115922768
-        c: -1207372104
-        d: -409698985
+        a: 1644366431
+        b: 1286556125
+        c: 762865064
+        d: -1812694853
     serializableKey: Default_Small
   - Value:
       guid:
-        a: -947319936
-        b: 1281483523
-        c: 371349639
-        d: 927921294
+        a: -1415856116
+        b: 1340809685
+        c: 613862038
+        d: 526872579
     serializableKey: Default_Tooltip
   - Value:
       guid:
@@ -3234,17 +3235,17 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 1730555107
-        b: 1088646076
-        c: -1030125900
-        d: 1171102138
+        a: -219905706
+        b: 1223270779
+        c: 1965365171
+        d: 127898862
     serializableKey: Default_Small
   - Value:
       guid:
-        a: 690929582
-        b: 1279055676
-        c: -1758207605
-        d: 1760982869
+        a: 987044253
+        b: 1156837803
+        c: 1206975411
+        d: -1398929444
     serializableKey: Default_Tooltip
   - Value:
       guid:

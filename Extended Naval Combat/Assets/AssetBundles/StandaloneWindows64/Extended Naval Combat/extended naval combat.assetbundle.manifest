@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2823794305
+CRC: 2761533176
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1fbf992072503c9b2ccde3cf9f71d355
+    Hash: 49e181cf3de70ef289d4d7f6a8386cf6
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -142,10 +142,10 @@ Assets:
 - Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/AssetBundleContentDescriptor.asset
-- Assets/Resources/torpedboatDestroyer360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
+- Assets/Resources/torpedoboatdestroyer212.png
 - Assets/Resources/steamCorvette212.png
 - Assets/Resources/armouredCar212.png
 - Assets/Databases/CalendarDefinitionCollection.asset
@@ -160,16 +160,18 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
-- Assets/Resources/nuclearCarrier720.png
+- Assets/Resources/guidedmissilecruiser212.png
 - Assets/Databases/Settlement/SynergyDefinition.asset
 - Assets/Databases/Settlement/ConstructibleInfrastructureUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Resources/nuclearCarrier720.png
 - Assets/Resources/steamTransport864.png
 - Assets/Resources/Rifles212.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
+- Assets/Resources/guidedmissilecruiser720.png
 - Assets/Databases/Narrative/NarrativeEventDefinition.asset
 - Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
@@ -209,7 +211,6 @@ Assets:
 - Assets/Resources/sloopOfWar720.png
 - Assets/Resources/seawolf360.png
 - Assets/Resources/battleshipDreadnought784.png
-- Assets/Resources/torpedboatDestroyer212.png
 - Assets/Databases/Fame/RpnFameDefinition.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/SteamCorvette685.png
@@ -219,6 +220,7 @@ Assets:
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/ArmoredRecon720.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
+- Assets/Resources/torpedoboatdestroyer656.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
 - Assets/Databases/Unit/NavalUnitDefinition.asset
 - Assets/Databases/Unit/AirUnitUIMappers.asset

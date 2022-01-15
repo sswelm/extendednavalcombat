@@ -131,80 +131,81 @@ MonoBehaviour:
         Computing, unlocks Missile Cruiser, Missile Destroyer and Missile Submarine</li>
 
         <li>Mechanized
-        Infantry Doctrine, requires Sloped Armor. unlocks APC and All-Terrain PMV</li>
+        Infantry Doctrine, requires Sloped Armor. unlocks APC, All-Terrain PMV and
+        Self-propelled Howitzer</li>
 
-        <li>Advanced
-        Nuclear Reactors; requires Nuclear Fission, unlocks Nuclear powered unit
-        upgrades</li>
+        <li>Advanced Nuclear Reactors; requires
+        Nuclear Fission, unlocks Nuclear powered unit upgrades</li>
 
-        <li>Precision-guided munition; requires Jet Fighters,
-        unlocks Helicopter Gunship</li>
+        <li>Precision-guided
+        munition; requires Jet Fighters, unlocks Helicopter Gunship</li>
 
-        <li>Stealth Technology; requires
-        precision-guided munition, unlocks Stealth Corvette, Stealth Missile, and
-        Stealth Fighter</li>
+        <li>Stealth
+        Technology; requires precision-guided munition, unlocks Stealth Corvette,
+        Stealth Missile, and Stealth Fighter</li>
 
         </ol>
 
-        <p><em>Techtree changes:</em></p>
+        <p><em>Techtree
+        changes:</em></p>
 
         <ul>
 
+        <li><span style="font-size: 1em;
+        font-weight: 400;">Replaced Ship of the Line as a prerequisite to Steam Engine</span></li>
+
         <li><span
-        style="font-size: 1em; font-weight: 400;">Replaced Ship of the Line as a
-        prerequisite to Steam Engine</span></li>
+        style="font-size: 1em; font-weight: 400;">Added Wireless Telegraphy as a
+        prerequisite to Research Insitute</span></li>
 
-        <li><span style="font-size:
-        1em; font-weight: 400;">Added Wireless Telegraphy as a prerequisite to Research
-        Insitute</span></li>
+        <li>Replaced Automobile
+        as a prerequisite of Continuous Track and Naval Air Strategy</li>
 
-        <li>Replaced Automobile as a prerequisite of
-        Continuous Track and Naval Air Strategy</li>
+        <li>Replaced
+        Air Transportation as a prerequisite for Aerial Warfare</li>
 
-        <li>Replaced Air Transportation
-        as a prerequisite for Aerial Warfare</li>
+        <li>Replaced
+        Guided Missiles as a prerequisite of Rocket Science</li>
 
-        <li>Replaced Guided Missiles
-        as a prerequisite of Rocket Science</li>
+        <li>Replaced
+        Jet Engine as a prerequisite of Fighter Jets</li>
 
-        <li>Replaced Jet Engine
-        as a prerequisite of Fighter Jets</li>
+        <li>Replaced Naval
+        Air Strategy as a prerequisite for Radar</li>
 
-        <li>Replaced Naval Air Strategy
-        as a prerequisite for Radar</li>
-
-        <li>Made Continuous Track unlockable
-        in Industrial Age</li>
+        <li>Made Continuous
+        Track unlockable in Industrial Age</li>
 
         </ul>
 
-        <p><em>Tech-tree branch structure:</em></p>
+        <p><em>Tech-tree
+        branch structure:</em></p>
 
         <ul>
 
-        <li>Combustion
-        =&gt;
+        <li>Combustion =&gt;
 
         <ul>
 
-        <li>Automobile =&gt; Continuously Tracked =&gt;
-        Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized Infantry Doctrine =&gt;
-        Composite Armor</li>
+        <li>Automobile
+        =&gt; Continuously Tracked =&gt; Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized
+        Infantry Doctrine =&gt; Composite Armor</li>
 
-        <li>Aer0nautics =&gt; Air Transportation =&gt;
-        Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets =&gt; Precision-guided
-        munition =&gt; Stealth Technology</li>
+        <li>Aer0nautics =&gt;
+        Air Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets
+        =&gt; Precision-guided munition =&gt; Stealth Technology</li>
 
-        <li>Dreadnought Design =&gt;
+        <li>Dreadnought
+        Design =&gt;
 
         <ul>
 
-        <li>Naval
-        Air Strategy =&gt; Radar =&gt; Computing =&gt; Guided Missiles =&gt; Rocket
-        Science =&gt; Communication Satellites</li>
+        <li>Naval Air Strategy =&gt; Radar =&gt;
+        Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt; Communication
+        Satellites</li>
 
-        <li>Submarine Warfare
-        =&gt; Anti Submarine Warfare =&gt; Fluid Dynamics</li>
+        <li>Submarine Warfare =&gt; Anti Submarine Warfare
+        =&gt; Fluid Dynamics</li>
 
         </ul>
 
@@ -344,13 +345,16 @@ MonoBehaviour:
         Tank Warfare upgrades to Armoured Personel Carrier</li>
 
         <li>Added
+        Self-propelled Howitzer, unlocked with Mechanized Infantry Doctrine</li>
+
+        <li>Added
         Marines, unlocked Amphibious Warfare, upgrades to All-Terrain PMV,</li>
 
         <li>Added
         Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
 
         <li>Added
-        (common) All-Terrain PMV, unlocks with Composite Armor</li>
+        (common) All-Terrain PMV, unlocks with Mechanized Infantry Doctrine</li>
 
         </ol>
 
@@ -772,6 +776,8 @@ MonoBehaviour:
       isDirty: 0
     galleryImageLocators:
       value:
+      - fileName: guidedmissilecruiser.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/guidedmissilecruiser.jpg
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
       - fileName: finaldestroyer.jpg
@@ -782,6 +788,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/dreadnought.jpg
       - fileName: galleon.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/galleon.jpg
+      - fileName: selfpropelledhowitzer.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/selfpropelledhowitzer.jpg
       - fileName: 20211217201148_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217201148_1.1.jpg
       - fileName: steamengine.jpg
