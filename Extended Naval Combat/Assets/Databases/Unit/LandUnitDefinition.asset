@@ -2533,7 +2533,7 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_Gunship
+    serializableElementName: UnitClass_AttackHelicopter
   UnitSpecialty:
     serializableElementName: UnitSpecialty_Shatter
   OwnDescriptorReferences:
@@ -3616,7 +3616,6 @@ MonoBehaviour:
   - serializableElementName: Effect_LandUnit_Era1_Common_Scouts
   - serializableElementName: Effect_Unit_Era1
   - serializableElementName: Effect_Unit_Era1_Tier1
-  - serializableElementName: Effect_Unit_CreatesPollution
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -4234,7 +4233,7 @@ MonoBehaviour:
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
   UnitClass:
-    serializableElementName: UnitClass_FieldArtillery
+    serializableElementName: UnitClass_Machinegun
   UnitSpecialty:
     serializableElementName: UnitSpecialty_DebuffTargetStun
   OwnDescriptorReferences:

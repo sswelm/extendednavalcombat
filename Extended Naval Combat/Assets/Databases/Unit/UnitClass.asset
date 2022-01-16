@@ -761,6 +761,7 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
   - serializableElementName: UnitAbility_IgnoreTerrainBonuses
   - serializableElementName: UnitAbility_IgnoreTerrainPenalties
+  - serializableElementName: UnitAbility_AfterAttackingAllowMove
   AutoResolveBattleStrengthBonus:
     RawValue: 2000
 --- !u!114 &2770436657909280356
@@ -804,6 +805,32 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
   AutoResolveBattleStrengthBonus:
     RawValue: 1000
+--- !u!114 &3242670082311474382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_AttackHelicopter
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_AttackHelicopter
+  - serializableElementName: UnitAbility_CanCrossCliffs
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRivers
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRocks
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  - serializableElementName: UnitAbility_IgnoreTerrainBonuses
+  - serializableElementName: UnitAbility_IgnoreTerrainPenalties
+  - serializableElementName: UnitAbility_AfterAttackingAllowMove
+  AutoResolveBattleStrengthBonus:
+    RawValue: 2000
 --- !u!114 &3311829893161769923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,6 +1091,26 @@ MonoBehaviour:
   - serializableElementName: UnitAbility_CanAttackFortification
   AutoResolveBattleStrengthBonus:
     RawValue: 2000
+--- !u!114 &8172206871634377670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitClass_Machinegun
+  m_EditorClassIdentifier: 
+  Prototype:
+    serializableElementName: UnitClass_Prototype_LandUnit
+  OwnAbilityReferences:
+  - serializableElementName: UnitAbility_Prototype_Machinegun
+  - serializableElementName: UnitAbility_CannotClimbFortification
+  - serializableElementName: UnitAbility_MoveOrAttack
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
 --- !u!114 &8835274636639794400
 MonoBehaviour:
   m_ObjectHideFlags: 0

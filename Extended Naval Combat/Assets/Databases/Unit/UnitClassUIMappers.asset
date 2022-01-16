@@ -711,6 +711,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: '[UnitClass_TorpedoVessel]'
+--- !u!114 &645508771027477180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_Machinegun
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_FieldArtilleryTitle'
+  Description: '%UnitClass_FieldArtilleryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_FieldArtillery]'
 --- !u!114 &1306479060466007879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -824,6 +848,31 @@ MonoBehaviour:
   Images: []
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
+--- !u!114 &2151567830564761789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_AttackHelicopter
+  m_EditorClassIdentifier: 
+  Title: Attack Helicopter
+  Description: Ignores all constraints and bonuses from terrain, cannot be attacked
+    by melee units and can perform a full move after making an attack.
+  Images:
+  - Value:
+      guid:
+        a: 1609826850
+        b: 1119447292
+        c: -1242082928
+        d: -2117883995
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Gunship]'
 --- !u!114 &2629534617434002906
 MonoBehaviour:
   m_ObjectHideFlags: 0

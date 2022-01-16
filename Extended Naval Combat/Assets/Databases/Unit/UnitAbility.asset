@@ -267,6 +267,27 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences: []
   BattleAbilityReference: []
+--- !u!114 &-7123078931156538942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_Machinegun
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_FieldArtillery
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
 --- !u!114 &-7057083760753874837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +402,27 @@ MonoBehaviour:
   DescriptorReferences:
   - serializableElementName: Effect_UnitPrototype_Missile
   BattleAbilityReference: []
+--- !u!114 &-6150834957245166105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_AttackHelicopter
+  m_EditorClassIdentifier: 
+  TagAsAbility: 32
+  MovementAbility: 0
+  PathfindingFlags: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_AttackHelicopter
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_Helicopter
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-6051670852320211538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1237,8 +1279,10 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences:
   - serializableElementName: Effect_UnitAbility_AntiAircraft
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromTargetClassGunship
+  - serializableElementName: BattleAbility_StrengthFromTargetClassHelicopter
 --- !u!114 &1347083198636164217
 MonoBehaviour:
   m_ObjectHideFlags: 0
