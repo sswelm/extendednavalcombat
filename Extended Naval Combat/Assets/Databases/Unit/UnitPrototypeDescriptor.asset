@@ -843,7 +843,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 4000
       PropertyLocalName: []
     - Note: 
       TargetProperty: VisionHeight
