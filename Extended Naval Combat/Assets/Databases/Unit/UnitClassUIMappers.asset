@@ -1180,6 +1180,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: '[UnitClass_GunPlatform]'
+--- !u!114 &7604288710474485488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_AntiAirGun
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_ArmouredVehicleTitle'
+  Description: '%UnitClass_ArmouredVehicleDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1965454753
+        b: 1212735515
+        c: -59006040
+        d: -1810710166
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_ArmouredVehicle]'
 --- !u!114 &7795031520140456122
 MonoBehaviour:
   m_ObjectHideFlags: 0

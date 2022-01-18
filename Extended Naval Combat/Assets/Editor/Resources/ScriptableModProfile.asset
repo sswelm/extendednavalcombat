@@ -125,24 +125,25 @@ MonoBehaviour:
         Submarine</li>
 
         <li>Jet Engine; requires Aerial Warfare, unlocks
-        Cruise Missile and Missile Silo</li>
+        Cruise Missile, Missile Silo and Attack Helicopter</li>
 
-        <li>Guided Missiles; requires
-        Computing, unlocks Missile Cruiser, Missile Destroyer, and Missile Submarine</li>
+        <li>Guided
+        Missiles; requires Computing, unlocks Missile Cruiser, Missile Destroyer,
+        and Missile Submarine</li>
 
-        <li>Mechanized
-        Infantry Doctrine, requires Sloped Armor. unlocks APC, All-Terrain PMV, and
-        Self-propelled Howitzer</li>
+        <li>Mechanized Infantry Doctrine, requires
+        Sloped Armor. unlocks APC, All-Terrain PMV, and Self-propelled Howitzer</li>
 
-        <li>Advanced Nuclear Reactors; requires
-        Nuclear Fission, unlocks Nuclear powered unit upgrades</li>
+        <li>Advanced
+        Nuclear Reactors; requires Nuclear Fission, unlocks Nuclear powered unit
+        upgrades</li>
 
-        <li>Precision-guided
-        munition; requires Jet Fighters, unlocks Helicopter Gunship</li>
+        <li>Precision-guided munition; requires Jet Fighters,
+        unlocks Helicopter Gunship</li>
 
-        <li>Stealth
-        Technology; requires precision-guided munition, unlocks Stealth Corvette,
-        Stealth Missile Cruiser, Stealth Missile, and Stealth Fighter</li>
+        <li>Stealth Technology; requires
+        precision-guided munition, unlocks Stealth Corvette, Stealth Missile Cruiser,
+        Stealth Missile, and Stealth Fighter</li>
 
         </ol>
 
@@ -309,33 +310,34 @@ MonoBehaviour:
         Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>
 
         <li>Added
-        Guided Missile Destroyer, unlocks with Guided Missiles</li>
+        Guided Missile Destroyer, unlocks with Guided Missiles, upgrades to Stealth
+        Missile Cruiser</li>
+
+        <li>Added Nuclear Aircraft Carrier, unlocks
+        with Angled Flightdeck, upgrades with Advanced Nuclear Reactors</li>
 
         <li>Added
-        Nuclear Aircraft Carrier, unlocks with Angled Flightdeck, upgrades with Advanced
+        Guided Missile Submarine, unlocks with Guided Missiles upgrades with Advanced
         Nuclear Reactors</li>
 
-        <li>Added Guided Missile Submarine, unlocks
-        with Guided Missiles upgrades with Advanced Nuclear Reactors</li>
+        <li>Added (common) Stealth Corvette, unlocks
+        with Stealth Technology</li>
 
-        <li>Added
-        (common) Stealth Corvette, unlocks with Stealth Technology</li>
-
-        <li>Added
-        Stealth Missile Cruiser, unlocks with Stealth Technology</li>
+        <li>Added Stealth Missile Cruiser,
+        unlocks with Stealth Technology</li>
 
         </ol>
 
-        <p><em>New
-        Land units:</em></p>
+        <p><em>New Land
+        units:</em></p>
 
         <ol>
 
-        <li>Added (common) Cuirassiers,
-        unlocked with Line Formations, upgrades to Light Tank</li>
+        <li>Added (common) Cuirassiers, unlocked
+        with Line Formations, upgrades to Light Tank</li>
 
-        <li>Added
-        Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>
+        <li>Added Armoured
+        Car, unlocked with Automobile, upgrades Armoured Recon</li>
 
         <li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
@@ -345,13 +347,17 @@ MonoBehaviour:
         to Medium Tank</li>
 
         <li>Added Armoured Recon, unlocked with Anti
-        Tank Warfare upgrades to Armoured Personel Carrier</li>
+        Tank Warfare upgrades to Attack Helicopter with Jet Engine</li>
 
         <li>Added
         Self-propelled Howitzer, unlocked with Mechanized Infantry Doctrine</li>
 
         <li>Added
-        Marines, unlocked Amphibious Warfare, upgrades to All-Terrain PMV,</li>
+        Marines, unlocked Amphibious Warfare, upgrades to All-Terrain PMV with Mechanized
+        Infantry Doctrine</li>
+
+        <li>Added Attack Helicopter, unlocked with
+        Jet Engine, upgrades to Helicopter Gunship with Precision-guided munition</li>
 
         <li>Added
         Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
@@ -537,30 +543,30 @@ MonoBehaviour:
 
         <li>Carrack
         =&gt; Galleon =&gt; Steam Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer
-        =&gt; Guided Missile Destroyer</li>
+        =&gt; Guided Missile Destroyer =&gt; Stealth Missile Cruiser</li>
 
-        <li>Pentekonter =&gt; Quadrireme
-        =&gt; Galleass=&gt; Man O''War =&gt; Ir0nclad =&gt; Dreadnought =&gt; Battleship
-        =&gt; Guided Missile Cruiser</li>
+        <li>Pentekonter
+        =&gt; Quadrireme =&gt; Galleass=&gt; Man O''War =&gt; Ir0nclad =&gt; Dreadnought
+        =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>
 
-        <li>Scout Riders=&gt; Horsemen
-        =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt; Medium Tank =&gt; Main
-        Battle Tank</li>
+        <li>Scout
+        Riders=&gt; Horsemen =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt;
+        Medium Tank =&gt; Main Battle Tank</li>
 
-        <li>Dragoon =&gt; Armoured Cars =&gt; Armoured
-        Recon =&gt; Armored Personnel Carrier (APC)</li>
+        <li>Dragoon =&gt; Armoured
+        Cars =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>
 
-        <li>Saboteur =&gt;
-        Partisans =&gt; Commados</li>
+        <li>Saboteur
+        =&gt; Partisans =&gt; Commados</li>
 
-        <li>Howitzer =&gt; Anti Tank =&gt;
-        Main Battle Tank</li>
+        <li>Howitzer =&gt; Anti Tank
+        =&gt; Main Battle Tank</li>
 
-        <li>Mortar =&gt; Siege Artillery =&gt; Towed
-        Artillery =&gt; Multiple Launch Rocket System</li>
+        <li>Mortar =&gt; Siege Artillery =&gt;
+        Towed Artillery =&gt; Multiple Launch Rocket System</li>
 
-        <li>Line Infantry
-        =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
+        <li>Line
+        Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
 
         <li>Heavy
         Machinegun =&gt; Anti Aircraft Gun</li>
@@ -576,9 +582,9 @@ MonoBehaviour:
         <p><strong>Transportation</strong></p>
 
         <p>Besides
-        the addition of two intermediate transport vessels during medieval and industrial
-        era, naval Transporting has been augmented; The Type of unit can now have
-        an effect on the combat strength and attack range of the Naval transport,
+        the addition of two intermediate transport vessels during the medieval and
+        industrial era, naval Transporting has been augmented; The Type of unit can
+        now have an effect on the combat strength and attack range of the Naval transport,
         making them more strategically important</p>
 
         <p><em>Naval transport
@@ -721,15 +727,16 @@ MonoBehaviour:
         <ul>
 
         <li>mostly
-        compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>
-        , but for best experience, you should also load the <a href="https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod">DeepSea
-        Compatibility Patch</a></li>
+        compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>,
+        but for the best experience, you should also load the <a href="https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod">DeepSea
+        Compatibility Patch</a> last</li>
 
-        <li>mostly compatible with <a href="https://humankind.mod.io/superpack">Super
-        Pack for Humankind</a>, (just make sure to load it later)</li>
+        <li>mostly compatible with <a
+        href="https://humankind.mod.io/superpack">Super Pack for Humankind</a>, but
+        for the best experience, you should also load the <a href="https://humankind.mod.io/superpacknavalcombat">Superpack
+        Compatibility Patch</a> last</li>
 
-        <li>not
-        compatible with<a href="https://humankind.mod.io/long-range-nuclear-missiles"
+        <li>not compatible with<a href="https://humankind.mod.io/long-range-nuclear-missiles"
         style="font-size: 1em;"> Nuclear Missiles Mod</a><span style="font-size:
         1em; font-weight: 400;"> but it is already integrated</span></li>
 
@@ -783,6 +790,8 @@ MonoBehaviour:
         url: https://image.modcdn.io/mods/49ca/1549034/guidedmissilecruiser.jpg
       - fileName: zumwalt.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/zumwalt.jpg
+      - fileName: attackhelicopter.jpg
+        url: https://image.modcdn.io/mods/49ca/1549034/attackhelicopter.jpg
       - fileName: 20211217194901_1.1.jpg
         url: https://image.modcdn.io/mods/49ca/1549034/20211217194901_1.1.jpg
       - fileName: dreadnought.jpg
