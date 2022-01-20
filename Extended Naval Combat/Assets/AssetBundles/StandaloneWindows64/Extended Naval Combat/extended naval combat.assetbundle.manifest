@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2733857442
+CRC: 465801367
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8f7e09ce93b4673c1867b44cf6c43a1a
+    Hash: 42135882909833da24f25ffbfd120df0
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6765c9783bb7fb5cedd8b02450b38b6
@@ -141,12 +141,10 @@ Assets:
 - Assets/Resources/transparant360.png
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
-- Assets/Resources/missileCruiser212.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
-- Assets/Resources/steamCorvette212.png
 - Assets/Resources/armouredCar212.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
@@ -157,7 +155,6 @@ Assets:
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
 - Assets/Resources/artillerty720.png
 - Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
-- Assets/Resources/horseDrawnSiegeArtillery360.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
 - Assets/Manifests/Extended Naval Combat.Manifest.asset
@@ -194,10 +191,8 @@ Assets:
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
 - Assets/Resources/earlyRiffleman212.png
 - Assets/Databases/World/PollutionDescriptor.asset
-- Assets/Resources/sloopOfWar212.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/Seawolf720.png
-- Assets/Resources/undergroundIndustry212.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
 - Assets/Resources/GasPowerStation212.png
 - Assets/Databases/Unit/UnitStatusDefinition.asset
@@ -211,12 +206,9 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
-- Assets/Resources/sloopOfWar720.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Fame/RpnFameDefinition.asset
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
-- Assets/Resources/SteamCorvette685.png
-- Assets/Resources/horseDrawnSiegeArtillery212.png
 - Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/ArmoredRecon720.png
@@ -234,7 +226,6 @@ Assets:
 - Assets/Databases/Unit/AirUnitDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
-- Assets/Resources/missileCruiser764.png
 - Assets/Databases/EffectMapper/ValidationMapperCollection.asset
 - Assets/Resources/destroyer212.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
