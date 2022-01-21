@@ -23,9 +23,9 @@ MonoBehaviour:
       errorsAsWarnings: 1
       logAllResponses: 0
       logOnSend: 0
-    installationDirectory: $MY_DOCUMENTS$\Humankind\Community\mod.io
-    cacheDirectory: $MY_DOCUMENTS$\Humankind\mod.io\cache
-    userDirectory: $MY_DOCUMENTS$\Humankind\mod.io\user
-    installationDirectoryEditor: $MY_DOCUMENTS$\Humankind\Community\mod.io
-    cacheDirectoryEditor: $MY_DOCUMENTS$\Humankind\mod.io\cache
-    userDirectoryEditor: $MY_DOCUMENTS$\Humankind\mod.io\user
+    installationDirectory: $MY_DOCUMENTS$/Humankind/Community/mod.io/
+    cacheDirectory: $MY_DOCUMENTS$/Humankind/mod.io/cache/
+    userDirectory: $MY_DOCUMENTS$/Humankind/mod.io/user/
+    installationDirectoryEditor: $MY_DOCUMENTS$/Humankind/Community/mod.io/
+    cacheDirectoryEditor: $MY_DOCUMENTS$/Humankind/mod.io/cache/
+    userDirectoryEditor: $MY_DOCUMENTS$/Humankind/mod.io/user/

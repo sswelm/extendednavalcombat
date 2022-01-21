@@ -39,6 +39,14 @@ MonoBehaviour:
       b: 0
       c: 0
       d: 0
+  Version:
+    Accessibility: 0
+    Build: 0
+    Label: 
+    Major: 4
+    Minor: 0
+    Revision: 0
+    SerializationToleranceLevel: 0
   LoadingScreenBackground: {fileID: 0}
   runtimePlugins:
   - {fileID: -1552946290761864341}
