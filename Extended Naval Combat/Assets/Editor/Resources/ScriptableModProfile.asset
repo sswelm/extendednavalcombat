@@ -32,40 +32,30 @@ MonoBehaviour:
         historically accurate end game experience
       isDirty: 0
     descriptionAsHTML:
-      value: '<p><strong>Introduction:</strong></p>
-
-        <p>The goal of this
-        mod is to create a longer, more interesting, and realistic end game experience
-        with the addition of new technologies and military units and tweaks to existing
+      value: "<p><strong>Introduction:</strong></p>\n<p>The goal of this mod is to
+        create a longer, more interesting, and realistic end game experience with
+        the addition of new technologies and military units and tweaks to existing
         units strength, production and pollution to keep it overall balanced. I tried
         to make this mod as compatible as possible with other mods by putting most
         new units and bonuses spread over the new Technologies, and no changes to
         any cultures, or civics. The new Technologies also help to make the Industrial
         and Contemporary Era last significantly longer, especially the late Industrial
-        and early Contemporary era (WW1/WW2) period with 12 new technologies.</p>
-
-        <p><strong>Nuclear
-        Proliferation:</strong></p>
-
-        <p>Nuclear weapons have become more
-        useful (with increased range) and accessible (with reduced minimum strategic
-        resource requirements) and with the addition of a true ICBM weapon (unlocked
-        after researching Rocket Science and developing Thermal Nuclear Weapons)
-        making it more likely they are built and actually used by the AI with devastating
+        and early Contemporary era (WW1/WW2) period with 12 new technologies.</p>\n<p><strong>Nuclear
+        Proliferation:</strong></p>\n<p>Nuclear weapons have become more useful (with
+        increased range) and accessible (with reduced minimum strategic resource
+        requirements) and with the addition of a true ICBM weapon (unlocked after
+        researching Rocket Science and developing Thermal Nuclear Weapons) making
+        it more likely they are built and actually used by the AI with devastating
         effects. The state of Nuclear weapons proliferation is made more intuitive
         as the National Nuclear Weapon Test Programs strategic resource requirements
         are made the same as the missile weapons they unlock, meaning if someone
         manages to build a nuclear weapon test project (including ICBM weapon test),
-        they can also build and use them (given they also constructed a Missile Silo).</p>
-
-        <p><strong>Science:</strong></p>
-
-        <p>In
+        they can also build and use them (given they also constructed a Missile Silo).</p>\n<p><strong>Science:</strong></p>\n<p>In
         order to create a more historically accurate experience, it was necessary
         to restructure the tech tree with separate branches starting at the end of
         the industrial era. Starting from the modern age the minimum research cost
         increases up to double the cost for the end game technologies. The final
-        <span style="font-size: 1em; font-weight: 400;">research cost depends inversely
+        <span style=\"font-size: 1em; font-weight: 400;\">research cost depends inversely
         on the number of unlocked technologies, meaning the more technologies you
         have unlocked from a previous technology generation, the relatively easier
         it becomes to research additional technologies. This mechanic makes beelining
@@ -73,683 +63,237 @@ MonoBehaviour:
         way to unlock the entire tech tree is to always choose the cheapest unlockable
         technologies. These changes and the introduction of 19 new technologies have
         the effect of creating a significantly longer end game and it is therefore
-        recommended you disable the turn limit when creating a new game.<br></span></p>
-
-        <p><em>New
-        Technologies:</em></p>
-
-        <ol>
-
-        <li>Ship of the Line; requires
-        Chartered Companies, unlocks Man O'' War</li>
-
-        <li>Naval Steam Engine;
-        requires Steam Engine, unlocks Steam Frigate and Steam Transport</li>
-
-        <li>Railroad;
-        requires Steam Engine, unlocks Train Station and Industrial era Settlement
-        package</li>
-
-        <li>Automobile; requires Combustion Engine, unlocks
-        Armoured Car and freight trucks trade bonus</li>
-
-        <li>Breachloader;
-        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>
-
-        <li>Dreadnought
-        Design; requires Combustion Engine, unlocks Dreadnought and Torpedo Boat
-        Destroyer</li>
-
-        <li>Bunker Construction; requires Trench Warfare;
-        unlocks Bunker, Bomb Shelters, Mountain Industry, and underground construction</li>
-
-        <li>Submarine
-        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>
-
-        <li>Anti
-        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
-        improves naval unit speed</li>
-
-        <li>Air Transportation; requires
-        Aeronautics, unlocks Aluminium strategic resource and Airport district</li>
-
-        <li>Antitank
-        Warfare; requires Continuous Track, unlocks Antitank Gun unit and Armoured
-        Recon</li>
-
-        <li>Sloped Armor; requires Antitank Warfare, unlocks
-        Medium Tank and (Soviet) Red Army Tank</li>
-
-        <li>Fluid Dynamics;
-        requires Anti Submarine Warfare, unlocks Diesel Submarine Unit and Nuclear
-        Submarine</li>
-
-        <li>Jet Engine; requires Aerial Warfare, unlocks
-        Cruise Missile, Missile Silo and Attack Helicopter</li>
-
-        <li>Guided
+        recommended you disable the turn limit when creating a new game.<br></span></p>\n<p><em>New
+        Technologies:</em></p>\n<ol>\n<li>Ship of the Line; requires Chartered Companies,
+        unlocks Man O' War</li>\n<li>Naval Steam Engine; requires Steam Engine, unlocks
+        Steam Frigate and Steam Transport</li>\n<li>Railroad; requires Steam Engine,
+        unlocks Train Station and Industrial era Settlement package</li>\n<li>Automobile;
+        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
+        bonus</li>\n<li>Breachloader; requires Line Formation, unlocks Siege Artillery
+        and Horse Drawn Siege Artillery</li>\n<li>Dreadnought Design; requires Combustion
+        Engine, unlocks Dreadnought and Torpedo Boat Destroyer</li>\n<li>Bunker Construction;
+        requires Trench Warfare; unlocks Bunker, Bomb Shelters, Mountain Industry,
+        and underground construction</li>\n<li>Submarine Warfare; requires Dreadnought
+        Design, unlocks U-Boat/Fleet Submarine Unit</li>\n<li>Anti Submarine Warfare;
+        requires Submarine Warfare, unlocks Destroyer Unit and improves naval unit
+        speed</li>\n<li>Air Transportation; requires Aeronautics, unlocks Aluminium
+        strategic resource and Airport district</li>\n<li>Antitank Warfare; requires
+        Continuous Track, unlocks Antitank Gun unit and Armoured Recon</li>\n<li>Sloped
+        Armor; requires Antitank Warfare, unlocks Medium Tank and (Soviet) Red Army
+        Tank</li>\n<li>Fluid Dynamics; requires Anti Submarine Warfare, unlocks Diesel
+        Submarine Unit and Nuclear Submarine</li>\n<li>Jet Engine; requires Aerial
+        Warfare, unlocks Cruise Missile, Missile Silo and Attack Helicopter</li>\n<li>Guided
         Missiles; requires Computing, unlocks Missile Cruiser, Missile Destroyer,
-        and Missile Submarine</li>
-
-        <li>Mechanized Infantry Doctrine, requires
-        Sloped Armor. unlocks APC, All-Terrain PMV, and Self-propelled Howitzer</li>
-
-        <li>Advanced
+        and Missile Submarine</li>\n<li>Mechanized Infantry Doctrine, requires Sloped
+        Armor. unlocks APC, All-Terrain PMV, and Self-propelled Howitzer</li>\n<li>Advanced
         Nuclear Reactors; requires Nuclear Fission, unlocks Nuclear powered unit
-        upgrades</li>
-
-        <li>Precision-guided munition; requires Jet Fighters,
-        unlocks Helicopter Gunship</li>
-
-        <li>Stealth Technology; requires
-        precision-guided munition, unlocks Stealth Corvette, Stealth Missile Cruiser,
-        Stealth Missile, and Stealth Fighter</li>
-
-        </ol>
-
-        <p><em>Techtree
-        changes:</em></p>
-
-        <ul>
-
-        <li><span style="font-size: 1em;
-        font-weight: 400;">Replaced Ship of the Line as a prerequisite to Steam Engine</span></li>
-
-        <li><span
-        style="font-size: 1em; font-weight: 400;">Added Wireless Telegraphy as a
-        prerequisite to Research Insitute</span></li>
-
-        <li>Replaced Automobile
-        as a prerequisite of Continuous Track and Naval Air Strategy</li>
-
-        <li>Replaced
-        Air Transportation as a prerequisite for Aerial Warfare</li>
-
-        <li>Replaced
-        Guided Missiles as a prerequisite of Rocket Science</li>
-
-        <li>Replaced
-        Jet Engine as a prerequisite of Fighter Jets</li>
-
-        <li>Replaced Naval
-        Air Strategy as a prerequisite for Radar</li>
-
-        <li>Made Continuous
-        Track unlockable in Industrial Age</li>
-
-        </ul>
-
-        <p><em>Tech-tree
-        branch structure:</em></p>
-
-        <ul>
-
-        <li>Combustion =&gt;
-
-        <ul>
-
-        <li>Automobile
+        upgrades</li>\n<li>Precision-guided munition; requires Jet Fighters, unlocks
+        Helicopter Gunship</li>\n<li>Stealth Technology; requires precision-guided
+        munition, unlocks Stealth Corvette, Stealth Missile Cruiser, Stealth Missile,
+        and Stealth Fighter</li>\n</ol>\n<p><em>Techtree changes:</em></p>\n<ul>\n<li><span
+        style=\"font-size: 1em; font-weight: 400;\">Replaced Ship of the Line as
+        a prerequisite to Steam Engine</span></li>\n<li><span style=\"font-size:
+        1em; font-weight: 400;\">Added Wireless Telegraphy as a prerequisite to Research
+        Insitute</span></li>\n<li>Replaced Automobile as a prerequisite of Continuous
+        Track and Naval Air Strategy</li>\n<li>Replaced Air Transportation as a prerequisite
+        for Aerial Warfare</li>\n<li>Replaced Guided Missiles as a prerequisite of
+        Rocket Science</li>\n<li>Replaced Jet Engine as a prerequisite of Fighter
+        Jets</li>\n<li>Replaced Naval Air Strategy as a prerequisite for Radar</li>\n<li>Made
+        Continuous Track unlockable in Industrial Age</li>\n</ul>\n<p><em>Tech-tree
+        branch structure:</em></p>\n<ul>\n<li>Combustion =&gt;\n<ul>\n<li>Automobile
         =&gt; Continuously Tracked =&gt; Anti Tank Warfare =&gt; Sloped Armor =&gt;Mechanized
-        Infantry Doctrine =&gt; Composite Armor</li>
-
-        <li>Aer0nautics =&gt;
-        Air Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets
-        =&gt; Precision-guided munition =&gt; Stealth Technology</li>
-
-        <li>Dreadnought
-        Design =&gt;
-
-        <ul>
-
-        <li>Naval Air Strategy =&gt; Radar =&gt;
-        Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt; Communication
-        Satellites</li>
-
-        <li>Submarine Warfare =&gt; Anti Submarine Warfare
-        =&gt; Fluid Dynamics</li>
-
-        </ul>
-
-        </li>
-
-        </ul>
-
-        </li>
-
-        <li>Line
+        Infantry Doctrine =&gt; Composite Armor</li>\n<li>Aer0nautics =&gt; Air Transportation
+        =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets =&gt; Precision-guided
+        munition =&gt; Stealth Technology</li>\n<li>Dreadnought Design =&gt;\n<ul>\n<li>Naval
+        Air Strategy =&gt; Radar =&gt; Computing =&gt; Guided Missiles =&gt; Rocket
+        Science =&gt; Communication Satellites</li>\n<li>Submarine Warfare =&gt;
+        Anti Submarine Warfare =&gt; Fluid Dynamics</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Line
         Formation=&gt; Breachloader =&gt; Trench Warfare =&gt; Bunker C0nstruction
-        =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>
-
-        <li>Wireless
-        Telegraphy =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear
-        Fission =&gt; Advanced Nuclear Reactors =&gt; Fusion Reactor</li>
-
-        </ul>
-
-        <p><em><span
-        style="font-size: 1em; font-weight: 400;">Unit/District/Infrastructure Tech
-        Unlocking Changes:</span></em></p>
-
-        <ul>
-
-        <li>Transport Galley
-        is unlocked earlier with Sailing (with an event)</li>
-
-        <li>U-Boat
-        is unlocked later with Submarine Warfare (Germany gains 50% research bonus)</li>
-
-        <li>Medium
-        Tank is unlocked later with Sloped Armor</li>
-
-        <li>Commando is unlocked
-        earlier with Insurrection Theory</li>
-
-        <li>Missile Silo and Cruise
-        Missile is unlocked earlier with Jet Engine</li>
-
-        <li>Helicopter
-        Gunship is unlocked later with Precision-guided munition</li>
-
-        <li>Missile
-        Destroyer (originally called Missile Cruiser) unlocked later with Guided
-        Missiles</li>
-
-        <li>Nuclear Submarine is unlocked with Fluid Dynamics
-        and upgraded with Nuclear Reactor</li>
-
-        </ul>
-
-        <p><strong>Combat:</strong></p>
-
-        <p>Both
+        =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>\n<li>Wireless Telegraphy
+        =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear Fission =&gt;
+        Advanced Nuclear Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span
+        style=\"font-size: 1em; font-weight: 400;\">Unit/District/Infrastructure
+        Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>Transport Galley is unlocked
+        earlier with Sailing (with an event)</li>\n<li>U-Boat is unlocked later with
+        Submarine Warfare (Germany gains 50% research bonus)</li>\n<li>Medium Tank
+        is unlocked later with Sloped Armor</li>\n<li>Commando is unlocked earlier
+        with Insurrection Theory</li>\n<li>Missile Silo and Cruise Missile is unlocked
+        earlier with Jet Engine</li>\n<li>Helicopter Gunship is unlocked later with
+        Precision-guided munition</li>\n<li>Missile Destroyer (originally called
+        Missile Cruiser) unlocked later with Guided Missiles</li>\n<li>Nuclear Submarine
+        is unlocked with Fluid Dynamics and upgraded with Nuclear Reactor</li>\n</ul>\n<p><strong>Combat:</strong></p>\n<p>Both
         naval, land, and air units have been added and existing units are tweaked
-        to achieve a longer more satisfying end game experience. The naval unit''s
+        to achieve a longer more satisfying end game experience. The naval unit's
         role progressively gets more important as the era advances with longer attack
         and bombardment ranges. Combat has been been made more interesting with new
         rock scissor paper mechanics between the classes. For example, Submarines
         are more effective versus Battleship, Destroyers are more effective versus
-        Submarines and Battleship are more effective versus Destroyers. <span style="font-size:
-        1em; font-weight: 400;">Classes now progress through identifiable WW1, WW2,
+        Submarines and Battleship are more effective versus Destroyers. <span style=\"font-size:
+        1em; font-weight: 400;\">Classes now progress through identifiable WW1, WW2,
         Cold War en Stealth era generation, making it feel more historically accurate.
         The early (WW1) units have reduced strategic resource requirements, making
-        them more likely to appear in combat. <br></span></p>
-
-        <p>While maintaining
+        them more likely to appear in combat. <br></span></p>\n<p>While maintaining
         a minimum strategic resource requirement, Unitcost is no longer fixed but
         depends on the excess availability of strategic resources. This means that
         units will be more accessible and will be easier to upgrade, but at increased
-        construction cost or gold price (up to double the base cost).</p>
-
-        <p><em>New
-        Naval units:</em></p>
-
-        <ol>
-
-        <li>Added Galleass, unlocked
-        with Gunpowder (with an event), upgrades to Man O War</li>
-
-        <li>Added
-        Galleon, unlocked with Naval Artillery, upgrades to Steam Frigate</li>
-
-        <li>Added
-        Steam Transport, unlocked with Propeller, upgrades to Landing Craft</li>
-
-        <li>Added
-        Dreadnought, unlocks with Dreadnought design, upgrades to Battleship</li>
-
-        <li>Added
-        Fleet Submarine. unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>
-
-        <li>Added
-        Torpedo Boat Destroyer, unlocked with Dreadnought Design, upgrades to Destroyer</li>
-
-        <li>Added
-        Destroyer, unlocked Anti Submarine Warfare, upgrades to Missile Destroyer</li>
-
-        <li>Added
-        Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>
-
-        <li>Added
+        construction cost or gold price (up to double the base cost).</p>\n<p><em>New
+        Naval units:</em></p>\n<ol>\n<li>Added Galleass, unlocked with Gunpowder
+        (with an event), upgrades to Man O War</li>\n<li>Added Galleon, unlocked
+        with Naval Artillery, upgrades to Steam Frigate</li>\n<li>Added Steam Transport,
+        unlocked with Propeller, upgrades to Landing Craft</li>\n<li>Added Dreadnought,
+        unlocks with Dreadnought design, upgrades to Battleship</li>\n<li>Added Fleet
+        Submarine. unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
+        Torpedo Boat Destroyer, unlocked with Dreadnought Design, upgrades to Destroyer</li>\n<li>Added
+        Destroyer, unlocked Anti Submarine Warfare, upgrades to Missile Destroyer</li>\n<li>Added
+        Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>\n<li>Added
         Guided Missile Destroyer, unlocks with Guided Missiles, upgrades to Stealth
-        Missile Cruiser</li>
-
-        <li>Added Nuclear Aircraft Carrier, unlocks
-        with Angled Flightdeck, upgrades with Advanced Nuclear Reactors</li>
-
-        <li>Added
-        Guided Missile Submarine, unlocks with Guided Missiles upgrades with Advanced
-        Nuclear Reactors</li>
-
-        <li>Added (common) Stealth Corvette, unlocks
-        with Stealth Technology</li>
-
-        <li>Added Stealth Missile Cruiser,
-        unlocks with Stealth Technology</li>
-
-        </ol>
-
-        <p><em>New Land
-        units:</em></p>
-
-        <ol>
-
-        <li>Added (common) Cuirassiers, unlocked
-        with Line Formations, upgrades to Light Tank</li>
-
-        <li>Added Armoured
-        Car, unlocked with Automobile, upgrades Armoured Recon</li>
-
-        <li>Added
+        Missile Cruiser</li>\n<li>Added Nuclear Aircraft Carrier, unlocks with Angled
+        Flightdeck, upgrades with Advanced Nuclear Reactors</li>\n<li>Added Guided
+        Missile Submarine, unlocks with Guided Missiles upgrades with Advanced Nuclear
+        Reactors</li>\n<li>Added (common) Stealth Corvette, unlocks with Stealth
+        Technology</li>\n<li>Added Stealth Missile Cruiser, unlocks with Stealth
+        Technology</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
+        (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
+        Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
-        MLRS</li>
-
-        <li>Added Light Tank unlocked with Continuous Track, upgrades
-        to Medium Tank</li>
-
-        <li>Added Armoured Recon, unlocked with Anti
-        Tank Warfare upgrades to Attack Helicopter with Jet Engine</li>
-
-        <li>Added
-        Self-propelled Howitzer, unlocked with Mechanized Infantry Doctrine</li>
-
-        <li>Added
-        Marines, unlocked Amphibious Warfare, upgrades to All-Terrain PMV with Mechanized
-        Infantry Doctrine</li>
-
-        <li>Added Attack Helicopter, unlocked with
-        Jet Engine, upgrades to Helicopter Gunship with Precision-guided munition</li>
-
-        <li>Added
-        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>
-
-        <li>Added
-        (common) All-Terrain PMV, unlocks with Mechanized Infantry Doctrine</li>
-
-        </ol>
-
-        <p><em>New
-        Air units:</em></p>
-
-        <ol>
-
-        <li>Added (common) Stealth Fighter,
-        unlocked with Stealth technology</li>
-
-        <li>Added (common) Stealth
-        Cruise Missile, unlocked with Stealth technology</li>
-
-        <li>Added
-        Intercontinental Ballistic Missile (ICBM) unlocked after researching Rocket
-        Science and building 2nd Nuclear Test Project</li>
-
-        </ol>
-
-        <p><em>Special
-        ability changes:</em></p>
-
-        <ul>
-
-        <li>Land-based Archer and
-        Gunner units are less effective (-10 strength) versus naval units in battle</li>
-
-        <li>Transport
-        Galley and all other naval transport Units now require upkeep when used</li>
-
-        <li>Cog
-        is converted into a Transport vessel</li>
-
-        <li>Man O'' War gain special
-        ability Shatter (similar to Howitzer)</li>
-
-        <li>Indirect ranged attacks
-        by Archer units on Fortified units get reduced my 6 strength</li>
-
-        <li>Units
+        MLRS</li>\n<li>Added Light Tank unlocked with Continuous Track, upgrades
+        to Medium Tank</li>\n<li>Added Armoured Recon, unlocked with Anti Tank Warfare
+        upgrades to Attack Helicopter with Jet Engine</li>\n<li>Added Self-propelled
+        Howitzer, unlocked with Mechanized Infantry Doctrine</li>\n<li>Added Marines,
+        unlocked Amphibious Warfare, upgrades to All-Terrain PMV with Mechanized
+        Infantry Doctrine</li>\n<li>Added Attack Helicopter, unlocked with Jet Engine,
+        upgrades to Helicopter Gunship with Precision-guided munition</li>\n<li>Added
+        Multiple Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>\n<li>Added
+        (common) All-Terrain PMV, unlocks with Mechanized Infantry Doctrine</li>\n</ol>\n<p><em>New
+        Air units:</em></p>\n<ol>\n<li>Added (common) Stealth Fighter, unlocked with
+        Stealth technology</li>\n<li>Added (common) Stealth Cruise Missile, unlocked
+        with Stealth technology</li>\n<li>Added Intercontinental Ballistic Missile
+        (ICBM) unlocked after researching Rocket Science and building 2nd Nuclear
+        Test Project</li>\n</ol>\n<p><em>Special ability changes:</em></p>\n<ul>\n<li>Land-based
+        Archer and Gunner units are less effective (-10 strength) versus naval units
+        in battle</li>\n<li>Transport Galley and all other naval transport Units
+        now require upkeep when used</li>\n<li>Cog is converted into a Transport
+        vessel</li>\n<li>Man O' War gain special ability Shatter (similar to Howitzer)</li>\n<li>Indirect
+        ranged attacks by Archer units on Fortified units get reduced by 6 strength</li>\n<li>Units
         that cannot attack fortifications (Cavalry, Tanks, etc) require 2 movement
-        points in Rocky Field</li>
-
-        <li>Ironclad special ability Inner Sea
-        Mastodonte (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>
-
-        <li>Oar
+        points in Rocky Field</li>\n<li>Ironclad special ability Inner Sea Mastodonte
+        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>\n<li>Oar
         propelled units (Pentekonter, Quadrireme, Galleass ) gain +5 strength in
-        Coastal Waters and +2 speed in combat</li>
-
-        <li>Dreadnought, Battleship
-        en Missile Cruiser gain extended Zone of Control</li>
-
-        <li>Torpedo
-        Boat and all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads,
-        Battleships, Carriers, Cruisers)</li>
-
-        <li>Submarines can hide better
-        in deep Ocean water, giving them a +5 strength bonus when fighting on Ocean
-        tiles</li>
-
-        <li>Aircraft Carrier gained Armoured property, Stealth
-        Corvette Loses Armoured property</li>
-
-        <li>Missile Cruiser special
-        ability Anti Air is replaced by special ability Multiple Missile Bombardment</li>
-
-        <li>Commando
-        gains ability to move through cliffs and forest without penalty</li>
-
-        </ul>
-
-        <p><em>Added
-        Unit performance upgrades:</em></p>
-
-        <ul>
-
-        <li>Naval Transport:
-        +1 movement with Fluid Dynamics</li>
-
-        <li>Naval and Air Units: +1
-        combat +2 Vision range with Radar</li>
-
-        <li>Guided Missile Submarine:
-        +2 movement +1 strength with Fluid Dynamics</li>
-
-        <li>Turbine powered
-        ships (Battleship, Carrier, Destroyer, Cruiser): +2 movement +1 vision with
-        Anti Submarine Warfare</li>
-
-        <li>Nuclear Submarine: + movement +1
-        attack range +2 strength with Nuclear Reactor</li>
-
-        <li>Nuclear Aircraft
-        Carrier: +2 movement +1 attack range +2 strength with Nuclear Reactor</li>
-
-        <li>Commando:
-        +5 Strength +1 vision with Special Ops</li>
-
-        </ul>
-
-        <p><em>Unit
-        Balance Changes:</em></p>
-
-        <ul>
-
-        <li>Pentekonter +1 strength,
-        +2 bonus movement in battle, +5 bonus strength on Shallow Water</li>
-
-        <li>Quadrireme
-        +2 strength, +2 bonus movement in battle, +5 bonus strength on Shallow Water</li>
-
-        <li>Man
-        O'' War; +1 strength, +1 vision</li>
-
-        <li>Ironclad; +1 vision</li>
-
-        <li>U-Boat;
-        -2 movement, +1 vision, +5 Bonus Armoured Units (ironclad, battleships, carrier,
-        cruisers, etc)</li>
-
-        <li>Heavy Machinegun; +3 strength</li>
-
-        <li>Antitank
-        gun +3 strength</li>
-
-        <li>Battleship; +3 strength +1 movement +1
-        vision, +2 attack range, Increased zone of control</li>
-
-        <li>Aircraft
+        Coastal Waters and +2 speed in combat</li>\n<li>Dreadnought, Battleship en
+        Missile Cruiser gain extended Zone of Control</li>\n<li>Torpedo Boat and
+        all Submarines gain +5 attack bonus versus Armoured Vessels (Ironclads, Battleships,
+        Carriers, Cruisers)</li>\n<li>Submarines can hide better in deep Ocean water,
+        giving them a +5 strength bonus when fighting on Ocean tiles</li>\n<li>Aircraft
+        Carrier gained Armoured property, Stealth Corvette Loses Armoured property</li>\n<li>Missile
+        Cruiser special ability Anti Air is replaced by special ability Multiple
+        Missile Bombardment</li>\n<li>Commando gains ability to move through cliffs
+        and forest without penalty</li>\n</ul>\n<p><em>Added Unit performance upgrades:</em></p>\n<ul>\n<li>Naval
+        Transport: +1 movement with Fluid Dynamics</li>\n<li>Naval and Air Units:
+        +1 combat +2 Vision range with Radar</li>\n<li>Guided Missile Submarine:
+        +2 movement +1 strength with Fluid Dynamics</li>\n<li>Turbine powered ships
+        (Battleship, Carrier, Destroyer, Cruiser): +2 movement +1 vision with Anti
+        Submarine Warfare</li>\n<li>Nuclear Submarine: + movement +1 attack range
+        +2 strength with Nuclear Reactor</li>\n<li>Nuclear Aircraft Carrier: +2 movement
+        +1 attack range +2 strength with Nuclear Reactor</li>\n<li>Commando: +5 Strength
+        +1 vision with Special Ops</li>\n</ul>\n<p><em>Unit Balance Changes:</em></p>\n<ul>\n<li>Pentekonter
+        +1 strength, +2 bonus movement in battle, +5 bonus strength on Shallow Water</li>\n<li>Quadrireme
+        +2 strength, +2 bonus movement in battle, +5 bonus strength on Shallow Water,
+        upgrade to Galleass</li>\n<li>Gajnal+1 Strength, upgrades to Armoured Car</li>\n<li>Man
+        O' War; +1 strength, +1 vision</li>\n<li>Ironclad; +1 vision, upgrades to
+        Dreadnought</li>\n<li>U-Boat; -2 movement, +1 vision, +5 Bonus Armoured Units
+        (ironclad, battleships, etc), upgrades to Diesel Submarine</li>\n<li>Heavy
+        Machinegun; +3 strength</li>\n<li>Antitank gun +3 strength</li>\n<li>Battleship;
+        +3 strength +1 movement +1 vision, +2 attack range, Increased zone of control</li>\n<li>Aircraft
         Carrier, +1 movement, +1 vision +Amoured (immune to suppression, vulnerable
-        versus submarines)</li>
-
-        <li>Nuclear Submarine, +2 vision, +1 range,
-        +5 Bonus Armoured Units (battleship, carrier, cruisers)</li>
-
-        <li>Missile
-        Cruiser, +3 strength, +4 vision, +5 range, Increased zone of control</li>
-
-        <li>Red
-        Army Tank, +3 strength, +1 vision, +1 range</li>
-
-        <li>Main Battle
-        Tank, +2 vision +2 range</li>
-
-        <li>Sweden Stealth Corvette +3 strength,
-        +1 vision, +1 range, +Anti Airpower (50% strength)</li>
-
-        </ul>
-
-        <p><em>Missile
-        unit changes:</em></p>
-
-        <ul>
-
-        <li>Cruise Missile: reduced
-        maintenance cost, population cost, and increased range</li>
-
-        <li>Nuclear
-        Missile: reduced maintenance cost, and base attack range doubled</li>
-
-        <li>Thermal
-        Nuclear Missile: <span style="font-size: 1em; font-weight: 400;">reduced
-        </span><span style="font-size: 1em; font-weight: 400;"></span><span style="font-size:
-        1em; font-weight: 400;">maintenance cost and base attack range doubled</span></li>
-
-        </ul>
-
-        <p><em>Unit
-        Upgrade paths details:</em></p>
-
-        <ul>
-
-        <li>Torpedo Boat =&gt;
-        Fleet Submarine =&gt; Diesel Submarine =&gt; Missile Submarine</li>
-
-        <li>Carrack
-        =&gt; Galleon =&gt; Steam Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer
-        =&gt; Guided Missile Destroyer =&gt; Stealth Missile Cruiser</li>
-
-        <li>Pentekonter
-        =&gt; Quadrireme =&gt; Galleass=&gt; Man O''War =&gt; Ir0nclad =&gt; Dreadnought
-        =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>
-
-        <li>Scout
+        versus submarines)</li>\n<li>Nuclear Submarine, +2 vision, +1 range, +5 Bonus
+        Armoured Units (battleship, carrier, cruisers)</li>\n<li>Missile Cruiser,
+        +3 strength, +4 vision, +5 range, Increased zone of control</li>\n<li>Red
+        Army Tank, +3 strength, +1 vision, +1 range</li>\n<li>Main Battle Tank, +2
+        vision +2 range</li>\n<li>Sweden Stealth Corvette +3 strength, +1 vision,
+        +1 range, +Anti Airpower (50% strength)</li>\n</ul>\n<p><em>Missile unit
+        changes:</em></p>\n<ul>\n<li>Cruise Missile: reduced maintenance cost, population
+        cost, and increased range</li>\n<li>Nuclear Missile: reduced maintenance
+        cost, and base attack range doubled</li>\n<li>Thermal Nuclear Missile: <span
+        style=\"font-size: 1em; font-weight: 400;\">reduced </span><span style=\"font-size:
+        1em; font-weight: 400;\"></span><span style=\"font-size: 1em; font-weight:
+        400;\">maintenance cost and base attack range doubled</span></li>\n</ul>\n<p><em>Unit
+        Upgrade paths details:</em></p>\n<ul>\n<li>Torpedo Boat =&gt; Fleet Submarine
+        =&gt; Diesel Submarine =&gt; Missile Submarine</li>\n<li>Carrack =&gt; Galleon
+        =&gt; Steam Frigate =&gt; Torpedo Boat Destroyer =&gt; Destroyer =&gt; Guided
+        Missile Destroyer =&gt; Stealth Missile Cruiser</li>\n<li>Pentekonter =&gt;
+        Quadrireme =&gt; Galleass=&gt; Man O'War =&gt; Ir0nclad =&gt; Dreadnought
+        =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>\n<li>Scout
         Riders=&gt; Horsemen =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt;
-        Medium Tank =&gt; Main Battle Tank</li>
-
-        <li>Dragoon =&gt; Armoured
-        Cars =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>
-
-        <li>Saboteur
-        =&gt; Partisans =&gt; Commados</li>
-
-        <li>Howitzer =&gt; Anti Tank
-        =&gt; Main Battle Tank</li>
-
-        <li>Mortar =&gt; Siege Artillery =&gt;
-        Towed Artillery =&gt; Multiple Launch Rocket System</li>
-
-        <li>Line
-        Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain PMV</li>
-
-        <li>Heavy
-        Machinegun =&gt; Anti Aircraft Gun</li>
-
-        <li>Biplane =&gt; Monoplane
-        Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>
-
-        <li>Transport
-        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>
-
-        </ul>
-
-        <p><strong>Transportation</strong></p>
-
-        <p>Besides
+        Medium Tank =&gt; Main Battle Tank</li>\n<li>Dragoon =&gt; Armoured Cars
+        =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
+        =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; Main
+        Battle Tank</li>\n<li>Mortar =&gt; Siege Artillery =&gt; Towed Artillery
+        =&gt; Multiple Launch Rocket System</li>\n<li>Line Infantry =&gt; Riflemen
+        =&gt; Marines =&gt; All Terrain PMV</li>\n<li>Heavy Machinegun =&gt; Anti
+        Aircraft Gun</li>\n<li>Biplane =&gt; Monoplane Fighter =&gt; Multi Role Fighter
+        =&gt; Stealth Fighter</li>\n<li>Transport Galley =&gt; Cog =&gt; Caravel
+        =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya =&gt;
+        Dhanv\u012B-gaja =&gt; Gajnal =&gt; Armoured Car</li>\n</ul>\n<p><strong>Transportation</strong></p>\n<p>Besides
         the addition of two intermediate transport vessels during the medieval and
         industrial era, naval Transporting has been augmented; The Type of unit can
         now have an effect on the combat strength and attack range of the Naval transport,
-        making them more strategically important</p>
-
-        <p><em>Naval transport
-        modifiers:</em></p>
-
-        <ul>
-
-        <li>Melee +2 strength in Galley
-        or Cog</li>
-
-        <li>Ranged: -1 strength, +2 range in Galley or Cog</li>
-
-        <li>Mounted
-        Ranged: +1 range in Galley or Cog</li>
-
-        <li>Gunner +2 strength in
-        Caravel, Steamer or Landing Craft</li>
-
-        <li>Field Artillery: +3 strength,
-        +3 range in Caravel or Steamer</li>
-
-        <li>Marine: +5 strength in Landing
-        Craft</li>
-
-        </ul>
-
-        <p><strong>Pollution</strong></p>
-
-        <p>Pollution
+        making them more strategically important</p>\n<p><em>Naval transport modifiers:</em></p>\n<ul>\n<li>Melee
+        +2 strength in Galley or Cog</li>\n<li>Ranged: -1 strength, +2 range in Galley
+        or Cog</li>\n<li>Mounted Ranged: +1 range in Galley or Cog</li>\n<li>Gunner
+        +2 strength in Caravel, Steamer or Landing Craft</li>\n<li>Field Artillery:
+        +3 strength, +3 range in Caravel or Steamer</li>\n<li>Marine: +5 strength
+        in Landing Craft</li>\n</ul>\n<p><strong>Pollution</strong></p>\n<p>Pollution
         in vanilla Humankind was a serious problem in late-game which needs to be
         corrected to keep the game playable and not prohibit the player strategic
         options with late-game military districts and infrastructure. Pollution will
         now mostly be unavoidable but its effects will be more gradual and less shocking
         and public order can be mitigated by giving your population fewer industrial
-        and science occupations and more financial and agricultural occupations.</p>
-
-        <p><em>Global
-        Warming:</em></p>
-
-        <ul>
-
-        <li>Increased Global Warming Threshold
-        by 44%</li>
-
-        <li>Public order effect depend on Net Global Pollution</li>
-
-        <li>Food
-        reduction is affected by Net Global Pollution</li>
-
-        </ul>
-
-        <p><em>Added
-        Infrastructure:</em></p>
-
-        <ul>
-
-        <li>Level 5 Coal Power: Underground
-        Coal Gasification</li>
-
-        </ul>
-
-        <p><em>Infrastructure changes
-        :</em></p>
-
-        <ul>
-
-        <li><span style="font-weight: 400;">Hydroelectric
+        and science occupations and more financial and agricultural occupations.</p>\n<p><em>Global
+        Warming:</em></p>\n<ul>\n<li>Increased Global Warming Threshold by 44%</li>\n<li>Public
+        order effect depend on Net Global Pollution</li>\n<li>Food reduction is affected
+        by Net Global Pollution</li>\n</ul>\n<p><em>Added Infrastructure:</em></p>\n<ul>\n<li>Level
+        5 Coal Power: Underground Coal Gasification</li>\n</ul>\n<p><em>Infrastructure
+        changes :</em></p>\n<ul>\n<li><span style=\"font-weight: 400;\">Hydroelectric
         Dam now generate -10% pollution in all districts instead of its normal pollution
-        reduction</span></li>
-
-        <li><span style="font-weight: 400;">Wind Farm
-        now costs 9055 industry to build, but now generate -25% pollution in all
-        districts instead of its normal pollution reduction</span></li>
-
-        <li><span
-        style="font-weight: 400;">Solar Farm now generate -20% pollution in all districts
-        instead of its normal pollution reduction</span></li>
-
-        <li><span
-        style="font-weight: 400;">Nuclear Plant now generate -15% pollution in all
-        districts instead of their normal pollution reduction</span></li>
-
-        <li><span
-        style="font-weight: 400;">Sewage System now generate -10% pollution in all
-        districts instead of its normal pollution reduction</span></li>
-
-        <li><span
-        style="font-weight: 400;">Factory Farming, Industrial Silos, Anti-Air Surveillance,
-        Command Compound, Tech Park, Financial District, Surface-to-Air Missile,
-        and Supercomputer Lab do not generate pollution anymore.</span></li>
-
-        <li>Bomb
-        Shelters are unlocked earlier with Bunker Construction (at end of the Industrial
-        Era)</li>
-
-        </ul>
-
-        <p><em>District changes:</em></p>
-
-        <ul>
-
-        <li><span
-        style="font-weight: 400;">Saltpeter Extractors now produce 1 pollution.</span></li>
-
-        <li
-        aria-level="2"><span style="font-weight: 400;">Coal Extractors now produce
-        3 pollution.</span></li>
-
-        <li aria-level="2"><span style="font-weight:
-        400;">Oil Extractors now produce 2 pollution.</span></li>
-
-        <li aria-level="2"><span
-        style="font-weight: 400;">Aluminum Extractors now produce 1 pollution.</span></li>
-
-        <li
-        aria-level="2"><span style="font-weight: 400;">Uranium Extractors now produce
-        2 pollution.</span></li>
-
-        <li aria-level="2"><span style="font-weight:
-        400;">Train Stations now produce 1 pollution instead of 5.</span></li>
-
-        <li
-        aria-level="2"><span style="font-weight: 400;">Aerodromes now produce 1 pollution
-        instead of 5, can be built at outposts but requires access to oil</span></li>
-
-        <li
-        aria-level="2"><span style="font-weight: 400;">Airports now produce 3 pollution
-        instead of 15.</span></li>
-
-        <li aria-level="2"><span style="font-weight:
-        400;">Missile Silos now produce 2 pollution instead of 15.</span></li>
-
-        </ul>
-
-        <p><strong>Compatibility</strong><em>:</em></p>
-
-        <p>I
-        general it is recommended to load this mod before any other humankind mods.</p>
-
-        <ul>
-
-        <li>mostly
-        compatible with <a href="https://humankind.mod.io/deepsea1">Deep Sea Mod</a>,
-        but for the best experience, you should also load the <a href="https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod">DeepSea
-        Compatibility Patch</a> last</li>
-
-        <li>mostly compatible with <a
-        href="https://humankind.mod.io/superpack">Super Pack for Humankind</a>, but
-        for the best experience, you should also load the <a href="https://humankind.mod.io/superpacknavalcombat">Superpack
-        Compatibility Patch</a> last</li>
-
-        <li>not compatible with<a href="https://humankind.mod.io/long-range-nuclear-missiles"
-        style="font-size: 1em;"> Nuclear Missiles Mod</a><span style="font-size:
-        1em; font-weight: 400;"> but it is already integrated</span></li>
-
-        <li>not
-        compatible with <a href="https://humankind.mod.io/docktor-kains-pollution-rework">Docktor
-        Kain''s Pollution Rework</a>, but it is already integrated</li>
-
-        </ul>
-
-        <p><strong>License</strong></p>
-
-        <p><em>Non
-        of the art used in this mod is created or owned by me full credit to artists</em></p>'
+        reduction</span></li>\n<li><span style=\"font-weight: 400;\">Wind Farm now
+        costs 9055 industry to build, but now generate -25% pollution in all districts
+        instead of its normal pollution reduction</span></li>\n<li><span style=\"font-weight:
+        400;\">Solar Farm now generate -20% pollution in all districts instead of
+        its normal pollution reduction</span></li>\n<li><span style=\"font-weight:
+        400;\">Nuclear Plant now generate -15% pollution in all districts instead
+        of their normal pollution reduction</span></li>\n<li><span style=\"font-weight:
+        400;\">Sewage System now generate -10% pollution in all districts instead
+        of its normal pollution reduction</span></li>\n<li><span style=\"font-weight:
+        400;\">Factory Farming, Industrial Silos, Anti-Air Surveillance, Command
+        Compound, Tech Park, Financial District, Surface-to-Air Missile, and Supercomputer
+        Lab do not generate pollution anymore.</span></li>\n<li>Bomb Shelters are
+        unlocked earlier with Bunker Construction (at end of the Industrial Era)</li>\n</ul>\n<p><em>District
+        changes:</em></p>\n<ul>\n<li><span style=\"font-weight: 400;\">Saltpeter
+        Extractors now produce 1 pollution.</span></li>\n<li aria-level=\"2\"><span
+        style=\"font-weight: 400;\">Coal Extractors now produce 3 pollution.</span></li>\n<li
+        aria-level=\"2\"><span style=\"font-weight: 400;\">Oil Extractors now produce
+        2 pollution.</span></li>\n<li aria-level=\"2\"><span style=\"font-weight:
+        400;\">Aluminum Extractors now produce 1 pollution.</span></li>\n<li aria-level=\"2\"><span
+        style=\"font-weight: 400;\">Uranium Extractors now produce 2 pollution.</span></li>\n<li
+        aria-level=\"2\"><span style=\"font-weight: 400;\">Train Stations now produce
+        1 pollution instead of 5.</span></li>\n<li aria-level=\"2\"><span style=\"font-weight:
+        400;\">Aerodromes now produce 1 pollution instead of 5, can be built at outposts
+        but requires access to oil</span></li>\n<li aria-level=\"2\"><span style=\"font-weight:
+        400;\">Airports now produce 3 pollution instead of 15.</span></li>\n<li aria-level=\"2\"><span
+        style=\"font-weight: 400;\">Missile Silos now produce 2 pollution instead
+        of 15.</span></li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>I
+        general it is recommended to load this mod before any other humankind mods.</p>\n<ul>\n<li>mostly
+        compatible with <a href=\"https://humankind.mod.io/deepsea1\">Deep Sea Mod</a>,
+        but for the best experience, you should also load the <a href=\"https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod\">DeepSea
+        Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/superpack\">Super
+        Pack for Humankind</a>, but for the best experience, you should also load
+        the <a href=\"https://humankind.mod.io/superpacknavalcombat\">Superpack Compatibility
+        Patch</a> last</li>\n<li>not compatible with<a href=\"https://humankind.mod.io/long-range-nuclear-missiles\"
+        style=\"font-size: 1em;\"> Nuclear Missiles Mod</a><span style=\"font-size:
+        1em; font-weight: 400;\"> but it is already integrated</span></li>\n<li>not
+        compatible with <a href=\"https://humankind.mod.io/docktor-kains-pollution-rework\">Docktor
+        Kain's Pollution Rework</a>, but it is already integrated</li>\n</ul>\n<p><strong>License</strong></p>\n<p><em>Non
+        of the art used in this mod is created or owned by me full credit to artists</em></p>"
       isDirty: 0
     homepageURL:
       value: 
