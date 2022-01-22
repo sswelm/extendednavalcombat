@@ -1080,7 +1080,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 215
-  TechTreeY: 6
+  TechTreeY: 4
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-3742772513435229569
 MonoBehaviour:
@@ -1545,6 +1545,51 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 211
   TechTreeY: 17
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-786742675895196555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_FireControlSystems
+  m_EditorClassIdentifier: 
+  Title: Fire Control System
+  Description: 'A fire-control system is a number of components working together,
+    usually a gun data computer, a director, and radar, which is designed to assist
+    a ranged weapon system in targeting, tracking and hitting its target. It performs
+    the same task as a human gunner firing a weapon, but attempts to do so faster
+    and more accurately. '
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 211
+  TechTreeY: 11
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-630304812725277501
 MonoBehaviour:
@@ -2345,7 +2390,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 198
-  TechTreeY: 6
+  TechTreeY: 4
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &2553320770136026900
 MonoBehaviour:
@@ -2811,7 +2856,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 195
+  TechTreeX: 192
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &4522281083665393996
@@ -3057,7 +3102,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 210
+  TechTreeX: 205
   TechTreeY: 11
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &5413859871240278091
@@ -3349,7 +3394,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 205
-  TechTreeY: 6
+  TechTreeY: 4
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &8044133968876456433
 MonoBehaviour:

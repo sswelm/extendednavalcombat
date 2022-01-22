@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Name: UnitSpecialty_AntiAircraft_Level0
   m_EditorClassIdentifier: 
   AbilityReferences:
-  - serializableElementName: UnitAbility_AntiAircraft_Level1
+  - serializableElementName: UnitAbility_AntiAircraft_Level0
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &721875259956790261

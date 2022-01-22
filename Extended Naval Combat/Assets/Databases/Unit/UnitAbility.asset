@@ -1569,8 +1569,10 @@ MonoBehaviour:
   PathfindingFlags: 0
   DescriptorReferences:
   - serializableElementName: Effect_UnitAbility_AntiAircraft_Half
+  - serializableElementName: Effect_Unit_SpecialtyLevel1
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrengthFromTargetClassGunship
+  - serializableElementName: BattleAbility_StrengthFromTargetClassHelicopter
 --- !u!114 &4050177204207650733
 MonoBehaviour:
   m_ObjectHideFlags: 0

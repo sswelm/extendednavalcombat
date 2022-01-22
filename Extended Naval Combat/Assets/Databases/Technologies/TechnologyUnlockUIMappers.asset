@@ -121,6 +121,32 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &-3579239828580628907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FreightTrain
+  m_EditorClassIdentifier: 
+  Title: Rail freight transport
+  Description: When considered in terms of ton-miles or tonne-kilometers hauled per
+    unit of energy consumed, rail transport can be more efficient than other means
+    of transportation
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[resourceMoney]'
 --- !u!114 &-3482471346879134060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +428,31 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: '[Pollution2]'
+--- !u!114 &7374886240433949874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FireControlSystem
+  m_EditorClassIdentifier: 
+  Title: Fire Control System
+  Description: Adds 50% Anti-Air effectiveness to Destroyers and increases attack
+    range
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &7461716961961460501
 MonoBehaviour:
   m_ObjectHideFlags: 0
