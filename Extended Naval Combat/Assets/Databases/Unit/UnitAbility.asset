@@ -662,6 +662,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Unit_HasRangedAttack
   - serializableElementName: Effect_Unit_HasSteamTurbine
   - serializableElementName: Effect_Unit_HasRadarCapability
+  - serializableElementName: Effect_Unit_HasFireControlSystem
   BattleAbilityReference:
   - serializableElementName: BattleAbility_CanAttackFortification
 --- !u!114 &-4124668496938899451

@@ -558,9 +558,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 14690000
   - RawValue: 2244
-  - RawValue: 66000
+  - RawValue: 65000
   - RawValue: 2500
-  - RawValue: 33000
+  - RawValue: 32500
   - RawValue: 1000
   - RawValue: 3000
   Note: 

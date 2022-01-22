@@ -44,7 +44,7 @@ MonoBehaviour:
     Build: 0
     Label: 
     Major: 4
-    Minor: 23
+    Minor: 24
     Revision: 0
     SerializationToleranceLevel: 0
   LoadingScreenBackground: {fileID: 0}

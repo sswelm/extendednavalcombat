@@ -10533,7 +10533,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier3_Cost
+    serializableElementName: Technology_Era5_Tier4_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_AntiTorpedoboatWarfare
