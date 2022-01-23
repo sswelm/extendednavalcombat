@@ -381,47 +381,6 @@ MonoBehaviour:
   TechTreeX: 240
   TechTreeY: 8
   OptionalUnlockTechnologyMovie: 
---- !u!114 &-6588536164902287644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_Era6_SlopedArmor
-  m_EditorClassIdentifier: 
-  Title: Sloped Armor
-  Description: '%Technology_Era6_05Description'
-  Images:
-  - Value:
-      guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
-    serializableKey: TechnologyPopupBackground
-  - Value:
-      guid:
-        a: 209776758
-        b: 1286721164
-        c: -1264855650
-        d: 577032575
-    serializableKey: Picto
-  - Value:
-      guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
-    serializableKey: TechnologyScreenItemBackground
-  Color: {r: 0, g: 0, b: 0, a: 0}
-  Symbol: 
-  TechTreeX: 220
-  TechTreeY: 0
-  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6429280157116610571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +754,47 @@ MonoBehaviour:
   TechTreeX: 192
   TechTreeY: 8
   OptionalUnlockTechnologyMovie: 
+--- !u!114 &-4923835467278339230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_SlopedArmor
+  m_EditorClassIdentifier: 
+  Title: Reactive Armour
+  Description: '%Technology_Era6_23Description'
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 260
+  TechTreeY: 0
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-4868443595786159840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,7 +915,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 150
+  TechTreeX: 148
   TechTreeY: 6
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-4503256138986226580
@@ -999,6 +999,47 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 82
   TechTreeY: 20
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-4032254157968627576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_TankWarfare
+  m_EditorClassIdentifier: 
+  Title: Tank Warfare
+  Description: '%Technology_Era6_05Description'
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 192
+  TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-3911635451970532208
 MonoBehaviour:
@@ -2096,7 +2137,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 260
+  TechTreeX: 255
   TechTreeY: 5
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1159820209259537947
@@ -2225,7 +2266,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 255
+  TechTreeX: 250
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1407498138837514483
@@ -2856,7 +2897,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 192
+  TechTreeX: 220
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &4522281083665393996
@@ -3307,8 +3348,8 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 158
-  TechTreeY: 21
+  TechTreeX: 153
+  TechTreeY: 18
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &6866685384576355471
 MonoBehaviour:

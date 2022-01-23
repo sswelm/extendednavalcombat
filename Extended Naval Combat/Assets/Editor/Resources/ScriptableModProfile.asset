@@ -284,17 +284,22 @@ MonoBehaviour:
         but requires access to oil</span></li>\n<li aria-level=\"2\"><span style=\"font-weight:
         400;\">Airports now produce 3 pollution instead of 15.</span></li>\n<li aria-level=\"2\"><span
         style=\"font-weight: 400;\">Missile Silos now produce 2 pollution instead
-        of 15.</span></li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>I
+        of 15.</span></li>\n<li aria-level=\"2\">Adminisitrative Center now produces
+        an additional 10 Public Order</li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>I
         general it is recommended to load this mod before any other humankind mods.</p>\n<ul>\n<li>mostly
         compatible with <a href=\"https://humankind.mod.io/deepsea1\">Deep Sea Mod</a>,
         but for the best experience, you should also load the <a href=\"https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod\">DeepSea
         Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/superpack\">Super
-        Pack for Humankind</a>, but for the best experience, you should also load
-        the <a href=\"https://humankind.mod.io/superpacknavalcombat\">Superpack Compatibility
-        Patch</a> last</li>\n<li>not compatible with<a href=\"https://humankind.mod.io/long-range-nuclear-missiles\"
-        style=\"font-size: 1em;\"> Nuclear Missiles Mod</a><span style=\"font-size:
-        1em; font-weight: 400;\"> but it is already integrated</span></li>\n<li>not
-        compatible with <a href=\"https://humankind.mod.io/docktor-kains-pollution-rework\">Docktor
+        Pack for Humankind Mod</a>, but for the best experience, you should also
+        load the <a href=\"https://humankind.mod.io/superpacknavalcombat\">Superpack
+        Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/official-endless-mod\">Official
+        ENDLESS&trade; Mod</a>, but for the best experience, you should also load
+        the <a href=\"https://humankind.mod.io/extended-naval-combat-techtree-patch\">Techtree
+        Patch for Extended Naval Combat</a> last</li>\n<li>not compatible with<a
+        href=\"https://humankind.mod.io/long-range-nuclear-missiles\" style=\"font-size:
+        1em;\"> Nuclear Missiles Mod</a><span style=\"font-size: 1em; font-weight:
+        400;\"> but it is already integrated</span></li>\n<li>not compatible with
+        <a href=\"https://humankind.mod.io/docktor-kains-pollution-rework\">Docktor
         Kain's Pollution Rework</a>, but it is already integrated</li>\n</ul>\n<p><strong>License</strong></p>\n<p><em>Non
         of the art used in this mod is created or owned by me full credit to artists</em></p>"
       isDirty: 0

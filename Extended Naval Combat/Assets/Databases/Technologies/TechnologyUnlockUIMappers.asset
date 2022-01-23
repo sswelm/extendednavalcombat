@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
   m_Name: Effect_EmpireBonus_FireControlSystem
   m_EditorClassIdentifier: 
-  Title: Fire Control System
+  Title: Anti Air Guns Upgrade
   Description: Adds 50% Anti-Air effectiveness to Destroyers and increases attack
     range
   Images:
@@ -503,6 +503,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: '[Pollution2]'
+--- !u!114 &8788993812476629313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_ReactiveArmorUpgrade
+  m_EditorClassIdentifier: 
+  Title: Reactive Armour Upgrade
+  Description: Adds 25% hit points and 5% Health Regeneration to Main Battle Tanks
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &8940033627788478827
 MonoBehaviour:
   m_ObjectHideFlags: 0

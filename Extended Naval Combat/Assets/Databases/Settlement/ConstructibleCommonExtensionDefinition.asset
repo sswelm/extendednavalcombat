@@ -174,6 +174,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 4
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   Prototype: Extension_Prototype_BaseEconomy
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_Airport
@@ -405,6 +409,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   Prototype: Extension_Prototype_BaseMilitary
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_Airfield
@@ -659,6 +667,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 2
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   Prototype: Extension_Prototype_BaseEconomy
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_Industry
@@ -867,6 +879,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   Prototype: Extension_Prototype_BaseMilitary
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_MissileSilo
@@ -1039,6 +1055,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   Prototype: 
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_Extractor

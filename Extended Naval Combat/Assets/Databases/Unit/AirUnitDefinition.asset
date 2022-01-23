@@ -92,6 +92,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MultiRoleAircraft
   UnitSpecialty:
@@ -107,115 +111,6 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 13764
-  visualAffinityEraReference:
-    serializableElementName: Era6
---- !u!114 &-7355856248266586744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: AirUnit_Era6_Common_NuclearWarheadsFake
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
-  Key: 1
-  Hidden: 1
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_NuclearMissile
-  Level: 38
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium_Oil2_Aluminium2_Uranium2
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 0
-  ResourceAccessPrerequisites:
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 6
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 7
-    ConstantType: 0
-    ConstantValue: 1
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 45
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
-  UnitClass:
-    serializableElementName: UnitClass_NuclearMissile
-  UnitSpecialty:
-    serializableElementName: UnitSpecialty_NuclearDevice
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_AirUnit_Era6_Common_NuclearWarheads
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier1
-  BaseMovementSpeed: 10
-  MovementSpeedMultiplierPerType:
-  - 1
-  - 2
-  - 7
-  - 1.03
-  UnitTags: 4195332
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &-2493864994969161746
@@ -307,6 +202,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MultiRoleAircraft
   UnitSpecialty:
@@ -416,6 +315,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearMissile
   UnitSpecialty:
@@ -525,6 +428,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearMissile
   UnitSpecialty:
@@ -632,6 +539,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_FighterAircraft
   UnitSpecialty:
@@ -747,6 +658,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_FighterAircraft
   UnitSpecialty:
@@ -857,6 +772,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Missile
   UnitSpecialty:
@@ -968,6 +887,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MultiRoleAircraft
   UnitSpecialty:
@@ -1075,6 +998,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Bomber
   UnitSpecialty:
@@ -1182,6 +1109,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_FighterAircraft
   UnitSpecialty:
@@ -1291,6 +1222,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Missile
   UnitSpecialty:
@@ -1397,6 +1332,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Missile
   UnitSpecialty:
@@ -1412,116 +1351,6 @@ MonoBehaviour:
   - 8
   - 1.03
   UnitTags: 2098340
-  visualAffinityEraReference:
-    serializableElementName: Era6
---- !u!114 &5117382965555859925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: AirUnit_Era6_Common_ThermonuclearWarheadsFake
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
-  Key: 2
-  Hidden: 1
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_ThermonuclearMissile
-  Level: 40
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High_Oil2_Aluminium2_Uranium2
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 0
-  ResourceAccessPrerequisites:
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 6
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 7
-    ConstantType: 0
-    ConstantValue: 1
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 1
-    ActionType: 45
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
-  UnitClass:
-    serializableElementName: UnitClass_NuclearMissile
-  UnitSpecialty:
-    serializableElementName: UnitSpecialty_NuclearDevice
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_AirUnit_Era6_Common_ThermonuclearWarheads
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier2
-  - serializableElementName: Effect_Unit_IsThermalNuclearExplosive
-  BaseMovementSpeed: 10
-  MovementSpeedMultiplierPerType:
-  - 1
-  - 2
-  - 7
-  - 1.03
-  UnitTags: 4195332
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &6061387898358759006
@@ -1616,6 +1445,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearMissile
   UnitSpecialty:
@@ -1726,6 +1559,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearMissile
   UnitSpecialty:
