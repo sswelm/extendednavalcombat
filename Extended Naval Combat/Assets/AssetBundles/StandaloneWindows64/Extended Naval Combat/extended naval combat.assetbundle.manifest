@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 725562214
+CRC: 3864339582
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7ef62df0972931b12eaf66f889bc4521
+    Hash: f11725171df48f21db751cca8ee36db4
   TypeTreeHash:
     serializedVersion: 2
     Hash: ba883eba491f45e1764eaad8aaa86d63
@@ -146,6 +146,7 @@ Assets:
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
 - Assets/Resources/armouredCar212.png
+- Assets/Resources/rifling.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
@@ -189,6 +190,7 @@ Assets:
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/militaryTradition720.png
 - Assets/Resources/earlyRiffleman212.png
 - Assets/Databases/Settlement/SettlementDescriptor.asset
 - Assets/Databases/World/PollutionDescriptor.asset

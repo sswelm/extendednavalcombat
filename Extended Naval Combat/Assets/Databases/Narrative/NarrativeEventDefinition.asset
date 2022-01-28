@@ -1738,9 +1738,7 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_UnlockingWithoutUi
   EraDefinitions:
-  - serializableElementName: Era4
-  - serializableElementName: Era5
-  - serializableElementName: Era6
+  - serializableElementName: 
   Image:
     guid:
       a: 0

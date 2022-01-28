@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Name: UnitFamily_MachineGun
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_AntiAircraft
+  SerializableNextFamilyName: UnitFamily_MechanizedInfantry
 --- !u!114 &7535262452487524924
 MonoBehaviour:
   m_ObjectHideFlags: 0

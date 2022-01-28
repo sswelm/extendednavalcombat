@@ -42,8 +42,8 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 195
-  TechTreeY: 28
+  TechTreeX: 192
+  TechTreeY: 26
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-8543544815677690553
 MonoBehaviour:
@@ -421,7 +421,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 170
+  TechTreeX: 171
   TechTreeY: 28
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6114515573949476379
@@ -752,7 +752,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 192
-  TechTreeY: 8
+  TechTreeY: 10
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-4923835467278339230
 MonoBehaviour:
@@ -1243,7 +1243,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 164
+  TechTreeX: 159
   TechTreeY: 28
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-3469836071144652537
@@ -1516,8 +1516,12 @@ MonoBehaviour:
   m_Name: Technology_Era5_SubmarineWarfare
   m_EditorClassIdentifier: 
   Title: Submarine Warfare
-  Description: Submarine warfare is one of the four divisions of underwater warfare,
-    the others being anti-submarine warfare, mine warfare and mine countermeasures.
+  Description: Submarine warfare consists primarily of diesel and nuclear submarines
+    using torpedoes, missiles or nuclear weapons, as well as advanced sensing equipment,
+    to attack other submarines, ships, or land targets. Submarines may also be used
+    for reconnaissance and landing of special forces as well as deterrence. In some
+    navies they may be used for task force screening. The effectiveness of submarine
+    warfare partly depends on the anti-submarine warfare carried out in response.
   Images:
   - Value:
       guid:
@@ -1794,7 +1798,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 184
-  TechTreeY: 28
+  TechTreeY: 30
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &11400000
 MonoBehaviour:
@@ -2194,12 +2198,10 @@ MonoBehaviour:
   m_Name: Technology_Era5_Automobile
   m_EditorClassIdentifier: 
   Title: Automobile
-  Description: The first practical Automobiles were developed in the late 19th Century,
-    although experiments with steam-powered wagons had been carried out over one
-    hundred years earlier. The critical invention that made the Automobile a success
-    was the internal Combustion engine. This relatively small but powerful engine
-    could be mounted within the frame of the "horseless carriage" and drive the wheels.
-    The Automobile had a tremendous impact on the economy and lifestyles of the rich
+  Description: The critical invention that made the Automobile a success was the
+    internal Combustion engine. This relatively small but powerful engine could be
+    mounted within the frame of the "horseless carriage" and drive the wheels. The
+    Automobile had a tremendous impact on the economy and lifestyles of the rich
     Western nations, and it also revolutionized warfare
   Images:
   - Value:
@@ -2309,6 +2311,52 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 75
   TechTreeY: 10
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &1729529385276365317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_Rifling
+  m_EditorClassIdentifier: 
+  Title: Rifling
+  Description: 'Rifling is merely the cutting of helical grooves into the inner part
+    of a gun barrel so as to induce spin in a ball or bullet which serves to gyroscopically
+    stabilize the projectile, giving it greater accuracy and range. In short, all
+    this means is that it took a skilled marksman to hit anything specific with a
+    smoothbore musket, but any fool with a steady hand has a fair chance of success
+    firing a rifle at a target. '
+  Images:
+  - Value:
+      guid:
+        a: 566067288
+        b: 1226317964
+        c: 1050816191
+        d: 1119163863
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 566067288
+        b: 1226317964
+        c: 1050816191
+        d: 1119163863
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 178
+  TechTreeY: 30
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1729809604418014442
 MonoBehaviour:
@@ -2431,7 +2479,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 198
-  TechTreeY: 4
+  TechTreeY: 6
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &2553320770136026900
 MonoBehaviour:
@@ -3435,7 +3483,54 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 205
-  TechTreeY: 4
+  TechTreeY: 5
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &7437790367495296520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_MilitaryTradition
+  m_EditorClassIdentifier: 
+  Title: Military tradition
+  Description: 'With the fall of the feudal system in Europe and the creation of
+    standing armies, a new military tradition was born. Organizing soldiers based
+    on their skill, experience, and understanding of tactics rather than their position
+    of birth, the armies of post feudal Europe were markedly different from their
+    predecessors. This change in the position of warfare also necessitated a change
+    in the definition of the soldier, and with this transformation also came a strict
+    code of conduct based on the old ideals of chivalry. '
+  Images:
+  - Value:
+      guid:
+        a: 713303092
+        b: 1117833703
+        c: -1844906345
+        d: 377073356
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 713303092
+        b: 1117833703
+        c: -1844906345
+        d: 377073356
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 165
+  TechTreeY: 28
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &8044133968876456433
 MonoBehaviour:
@@ -3680,7 +3775,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 188
+  TechTreeX: 187
   TechTreeY: 14
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &9136826320910441767
@@ -3804,5 +3899,5 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 177
-  TechTreeY: 25
+  TechTreeY: 24
   OptionalUnlockTechnologyMovie: 

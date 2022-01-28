@@ -121,6 +121,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &-3631257943225951681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_GarrisonBunkerUpgrade
+  m_EditorClassIdentifier: 
+  Title: Garrison Bunkers
+  Description: Garrison are reenforced with bunkers
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
 --- !u!114 &-3579239828580628907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,6 +378,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: '[Pollution2]'
+--- !u!114 &4539149055119496526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_BallisticsComputer
+  m_EditorClassIdentifier: 
+  Title: Ballistic Computer
+  Description: Increases range and attack strength of Self Propelled Artillery
+  Images:
+  - Value:
+      guid:
+        a: 143282305
+        b: 1280028640
+        c: 1766937739
+        d: 405257795
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &5659722520540306911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,8 +489,7 @@ MonoBehaviour:
   m_Name: Effect_EmpireBonus_FireControlSystem
   m_EditorClassIdentifier: 
   Title: Anti Air Guns Upgrade
-  Description: Adds 50% Anti-Air effectiveness to Destroyers and increases attack
-    range
+  Description: Adds  50% Anti-Air effectiveness and increased attack range to Destroyers
   Images:
   - Value:
       guid:

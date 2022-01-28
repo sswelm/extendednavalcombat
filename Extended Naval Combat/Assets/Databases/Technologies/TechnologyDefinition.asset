@@ -734,7 +734,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 1
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -812,104 +812,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 32
-    - Name: Importance
-      Entry: 3
-      Data: 3
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: LandUnit_Era5_Common_EarlyRifleman
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_EmpireBonus_GarrisonPollution
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -928,7 +830,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era5_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era5_Breechloader
+    - Technology_Era5_Rifling
   Visibility: -1
 --- !u!114 &-7794580600394220140
 MonoBehaviour:
@@ -1324,6 +1226,130 @@ MonoBehaviour:
     SerializableTechnologyNames:
     - Technology_Era6_SlopedArmor
   Visibility: -1
+--- !u!114 &-7405622559803281777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_MilitaryTradition
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era5_FrenchRepublic_Cuirassiers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era5_Common_Cuirassiers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 42
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era5
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era5_Tier1_CostExtra
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era5_07
+  Visibility: -1
 --- !u!114 &-7362779224701639369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1632,7 +1658,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier4_Cost
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_AntitankWarfare
@@ -3499,7 +3525,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier2_Cost
+    serializableElementName: Technology_Era6_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_01
@@ -4042,10 +4068,125 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier1_Cost
+    serializableElementName: Technology_Era6_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_07
+  Visibility: -1
+--- !u!114 &-4065812201800037668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_Rifling
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era5_Common_EarlyRifleman
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 45
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era5
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era5_Tier2_CostExtra
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era5_Breechloader
   Visibility: -1
 --- !u!114 &-3833372422720454987
 MonoBehaviour:
@@ -4183,7 +4324,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -4224,24 +4365,12 @@ MonoBehaviour:
     - Name: TargetID
       Entry: 1
       Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
+    - Name: Descriptor
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: LandUnit_Era6_China_Guardians
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
+      Data: Effect_EmpireBonus_BallisticsComputer
     - Name: 
       Entry: 8
       Data: 
@@ -4264,7 +4393,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era6_Tier2_Cost
+    serializableElementName: Technology_Era6_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_06
@@ -6114,7 +6243,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier3_Cost
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_11
@@ -6861,7 +6990,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier1_Cost
+    serializableElementName: Technology_Era5_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -8551,7 +8680,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier4_Cost
+    serializableElementName: Technology_Era5_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_DreadnoughtDesign
@@ -8582,7 +8711,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 5
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
@@ -8726,7 +8855,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -8736,31 +8865,50 @@ MonoBehaviour:
       Data: 
     - Name: Hidden
       Entry: 5
-      Data: true
+      Data: false
     - Name: GainValues
       Entry: 6
       Data: 
     - Name: TargetID
       Entry: 1
       Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
+    - Name: Descriptor
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: LandUnit_Era5_Common_EarlyRifleman
+      Data: Effect_EmpireBonus_GarrisonBunkerUpgrade
     - Name: 
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_GarrisonPollution
     - Name: 
       Entry: 8
       Data: 
@@ -8783,7 +8931,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier4_Cost
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_17
@@ -9739,7 +9887,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier4_Cost
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_11
@@ -11769,7 +11917,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era5_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era5_07
+    - Technology_Era5_MilitaryTradition
   Visibility: -1
 --- !u!114 &4981493512813625291
 MonoBehaviour:
@@ -12367,13 +12515,22 @@ MonoBehaviour:
       Data: 15|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
       Data: LandUnit_Era6_Common_MultipleLaunchRocketSystem
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era6_China_Guardians
     - Name: 
       Entry: 8
       Data: 
@@ -13819,7 +13976,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 5
+      Data: 4
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -13907,7 +14064,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -13921,82 +14078,6 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 7
       Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 32
-    - Name: Importance
-      Entry: 3
-      Data: 3
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: LandUnit_Era5_FrenchRepublic_Cuirassiers
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: LandUnit_Era5_Common_Cuirassiers
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
@@ -14038,7 +14119,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireBattleAbility,
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireBattleAbility,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -14051,7 +14132,7 @@ MonoBehaviour:
       Data: false
     - Name: GainValues
       Entry: 7
-      Data: 10|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+      Data: 7|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
@@ -14066,7 +14147,7 @@ MonoBehaviour:
       Data: 4
     - Name: Gates
       Entry: 7
-      Data: 11|Amplitude.Mercury.Data.AI.Gate[], Amplitude.Mercury.Data
+      Data: 8|Amplitude.Mercury.Data.AI.Gate[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 0
@@ -14129,7 +14210,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireBattleAbility,
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireBattleAbility,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -14142,7 +14223,7 @@ MonoBehaviour:
       Data: true
     - Name: GainValues
       Entry: 7
-      Data: 13|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+      Data: 10|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
@@ -14157,7 +14238,7 @@ MonoBehaviour:
       Data: 4
     - Name: Gates
       Entry: 7
-      Data: 14|Amplitude.Mercury.Data.AI.Gate[], Amplitude.Mercury.Data
+      Data: 11|Amplitude.Mercury.Data.AI.Gate[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 0
