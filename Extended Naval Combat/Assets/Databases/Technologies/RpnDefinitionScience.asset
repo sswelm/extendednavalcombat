@@ -277,9 +277,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 21875000
   - RawValue: 3001
-  - RawValue: 87000
+  - RawValue: 88000
   - RawValue: 12500
-  - RawValue: 43500
+  - RawValue: 44000
   - RawValue: 1000
   - RawValue: 3500
   Note: 
@@ -305,9 +305,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 23860000
   - RawValue: 3174
-  - RawValue: 88000
+  - RawValue: 89000
   - RawValue: 15000
-  - RawValue: 44000
+  - RawValue: 44500
   - RawValue: 1000
   - RawValue: 3600
   Note: 
@@ -360,9 +360,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 17290000
   - RawValue: 2519
-  - RawValue: 73000
+  - RawValue: 74000
   - RawValue: 5000
-  - RawValue: 36500
+  - RawValue: 37000
   - RawValue: 1000
   - RawValue: 3200
   Note: 
@@ -414,9 +414,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 34380000
   - RawValue: 4000
-  - RawValue: 109000
+  - RawValue: 110000
   - RawValue: 20000
-  - RawValue: 54000
+  - RawValue: 55000
   - RawValue: 1000
   - RawValue: 4000
   Note: 
@@ -667,9 +667,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 18605000
   - RawValue: 2674
-  - RawValue: 78000
+  - RawValue: 79000
   - RawValue: 7500
-  - RawValue: 39000
+  - RawValue: 39500
   - RawValue: 1000
   - RawValue: 3300
   Note: 
@@ -695,9 +695,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 28650000
   - RawValue: 3563
-  - RawValue: 99000
+  - RawValue: 100000
   - RawValue: 17500
-  - RawValue: 49000
+  - RawValue: 50000
   - RawValue: 1000
   - RawValue: 3800
   Note: 
@@ -750,9 +750,9 @@ MonoBehaviour:
   ConstantStack:
   - RawValue: 19890000
   - RawValue: 2828
-  - RawValue: 79000
+  - RawValue: 80000
   - RawValue: 10000
-  - RawValue: 39500
+  - RawValue: 40000
   - RawValue: 1000
   - RawValue: 3400
   Note: 

@@ -1677,47 +1677,6 @@ MonoBehaviour:
   TechTreeX: 205
   TechTreeY: 25
   OptionalUnlockTechnologyMovie: 
---- !u!114 &-470440152565356865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_Era3_TwoMastedShip
-  m_EditorClassIdentifier: 
-  Title: Two Masted Ship
-  Description: '%Technology_Era4_01Description'
-  Images:
-  - Value:
-      guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
-    serializableKey: TechnologyPopupBackground
-  - Value:
-      guid:
-        a: 209776758
-        b: 1286721164
-        c: -1264855650
-        d: 577032575
-    serializableKey: Picto
-  - Value:
-      guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
-    serializableKey: TechnologyScreenItemBackground
-  Color: {r: 0, g: 0, b: 0, a: 0}
-  Symbol: 
-  TechTreeX: 93
-  TechTreeY: 7
-  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-317537814038219199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,11 +1948,11 @@ MonoBehaviour:
   m_Name: Technology_Era6_AntitankWarfare
   m_EditorClassIdentifier: 
   Title: Antitank Warfare
-  Description: ' The development of specialized anti-tank munitions and anti-tank
-    guns was prompted by the appearance of tanks. To destroy hostile tanks, artillerymen
-    often used field guns depressed to fire directly at their targets, but this practice
-    expended too much valuable ammunition and was of increasingly limited effectiveness
-    as tank armor became thicker.'
+  Description: ' While tanks are designed for front-line combat, combining operational
+    mobility and tactical offensive and defensive capabilities and performing all
+    primary tasks of the armoured troops, the tank destroyer is specifically designed
+    to take on enemy tanks and other armoured fighting vehicles. Many are based on
+    a tracked tank chassis, while others are wheeled.'
   Images:
   - Value:
       guid:
@@ -2478,7 +2437,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 198
+  TechTreeX: 197
   TechTreeY: 6
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &2553320770136026900
@@ -2860,6 +2819,53 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 230
+  TechTreeY: 0
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &4156159962222218667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_AntiTankGun
+  m_EditorClassIdentifier: 
+  Title: Anti-tank Gun
+  Description: The development of specialized anti-tank munitions and anti-tank guns
+    was prompted by the appearance of tanks during World War I. To destroy hostile
+    tanks, artillerymen often used field guns depressed to fire directly at their
+    targets, but this practice expended too much valuable ammunition and was of increasingly
+    limited effectiveness as tank armor became thicker. To penetrate armor, they
+    fired specialized ammunition from longer barrels to achieve a higher muzzle velocity
+    than field guns.
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 198
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &4232014196943866266

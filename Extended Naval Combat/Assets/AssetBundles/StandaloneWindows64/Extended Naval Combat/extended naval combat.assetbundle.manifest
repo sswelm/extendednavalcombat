@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3864339582
+CRC: 1032127388
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f11725171df48f21db751cca8ee36db4
+    Hash: c2082389dc1705b51ef48928ec91486b
   TypeTreeHash:
     serializedVersion: 2
     Hash: ba883eba491f45e1764eaad8aaa86d63
@@ -170,6 +170,7 @@ Assets:
 - Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
 - Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
+- Assets/Resources/tankDestroyer730.png
 - Assets/Resources/guidedmissilecruiser720.png
 - Assets/Databases/Narrative/NarrativeEventDefinition.asset
 - Assets/Resources/zumwalt212.png
