@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_Name: PresentationAirUnit_Era6_Common_StealthFighters_Default
   m_EditorClassIdentifier: 
   UnitDefinitionReference:
-    serializableElementName: AirUnit_Era6_USA_Lightnings
+    serializableElementName: AirUnit_Era6_Common_StealthFighters
   PresentationFormationDefinition:
     serializableElementName: Formation_1
   FormationBehaviourDefinition:

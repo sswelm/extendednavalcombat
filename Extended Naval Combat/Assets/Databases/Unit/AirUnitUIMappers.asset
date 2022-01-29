@@ -17,17 +17,17 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: -1030214625
-        b: 1185378098
-        c: 1740157606
-        d: 1545496959
+        a: -1080624996
+        b: 1128180235
+        c: 1740491400
+        d: -1936806217
     serializableKey: Small
   - Value:
       guid:
-        a: 684671523
-        b: 1085932521
-        c: -1382302321
-        d: -1982468589
+        a: -1080624996
+        b: 1128180235
+        c: 1740491400
+        d: -1936806217
     serializableKey: Tooltip
   - Value:
       guid:

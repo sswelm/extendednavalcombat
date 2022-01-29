@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1032127388
+CRC: 334332285
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c2082389dc1705b51ef48928ec91486b
+    Hash: 09df0ab63387263c3a91f7df484f425d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ba883eba491f45e1764eaad8aaa86d63
+    Hash: 4c336a4ae232f364dc1b6bc98db192b3
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -176,6 +176,7 @@ Assets:
 - Assets/Resources/zumwalt212.png
 - Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
+- Assets/Resources/submachinegunInfantry746.png
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
 - Assets/Resources/battleshipDreadnought212.png
 - Assets/Resources/selfpropelledHowitzer720.png
@@ -191,6 +192,7 @@ Assets:
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
 - Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/nuclearMissile720.png
 - Assets/Resources/militaryTradition720.png
 - Assets/Resources/earlyRiffleman212.png
 - Assets/Databases/Settlement/SettlementDescriptor.asset

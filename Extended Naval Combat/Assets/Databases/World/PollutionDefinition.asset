@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Fast
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 36000000
+    RawValue: 54000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Normal
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 72000000
+    RawValue: 108000000
   TerritoryPollutionStatusCategory:
     serializableElementName: StatusCategory_Pollution
   TerritoryPollution:
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Endless
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 120000000
+    RawValue: 180000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Blitz
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 18000000
+    RawValue: 27000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Slow
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 108000000
+    RawValue: 162000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Default
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 72000000
+    RawValue: 108000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:

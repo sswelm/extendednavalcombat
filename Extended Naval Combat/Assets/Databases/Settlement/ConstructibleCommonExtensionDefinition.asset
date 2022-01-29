@@ -242,6 +242,7 @@ MonoBehaviour:
       serializableTags: []
   BoroughPrerequisite:
     ExtensionRules: 1
+    HideInUI: 0
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
@@ -370,9 +371,9 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: ProductionCost_Extension_Base_Medium
   MoneyInstantCostDefinition:
-    Constant: -1
+    Constant: 0
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: 
   InfluenceInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -393,7 +394,7 @@ MonoBehaviour:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
-    CampConstraint: 2
+    CampConstraint: 0
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
@@ -476,6 +477,7 @@ MonoBehaviour:
       serializableTags: []
   BoroughPrerequisite:
     ExtensionRules: 1
+    HideInUI: 0
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
@@ -733,6 +735,7 @@ MonoBehaviour:
       serializableTags: []
   BoroughPrerequisite:
     ExtensionRules: 0
+    HideInUI: 0
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
@@ -946,6 +949,7 @@ MonoBehaviour:
       serializableTags: []
   BoroughPrerequisite:
     ExtensionRules: 1
+    HideInUI: 0
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
@@ -1120,6 +1124,7 @@ MonoBehaviour:
       serializableTags: []
   BoroughPrerequisite:
     ExtensionRules: 1
+    HideInUI: 0
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
