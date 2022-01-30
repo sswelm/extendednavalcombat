@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 334332285
+CRC: 976872749
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 09df0ab63387263c3a91f7df484f425d
+    Hash: 8477db9a38dafd77560cd15d1f8ec996
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4c336a4ae232f364dc1b6bc98db192b3
@@ -212,6 +212,7 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
 - Assets/Resources/dieselSubmarine360Manual.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+- Assets/Resources/TOW_infantry437.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/Seawolf212.png

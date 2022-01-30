@@ -763,6 +763,163 @@ MonoBehaviour:
   Symbol: 
   SortPriority: 7500
   ConstructibleTraits: 
+--- !u!114 &-6257474776617385211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era6_Common_TOW-Infantry
+  m_EditorClassIdentifier: 
+  Title: TOW Infantry
+  Description: TOW stands for Tube-launched Optically-tracked Wire-guided (missile).
+    A TOW missile can be fired by a lone infantry soldier; its purpose is armor penetration,
+    meaning that TOW-armed infantry units can effectively fight tanks, destroying
+    very expensive and difficult-to-train units at the risk of a substantially cheaper
+    one. TOW missiles are especially effective in tank-unfriendly terrain, permitting
+    pot-shots from heavy cover.
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -159442268
+        b: 1094882107
+        c: 1390908340
+        d: -1978860719
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: -159442268
+        b: 1094882107
+        c: 1390908340
+        d: -1978860719
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 7400
+  ConstructibleTraits: 
 --- !u!114 &-6068342677879410409
 MonoBehaviour:
   m_ObjectHideFlags: 0

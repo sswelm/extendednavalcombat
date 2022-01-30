@@ -609,6 +609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level1
+  - serializableElementName: UnitAbility_Shatter
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &-1976117271433035950
@@ -952,6 +953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityReferences:
   - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level0
+  - serializableElementName: UnitAbility_Shatter
   AutoResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &1748627296087847882

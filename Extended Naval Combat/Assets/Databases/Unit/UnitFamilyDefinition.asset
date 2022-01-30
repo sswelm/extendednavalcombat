@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: UnitFamily_AntiTank
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_ModernHeavyCavalry
+  SerializableNextFamilyName: 
 --- !u!114 &5414562749331890857
 MonoBehaviour:
   m_ObjectHideFlags: 0

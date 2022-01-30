@@ -462,7 +462,7 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 1% gold per trade route
       TargetProperty: MoneyNet
-      ToTargetOperation: 0
+      ToTargetOperation: 4
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
       - RawValue: 1000

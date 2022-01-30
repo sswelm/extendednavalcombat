@@ -162,30 +162,31 @@ MonoBehaviour:
         (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
-        MLRS</li>\n<li>Added Light Tank unlocked with Continuous Track, upgrades
-        to Medium Tank</li>\n<li>Added Armoured Recon, unlocked with Anti Tank Warfare
-        upgrades to Attack Helicopter with Jet Engine</li>\n<li>Added Tank Destroyer,
-        unlocked with Anti Tank Warfare, upgrades to Main Battle Tank with Composite
-        Armor</li>\n<li>Added Self-propelled Howitzer, unlocked with Mechanized Infantry
-        Doctrine</li>\n<li>Added Marines, unlocked Amphibious Warfare, upgrades to
-        All-Terrain PMV with Mechanized Infantry Doctrine</li>\n<li>Added Attack
-        Helicopter, unlocked with Jet Engine, upgrades to Helicopter Gunship with
-        Precision-guided munition</li>\n<li>Added Multiple Launch Rocket System &#40;MLRS&#41;,
-        unlocks with Computing</li>\n<li>Added (common) All-Terrain PMV, unlocks
-        with Mechanized Infantry Doctrine</li>\n</ol>\n<p><em>New Air units:</em></p>\n<ol>\n<li>Added
-        (common) Stealth Fighter, unlocked with Stealth technology</li>\n<li>Added
-        (common) Stealth Cruise Missile, unlocked with Stealth technology</li>\n<li>Added
-        Intercontinental Ballistic Missile (ICBM) unlocked after researching Rocket
-        Science and building 2nd Nuclear Test Project</li>\n</ol>\n<p><em>Special
-        ability changes:</em></p>\n<ul>\n<li>Land-based Archer and Gunner units are
-        less effective (-10 strength) versus naval units in battle</li>\n<li>Transport
-        Galley and all other naval transport Units now require upkeep when used</li>\n<li>Cog
-        is converted into a Transport vessel</li>\n<li>Man O' War gain special ability
-        Shatter (similar to Howitzer)</li>\n<li>Indirect ranged attacks by Archer
-        units on Fortified units get reduced by 6 strength</li>\n<li>Units that cannot
-        attack fortifications (Cavalry, Tanks, etc) require 2 movement points in
-        Rocky Field</li>\n<li>Ironclad special ability Inner Sea Mastodonte (+11
-        in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>\n<li>Oar
+        Selfpropelled Howitzer</li>\n<li>Added Light Tank unlocked with Continuous
+        Track, upgrades to Medium Tank</li>\n<li>Added Armoured Recon, unlocked with
+        Anti Tank Warfare upgrades to Attack Helicopter with Jet Engine</li>\n<li>Added
+        Tank Destroyer, unlocked with Anti Tank Warfare, upgrades to Main Battle
+        Tank with Composite Armor</li>\n<li>Added Self-propelled Howitzer, unlocked
+        with Mechanized Infantry Doctrine</li>\n<li>Added Marines, unlocked with
+        Amphibious Warfare, upgrades to All-Terrain PMV with Mechanized Infantry
+        Doctrine</li>\n<li>TOW Infantry, unlocked with Computing, upgrades from Anti
+        Tank Gun</li>\n<li>Added Attack Helicopter, unlocked with Jet Engine, upgrades
+        to Helicopter Gunship with Precision-guided munition</li>\n<li>Added Multiple
+        Launch Rocket System &#40;MLRS&#41;, unlocks with Computing</li>\n<li>Added
+        (common) All-Terrain PMV, unlocks with Mechanized Infantry Doctrine</li>\n</ol>\n<p><em>New
+        Air units:</em></p>\n<ol>\n<li>Added (common) Stealth Fighter, unlocked with
+        Stealth technology</li>\n<li>Added (common) Stealth Cruise Missile, unlocked
+        with Stealth technology</li>\n<li>Added Intercontinental Ballistic Missile
+        (ICBM) unlocked after researching Rocket Science and building 2nd Nuclear
+        Test Project</li>\n</ol>\n<p><em>Special ability changes:</em></p>\n<ul>\n<li>Land-based
+        Archer and Gunner units are less effective (-10 strength) versus naval units
+        in battle</li>\n<li>Transport Galley and all other naval transport Units
+        now require upkeep when used</li>\n<li>Cog is converted into a Transport
+        vessel</li>\n<li>Man O' War gain special ability Shatter (similar to Howitzer)</li>\n<li>Indirect
+        ranged attacks by Archer units on Fortified units get reduced by 6 strength</li>\n<li>Units
+        that cannot attack fortifications (Cavalry, Tanks, etc) require 2 movement
+        points in Rocky Field</li>\n<li>Ironclad special ability Inner Sea Mastodonte
+        (+11 in Coastal Waters) is replaced by Bombard (similar to Battleship)</li>\n<li>Oar
         propelled units (Pentekonter, Quadrireme, Galleass ) gain +5 strength in
         Coastal Waters and +2 speed in combat</li>\n<li>Dreadnought, Battleship en
         Missile Cruiser gain extended Zone of Control</li>\n<li>Torpedo Boat and
@@ -234,14 +235,14 @@ MonoBehaviour:
         Riders=&gt; Horsemen =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt;
         Medium Tank =&gt; Main Battle Tank</li>\n<li>Dragoon =&gt; Armoured Cars
         =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
-        =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; Main
-        Battle Tank</li>\n<li>Mortar =&gt; Siege Artillery =&gt; Towed Artillery
-        =&gt; Multiple Launch Rocket System</li>\n<li>Line Infantry =&gt; Riflemen
-        =&gt; Marines =&gt; All Terrain PMV</li>\n<li>Heavy Machinegun =&gt; Anti
-        Aircraft Gun</li>\n<li>Biplane =&gt; Monoplane Fighter =&gt; Multi Role Fighter
-        =&gt; Stealth Fighter</li>\n<li>Transport Galley =&gt; Cog =&gt; Caravel
-        =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya =&gt;
-        Dhanv\u012B-gaja =&gt; Gajnal =&gt; Armoured Car</li>\n</ul>\n<p><strong>Transportation</strong></p>\n<p>Besides
+        =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
+        Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
+        =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket
+        System</li>\n<li>Line Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain
+        PMV</li>\n<li>Heavy Machinegun =&gt; Anti Aircraft Gun</li>\n<li>Biplane
+        =&gt; Monoplane Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>\n<li>Transport
+        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya
+        =&gt; Dhanv\u012B-gaja =&gt; Gajnal =&gt; Armoured Car</li>\n</ul>\n<p><strong>Transportation</strong></p>\n<p>Besides
         the addition of two intermediate transport vessels during the medieval and
         industrial era, naval Transporting has been augmented; The Type of unit can
         now have an effect on the combat strength and attack range of the Naval transport,
@@ -257,7 +258,8 @@ MonoBehaviour:
         now mostly be unavoidable but its effects will be more gradual and less shocking
         and public order can be mitigated by giving your population fewer industrial
         and science occupations and more financial and agricultural occupations.</p>\n<p><em>Global
-        Warming:</em></p>\n<ul>\n<li>Increased Global Warming Threshold by 44%</li>\n<li>Public
+        Warming:</em></p>\n<ul>\n<li>Increased Level 1 Global Warming Threshold by
+        44%</li>\n<li>Increased Level 2 Global Warming Threshold by 216%</li>\n<li>Public
         order effect depend on Net Global Pollution</li>\n<li>Food reduction is affected
         by Net Global Pollution</li>\n</ul>\n<p><em>Added Infrastructure:</em></p>\n<ul>\n<li>Level
         5 Coal Power: Underground Coal Gasification</li>\n</ul>\n<p><em>Infrastructure
