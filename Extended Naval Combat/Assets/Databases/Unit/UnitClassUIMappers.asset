@@ -627,6 +627,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: '[UnitClass_AircraftCarrier]'
+--- !u!114 &-653734752926210652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_TOW_Infantry
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_FieldArtilleryTitle'
+  Description: '%UnitClass_FieldArtilleryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_FieldArtillery]'
 --- !u!114 &-177766167000537200
 MonoBehaviour:
   m_ObjectHideFlags: 0

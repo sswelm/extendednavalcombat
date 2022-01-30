@@ -1524,7 +1524,7 @@ MonoBehaviour:
     ArtificialWonderDefinition:
       serializableElementName: 
   UnitClass:
-    serializableElementName: UnitClass_FieldArtillery
+    serializableElementName: UnitClass_TOW_Infantry
   UnitSpecialty:
     serializableElementName: UnitSpecialty_StrengthFromTargetClassArmoured_Level1
   OwnDescriptorReferences:
