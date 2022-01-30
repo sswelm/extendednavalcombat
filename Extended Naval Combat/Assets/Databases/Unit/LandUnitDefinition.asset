@@ -56,7 +56,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 3
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 4
+    Constant: 2
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -1700,7 +1700,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 3
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
@@ -3150,7 +3150,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 3
+    Constant: 2
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
@@ -3871,6 +3871,112 @@ MonoBehaviour:
   UnitTags: 457
   visualAffinityEraReference:
     serializableElementName: Era5
+--- !u!114 &1192180774614161177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era5_BritishEmpire_Redcoats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 83
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_IndustrialInfantry
+  Level: 33
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era5_BritishEmpire
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_Gunner
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_RegenerateAnywhere
+  OwnDescriptorReferences:
+  - serializableElementName: 'Effect_LandUnit_Era5_BritishEmpire_Redcoats '
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era5_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 25
+  visualAffinityEraReference:
+    serializableElementName: Era5
 --- !u!114 &1736509539901073329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4367,7 +4473,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 3
+    Constant: 2
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -5779,7 +5885,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 3
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
@@ -6052,6 +6158,110 @@ MonoBehaviour:
   UnitTags: 57
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &7988590004867529600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_Common_Halberdiers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 53
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_MeleeAntiCavalry
+  Level: 24
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_AntiCavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_Common_Halberdiers
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Era4_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 41
+  visualAffinityEraReference:
+    serializableElementName: Era4
 --- !u!114 &8619181413968511020
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -544,6 +544,33 @@ MonoBehaviour:
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
   sourceTypeName: 
+--- !u!114 &1694343253982860829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era5_Tier0_CostExtra
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a000000020000000a0000000a0000000800000006000000030000000a000000060000000a0000000500000002000000
+  ConstantStack:
+  - RawValue: 7715000
+  - RawValue: 1501
+  - RawValue: 50000
+  - RawValue: 25000
+  - RawValue: 1000
+  - RawValue: 2300
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
 --- !u!114 &2275716708777845118
 MonoBehaviour:
   m_ObjectHideFlags: 0

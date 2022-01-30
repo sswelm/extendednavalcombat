@@ -1345,10 +1345,11 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier1_CostExtra
+    serializableElementName: Technology_Era5_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era5_07
+    - Technology_Era5_02
+    - Technology_Era5_04
   Visibility: -1
 --- !u!114 &-7362779224701639369
 MonoBehaviour:
@@ -12099,7 +12100,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era5_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era5_MilitaryTradition
+    - Technology_Era5_07
   Visibility: -1
 --- !u!114 &4981493512813625291
 MonoBehaviour:
@@ -14543,8 +14544,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era5_02
-    - Technology_Era5_04
+    - Technology_Era5_MilitaryTradition
   Visibility: -1
 --- !u!114 &8812635927470483804
 MonoBehaviour:
