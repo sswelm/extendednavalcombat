@@ -109,7 +109,7 @@ MonoBehaviour:
   FormationBehaviourDefinition:
     serializableElementName: 
   ChoreographyOverride: 0
-  FacingAngleOffset: 0
+  FacingAngleOffset: 90
   MinDistanceBetweenFormationDummies: 0
   RestrictionPerSlot: []
   UnitSpecification: 0

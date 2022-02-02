@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1086117183
+CRC: 3979536093
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 29792bf36b9fc3579d828d74fdd2a211
+    Hash: 3d48ae7533ae18c2d1bc16bc2403563d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4c336a4ae232f364dc1b6bc98db192b3
@@ -142,6 +142,7 @@ Assets:
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
+- Assets/Resources/coche.png
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
@@ -150,9 +151,10 @@ Assets:
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
-- Assets/Runtime/Extended Naval Combat.asset
+- Assets/Resources/misil_3.png
 - Assets/Databases/Settlement/ConstructibleCommonExtensionUIMappers.asset
 - Assets/Databases/World/TerrainTypeDefinition.asset
+- Assets/Runtime/Extended Naval Combat.asset
 - Assets/Databases/Unit/NavalTransportDescriptor.asset
 - Assets/Resources/artillerty720.png
 - Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
@@ -186,6 +188,7 @@ Assets:
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
+- Assets/Resources/barcos.png
 - Assets/Resources/destroyer782.png
 - Assets/Resources/nuclearCarrier212.png
 - Assets/Resources/UCGprocessfigure212.png
@@ -238,6 +241,7 @@ Assets:
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
 - Assets/Databases/World/PollutionDefinition.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
+- Assets/Resources/lancer812.png
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/selfpropelledHowitzer212.png
 - Assets/Resources/ArmoredRecon212.png

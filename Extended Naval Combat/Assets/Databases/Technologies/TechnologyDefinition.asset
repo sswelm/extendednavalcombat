@@ -2629,6 +2629,121 @@ MonoBehaviour:
     SerializableTechnologyNames:
     - Technology_Era5_AntiTankGun
   Visibility: -1
+--- !u!114 &-6079219506707171724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_23
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era6_Common_MainBattleTanks
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 79
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era6_Tier3_Cost
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_05
+  Visibility: -1
 --- !u!114 &-5869212173298506128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2877,7 +2992,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier1_Cost
+    serializableElementName: Technology_Era5_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_01
@@ -3000,7 +3115,7 @@ MonoBehaviour:
       Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
@@ -3016,6 +3131,15 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: LandUnit_Era6_Australia_AllTerrainAPC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era6_Nigeria_MRAPVehicle
     - Name: 
       Entry: 8
       Data: 
@@ -8753,7 +8877,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   CostRpnReference:
-    serializableElementName: Technology_Era5_Tier0_Cost
+    serializableElementName: Technology_Era5_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_ShipOfTheLine
@@ -10496,7 +10620,7 @@ MonoBehaviour:
     SerializableTechnologyNames:
     - Technology_Era6_10
   Visibility: -1
---- !u!114 &3308200973954202010
+--- !u!114 &3392782536032774827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10506,7 +10630,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_Era6_23
+  m_Name: Technology_Era5_02
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -10571,122 +10695,7 @@ MonoBehaviour:
       Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
     - Name: 
       Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: LandUnit_Era6_Common_MainBattleTanks
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 79
-  Hidden: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Tier: 1
-  EraReference:
-    serializableElementName: Era6
-  IsExclusiveToEra: 0
-  Priority: 0
-  CostRpnReference:
-    serializableElementName: Technology_Era6_Tier3_Cost
-  TechnologyPrerequisite:
-    SerializableTechnologyNames:
-    - Technology_Era6_MechanizedInfantryDoctrine
-  Visibility: -1
---- !u!114 &3392782536032774827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Technology_Era5_02
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: GainValues
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 32
-    - Name: Importance
-      Entry: 3
-      Data: 2
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
@@ -10702,6 +10711,15 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: LandUnit_Era5_RussianEmpire_Cossacks
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era5_Ethiopia_OromoCavalry
     - Name: 
       Entry: 8
       Data: 
@@ -13274,7 +13292,7 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
@@ -13374,6 +13392,49 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: true
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Lancers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -13393,6 +13454,327 @@ MonoBehaviour:
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_06
+  Visibility: -1
+--- !u!114 &6486587077613877619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era4_03
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Infrastructure_Money_Family03_02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Halberdiers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_TokugawaShogunate_NaginataSamurais
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 9|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Draftees
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 12|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_PolishKingdom_WingedHussars
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Lancers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 20
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Tier: 1
+  EraReference:
+    serializableElementName: Era4
+  IsExclusiveToEra: 0
+  Priority: 0
+  CostRpnReference:
+    serializableElementName: Technology_Era4_Tier1_Cost
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era3_09
+    - Technology_Era3_05
+    - Technology_Era3_10
   Visibility: -1
 --- !u!114 &7448586767043924596
 MonoBehaviour:

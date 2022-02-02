@@ -1356,10 +1356,10 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
+        a: -1465750926
+        b: 1165200658
+        c: -171376211
+        d: -834792095
     serializableKey: TechnologyPopupBackground
   - Value:
       guid:
@@ -1370,10 +1370,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
+        a: -1465750926
+        b: 1165200658
+        c: -171376211
+        d: -834792095
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
@@ -2165,10 +2165,10 @@ MonoBehaviour:
   Images:
   - Value:
       guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
+        a: -24535981
+        b: 1309914339
+        c: 144487826
+        d: 1175855350
     serializableKey: TechnologyPopupBackground
   - Value:
       guid:
@@ -2179,10 +2179,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 786869585
-        b: 1079125527
-        c: 1585825974
-        d: -758246905
+        a: -24535981
+        b: 1309914339
+        c: 144487826
+        d: 1175855350
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
