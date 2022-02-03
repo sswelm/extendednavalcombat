@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8214353522129065451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PresentationLandUnit_Era5_Italy_Alpinis
-  m_EditorClassIdentifier: 
-  UnitDefinitionReference:
-    serializableElementName: LandUnit_Era5_Italy_Alpinis
-  PresentationFormationDefinition:
-    serializableElementName: Formation_Wedge_Close_9_2R5C
-  FormationBehaviourDefinition:
-    serializableElementName: Shieldwall PR_F / PR_ P / PR_P
-  ChoreographyOverride: 0
-  FacingAngleOffset: 0
-  MinDistanceBetweenFormationDummies: 0
-  RestrictionPerSlot: []
-  UnitSpecification: 0
-  CoordinationMasterValue: 0.713
-  CoordinationValues:
-    DummyOffsetPosition: {x: 0.0574, y: 0.10045}
-    DummyOffsetAngle: {x: 5.74, y: 8.61}
-    AnimationDelay: {x: 0, y: 0.287}
-    MinDistanceReformationMultiplier: 0.6435
-    CoordinateAttackMovement: 0
-    SameRowAttack: 1
-    AveragePathLength: 0
-    UseDisciplinedVariation: 0
-  StealthRevealAudioEvent:
-    guid:
-      a: -1326129278
-      b: 1160368417
-      c: 1151361188
-      d: -1076931018
-  unitVoiceProviderReference:
-    guid:
-      a: 899845277
-      b: 1235144673
-      c: -104551012
-      d: 1883255994
 --- !u!114 &-7578468481906287502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,51 +135,6 @@ MonoBehaviour:
       b: 1269767660
       c: 252247203
       d: 39755952
---- !u!114 &-3944808982799356987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PresentationLandUnit_Era5_FrenchRepublic_Cuirassiers
-  m_EditorClassIdentifier: 
-  UnitDefinitionReference:
-    serializableElementName: LandUnit_Era5_FrenchRepublic_Cuirassiers
-  PresentationFormationDefinition:
-    serializableElementName: Formation_Wedge_3
-  FormationBehaviourDefinition:
-    serializableElementName: 
-  ChoreographyOverride: 3
-  FacingAngleOffset: 0
-  MinDistanceBetweenFormationDummies: 0
-  RestrictionPerSlot: []
-  UnitSpecification: 1
-  CoordinationMasterValue: 0.5
-  CoordinationValues:
-    DummyOffsetPosition: {x: 0.1, y: 0.175}
-    DummyOffsetAngle: {x: 10, y: 15}
-    AnimationDelay: {x: 0, y: 0.5}
-    MinDistanceReformationMultiplier: 1
-    CoordinateAttackMovement: 0
-    SameRowAttack: 1
-    AveragePathLength: 0
-    UseDisciplinedVariation: 0
-  StealthRevealAudioEvent:
-    guid:
-      a: -1326129278
-      b: 1160368417
-      c: 1151361188
-      d: -1076931018
-  unitVoiceProviderReference:
-    guid:
-      a: -1159731520
-      b: 1313872121
-      c: -564014660
-      d: -1676147207
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
