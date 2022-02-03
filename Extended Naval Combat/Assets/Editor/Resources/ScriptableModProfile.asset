@@ -108,22 +108,23 @@ MonoBehaviour:
         of Fighter Jets</li>\n<li>Replaced Naval Air Strategy as a prerequisite for
         Radar</li>\n<li>Made Continuous Track unlockable in Industrial Age</li>\n</ul>\n<p><em>Tech-tree
         branch structure:</em></p>\n<ul>\n<li>Combustion =&gt;\n<ul>\n<li>Automobile
-        =&gt; Tank Warfare =&gt; Anti Tank Warfare =&gt; Continuously Tracked =&gt;Mechanized
-        Infantry Doctrine =&gt; Composite Armor =&gt; Reactive Armor</li>\n<li>Aer0nautics
-        =&gt; Air Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter
-        Jets =&gt; Precision-guided munition =&gt; Stealth Technology</li>\n<li>Anti
-        Torpedoboat Warfare =&gt; Dreadnought Design =&gt;\n<ul>\n<li>Naval Air Strategy
-        =&gt; Radar =&gt; Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt;
-        Communication Satellites</li>\n<li>Submarine Warfare =&gt; Anti Submarine
-        Warfare =&gt; Fluid Dynamics</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Line Formation=&gt;
-        Breachloader =&gt; Trench Warfare =&gt; Bunker C0nstruction =&gt; Amphibious
-        Warefare =&gt; Insurrection Theory</li>\n<li>Wireless Telegraphy =&gt; Research
-        Insitute =&gt; Uranium Enrichment =&gt; Nuclear Fission =&gt; Advanced Nuclear
-        Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span style=\"font-size:
-        1em; font-weight: 400;\">Unit/District/Infrastructure Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>Transport
-        Galley is unlocked earlier with Sailing (with an event)</li>\n<li>U-Boat
-        is unlocked later with Submarine Warfare (Germany gains 50% research bonus)</li>\n<li>Medium
-        Tank is unlocked later with Sloped Armor</li>\n<li>Commando is unlocked earlier
+        =&gt; Tank Warfare =&gt; Anti Tank Gun =&gt; Anti Tank Warfare =&gt; Continuously
+        Tracked =&gt;Mechanized Infantry Doctrine =&gt; Composite Armor =&gt; Reactive
+        Armor</li>\n<li>Aer0nautics =&gt; Air Transportation =&gt; Aerial Warfare
+        =&gt; Jet Engine =&gt; Fighter Jets =&gt; Precision-guided munition =&gt;
+        Stealth Technology</li>\n<li>Anti Torpedoboat Warfare =&gt; Dreadnought Design
+        =&gt;\n<ul>\n<li>Naval Air Strategy =&gt; Radar =&gt; Computing =&gt; Guided
+        Missiles =&gt; Rocket Science =&gt; Communication Satellites</li>\n<li>Submarine
+        Warfare =&gt; Anti Submarine Warfare =&gt; Fluid Dynamics</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Line
+        Formation=&gt; Breachloader =&gt; Trench Warfare =&gt; Bunker C0nstruction
+        =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>\n<li>Wireless Telegraphy
+        =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear Fission =&gt;
+        Advanced Nuclear Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span
+        style=\"font-size: 1em; font-weight: 400;\">Unit/District/Infrastructure
+        Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>Transport Galley is unlocked
+        earlier with Sailing (with an event)</li>\n<li>U-Boat is unlocked later with
+        Submarine Warfare (Germany gains 50% research bonus)</li>\n<li>Medium Tank
+        is unlocked later with Sloped Armor</li>\n<li>Commando is unlocked earlier
         with Insurrection Theory</li>\n<li>Missile Silo and Cruise Missile is unlocked
         earlier with Jet Engine</li>\n<li>Helicopter Gunship is unlocked later with
         Precision-guided munition</li>\n<li>Missile Destroyer (originally called
@@ -160,6 +161,7 @@ MonoBehaviour:
         Reactors</li>\n<li>Added (common) Stealth Corvette, unlocks with Stealth
         Technology</li>\n<li>Added Stealth Missile Cruiser, unlocks with Stealth
         Technology</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
+        Lancer, unlocked with Centralized Power , upgrades to Cuirassiers</li>\n<li>Added
         (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
@@ -234,9 +236,9 @@ MonoBehaviour:
         Missile Destroyer =&gt; Stealth Missile Cruiser</li>\n<li>Pentekonter =&gt;
         Quadrireme =&gt; Galleass=&gt; Man O'War =&gt; Ir0nclad =&gt; Dreadnought
         =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>\n<li>Scout
-        Riders=&gt; Horsemen =&gt; Knight =&gt; Cuirassiers =&gt; Light Tank =&gt;
-        Medium Tank =&gt; Main Battle Tank</li>\n<li>Dragoon =&gt; Armoured Cars
-        =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
+        Riders=&gt; Horsemen =&gt; Knight =&gt; Lancer =&gt; Cuirassiers =&gt; Light
+        Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>\n<li>Dragoon =&gt; Armoured
+        Cars =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
         =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
         Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
         =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket
