@@ -2742,7 +2742,7 @@ MonoBehaviour:
     serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
-    - Technology_Era6_05
+    - Technology_Era6_MechanizedInfantryDoctrine
   Visibility: -1
 --- !u!114 &-5869212173298506128
 MonoBehaviour:
