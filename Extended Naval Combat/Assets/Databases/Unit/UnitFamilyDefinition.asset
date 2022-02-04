@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: UnitFamily_AntiEntrenchment
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_AntiTank
+  SerializableNextFamilyName: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
