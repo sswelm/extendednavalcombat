@@ -89,6 +89,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -204,6 +208,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearAircraftCarrier
   UnitSpecialty:
@@ -316,6 +324,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MissileSubmarine
   UnitSpecialty:
@@ -422,6 +434,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -531,6 +547,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearSubmarine
   UnitSpecialty:
@@ -638,6 +658,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -748,6 +772,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -848,6 +876,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -948,6 +980,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -1057,6 +1093,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Ironclad
   UnitSpecialty:
@@ -1163,6 +1203,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_TorpedoVessel
   UnitSpecialty:
@@ -1272,6 +1316,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NuclearSubmarine
   UnitSpecialty:
@@ -1381,6 +1429,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -1481,6 +1533,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Carrack
   UnitSpecialty:
@@ -1593,6 +1649,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Dreadnought
   UnitSpecialty:
@@ -1700,6 +1760,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_StealthCorvette
   UnitSpecialty:
@@ -1810,6 +1874,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_AircraftCarrier
   UnitSpecialty:
@@ -1919,6 +1987,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Battleship
   UnitSpecialty:
@@ -2040,6 +2112,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MissileCruiser
   UnitSpecialty:
@@ -2055,6 +2131,122 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 263506
+  visualAffinityEraReference:
+    serializableElementName: Era6
+--- !u!114 &1322677560055453371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_StealthCruisersFake
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 8
+  Hidden: 1
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthCruiser
+  Level: 40
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_VeryHigh_Iron3_Oil3
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_StealthCruiser
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StealthCruiser
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_StealthCruisers
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier4
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 274770
   visualAffinityEraReference:
     serializableElementName: Era6
 --- !u!114 &1430267772386831315
@@ -2147,6 +2339,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
@@ -2249,6 +2445,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -2267,6 +2467,116 @@ MonoBehaviour:
   UnitTags: 10
   visualAffinityEraReference:
     serializableElementName: Era1
+--- !u!114 &1764587107598741641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_StealthCorvettesFake
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 8
+  Hidden: 1
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthCorvette
+  Level: 40
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_StealthCorvette
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StealthCorvette
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_StealthCorvettes
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era5_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 4210
+  visualAffinityEraReference:
+    serializableElementName: Era6
 --- !u!114 &3632001711658438656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2362,6 +2672,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_StealthCruiser
   UnitSpecialty:
@@ -2468,6 +2782,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -2574,6 +2892,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Destroyer
   UnitSpecialty:
@@ -2680,6 +3002,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_SteamFrigate
   UnitSpecialty:
@@ -2789,6 +3115,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_MissileDestroyer
   UnitSpecialty:
@@ -2895,6 +3225,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_StealthCorvette
   UnitSpecialty:
@@ -3001,6 +3335,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Destroyer
   UnitSpecialty:
@@ -3107,6 +3445,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
@@ -3214,6 +3556,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -3324,6 +3670,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_DieselSubmarine
   UnitSpecialty:
@@ -3430,6 +3780,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_SteamFrigate
   UnitSpecialty:
@@ -3530,6 +3884,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_Carrack
   UnitSpecialty:
@@ -3639,6 +3997,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:

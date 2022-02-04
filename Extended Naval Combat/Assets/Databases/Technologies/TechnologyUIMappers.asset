@@ -124,7 +124,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 282
+  TechTreeX: 276
   TechTreeY: 12
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-8369326362075187495
@@ -1420,6 +1420,54 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 120
   TechTreeY: 28
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-2329296516270384770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_FutureTechnology
+  m_EditorClassIdentifier: 
+  Title: Future Technology
+  Description: "Anything worth saying about \u201Cfuture tech\u201D has already been
+    said by science-fiction authors. There are a few broad things that all of them
+    seem to agree upon. Sooner or later, medical breakthroughs will cure cancer and
+    other diseases, dramatically increase the human lifespan, and hook the human
+    brain up to machines. Cheap, clean forms of energy will be discovered. Computers
+    will get faster and smaller; robots will take over the daily grind. Games will
+    get more immersive and realistic. Nasty weapons will be invented ... but not
+    used. "
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 282
+  TechTreeY: 9
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-2290940978467816797
 MonoBehaviour:
