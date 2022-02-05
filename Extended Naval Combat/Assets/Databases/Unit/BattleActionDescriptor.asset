@@ -81,7 +81,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 6000
       PropertyLocalName:
       - SpecialtyLevel
   serializableCategory: 
@@ -110,7 +110,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 6000
       PropertyLocalName:
       - SpecialtyLevel
   serializableCategory: 
@@ -139,7 +139,7 @@ MonoBehaviour:
       ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 10000
+      - RawValue: 12000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
@@ -208,7 +208,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 4000
       PropertyLocalName:
       - SpecialtyLevel
   serializableCategory: 
@@ -237,7 +237,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 6000
       PropertyLocalName:
       - SpecialtyLevel
   serializableCategory: 
@@ -295,7 +295,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 6000
       PropertyLocalName:
       - SpecialtyLevel
   serializableCategory: 

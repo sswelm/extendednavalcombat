@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1423366786
+CRC: 1038948140
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fcb7d4bc0dc49b77786a3a80ca57dd7b
+    Hash: 47b18cfec47736f785839167a84d66f9
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4c336a4ae232f364dc1b6bc98db192b3
@@ -138,15 +138,15 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
 - Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
-- Assets/Resources/transparant360.png
+- Assets/Resources/reiter575.png
 - Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Resources/transparant360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/coche.png
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
-- Assets/Resources/armouredCar212.png
 - Assets/Resources/rifling.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
@@ -167,7 +167,7 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
 - Assets/Resources/attackHelicopter939.png
 - Assets/Resources/steamTransport864.png
-- Assets/Resources/nuclearCarrier720.png
+- Assets/Resources/armouredCar846.png
 - Assets/Resources/dieselSubmarine212Manual.png
 - Assets/Resources/mushroom720.png
 - Assets/Databases/Unit/LandUnitUIMappers.asset
@@ -176,7 +176,6 @@ Assets:
 - Assets/Resources/guidedmissilecruiser720.png
 - Assets/Databases/Narrative/NarrativeEventDefinition.asset
 - Assets/Resources/zumwalt212.png
-- Assets/Resources/armouredCar720.png
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Resources/submachinegunInfantry746.png
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
@@ -190,7 +189,6 @@ Assets:
 - Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
 - Assets/Resources/barcos.png
 - Assets/Resources/destroyer782.png
-- Assets/Resources/nuclearCarrier212.png
 - Assets/Resources/UCGprocessfigure212.png
 - Assets/Resources/GasPowerStation720.png
 - Assets/Databases/Unit/UnitDescriptor.asset
@@ -198,8 +196,10 @@ Assets:
 - Assets/Resources/nuclearMissile720.png
 - Assets/Resources/militaryTradition720.png
 - Assets/Resources/earlyRiffleman212.png
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4 1.asset
 - Assets/Databases/Settlement/SettlementDescriptor.asset
 - Assets/Databases/World/PollutionDescriptor.asset
+- Assets/Resources/aircraftCarrier1173.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/Seawolf720.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
@@ -208,6 +208,7 @@ Assets:
 - Assets/Databases/Unit/VeterancyLevelDefinition.asset
 - Assets/Databases/Unit/UnitPrototypeDescriptor.asset
 - Assets/Databases/Unit/UnitSpecialty.asset
+- Assets/Resources/armouredScout808.png
 - Assets/Databases/Unit/LandUnitDescriptor.asset
 - Assets/Resources/attackHelicopter212.png
 - Assets/Resources/steamTransport212.png
@@ -220,7 +221,6 @@ Assets:
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
-- Assets/Resources/ArmoredRecon720.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer656.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
@@ -229,6 +229,7 @@ Assets:
 - Assets/Resources/cogtransport.png
 - Assets/Resources/framethrowerMarine500.png
 - Assets/Resources/earlyRiffleman720.png
+- Assets/Resources/fleetSubmarine743.png
 - Assets/Resources/Galleass.png
 - Assets/Databases/Unit/LandUnitDefinition.asset
 - Assets/Databases/Unit/UnitAbility.asset
@@ -244,7 +245,6 @@ Assets:
 - Assets/Resources/lancer812.png
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/selfpropelledHowitzer212.png
-- Assets/Resources/ArmoredRecon212.png
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
 - Assets/Resources/artillerty212.png
