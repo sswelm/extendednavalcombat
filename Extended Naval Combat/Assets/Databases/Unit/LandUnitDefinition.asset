@@ -1754,6 +1754,116 @@ MonoBehaviour:
   UnitTags: 49
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-5100715778334790973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_Common_MountedCrosbowmen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 47
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Cavalry
+  Level: 17
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_High_Horse3_Iron3
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_MountedCrossbow
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_Common_MountedCrosbowmen
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Era3_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16842769
+  visualAffinityEraReference:
+    serializableElementName: Era3
 --- !u!114 &-5091368103145749545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2897,7 +3007,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Medium_Horse2_Iron2_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_High_Horse2_Iron2_Salpeter2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -2954,14 +3064,14 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era4_Common_Reiters
   - serializableElementName: Effect_Unit_Era4
-  - serializableElementName: Effect_Unit_Era4_Tier2
+  - serializableElementName: Effect_Unit_Era4_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  UnitTags: 89
+  UnitTags: 345
   visualAffinityEraReference:
     serializableElementName: Era5
 --- !u!114 &-1121845806983733968
@@ -4552,7 +4662,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamily_Horde
   Level: 13
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -7014,7 +7124,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
-    serializableElementName: UnitSpecialty_ChargeNoRetaliation_Level1
+    serializableElementName: 
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era4_Common_Lancers
   - serializableElementName: Effect_Unit_Era4

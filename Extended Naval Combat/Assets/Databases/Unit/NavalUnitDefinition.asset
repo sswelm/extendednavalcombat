@@ -156,7 +156,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_VeryHigh_Iron3_Oil3_Uranium2
+      serializableElementName: ProductionCost_Unit_Era6_Max_Oil3_Aluminium3_Uranium3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -2066,7 +2066,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_High_Iron3_Oil3
+      serializableElementName: ProductionCost_Unit_Era6_VeryHigh_Iron3_Oil3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -2179,7 +2179,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_VeryHigh_Iron3_Oil3
+      serializableElementName: ProductionCost_Unit_Era6_Max_Iron3_Oil3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -2623,7 +2623,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_VeryHigh_Iron3_Oil3
+      serializableElementName: ProductionCost_Unit_Era6_Max_Iron3_Oil3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:

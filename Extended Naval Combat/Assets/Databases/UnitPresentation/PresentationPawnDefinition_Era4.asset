@@ -419,10 +419,10 @@ MonoBehaviour:
   - Name: Plastron
     Fragment:
       guid:
-        a: 683527546
-        b: 1341876448
-        c: -1280178509
-        d: 1465412267
+        a: 0
+        b: 0
+        c: 0
+        d: 0
   - Name: Coat
     Fragment:
       guid:
@@ -447,10 +447,10 @@ MonoBehaviour:
   - Name: ShirtSlim
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -462060100
+        b: 1081064262
+        c: 1919697557
+        d: -1223024817
   - Name: ShirtStandard
     Fragment:
       guid:
@@ -468,10 +468,10 @@ MonoBehaviour:
   - Name: Gloves
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -970385870
+        b: 1119220418
+        c: 242649728
+        d: 915359003
   - Name: Sash
     Fragment:
       guid:
@@ -482,10 +482,10 @@ MonoBehaviour:
   - Name: Belt
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -1200125568
+        b: 1244658479
+        c: -1902062433
+        d: 390928982
   - Name: Loincloth
     Fragment:
       guid:
@@ -517,10 +517,10 @@ MonoBehaviour:
   - Name: PantsSlim
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: 1647007494
+        b: 1314551575
+        c: 1796635283
+        d: -2055906307
   - Name: PantsStandard
     Fragment:
       guid:
@@ -538,10 +538,10 @@ MonoBehaviour:
   - Name: Boots
     Fragment:
       guid:
-        a: 1111282903
-        b: 1115406018
-        c: -695184992
-        d: -1963650841
+        a: -1919179854
+        b: 1091808279
+        c: 964358314
+        d: -1759200112
   - Name: Spine_Accessory_0
     Fragment:
       guid:
@@ -584,17 +584,17 @@ MonoBehaviour:
   SlotRestriction: 0
   Projectile:
     guid:
-      a: -613508465
-      b: 1156980958
-      c: -1724105582
-      d: 1026363144
+      a: -70658966
+      b: 1166712968
+      c: 1164561051
+      d: -998775522
   SecondProjectile:
     guid:
       a: 0
       b: 0
       c: 0
       d: 0
-  MaxHeight: 2.5808163
+  MaxHeight: 1.853837
   AnimationCapabilityProfile: 2
   AnimationCapabilities: -327681
   HasRangeWeapon: 1

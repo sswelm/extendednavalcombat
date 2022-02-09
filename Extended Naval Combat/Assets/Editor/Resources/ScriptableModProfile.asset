@@ -145,12 +145,13 @@ MonoBehaviour:
         depends on the excess availability of strategic resources. This means that
         units will be more accessible and will be easier to upgrade, but at increased
         construction cost or gold price (up to double the base cost).</p>\n<p><em>New
-        Naval units:</em></p>\n<ol>\n<li>Added Galleass, unlocked with Gunpowder
-        (with an event), upgrades to Man O War</li>\n<li>Added Galleon, unlocked
-        with Naval Artillery, upgrades to Steam Frigate</li>\n<li>Added Steam Transport,
-        unlocked with Propeller, upgrades to Landing Craft</li>\n<li>Added Dreadnought,
-        unlocks with Dreadnought design, upgrades to Battleship</li>\n<li>Added Fleet
-        Submarine. unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
+        Naval units:</em></p>\n<ol>\n<li>Added Cog Transport, unlocked with Seafaring,
+        upgrades to Caravel</li>\n<li>Added Galleass, unlocked with Gunpowder (with
+        an event), upgrades to Man O War</li>\n<li>Added Galleon, unlocked with Naval
+        Artillery, upgrades to Steam Frigate</li>\n<li>Added Steam Transport, unlocked
+        with Propeller, upgrades to Landing Craft</li>\n<li>Added Dreadnought, unlocks
+        with Dreadnought design, upgrades to Battleship</li>\n<li>Added Fleet Submarine.
+        unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
         Torpedo Boat Destroyer, unlocked with Dreadnought Design, upgrades to Destroyer</li>\n<li>Added
         Destroyer, unlocked Anti Submarine Warfare, upgrades to Missile Destroyer</li>\n<li>Added
         Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>\n<li>Added
@@ -161,7 +162,9 @@ MonoBehaviour:
         Reactors</li>\n<li>Added (common) Stealth Corvette, unlocks with Stealth
         Technology and Satelites</li>\n<li>Added Stealth Missile Cruiser, unlocks
         with Stealth Technology and Satelites</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
+        Mounted Crossbowmen, unlocked with Milirairy Architechture, upgrades Reiters</li>\n<li>Added
         Lancer, unlocked with Centralized Power , upgrades to Cuirassiers</li>\n<li>Added
+        Reiters, unlocked with Seage Cannon, upgrades to Dragoons</li>\n<li>Added
         (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
@@ -303,11 +306,13 @@ MonoBehaviour:
         with <a href=\"https://humankind.mod.io/vanilla-improvement-project\">Docktor
         Cain Vanilla Improvement Project</a>, but it requires you to load the <a
         href=\"https://humankind.mod.io/enc-vip-compatibility\">ENC VIP Compatible
-        Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/deepsea1\">Deep
+        Patch</a> last</li>\n<li>compatible with Vanilla Improvement project and
+        unclefire Super Pack when used with the <a href=\"https://humankind.mod.io/triplealliance\">Tripple
+        Aliance Patch</a> loaded last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/deepsea1\">Deep
         Sea Mod</a>, but for the best experience, you should also load the <a href=\"https://humankind.mod.io/patch-deepsea-extended-naval-combat-mod\">DeepSea
-        Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/superpack\">Super
-        Pack for Humankind Mod</a>, but for the best experience, you should also
-        load the <a href=\"https://humankind.mod.io/superpacknavalcombat\">Superpack
+        Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/superpack\">Unclefire
+        Super Pack for Humankind Mod</a>, but for the best experience, you should
+        also load the <a href=\"https://humankind.mod.io/superpacknavalcombat\">Superpack
         Compatibility Patch</a> last</li>\n<li>mostly compatible with <a href=\"https://humankind.mod.io/official-endless-mod\">Official
         ENDLESS&trade; Mod</a>, but for the best experience, you should also load
         the <a href=\"https://humankind.mod.io/extended-naval-combat-techtree-patch\">Techtree

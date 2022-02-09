@@ -1344,13 +1344,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Ship Of The Line
   Description: 'Ships of the line are the largest and most powerful sailing vessels
-    ever built. They formed the backbone of Europe''s great navies from the 17th
-    to the mid 19th centuries. Ships of the line were named for the classic formation
-    that these ships fought in. In battle, each side''s ships would approach the
-    enemy in a line, and as the opposing ships passed, each would let off a thundering
-    broadside of cannon fire, doing horrific damage to the vessels and to those aboard
-    her. Victory usually went to the side with the most cannon and the best-trained
-    sailors. '
+    ever built. Ships of the line were named for the classic formation that these
+    ships fought in. In battle, each side''s ships would approach the enemy in a
+    line, and as the opposing ships passed, each would let off a thundering broadside
+    of cannon fire, doing horrific damage to the vessels and to those aboard her. '
   Images:
   - Value:
       guid:
@@ -1377,7 +1374,7 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 135
   TechTreeY: 3
-  OptionalUnlockTechnologyMovie: TechnologyDiscovery_Era4_05
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-2793300075421698851
 MonoBehaviour:
   m_ObjectHideFlags: 0

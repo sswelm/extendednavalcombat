@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1038948140
+CRC: 1657493645
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 47b18cfec47736f785839167a84d66f9
+    Hash: ba06b173340308b0d5443eb129eb04d6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4c336a4ae232f364dc1b6bc98db192b3
@@ -139,7 +139,6 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/Resources/reiter575.png
-- Assets/AssetBundleContentDescriptor.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
 - Assets/Resources/transparant360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
@@ -179,7 +178,7 @@ Assets:
 - Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
 - Assets/Resources/submachinegunInfantry746.png
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
-- Assets/Resources/battleshipDreadnought212.png
+- Assets/Resources/mountedCrosdbowmen800.png
 - Assets/Resources/selfpropelledHowitzer720.png
 - Assets/Resources/transparant212.png
 - Assets/Databases/World/TerrainDescriptor.asset
@@ -196,9 +195,9 @@ Assets:
 - Assets/Resources/nuclearMissile720.png
 - Assets/Resources/militaryTradition720.png
 - Assets/Resources/earlyRiffleman212.png
-- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4 1.asset
 - Assets/Databases/Settlement/SettlementDescriptor.asset
 - Assets/Databases/World/PollutionDescriptor.asset
+- Assets/Databases/_DLC01/Unit/LandUnitDefinition_DLC01.asset
 - Assets/Resources/aircraftCarrier1173.png
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/Seawolf720.png
@@ -221,6 +220,7 @@ Assets:
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
 - Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
+- Assets/Resources/dreadnoughtTransparent580.png
 - Assets/Databases/Technologies/TechnologyUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer656.png
 - Assets/Databases/Technologies/TechnologyDefinition.asset
@@ -237,16 +237,14 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/EffectMapper/ValidationMapperCollection.asset
-- Assets/Resources/destroyer212.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
 - Assets/Databases/World/PollutionDefinition.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Resources/lancer812.png
 - Assets/Databases/Unit/UnitClass.asset
-- Assets/Resources/selfpropelledHowitzer212.png
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
-- Assets/Resources/artillerty212.png
 - Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
+- Assets/AssetBundleContentDescriptor.asset
 Dependencies: []

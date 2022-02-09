@@ -2009,10 +2009,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: -128621108
-        b: 1171356072
-        c: 754880653
-        d: 245468251
+        a: -1525385817
+        b: 1321688152
+        c: -1507254097
+        d: -2069860524
     serializableKey: Default_Small
   - Value:
       guid:
@@ -4622,10 +4622,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 420675981
-        b: 1198786290
-        c: 2048985729
-        d: 1169972815
+        a: 2072901091
+        b: 1280079954
+        c: 1923327873
+        d: -1513243865
     serializableKey: Default_Small
   - Value:
       guid:

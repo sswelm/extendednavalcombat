@@ -1,5 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9194390027122462641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era6_Max_Iron3_Oil3_Uranium2
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a0000000900000000000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 15000000
+  - RawValue: 334
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 2000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - Resource03AccessCount
+  - Resource06AccessCount
+  - Resource08AccessCount
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-9185497191218311095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,7 +81,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 400000
+  - RawValue: 500000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -76,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a0000000900000000000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 334
   - RawValue: 1000
   - RawValue: 4000
@@ -112,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -143,7 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -164,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 180000
+  - RawValue: 200000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -221,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 90000
+  - RawValue: 80000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -263,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -294,7 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 970000
+  - RawValue: 1200000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -336,7 +372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 970000
+  - RawValue: 1200000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -367,7 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -398,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 400000
+  - RawValue: 500000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -423,7 +459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -448,7 +484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 180000
+  - RawValue: 120000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -515,7 +551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -546,7 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -577,7 +613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 200000
+  - RawValue: 350000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -598,7 +634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -660,7 +696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 90000
+  - RawValue: 150000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -681,7 +717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -712,7 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 45000
+  - RawValue: 50000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -733,7 +769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1290000
+  - RawValue: 1800000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -795,7 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -826,7 +862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 1290000
+  - RawValue: 1800000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -847,7 +883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -872,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -893,7 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -924,7 +960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -958,6 +994,27 @@ MonoBehaviour:
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
   sourceTypeName: Amplitude.Mercury.Simulation.Army, Amplitude.Mercury.Firstpass
+--- !u!114 &-4338382899439508269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era2_VeryHigh
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 
+  ConstantStack:
+  - RawValue: 300000
+  Note: 
+  PropertyLocalNameStack: []
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-4306857071754097933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +1051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -1019,7 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1050,7 +1107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -1123,7 +1180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1154,7 +1211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 400000
+  - RawValue: 500000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -1175,7 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -1206,7 +1263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -1289,7 +1346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a0000000900000006000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 334
   - RawValue: 1000
   - RawValue: 2000
@@ -1368,7 +1425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1399,7 +1456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1451,7 +1508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 400
   - RawValue: 1000
   - RawValue: 2000
@@ -1482,7 +1539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1544,7 +1601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -1569,7 +1626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 180000
+  - RawValue: 200000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -1615,7 +1672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 970000
+  - RawValue: 1200000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -1698,7 +1755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 400000
+  - RawValue: 500000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1750,7 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -1771,7 +1828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -1802,7 +1859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 1290000
+  - RawValue: 1800000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -1827,7 +1884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1879,7 +1936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1290000
+  - RawValue: 1800000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -1910,7 +1967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -1935,7 +1992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a0000000900000000000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 22205000
+  - RawValue: 11000000
   - RawValue: 334
   - RawValue: 1000
   - RawValue: 4000
@@ -1971,7 +2028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2002,7 +2059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -2090,7 +2147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2111,7 +2168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 600
   - RawValue: 1000
   - RawValue: 4000
@@ -2142,7 +2199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 800000
+  - RawValue: 700000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -2167,7 +2224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -2192,7 +2249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2223,7 +2280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2290,7 +2347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -2321,7 +2378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 400000
+  - RawValue: 500000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -2346,7 +2403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 360000
+  - RawValue: 250000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2367,7 +2424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a0000000900000000000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 22205000
+  - RawValue: 11000000
   - RawValue: 334
   - RawValue: 1000
   - RawValue: 4000
@@ -2403,7 +2460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 90000
+  - RawValue: 150000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -2435,6 +2492,42 @@ MonoBehaviour:
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
   sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &4366091266312749397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era4_High_Horse2_Iron2_Salpeter2
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a0000000900000006000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 1600000
+  - RawValue: 334
+  - RawValue: 1000
+  - RawValue: 2000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 2000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 2000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - Resource01AccessCount
+  - Resource03AccessCount
+  - Resource05AccessCount
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &4753426798160242561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2449,7 +2542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2522,7 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -2547,7 +2640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 22205000
+  - RawValue: 11000000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2568,7 +2661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 22205000
+  - RawValue: 11000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -2599,7 +2692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2607,6 +2700,37 @@ MonoBehaviour:
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - Resource03AccessCount
+  - Resource06AccessCount
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &5701594922788228255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era6_Max_Iron3_Oil3
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 15000000
+  - RawValue: 500
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  - RawValue: 500
+  - RawValue: 1000
+  - RawValue: 4000
   - RawValue: 1000
   Note: 
   PropertyLocalNameStack:
@@ -2630,7 +2754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a0000000900000006000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 334
   - RawValue: 1000
   - RawValue: 2000
@@ -2666,7 +2790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 485000
+  - RawValue: 800000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2687,7 +2811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -2761,7 +2885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -2786,7 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -2807,7 +2931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 1290000
+  - RawValue: 1800000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -2832,7 +2956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2863,7 +2987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 2000
@@ -2894,7 +3018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 400
   - RawValue: 1000
   - RawValue: 2000
@@ -2907,6 +3031,63 @@ MonoBehaviour:
   PropertyLocalNameStack:
   - Resource06AccessCount
   - Resource07AccessCount
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &7284942183902091960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era6_Max
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 
+  ConstantStack:
+  - RawValue: 15000000
+  Note: 
+  PropertyLocalNameStack: []
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &7321688804102584522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Unit_Era6_Max_Oil3_Aluminium3_Uranium3
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a0000000900000000000000030000000600000002000000000000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 15000000
+  - RawValue: 334
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  - RawValue: 333
+  - RawValue: 1000
+  - RawValue: 4000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - Resource06AccessCount
+  - Resource07AccessCount
+  - Resource08AccessCount
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
@@ -2967,7 +3148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000000000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 1945000
+  - RawValue: 1600000
   - RawValue: 4000
   - RawValue: 1000
   - RawValue: 1000
@@ -2992,7 +3173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 7400000
+  - RawValue: 6000000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -3013,7 +3194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -3117,7 +3298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 2575000
+  - RawValue: 2400000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -3142,7 +3323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000a0000000a00000009000000000000000300000006000000020000000a0000000a0000000a0000000a00000009000000060000000300000006000000020000000000000002000000
   ConstantStack:
-  - RawValue: 14805000
+  - RawValue: 8000000
   - RawValue: 500
   - RawValue: 1000
   - RawValue: 4000
@@ -3173,7 +3354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 180000
+  - RawValue: 120000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -3194,7 +3375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 5155000
+  - RawValue: 3600000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000
@@ -3219,7 +3400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000900000006000000030000000a0000000600000002000000
   ConstantStack:
-  - RawValue: 3700000
+  - RawValue: 4000000
   - RawValue: 2000
   - RawValue: 1000
   - RawValue: 1000

@@ -969,6 +969,31 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: '[UnitClass_ArmouredVehicle]'
+--- !u!114 &2933611748369868477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_MountedCrossbow
+  m_EditorClassIdentifier: 
+  Title: Mounted Crossbow
+  Description: Ranged-combat Unit, must have line of sight to attack. Fights at full
+    Combat Strength even when defending against close-combat attacks.
+  Images:
+  - Value:
+      guid:
+        a: -752093445
+        b: 1075364501
+        c: -608683895
+        d: -168266384
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_Nomad]'
 --- !u!114 &3119043594763186322
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -24,10 +24,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 543551703
-        b: 1143531759
-        c: 627462801
-        d: -1545059153
+        a: 908867098
+        b: 1258104385
+        c: -2089119310
+        d: 1899166633
     serializableKey: Default_Small
   - Value:
       guid:
@@ -635,10 +635,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: 543551703
-        b: 1143531759
-        c: 627462801
-        d: -1545059153
+        a: 908867098
+        b: 1258104385
+        c: -2089119310
+        d: 1899166633
     serializableKey: Default_Small
   - Value:
       guid:
@@ -1100,10 +1100,10 @@ MonoBehaviour:
     serializableKey: Picto
   - Value:
       guid:
-        a: -1695071069
-        b: 1216657169
-        c: 1188665753
-        d: 1793067765
+        a: 1025180188
+        b: 1198127271
+        c: 1153120935
+        d: -1154891802
     serializableKey: Default_Small
   - Value:
       guid:
@@ -1837,6 +1837,158 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
   SortPriority: 7350
+  ConstructibleTraits: 
+--- !u!114 &-2777329593550761437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_Common_MountedCrosbowmen
+  m_EditorClassIdentifier: 
+  Title: Mounted Crosbowmen
+  Description: Mounted Crosbowmen are effective at  short ranges
+  Images:
+  - Value:
+      guid:
+        a: -1704839773
+        b: 1316623185
+        c: -419218282
+        d: 1913459024
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1024467495
+        b: 1170034094
+        c: 1514984324
+        d: -749419583
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: -1024467495
+        b: 1170034094
+        c: 1514984324
+        d: -749419583
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 7450
   ConstructibleTraits: 
 --- !u!114 &-1798880422907013730
 MonoBehaviour:

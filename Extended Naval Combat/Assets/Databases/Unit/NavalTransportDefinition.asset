@@ -83,6 +83,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -184,6 +188,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -285,6 +293,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -400,6 +412,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -503,6 +519,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -607,6 +627,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -708,6 +732,10 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   SynergyRiver: 0
   TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
   UnitClass:
     serializableElementName: UnitClass_NavalTransport
   UnitSpecialty:
@@ -716,7 +744,7 @@ MonoBehaviour:
   - serializableElementName: Effect_NavalTransport_Era5_Common_SteamTransports
   - serializableElementName: Effect_Unit_Era5_Embarked_Cost
   - serializableElementName: Effect_Unit_Embarked_Gunner
-  - serializableElementName: Effect_UnitPrototype_FieldArtillery
+  - serializableElementName: Effect_Unit_Embarked_FieldArtillery
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
