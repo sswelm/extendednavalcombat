@@ -3975,6 +3975,118 @@ MonoBehaviour:
   UnitTags: 8249
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &865368297586557244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 6
+      Data: 
+  Key: 43
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Horde
+  Level: 13
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_EgyptianKingdom
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 0
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  UnitClass:
+    serializableElementName: UnitClass_MountedRanged
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era1_Tier3
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777681
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &1029936180765150514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4639,7 +4751,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  m_Name: LandUnit_Era1_Common_ChariotArchers
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -4663,7 +4775,7 @@ MonoBehaviour:
     DownloadableContent: 0
   Category: 6
   SerializableFamily: UnitFamily_Horde
-  Level: 13
+  Level: 12
   Unicity: 0
   ConstructibleVisualAffinity:
     serializableElementName: 
@@ -4701,8 +4813,7 @@ MonoBehaviour:
       serializableElementName: 
   FactionPrerequisite:
     Operator: 1
-    serializableFactionNames:
-    - Civilization_Era1_EgyptianKingdom
+    serializableFactionNames: []
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -4728,9 +4839,8 @@ MonoBehaviour:
   UnitSpecialty:
     serializableElementName: UnitSpecialty_AfterAttackingAllowMove
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era1_EgyptianKingdom_ChariotArchers
+  - serializableElementName: Effect_LandUnit_Era1_Common_ChariotArchers
   - serializableElementName: Effect_Unit_Era1
-  - serializableElementName: Effect_Unit_Emblematic
   - serializableElementName: Effect_Unit_Era1_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:

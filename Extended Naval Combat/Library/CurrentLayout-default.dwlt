@@ -41,7 +41,7 @@ MonoBehaviour:
     x: 3029
     y: 593
     width: 1462
-    height: 478
+    height: 492
   m_ShowMode: 0
   m_Title: Mod Editor
   m_RootView: {fileID: 7}
@@ -140,7 +140,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1462
-    height: 478
+    height: 492
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   m_ActualView: {fileID: 19}
@@ -167,7 +167,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1462
-    height: 478
+    height: 492
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 165
+  controlID: 17
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -474,7 +474,7 @@ MonoBehaviour:
     x: 3029
     y: 593
     width: 1462
-    height: 457
+    height: 471
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
@@ -514,22 +514,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/Databases/UnitPresentation
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Databases/UnitPresentation
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub\extendednavalcombat\Extended Naval Combat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc521600
-    m_LastClickedID: 1462988
-    m_ExpandedIDs: 000000008c5216008e52160090521600925216009452160096521600985216009a5216009c5216009e52160000ca9a3b
+    m_SelectedIDs: c0521600
+    m_LastClickedID: 1462976
+    m_ExpandedIDs: 000000008c5216008e52160090521600925216009452160096521600985216009a5216009c5216009e521600ae52160000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -584,8 +584,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000b0521600de5616005e5716001e5716002e581600ac58160026591600dc5916006e53160038561600025c1600fc5b16000afaffffc2490000e04900005e4a000098531600a853160066571600b2591600ae591600a6591600a4591600eaf6ffff6af3ffffa0591600765316007a591600b655160034561600ae56160064571600e857160058581600b6591600b4591600ac591600aa59160090591600b859160004531600e4541600f0521600585416007054160066541600b2541600ae541600bc52160056531600de541600d654160042ecffff8edaffff8e561600625616005857160028581600a658160020591600d65916005a5a1600a2591600665916008c5916008e5916007c591600785c1600140e0000fcedffff8a5416008e5416007a54160078541600acddffffeecdffff8a5516008c5516008e5516009e551600a0551600085b1600a6531600e8541600fe541600dc541600da541600e2541600f4e2fffff2541600
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b0521600de5616005e5716001e5716002e581600ac58160026591600dc5916006e53160038561600025c1600fc5b16000afaffffc2490000e04900005e4a000098531600a853160066571600b2591600ae591600a6591600a4591600eaf6ffff6af3ffffa0591600765316007a591600b655160034561600ae56160064571600e857160058581600b6591600b4591600ac591600aa59160090591600b859160004531600e4541600f0521600585416007054160066541600b2541600ae541600bc52160056531600de541600d654160042ecffff8edaffff8e5616006256160028581600a658160020591600d65916005a5a1600a2591600665916008c5916008e5916007c591600785c1600140e0000fcedffff8a5416008e5416007a54160078541600acddffffeecdffff8a5516008c5516008e5516009e551600a0551600085b1600a6531600e8541600fe541600dc541600da541600e2541600f4e2fffff254160074531600de521600d0521600c6591600085a1600ca591600145a1600b8f7ffff22571600eef6ffff46f4ffffd856160054561600d2e1ffff4a531600d25c1600d05c1600ee5c1600e0541600
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,7 +609,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 82}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 272
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: da541600
       m_LastClickedID: 0
       m_ExpandedIDs: 3efbffff
       m_RenameOverlay:

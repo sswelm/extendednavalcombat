@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -570373346, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PresentationUnitDefinition_Era1
+  m_EditorClassIdentifier: 
+--- !u!114 &6957462210945355911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PresentationLandUnit_Era1_Common_ChariotArchers
+  m_EditorClassIdentifier: 
+  UnitDefinitionReference:
+    serializableElementName: LandUnit_Era1_Common_ChariotArchers
+  PresentationFormationDefinition:
+    serializableElementName: Formation_1
+  FormationBehaviourDefinition:
+    serializableElementName: 
+  ChoreographyOverride: 0
+  FacingAngleOffset: 0
+  MinDistanceBetweenFormationDummies: 0
+  RestrictionPerSlot: []
+  UnitSpecification: 2
+  CoordinationMasterValue: 0.5
+  CoordinationValues:
+    DummyOffsetPosition: {x: 0.1, y: 0.175}
+    DummyOffsetAngle: {x: 10, y: 15}
+    AnimationDelay: {x: 0, y: 0.5}
+    MinDistanceReformationMultiplier: 1
+    CoordinateAttackMovement: 0
+    SameRowAttack: 1
+    AveragePathLength: 0
+    UseDisciplinedVariation: 0
+  StealthRevealAudioEvent:
+    guid:
+      a: -1326129278
+      b: 1160368417
+      c: 1151361188
+      d: -1076931018
+  unitVoiceProviderReference:
+    guid:
+      a: 1799665559
+      b: 1139678947
+      c: 832313261
+      d: -1124329116

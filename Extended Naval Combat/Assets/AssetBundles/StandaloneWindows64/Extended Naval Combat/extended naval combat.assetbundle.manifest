@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1657493645
+CRC: 2284889262
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ba06b173340308b0d5443eb129eb04d6
+    Hash: 043a4f5d3f665b789b0c55d4bc3f13c0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4c336a4ae232f364dc1b6bc98db192b3
+    Hash: ccc10801bc94ec55a65c2946d99e9ba5
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -147,6 +147,7 @@ Assets:
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
 - Assets/Resources/rifling.png
+- Assets/Resources/ChariotArcher.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
@@ -180,8 +181,9 @@ Assets:
 - Assets/Databases/Technologies/RpnDefinitionScience.asset
 - Assets/Resources/mountedCrosdbowmen800.png
 - Assets/Resources/selfpropelledHowitzer720.png
-- Assets/Resources/transparant212.png
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era1.asset
 - Assets/Databases/World/TerrainDescriptor.asset
+- Assets/Resources/transparant212.png
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
 - Assets/Resources/UCGprocessfigure677.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
@@ -199,6 +201,7 @@ Assets:
 - Assets/Databases/World/PollutionDescriptor.asset
 - Assets/Databases/_DLC01/Unit/LandUnitDefinition_DLC01.asset
 - Assets/Resources/aircraftCarrier1173.png
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era1.asset
 - Assets/Databases/Unit/BattleActionDescriptor.asset
 - Assets/Resources/Seawolf720.png
 - Assets/Databases/Unit/AirUnitDescriptor.asset
