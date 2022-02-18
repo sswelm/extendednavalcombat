@@ -382,7 +382,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High_Copper2_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_High_Copper3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2_Copper2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
+  SerializableFamily: UnitFamily_Horde
   Level: 17
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -2782,7 +2782,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2_Copper2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3577,7 +3577,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse3
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Horse4
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -4021,7 +4021,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2_Copper2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -4787,7 +4787,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2_Copper2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -4897,7 +4897,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era1_High_Horse2
+      serializableElementName: ProductionCost_Unit_Era1_High_Horse2_Copper2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -7074,7 +7074,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium_Iron2_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Iron3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -7232,7 +7232,7 @@ MonoBehaviour:
     ArtificialWonderDefinition:
       serializableElementName: 
   UnitClass:
-    serializableElementName: UnitClass_HeavyCavalry
+    serializableElementName: UnitClass_Cavalry
   UnitSpecialty:
     serializableElementName: 
   OwnDescriptorReferences:

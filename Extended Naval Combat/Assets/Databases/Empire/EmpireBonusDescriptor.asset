@@ -218,7 +218,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 500
       - RawValue: 1000
-      - RawValue: 950
+      - RawValue: 900
       - RawValue: 0
       - RawValue: 31000
       - RawValue: 20000
@@ -258,7 +258,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 500
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -430,7 +430,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 500
       - RawValue: 1000
-      - RawValue: 1000
+      - RawValue: 900
       - RawValue: 100
       - RawValue: 33000
       - RawValue: 20000
@@ -545,17 +545,17 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: generate numer between 0 and 1 depending on number of unlocked technolies
-        ranging from tech 46 to 56
+        ranging from tech 46 to 66
       TargetProperty: PollutionNet
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a000000010000000a0000000300000006000000070000000100000002000000
       ConstantStack:
       - RawValue: 1000
       - RawValue: 1000
-      - RawValue: 950
+      - RawValue: 900
       - RawValue: 0
-      - RawValue: 54000
-      - RawValue: 10000
+      - RawValue: 44000
+      - RawValue: 20000
       PropertyLocalName:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
@@ -657,7 +657,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 500
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -908,7 +908,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 500
       - RawValue: 1000
-      - RawValue: 950
+      - RawValue: 900
       - RawValue: 0
       - RawValue: 33000
       - RawValue: 20000
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_Name: Effect_EmpireBonus_SciencePollution
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 1
+  - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
       - Settlements
@@ -1076,10 +1076,6 @@ MonoBehaviour:
         ValidableElementCollection: 
         Inverted: 1
         serializableElementName: Tag_Extension_EnchCoralHunting
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: Effect_Extension_Synergy_EnchScienceFromIndustry
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 1
@@ -1097,7 +1093,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 500
       - RawValue: 1000
-      - RawValue: 950
+      - RawValue: 900
       - RawValue: 0
       - RawValue: 44000
       - RawValue: 20000
@@ -1246,7 +1242,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 500
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

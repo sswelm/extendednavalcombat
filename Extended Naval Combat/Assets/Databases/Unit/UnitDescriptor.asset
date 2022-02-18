@@ -1451,15 +1451,15 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: AttackRange
-      ToTargetOperation: 0
+      TargetProperty: BaseStrength
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
     - Note: 
-      TargetProperty: BaseStrength
-      ToTargetOperation: 1
+      TargetProperty: AttackRange
+      ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 1000
@@ -1498,7 +1498,14 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: AttackRange
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
@@ -2014,7 +2021,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
     - Note: 
       TargetProperty: BaseStrength

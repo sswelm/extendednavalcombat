@@ -188,10 +188,10 @@ MonoBehaviour:
   - Name: Head_Helmet_0
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: 1053545266
+        b: 1266794490
+        c: 928550289
+        d: 2026180945
   - Name: Head_Helmet_2
     Fragment:
       guid:
@@ -427,7 +427,7 @@ MonoBehaviour:
   SubPawnComposition: 1
   SubPawnDefinitions:
   - DefinitionRef:
-      serializableElementName: Era5_Common_Dragoons_Mount_01
+      serializableElementName: Era3_Common_Knights_Mount_01
     Offset: {x: 0, y: 0, z: 0}
   Offset: {x: 0, y: 0, z: 0}
 --- !u!114 &-2805782099863471353

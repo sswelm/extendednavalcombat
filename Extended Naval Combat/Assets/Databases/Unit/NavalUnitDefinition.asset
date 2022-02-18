@@ -46,7 +46,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Copper3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -391,7 +391,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Copper3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -2739,7 +2739,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Medium_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_Medium_Copper3_Salpeter3
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -3951,7 +3951,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High_Iron2_Salpeter2
+      serializableElementName: ProductionCost_Unit_Era4_High_Iron3_Salpeter2
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:

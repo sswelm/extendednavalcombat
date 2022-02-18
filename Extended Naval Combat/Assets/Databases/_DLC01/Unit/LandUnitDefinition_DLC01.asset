@@ -58,7 +58,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Low
+      serializableElementName: ProductionCost_Unit_Era2_Low_Horse2
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:

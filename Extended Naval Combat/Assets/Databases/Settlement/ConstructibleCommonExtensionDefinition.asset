@@ -967,7 +967,19 @@ MonoBehaviour:
   ProvidesRail: 0
   ForceRiverOnTerrain: 0
   serializableReplaceTerrainWith: 
---- !u!114 &-27348493074866398
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCommonExtensionDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &4318252510842253779
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,7 +989,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Extension_Base_Extractor
+  m_Name: Extension_Base_PublicOrder
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -993,7 +1005,37 @@ MonoBehaviour:
       Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 536870912
+    - Name: Importance
+      Entry: 3
+      Data: 1
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -1001,19 +1043,40 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: SynergyDistrictType
-      Entry: 6
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.AI.GainWeight[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.GainWeight, Amplitude.Mercury.Data
+    - Name: Gain
+      Entry: 3
+      Data: 16
+    - Name: Weight
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
       Data: 
-  Key: 26
-  Hidden: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 38
+  Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
-  Category: 8
+  Category: 5
   SerializableFamily: 
   Level: 0
   Unicity: 0
   ConstructibleVisualAffinity:
-    serializableElementName: 
+    serializableElementName: DistrictVisualAffinity_PublicOrder
   CanBeBoughtOut: 1
   CanBeCanceled: 1
   StartWhenQueued: 0
@@ -1022,7 +1085,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: 
+      serializableElementName: ProductionCost_Extension_Base_PublicOrder
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -1037,15 +1100,15 @@ MonoBehaviour:
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
-    Operator: 1
+    Operator: 0
     EraReference:
-      serializableElementName: Era1
+      serializableElementName: 
   FactionPrerequisite:
     Operator: 0
     serializableFactionNames: []
   SettlementStatusPrerequisite:
     CampConstraint: 0
-    CityConstraint: 0
+    CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
   SettlementPropertyPrerequisites: []
@@ -1056,22 +1119,25 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
+  BaseSynergyDistrict: 1
   SynergyRiver: 0
-  TargetSynergyDistrictType: 0
+  TargetSynergyDistrictType: 175
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
-  Prototype: 
+  Prototype: Extension_Prototype_Base
   OwnDescriptorReferences:
-  - serializableElementName: Effect_Extension_Base_Extractor
-  - serializableElementName: Effect_Extension_Default_Vision
-  - serializableElementName: Tag_Extension_Base
+  - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Effect_Extension_WorkplaceSlot_PublicOrder
+  - serializableElementName: Effect_Extension_Synergy_PublicOrder_Family03_Synergy00
+  - serializableElementName: Tag_Extension_Cultural
   - serializableElementName: Tag_Extension_Urban
+  - serializableElementName: Effect_Extension_Base_PublicOrderBuff
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
-  AdditionalVisualLevels: []
+  AdditionalVisualLevels:
+  - OutputThresholdPerEra: 0200000015000000180000001a0000001c0000001e00000021000000
   IsImmuneToBombardment: 0
   AllowBoroughExtension: 0
   AllowConnectionWithOtherBorough: 1
@@ -1082,23 +1148,27 @@ MonoBehaviour:
     serializableTags:
     - Tag_Extension_Base
   PointOfInterestPrerequisite:
-    Constraint: 0
+    Constraint: 7
     HideInUI: 1
     serializablePointOfInterestNames: []
   RiverPrerequisite:
     Constraint: 0
     HideInUI: 1
   TerrainPrerequisite:
-    Constraint: 0
+    Constraint: 2
     HideInUI: 1
     CanBuildOnWasteland: 0
-    serializableTerrainTypeNames: []
+    serializableTerrainTypeNames:
+    - TerrainType_Ocean
+    - TerrainType_CoastalWater
+    - TerrainType_Lake
+    - TerrainType_CityTerrain
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeName: 
   CliffPrerequisite:
     Constraint: 0
-    HideInUI: 1
+    HideInUI: 0
   MountainPrerequisite:
     Constraint: 0
     HideInUI: 0
@@ -1106,7 +1176,7 @@ MonoBehaviour:
     Constraint: 1
     Visibility: 0
   NeighbourTilesPrerequisite:
-    NeighbourOperator: 0
+    NeighbourOperator: 2
     TerritoryConstraint: 2
     IgnoreCliff: 1
     TerrainPrerequisite:
@@ -1123,34 +1193,22 @@ MonoBehaviour:
       HideInUI: 0
       serializableTags: []
   BoroughPrerequisite:
-    ExtensionRules: 1
-    HideInUI: 0
+    ExtensionRules: 0
+    HideInUI: 1
   ProtectsNeighboursFromRansack: 0
   ZoneOfControlDistance:
     RawValue: 0
   FriendlyUnitOnTopStatus:
     serializableElementName: 
   DistrictType: 0
-  HasPublicOrderCost: 1
+  HasPublicOrderCost: 0
   ExploitationRuleReference:
-    serializableElementName: 
-  ExtractResource: 1
+    serializableElementName: ExploitationRule_Neighbours
+  ExtractResource: 0
   WondrousResourceType: 32
   UnitSpawnType: -1
   AllowShipping: 0
-  ProvidesSecondaryRoad: 1
+  ProvidesSecondaryRoad: 0
   ProvidesRail: 0
   ForceRiverOnTerrain: 0
   serializableReplaceTerrainWith: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: ConstructibleCommonExtensionDefinition
-  m_EditorClassIdentifier: 

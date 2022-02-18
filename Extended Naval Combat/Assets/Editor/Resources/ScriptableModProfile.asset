@@ -162,7 +162,8 @@ MonoBehaviour:
         Reactors</li>\n<li>Added (common) Stealth Corvette, unlocks with Stealth
         Technology and Satelites</li>\n<li>Added Stealth Missile Cruiser, unlocks
         with Stealth Technology and Satelites</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
-        Mounted Crossbowmen, unlocked with Milirairy Architechture, upgrades Reiters</li>\n<li>Added
+        Chariot Archers, unlocked with Wheel, upgrades to Mounted Crossbowmen</li>\n<li>Added
+        Mounted Crossbowmen, unlocked with Milirairy Architechture, upgrades to Reiters</li>\n<li>Added
         Lancer, unlocked with Centralized Power , upgrades to Cuirassiers</li>\n<li>Added
         Reiters, unlocked with Seage Cannon, upgrades to Dragoons</li>\n<li>Added
         (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
@@ -185,7 +186,7 @@ MonoBehaviour:
         with Stealth technology</li>\n<li>Added Intercontinental Ballistic Missile
         (ICBM) unlocked after researching Rocket Science and building 2nd Nuclear
         Test Project</li>\n</ol>\n<p><em>Special ability changes:</em></p>\n<ul>\n<li>Land-based
-        Archer and Gunner units are less effective (-10 strength) versus naval units
+        Archer and Gunner units are less effective (-12 strength) versus naval units
         in battle</li>\n<li>Transport Galley and all other naval transport Units
         now require upkeep when used</li>\n<li>Cog is converted into a Transport
         vessel</li>\n<li>Man O' War gain special ability Shatter (similar to Howitzer)</li>\n<li>Indirect
@@ -240,8 +241,9 @@ MonoBehaviour:
         Quadrireme =&gt; Galleass=&gt; Man O'War =&gt; Ir0nclad =&gt; Dreadnought
         =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>\n<li>Scout
         Riders=&gt; Horsemen =&gt; Knight =&gt; Lancer =&gt; Cuirassiers =&gt; Light
-        Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>\n<li>Dragoon =&gt; Armoured
-        Cars =&gt; Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
+        Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>\n<li>Chariot Archers =&gt;
+        Mounter Crosbowen =&gt; Reiters =&gt; Dragoon =&gt; Armoured Cars =&gt; Armoured
+        Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
         =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
         Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
         =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket
@@ -299,7 +301,7 @@ MonoBehaviour:
         400;\">Airports now produce 3 pollution instead of 15.</span></li>\n<li aria-level=\"2\"><span
         style=\"font-weight: 400;\">Missile Silos now produce 2 pollution instead
         of 15.</span></li>\n<li aria-level=\"2\">Attaching a Territory reduces Public
-        Order by 10 instead of 20</li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>I
+        Order by 10 instead of 20</li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>In
         general it is recommended to load this mod before any other humankind mods.</p>\n<ul>\n<li>compatible
         with <a href=\"https://humankind.mod.io/end-game-science-conversion\">End
         Game Science Conversion</a>, but should be loaded last</li>\n<li>compatible

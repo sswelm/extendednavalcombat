@@ -311,7 +311,8 @@ MonoBehaviour:
   m_Name: UnitClass_BoardingVessel
   m_EditorClassIdentifier: 
   Title: '%UnitClass_BoardingVesselTitle'
-  Description: '%UnitClass_BoardingVesselDescription'
+  Description: +5 Strength when in coastal water and Targeted Units also take damage
+    when they next move
   Images:
   - Value:
       guid:

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2284889262
+CRC: 541861133
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 043a4f5d3f665b789b0c55d4bc3f13c0
+    Hash: 84fa1a4e81366e19f534057581c766aa
   TypeTreeHash:
     serializedVersion: 2
     Hash: ccc10801bc94ec55a65c2946d99e9ba5
@@ -147,7 +147,6 @@ Assets:
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
 - Assets/Resources/rifling.png
-- Assets/Resources/ChariotArcher.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
 - Assets/Databases/Settlement/RpnIndustryDefinition.asset
@@ -186,6 +185,7 @@ Assets:
 - Assets/Resources/transparant212.png
 - Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
 - Assets/Resources/UCGprocessfigure677.png
+- Assets/Resources/ChariotArcher784.png
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
 - Assets/Resources/barcos.png

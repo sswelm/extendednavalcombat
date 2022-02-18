@@ -182,7 +182,7 @@ MonoBehaviour:
   SubPawnComposition: 0
   SubPawnDefinitions: []
   Offset: {x: 0, y: 0, z: 0}
---- !u!114 &-6171172200594217048
+--- !u!114 &-3706159124984260561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,38 +342,38 @@ MonoBehaviour:
   - Name: Head_Hair_0
     Fragment:
       guid:
-        a: 225438026
-        b: 1233536048
-        c: -1134279789
-        d: -1616715746
+        a: -1530496321
+        b: 1169073220
+        c: -31167577
+        d: 648766551
   - Name: Head_Hair_1
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -497297827
+        b: 1261931380
+        c: -885355870
+        d: -1264436897
   - Name: Head_Hair_2
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
-  - Name: Head_Hair_0
-    Fragment:
-      guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: 415751743
+        b: 1207808103
+        c: 1915770793
+        d: 1824287455
   - Name: Head_Helmet_0
     Fragment:
       guid:
-        a: -933381721
-        b: 1106467214
-        c: -597585274
-        d: -607843278
+        a: -1931331809
+        b: 1154435753
+        c: 1146092213
+        d: 834189320
+  - Name: Head_Helmet_1
+    Fragment:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
   - Name: Head_Helmet_2
     Fragment:
       guid:
@@ -433,10 +433,10 @@ MonoBehaviour:
   - Name: ShirtBaggy
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -84572275
+        b: 1334287783
+        c: -939252070
+        d: -1822564676
   - Name: ShirtLarge
     Fragment:
       guid:
@@ -447,10 +447,10 @@ MonoBehaviour:
   - Name: ShirtSlim
     Fragment:
       guid:
-        a: -462060100
-        b: 1081064262
-        c: 1919697557
-        d: -1223024817
+        a: 0
+        b: 0
+        c: 0
+        d: 0
   - Name: ShirtStandard
     Fragment:
       guid:
@@ -503,10 +503,10 @@ MonoBehaviour:
   - Name: PantsBaggy
     Fragment:
       guid:
-        a: 0
-        b: 0
-        c: 0
-        d: 0
+        a: -1711668857
+        b: 1219112590
+        c: -97361757
+        d: 300104187
   - Name: PantsLarge
     Fragment:
       guid:
@@ -517,10 +517,10 @@ MonoBehaviour:
   - Name: PantsSlim
     Fragment:
       guid:
-        a: 1647007494
-        b: 1314551575
-        c: 1796635283
-        d: -2055906307
+        a: 0
+        b: 0
+        c: 0
+        d: 0
   - Name: PantsStandard
     Fragment:
       guid:
@@ -609,7 +609,7 @@ MonoBehaviour:
   SubPawnComposition: 1
   SubPawnDefinitions:
   - DefinitionRef:
-      serializableElementName: Era5_Common_Dragoons_Mount_01
+      serializableElementName: Era3_Common_Knights_Mount_01
     Offset: {x: 0, y: 0, z: 0}
   Offset: {x: 0, y: 0, z: 0}
 --- !u!114 &-2565558112859099334
