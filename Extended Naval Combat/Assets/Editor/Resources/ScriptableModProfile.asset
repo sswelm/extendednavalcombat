@@ -164,8 +164,8 @@ MonoBehaviour:
         with Stealth Technology and Satelites</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
         Chariot Archers, unlocked with Wheel, upgrades to Mounted Crossbowmen</li>\n<li>Added
         Mounted Crossbowmen, unlocked with Milirairy Architechture, upgrades to Reiters</li>\n<li>Added
-        Lancer, unlocked with Centralized Power , upgrades to Cuirassiers</li>\n<li>Added
-        Reiters, unlocked with Seage Cannon, upgrades to Dragoons</li>\n<li>Added
+        Lancers, unlocked with Siege Cannons, upgrades to Cuirassiers</li>\n<li>Added
+        Reiters, unlocked with Siege Cannons, upgrades to Dragoons</li>\n<li>Added
         (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
@@ -240,10 +240,10 @@ MonoBehaviour:
         Missile Destroyer =&gt; Stealth Missile Cruiser</li>\n<li>Pentekonter =&gt;
         Quadrireme =&gt; Galleass=&gt; Man O'War =&gt; Ir0nclad =&gt; Dreadnought
         =&gt; Battleship =&gt; Guided Missile Cruiser =&gt; Stealth Missile Cruiser</li>\n<li>Scout
-        Riders=&gt; Horsemen =&gt; Knight =&gt; Lancer =&gt; Cuirassiers =&gt; Light
-        Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>\n<li>Chariot Archers =&gt;
-        Mounter Crosbowen =&gt; Reiters =&gt; Dragoon =&gt; Armoured Cars =&gt; Armoured
-        Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
+        Riders =&gt; Horsemen =&gt; Knight =&gt; Lancers =&gt; Cuirassiers =&gt;
+        Light Tank =&gt; Medium Tank =&gt; Main Battle Tank</li>\n<li>Chariot Archers
+        =&gt; Mounter Crosbowen =&gt; Reiters =&gt; Dragoon =&gt; Armoured Cars =&gt;
+        Armoured Recon =&gt; Attack Helicopter =&gt; Helicopter Gunship</li>\n<li>Saboteur
         =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
         Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
         =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket

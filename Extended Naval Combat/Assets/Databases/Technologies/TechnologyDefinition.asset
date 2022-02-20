@@ -235,7 +235,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -530,13 +530,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era4
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_08
@@ -697,16 +697,182 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 3
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_StealthTechnology
+  Visibility: -1
+--- !u!114 &-8632393632500474372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_30
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddFame, Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 1
+      Data: FameGains_PsychicPowers
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 1024
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 536870912
+    - Name: Importance
+      Entry: 3
+      Data: 4
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
+    - Name: Importance
+      Entry: 3
+      Data: 4
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_EndGame_PsychicPowers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 59
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TechnologyTier: 3
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  OverrideTierCostRpnReference:
+    serializableElementName: Technology_Era6_Tier4_CostExtra
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_25
   Visibility: -1
 --- !u!114 &-8245594818072534071
 MonoBehaviour:
@@ -827,7 +993,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_Rifling
@@ -1048,13 +1214,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era5
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_08
@@ -1215,13 +1381,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 3
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_SlopedArmor
@@ -1345,7 +1511,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_02
@@ -1535,7 +1701,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_05
@@ -1659,7 +1825,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_AntitankWarfare
@@ -1948,11 +2114,201 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era3_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era3_04
     - Technology_Era3_02
+  Visibility: -1
+--- !u!114 &-7032304744682400545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_17
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 2|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Infrastructure_Science_Family04_03
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 4|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Infrastructure_PublicOrder_Family03_03
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_PublicOrder_PerPopulation01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 76
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TechnologyTier: 2
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  OverrideTierCostRpnReference:
+    serializableElementName: Technology_Era6_Tier3_CostExtra
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_13
+    - Technology_Era6_14
   Visibility: -1
 --- !u!114 &-6719292077848523217
 MonoBehaviour:
@@ -2058,13 +2414,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_JetEngine
@@ -2380,7 +2736,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_15
@@ -2657,7 +3013,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_AntiTankGun
@@ -2766,13 +3122,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_MechanizedInfantryDoctrine
@@ -3025,7 +3381,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_01
@@ -3244,7 +3600,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_05
@@ -3359,7 +3715,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_TankWarfare
@@ -3456,13 +3812,13 @@ MonoBehaviour:
   Hidden: 1
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_23
@@ -3784,13 +4140,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era4
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_04
@@ -3918,13 +4274,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_16
@@ -4126,7 +4482,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_01
@@ -4364,7 +4720,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -4480,7 +4836,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_Automobile
@@ -4669,7 +5025,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_07
@@ -4784,7 +5140,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_Breechloader
@@ -4988,13 +5344,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_WireGuidedMissile
@@ -5465,7 +5821,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era3_10
@@ -5779,13 +6135,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_PrecisionGuidedMunition
@@ -6019,7 +6375,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_11
@@ -6290,13 +6646,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_11
@@ -6571,7 +6927,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_13
@@ -6896,7 +7252,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_09
@@ -6987,7 +7343,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_11
@@ -7178,7 +7534,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_AirTransportation
@@ -7394,7 +7750,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_DreadnoughtDesign
@@ -7546,13 +7902,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_GuidedMissiles
@@ -7667,7 +8023,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_06
@@ -7849,7 +8205,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_03
@@ -8192,13 +8548,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era3
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era3_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era2_12
@@ -8414,7 +8770,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_04
@@ -8745,7 +9101,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_13
@@ -8973,13 +9329,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_15
@@ -9100,16 +9456,167 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 3
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_NuclearReactor
+  Visibility: -1
+--- !u!114 &1074287270832348634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_29
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddFame, Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 1
+      Data: FameGains_DeathStarReenactment
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 1024
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 32
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_EndGame_DeathStarReenactment
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 96
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TechnologyTier: 3
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  OverrideTierCostRpnReference:
+    serializableElementName: Technology_Era6_Tier4_CostExtra
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_24
   Visibility: -1
 --- !u!114 &1127644032460060747
 MonoBehaviour:
@@ -9264,7 +9771,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_11
@@ -9496,7 +10003,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_RailRoad
@@ -9719,7 +10226,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_ShipOfTheLine
@@ -9877,7 +10384,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_DreadnoughtDesign
@@ -10128,7 +10635,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_17
@@ -10250,7 +10757,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_FireControlSystems
@@ -10432,7 +10939,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_BunkerConstruction
@@ -10736,7 +11243,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era3_04
@@ -10832,7 +11339,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_16
@@ -11093,7 +11600,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_11
@@ -11460,13 +11967,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_10
@@ -11599,7 +12106,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_11
@@ -11770,13 +12277,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_13
@@ -11937,7 +12444,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier1_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_16
@@ -12078,13 +12585,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 3
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier4_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_20
@@ -12208,7 +12715,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier4_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_AntiTorpedoboatWarfare
@@ -12454,7 +12961,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era3_04
@@ -12741,7 +13248,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_05
@@ -12850,13 +13357,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_19
@@ -13014,7 +13521,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier2_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_07
@@ -13263,7 +13770,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_10
@@ -13696,13 +14203,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_12
@@ -13939,13 +14446,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era3
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era3_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era2_10
@@ -14112,7 +14619,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_SubmarineWarfare
@@ -14430,7 +14937,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era4_06
@@ -14664,7 +15171,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era1_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era1_02
@@ -14975,12 +15482,226 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era4_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era3_09
     - Technology_Era3_05
     - Technology_Era3_10
+  Visibility: -1
+--- !u!114 &6544019850958552790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_25
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_ContentCreation
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 4
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_InternetReselling
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 536870912
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_Culture_PerPopulation01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 38
+  Hidden: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TechnologyTier: 2
+  EraReference:
+    serializableElementName: Era6
+  IsExclusiveToEra: 0
+  Priority: 0
+  OverrideTierCostRpnReference:
+    serializableElementName: Technology_Era6_Tier4_Cost
+  TechnologyPrerequisite:
+    SerializableTechnologyNames:
+    - Technology_Era6_20
+    - Technology_Era6_17
   Visibility: -1
 --- !u!114 &6564526572678558012
 MonoBehaviour:
@@ -15325,13 +16046,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 3
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier5_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_28
@@ -15460,13 +16181,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 2
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier3_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_12
@@ -15714,7 +16435,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier3_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_10
@@ -15915,7 +16636,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier2_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_MarineSteamEngine
@@ -16155,13 +16876,13 @@ MonoBehaviour:
   Hidden: 0
   DlcPrerequisite:
     DownloadableContent: 0
-  TechnologyTier: 0
+  TechnologyTier: 1
   EraReference:
     serializableElementName: Era6
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_03
@@ -16532,7 +17253,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier1_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_MilitaryTradition
@@ -16842,7 +17563,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era6_Tier0_CostExtra
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era6_AntiSubmarineWarfare
@@ -17172,7 +17893,7 @@ MonoBehaviour:
   IsExclusiveToEra: 0
   Priority: 0
   OverrideTierCostRpnReference:
-    serializableElementName: 
+    serializableElementName: Technology_Era5_Tier2_Cost
   TechnologyPrerequisite:
     SerializableTechnologyNames:
     - Technology_Era5_06
