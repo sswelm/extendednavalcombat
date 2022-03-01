@@ -2064,7 +2064,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_MediumTank
   UnitSpecialty:
-    serializableElementName: 
+    serializableElementName: UnitSpecialty_Shatter
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era6_Common_MediumTanks
   - serializableElementName: Effect_Unit_Era6
@@ -6472,7 +6472,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_LightTank
   UnitSpecialty:
-    serializableElementName: 
+    serializableElementName: UnitSpecialty_Shatter
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era6_Common_LightTanks
   - serializableElementName: Effect_Unit_Era5

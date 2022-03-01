@@ -152,21 +152,22 @@ MonoBehaviour:
         with Propeller, upgrades to Landing Craft</li>\n<li>Added Dreadnought, unlocks
         with Dreadnought design, upgrades to Battleship</li>\n<li>Added Fleet Submarine.
         unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
-        Torpedo Boat Destroyer, unlocked with Dreadnought Design, upgrades to Destroyer</li>\n<li>Added
-        Destroyer, unlocked Anti Submarine Warfare, upgrades to Missile Destroyer</li>\n<li>Added
-        Diesel Submarine, unlocks with Fluid Dynamics, upgrades to Missile Submarine</li>\n<li>Added
-        Guided Missile Destroyer, unlocks with Guided Missiles, upgrades to Stealth
-        Missile Cruiser</li>\n<li>Added Nuclear Aircraft Carrier, unlocks with Angled
-        Flightdeck, upgrades with Advanced Nuclear Reactors</li>\n<li>Added Guided
-        Missile Submarine, unlocks with Guided Missiles upgrades with Advanced Nuclear
-        Reactors</li>\n<li>Added (common) Stealth Corvette, unlocks with Stealth
-        Technology and Satelites</li>\n<li>Added Stealth Missile Cruiser, unlocks
-        with Stealth Technology and Satelites</li>\n</ol>\n<p><em>New Land units:</em></p>\n<ol>\n<li>Added
-        Chariot Archers, unlocked with Wheel, upgrades to Mounted Crossbowmen</li>\n<li>Added
-        Mounted Crossbowmen, unlocked with Milirairy Architechture, upgrades to Reiters</li>\n<li>Added
-        Lancers, unlocked with Siege Cannons, upgrades to Cuirassiers</li>\n<li>Added
-        Reiters, unlocked with Siege Cannons, upgrades to Dragoons</li>\n<li>Added
-        (common) Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
+        Torpedo Boat Destroyer, unlocked with Anti Torpedoboat Warfare, upgrades
+        to Destroyer</li>\n<li>Added Destroyer, unlocked Anti Submarine Warfare,
+        upgrades to Missile Destroyer</li>\n<li>Added Diesel Submarine, unlocks with
+        Fluid Dynamics, upgrades to Missile Submarine</li>\n<li>Added Guided Missile
+        Destroyer, unlocks with Guided Missiles, upgrades to Stealth Missile Cruiser</li>\n<li>Added
+        Nuclear Aircraft Carrier, unlocks with Angled Flightdeck, upgrades with Advanced
+        Nuclear Reactors</li>\n<li>Added Guided Missile Submarine, unlocks with Guided
+        Missiles upgrades with Advanced Nuclear Reactors</li>\n<li>Added (common)
+        Stealth Corvette, unlocks with Stealth Technology and Satelites</li>\n<li>Added
+        Stealth Missile Cruiser, unlocks with Stealth Technology and Satelites</li>\n</ol>\n<p><em>New
+        Land units:</em></p>\n<ol>\n<li>Added Chariot Archers, unlocked with Wheel,
+        upgrades to Mounted Crossbowmen</li>\n<li>Added Mounted Crossbowmen, unlocked
+        with Milirairy Architechture, upgrades to Reiters</li>\n<li>Added Lancers,
+        unlocked with Siege Cannons, upgrades to Cuirassiers</li>\n<li>Added Reiters,
+        unlocked with Siege Cannons, upgrades to Dragoons</li>\n<li>Added (common)
+        Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
         Selfpropelled Howitzer</li>\n<li>Added Light Tank unlocked with Continuous
@@ -217,12 +218,13 @@ MonoBehaviour:
         +2 strength, +2 bonus movement in battle, +5 bonus strength on Shallow Water,
         upgrade to Galleass</li>\n<li>Gajnal; +1 Strength, replaces Dragoon, upgrades
         to Armoured Car</li>\n<li>Man O' War; +1 strength, +1 vision</li>\n<li>Ironclad;
-        +1 vision, upgrades to Dreadnought</li>\n<li>U-Boat; -2 movement, +1 vision,
-        +5 Bonus Armoured Units (ironclad, battleships, etc), upgrades to Diesel
-        Submarine</li>\n<li>Heavy Machinegun; +3 strength</li>\n<li>Antitank gun
-        +3 strength</li>\n<li>Battleship; +3 strength +1 movement +1 vision, +2 attack
-        range, Increased zone of control</li>\n<li>Aircraft Carrier, +1 movement,
-        +1 vision +Amoured (immune to suppression, vulnerable versus submarines)</li>\n<li>Nuclear
+        +1 vision, upgrades to Dreadnought</li>\n<li>Hunnic Rider and Mongol Horde
+        gain +1 attack range and can upgrade to from Chairot Archers</li>\n<li>U-Boat;
+        -2 movement, +1 vision, +5 Bonus Armoured Units (ironclad, battleships, etc),
+        upgrades to Diesel Submarine</li>\n<li>Heavy Machinegun; +3 strength</li>\n<li>Antitank
+        gun +3 strength</li>\n<li>Battleship; +3 strength +1 movement +1 vision,
+        +2 attack range, Increased zone of control</li>\n<li>Aircraft Carrier, +1
+        movement, +1 vision +Amoured (immune to suppression, vulnerable versus submarines)</li>\n<li>Nuclear
         Submarine, +2 vision, +1 range, +5 Bonus Armoured Units (battleship, carrier,
         cruisers)</li>\n<li>Missile Cruiser, +3 strength, +4 vision, +5 range, Increased
         zone of control</li>\n<li>Red Army Tank, +3 strength, +1 vision, +1 range</li>\n<li>Main
@@ -247,8 +249,8 @@ MonoBehaviour:
         =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
         Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
         =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket
-        System</li>\n<li>Line Infantry =&gt; Riflemen =&gt; Marines =&gt; All Terrain
-        PMV</li>\n<li>Heavy Machinegun =&gt; Anti Aircraft Gun</li>\n<li>Biplane
+        System</li>\n<li>MUsketiers =&gt; Line Infantry =&gt; Riflemen =&gt; Marines
+        =&gt; All Terrain PMV</li>\n<li>Heavy Machinegun =&gt; Anti Aircraft Gun</li>\n<li>Biplane
         =&gt; Monoplane Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>\n<li>Transport
         Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya
         =&gt; Dhanv\u012B-gaja =&gt; Gajnal =&gt; Armoured Car</li>\n</ul>\n<p><strong>Transportation</strong></p>\n<p>Besides
@@ -299,9 +301,20 @@ MonoBehaviour:
         400;\">Aerodromes now produce 1 pollution instead of 5, can be built at outposts
         but requires access to oil</span></li>\n<li aria-level=\"2\"><span style=\"font-weight:
         400;\">Airports now produce 3 pollution instead of 15.</span></li>\n<li aria-level=\"2\"><span
-        style=\"font-weight: 400;\">Missile Silos now produce 2 pollution instead
+        style=\"font-weight: 400;\">Missile Silos now produce 1 pollution instead
         of 15.</span></li>\n<li aria-level=\"2\">Attaching a Territory reduces Public
-        Order by 10 instead of 20</li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>In
+        Order by 10 instead of 20</li>\n</ul>\n<p><em>Emblematic District tweaks:</em></p>\n<ul>\n<li>Hittites
+        Awari can exploit all FIMS (instead of only food and industry)</li>\n<li>Goths
+        Tumulus does not cost stability (instead of -10) and can be build without
+        restrictions and exploit food and industry</li>\n<li>Aztecs Sacrificial Altar
+        poroduces 10 stability (instead of 5)</li>\n<li>Teutons Kaiserdom does not
+        cost stability (instead of -10)</li>\n<li>Dutch VOC Warehouse can be build
+        without restrictions</li>\n<li>Ottomans Sultan Camii does not cost stability
+        (instead of -10)</li>\n<li>Edu Japanese Tera does not cost stability (instead
+        of -10)</li>\n<li>German Coking Works only produces 1 pollution (instead
+        of 10)</li>\n<li>Australia Stip Mining only produces 2 pollution (instead
+        of 15)</li>\n<li>Japans Robotics Lab only produces 1 pollution (instead of
+        5)</li>\n<li>Soviets Arms Factory produces 1 pollution (instead of 10)</li>\n</ul>\n<p><strong>Compatibility</strong><em>:</em></p>\n<p>In
         general it is recommended to load this mod before any other humankind mods.</p>\n<ul>\n<li>compatible
         with <a href=\"https://humankind.mod.io/end-game-science-conversion\">End
         Game Science Conversion</a>, but should be loaded last</li>\n<li>compatible
@@ -323,7 +336,9 @@ MonoBehaviour:
         1em;\"> Nuclear Missiles Mod</a><span style=\"font-size: 1em; font-weight:
         400;\"> but it is already integrated</span></li>\n<li>not compatible with
         <a href=\"https://humankind.mod.io/docktor-kains-pollution-rework\">Docktor
-        Kain's Pollution Rework</a>, but it is already integrated</li>\n</ul>\n<p><strong>License</strong></p>\n<p><em>None
+        Kain's Pollution Rework</a>, but it is already integrated</li>\n<li>not compatible
+        with <a href=\"https://humankind.mod.io/lancers\">Lancers for Humankind</a>,
+        but it already integrated</li>\n</ul>\n<p><strong>License</strong></p>\n<p><em>None
         of the art used in this mod is created or owned by me full credit to artists</em></p>"
       isDirty: 0
     homepageURL:

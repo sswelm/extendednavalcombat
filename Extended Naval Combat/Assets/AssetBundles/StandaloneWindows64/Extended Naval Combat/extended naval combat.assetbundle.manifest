@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 624999826
+CRC: 4043141378
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 741c05a70db52233b9513585a2e99f25
+    Hash: 885c588393a530a503400e188aa4e965
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ccc10801bc94ec55a65c2946d99e9ba5
+    Hash: 1a50831eb2c6e8dfe1037e0a4cf25afe
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -29,6 +29,10 @@ ClassTypes:
   Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 695352031, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -221,6 +225,7 @@ Assets:
 - Assets/Resources/TOW_infantry437.png
 - Assets/Resources/battleshipDreadnought784.png
 - Assets/Databases/Unit/BattleAbilityDefinition.asset
+- Assets/Databases/Technologies/EraDefinition.asset
 - Assets/Resources/Seawolf212.png
 - Assets/Databases/Unit/NavalTransportDefinition.asset
 - Assets/Resources/dreadnoughtTransparent580.png
@@ -240,6 +245,7 @@ Assets:
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
 - Assets/Databases/Unit/NavalUnitUIMappers.asset
 - Assets/Databases/EffectMapper/ValidationMapperCollection.asset
+- Assets/Databases/Settlement/ConstructibleEmblematicExtensionDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
 - Assets/Databases/World/PollutionDefinition.asset

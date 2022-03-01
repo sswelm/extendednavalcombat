@@ -226,6 +226,28 @@ MonoBehaviour:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
       - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a000000010000000a0000000300000006000000070000000100000002000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 1000
+      - RawValue: 900
+      - RawValue: 0
+      - RawValue: 31000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-8109295469294689983
@@ -259,6 +281,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 500
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -438,6 +474,28 @@ MonoBehaviour:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
       - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a0000000100000006000000070000000a000000030000000100000002000000
+      ConstantStack:
+      - RawValue: 1000
+      - RawValue: 1000
+      - RawValue: 900
+      - RawValue: 100
+      - RawValue: 33000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-4406436696221115103
@@ -560,6 +618,28 @@ MonoBehaviour:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
       - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a000000010000000a0000000300000006000000070000000100000002000000
+      ConstantStack:
+      - RawValue: 4000
+      - RawValue: 1000
+      - RawValue: 900
+      - RawValue: 0
+      - RawValue: 44000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-1806857525878985860
@@ -658,6 +738,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 500
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -916,6 +1010,28 @@ MonoBehaviour:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
       - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a000000010000000a0000000300000006000000070000000100000002000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 1000
+      - RawValue: 900
+      - RawValue: 0
+      - RawValue: 33000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &3169811113073468022
@@ -1101,6 +1217,28 @@ MonoBehaviour:
       - NumberOfAvailableTechnologies
       - NumberOfLockedByTechnologyTechnologies
       - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a0000000a00000009000000090000000000000009000000000000000a000000010000000a0000000300000006000000070000000100000002000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 1000
+      - RawValue: 900
+      - RawValue: 0
+      - RawValue: 44000
+      - RawValue: 20000
+      PropertyLocalName:
+      - NumberOfAvailableTechnologies
+      - NumberOfLockedByTechnologyTechnologies
+      - NumberOfLockedByEraTechnologies
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &6469918868776077735
@@ -1243,6 +1381,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 500
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

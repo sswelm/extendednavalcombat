@@ -45,7 +45,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 5
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
+  SerializableFamily: UnitFamily_Horde
   Level: 15
   Unicity: 0
   ConstructibleVisualAffinity:

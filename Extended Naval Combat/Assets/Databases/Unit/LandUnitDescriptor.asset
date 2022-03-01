@@ -418,12 +418,12 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 8260000
       PropertyLocalName: []
-    - Note: 
+    - Note: +4 Strength
       TargetProperty: LandCombatStrength
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 64000
+      - RawValue: 65000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
@@ -497,10 +497,10 @@ MonoBehaviour:
       PropertyLocalName: []
     - Note: 
       TargetProperty: LandAttackRange
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
@@ -691,12 +691,12 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 6760000
       PropertyLocalName: []
-    - Note: 
+    - Note: +2 strength
       TargetProperty: LandCombatStrength
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 54000
+      - RawValue: 55000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
@@ -1398,6 +1398,41 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
+--- !u!114 &8295074852844634289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_LandUnit_Era2_Carthage_WarElephants
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: LandLeaderPriority
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 4041000
+      PropertyLocalName: []
+    - Note: +1 Strength
+      TargetProperty: LandCombatStrength
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 31000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
 --- !u!114 &8348549275048891961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1424,12 +1459,12 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 8300000
       PropertyLocalName: []
-    - Note: 
+    - Note: +2 strength
       TargetProperty: LandCombatStrength
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 69000
+      - RawValue: 71000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass

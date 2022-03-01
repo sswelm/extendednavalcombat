@@ -4004,7 +4004,7 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
-    serializableElementName: 
+    serializableElementName: UnitSpecialty_Shatter
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era4_Common_MenOfWarSail
   - serializableElementName: Effect_Unit_Era4
