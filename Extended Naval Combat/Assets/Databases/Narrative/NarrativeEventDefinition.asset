@@ -1504,9 +1504,9 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_UnlockingWithoutUi
   EraDefinitions:
+  - serializableElementName: Era3
   - serializableElementName: Era4
   - serializableElementName: Era5
-  - serializableElementName: Era6
   Image:
     guid:
       a: 0
@@ -3077,6 +3077,7 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_Unlocking
   EraDefinitions:
+  - serializableElementName: Era5
   - serializableElementName: Era6
   Image:
     guid:
@@ -4614,9 +4615,9 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_UnlockingWithoutUi
   EraDefinitions:
+  - serializableElementName: Era2
+  - serializableElementName: Era3
   - serializableElementName: Era4
-  - serializableElementName: Era5
-  - serializableElementName: Era6
   Image:
     guid:
       a: 0
@@ -4919,9 +4920,9 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_UnlockingWithoutUi
   EraDefinitions:
-  - serializableElementName: Era4
-  - serializableElementName: Era5
-  - serializableElementName: Era6
+  - serializableElementName: Era1
+  - serializableElementName: Era2
+  - serializableElementName: Era3
   Image:
     guid:
       a: 0
@@ -5224,9 +5225,9 @@ MonoBehaviour:
   Category:
     serializableElementName: NarrativeEventCategory_UnlockingWithoutUi
   EraDefinitions:
+  - serializableElementName: Era3
   - serializableElementName: Era4
   - serializableElementName: Era5
-  - serializableElementName: Era6
   Image:
     guid:
       a: 0

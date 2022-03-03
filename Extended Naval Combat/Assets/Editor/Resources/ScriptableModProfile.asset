@@ -37,89 +37,90 @@ MonoBehaviour:
         the addition of new technologies and military units and tweaks to existing
         unit strength, production, and pollution to keep it overall balanced. I tried
         to make this mod as compatible as possible with other mods by putting most
-        new units and bonuses spread over the new Technologies, and no changes to
-        any cultures, or civics. The new Technologies also help to make the Industrial
-        and Contemporary Era last significantly longer, especially the late Industrial
-        and early Contemporary era (WW1/WW2) period.</p>\n<p><strong>Nuclear Proliferation:</strong></p>\n<p>Nuclear
-        weapons have become more useful (with increased range) and accessible (with
-        reduced minimum strategic resource requirements) and with the addition of
-        a true ICBM weapon (unlocked after researching Rocket Science and developing
-        Thermal Nuclear Weapons) making it more likely they are built and actually
-        used by the AI with devastating effects. The state of Nuclear weapons proliferation
-        is made more intuitive as the National Nuclear Weapon Test Programs strategic
-        resource requirements are made the same as the missile weapons they unlock,
-        meaning if someone manages to build a nuclear weapon test project (including
-        ICBM weapon test), they can also build and use them (given they also constructed
-        a Missile Silo).</p>\n<p><strong>Science:</strong></p>\n<p>In order to create
-        a more historically accurate experience, it was necessary to restructure
-        the tech tree with separate branches starting at the end of the industrial
-        era. Starting from the modern age the minimum research cost increases up
-        to double the cost for the end game technologies. The final <span style=\"font-size:
-        1em; font-weight: 400;\">research cost depends inversely on the number of
-        unlocked technologies, meaning the more technologies you have unlocked from
-        a previous technology generation, the relatively easier it becomes to research
-        additional technologies. This mechanic makes beelining technologies (skipping
-        technologies) excessively expansive and the most economical way to unlock
-        the entire tech tree is to always choose the cheapest unlockable technologies.
-        These changes and the introduction of many new technologies have the effect
-        of creating a significantly longer end game and it is therefore recommended
-        you disable the turn limit when creating a new game.<br></span></p>\n<p><em>New
+        new units and bonuses spread over the new Technologies, and minimal changes
+        to any cultures, or no changes to civics. The new Technologies also help
+        to make the Industrial and Contemporary Era last significantly longer, especially
+        the late Industrial and early Contemporary era (WW1/WW2) period.</p>\n<p><strong>Nuclear
+        Proliferation:</strong></p>\n<p>Nuclear weapons have become more useful (with
+        increased range) and accessible (with reduced minimum strategic resource
+        requirements) and with the addition of a true ICBM weapon (unlocked after
+        researching Rocket Science and developing Thermal Nuclear Weapons) making
+        it more likely they are built and actually used by the AI with devastating
+        effects. The state of Nuclear weapons proliferation is made more intuitive
+        as the National Nuclear Weapon Test Programs strategic resource requirements
+        are made the same as the missile weapons they unlock, meaning if someone
+        manages to build a nuclear weapon test project (including ICBM weapon test),
+        they can also build and use them (given they also constructed a Missile Silo).</p>\n<p><strong>Science:</strong></p>\n<p>In
+        order to create a more historically accurate experience, it was necessary
+        to restructure the tech tree with separate branches starting at the end of
+        the industrial era. Starting from the modern age the minimum research cost
+        increases up to double the cost for the end game technologies. The final
+        <span style=\"font-size: 1em; font-weight: 400;\">research cost depends inversely
+        on the number of unlocked technologies, meaning the more technologies you
+        have unlocked from a previous technology generation, the relatively easier
+        it becomes to research additional technologies. This mechanic makes beelining
+        technologies (skipping technologies) excessively expansive and the most economical
+        way to unlock the entire tech tree is to always choose the cheapest unlockable
+        technologies. These changes and the introduction of many new technologies
+        have the effect of creating a significantly longer end game and it is therefore
+        recommended you disable the turn limit when creating a new game.<br></span></p>\n<p><em>New
         Technologies:</em></p>\n<ol>\n<li>Ship of the Line; requires Chartered Companies,
         unlocks Man O' War</li>\n<li>Militairy Tradition; requires Line Formations,
         unlocks Cuirassiers</li>\n<li>Naval Steam Engine; requires Steam Engine,
         unlocks Steam Frigate and Steam Transport</li>\n<li>Railroad; requires Steam
         Engine, unlocks Train Station, Rail Freight Transportation and Industrial
-        era Settlement package</li>\n<li>Automobile; requires Combustion Engine,
-        unlocks Armoured Car and freight trucks trade bonus</li>\n<li>Breachloader;
-        requires Line Formation, unlocks Siege Artillery and Horse Drawn Siege Artillery</li>\n<li>Rifling;
-        requires Breachloader, unlocks Rifles</li>\n<li>Anti Torpedoboat Warfare;
-        unlocks Torpedo Boat Destroyer</li>\n<li>Dreadnought Design; requires Combustion
-        Engine, unlocks Dreadnought</li>\n<li>Bunker Construction; requires Trench
-        Warfare; unlocks Bunker, Bomb Shelters, Mountain Industry, and underground
-        construction</li>\n<li>Submarine Warfare; requires Dreadnought Design, unlocks
-        U-Boat/Fleet Submarine Unit</li>\n<li>Anti Submarine Warfare; requires Submarine
-        Warfare, unlocks Destroyer Unit and improves naval unit speed</li>\n<li>Air
-        Transportation; requires Aeronautics, unlocks Aluminium strategic resource
-        and Airport district</li>\n<li>Tank Warfare: requires Automobile, unlocks
-        Light Tank</li>\n<li>Anti Tank-Gun: requires Tank Warfare, unlocks Antitank
-        Gun</li>\n<li>Antitank Warfare; requires Anti Tank-Gun, unlocks Tank Destroyer
-        nit and Armoured Recon</li>\n<li>Fire Control System; requires Air, unlocks
-        Battleship, Anti Air Gun, and improves Air Defense Capability of Destroyer</li>\n<li>Fluid
-        Dynamics; requires Anti Submarine Warfare, unlocks Diesel Submarine Unit
-        and Nuclear Submarine</li>\n<li>Wire Guided Missile, requires Radar, unlocks
-        TOW Infantry</li>\n<li>Jet Engine; requires Aerial Warfare, unlocks Cruise
-        Missile, Missile Silo and Attack Helicopter</li>\n<li>Guided Missiles; requires
-        Computing, unlocks Missile Cruiser, Missile Destroyer, and Missile Submarine</li>\n<li>Mechanized
-        Infantry Doctrine, requires Continuously Tracked. unlocks APC, All-Terrain
-        PMV, and Self-propelled Howitzer</li>\n<li>Advanced Nuclear Reactors; requires
-        Nuclear Fission, unlocks Nuclear Aircraft Carrier and Nuclear powered submarine
-        upgrade</li>\n<li>Precision-guided munition; requires Jet Fighters, unlocks
-        Helicopter Gunship</li>\n<li>Reactive Armor, requires Composite Armor, unlocks
-        Reactive Armor Upgrade for Main Battle Tank</li>\n<li>Stealth Technology;
-        requires precision-guided munition, unlocks Stealth Corvette, Stealth Missile
-        Cruiser, Stealth Missile, and Stealth Fighter</li>\n</ol>\n<p><em>Techtree
-        changes:</em></p>\n<ul>\n<li><span style=\"font-size: 1em; font-weight: 400;\">Replaced
-        Ship of the Line as a prerequisite to Steam Engine</span></li>\n<li><span
-        style=\"font-size: 1em; font-weight: 400;\">Added Wireless Telegraphy as
-        a prerequisite to Research Insitute</span></li>\n<li>Replaced Anti Tank Warfare
-        as a prerequisite of Continuous Track</li>\n<li>Replaced Air Transportation
-        as a prerequisite for Aerial Warfare</li>\n<li>Replaced Guided Missiles as
-        a prerequisite of Rocket Science</li>\n<li>Replaced Jet Engine as a prerequisite
-        of Fighter Jets</li>\n<li>Replaced Naval Air Strategy as a prerequisite for
-        Radar</li>\n<li>Made Continuous Track unlockable in Industrial Age</li>\n</ul>\n<p><em>Tech-tree
-        branch structure:</em></p>\n<ul>\n<li>Combustion =&gt;\n<ul>\n<li>Automobile
-        =&gt; Tank Warfare =&gt; Anti Tank Gun =&gt; Anti Tank Warfare =&gt; Continuously
-        Tracked =&gt;Mechanized Infantry Doctrine =&gt; Composite Armor =&gt; Reactive
-        Armor</li>\n<li>Aer0nautics =&gt; Air Transportation =&gt; Aerial Warfare
-        =&gt; Jet Engine =&gt; Fighter Jets =&gt; Precision-guided munition =&gt;
-        Stealth Technology</li>\n<li>Anti Torpedoboat Warfare =&gt; Dreadnought Design
-        =&gt;\n<ul>\n<li>Naval Air Strategy =&gt; Radar =&gt; Computing =&gt; Guided
-        Missiles =&gt; Rocket Science =&gt; Communication Satellites</li>\n<li>Submarine
-        Warfare =&gt; Anti Submarine Warfare =&gt; Fluid Dynamics</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Line
-        Formation=&gt; Breachloader =&gt; Trench Warfare =&gt; Bunker C0nstruction
-        =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>\n<li>Wireless Telegraphy
-        =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear Fission =&gt;
-        Advanced Nuclear Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span
+        era Settlement package</li>\n<li>Gatling Gun, requires Line Formation, unlocks
+        Gatling Gun or Siam Gatling Gun Elephant</li>\n<li>Breachloader; requires
+        Gatling Gun, unlocks Siege Artillery</li>\n<li>Rifling; requires Breachloader,
+        unlocks Rifles</li>\n<li>Anti Torpedoboat Warfare; unlocks Torpedo Boat Destroyer</li>\n<li>Dreadnought
+        Design; requires Combustion Engine, unlocks Dreadnought</li>\n<li>Automobile;
+        requires Combustion Engine, unlocks Armoured Car and freight trucks trade
+        bonus</li>\n<li>Bunker Construction; requires Trench Warfare; unlocks Bunker,
+        Bomb Shelters, Mountain Industry, and underground construction</li>\n<li>Submarine
+        Warfare; requires Dreadnought Design, unlocks U-Boat/Fleet Submarine Unit</li>\n<li>Anti
+        Submarine Warfare; requires Submarine Warfare, unlocks Destroyer Unit and
+        improves naval unit speed</li>\n<li>Air Transportation; requires Aeronautics,
+        unlocks Aluminium strategic resource and Airport district</li>\n<li>Tank
+        Warfare: requires Automobile, unlocks Light Tank</li>\n<li>Anti Tank-Gun:
+        requires Tank Warfare, unlocks Antitank Gun</li>\n<li>Antitank Warfare; requires
+        Anti Tank-Gun, unlocks Tank Destroyer and Armoured Recon</li>\n<li>Fire Control
+        System; requires Air, unlocks Battleship, Anti Air Gun, and improves Air
+        Defense Capability of Destroyer</li>\n<li>Fluid Dynamics; requires Anti Submarine
+        Warfare, unlocks Diesel Submarine Unit and Nuclear Submarine</li>\n<li>Wire
+        Guided Missile, requires Radar, unlocks TOW Infantry</li>\n<li>Jet Engine;
+        requires Aerial Warfare, unlocks Cruise Missile, Missile Silo and Attack
+        Helicopter</li>\n<li>Guided Missiles; requires Computing, unlocks Missile
+        Cruiser, Missile Destroyer, and Missile Submarine</li>\n<li>Mechanized Infantry
+        Doctrine, requires Continuously Tracked. unlocks APC, All-Terrain PMV, and
+        Self-propelled Howitzer</li>\n<li>Advanced Nuclear Reactors; requires Nuclear
+        Fission, unlocks Nuclear Aircraft Carrier and Nuclear powered submarine upgrade</li>\n<li>Precision-guided
+        munition; requires Jet Fighters, unlocks Helicopter Gunship</li>\n<li>Reactive
+        Armor, requires Composite Armor, unlocks Reactive Armor Upgrade for Main
+        Battle Tank</li>\n<li>Stealth Technology; requires precision-guided munition,
+        unlocks Stealth Corvette, Stealth Missile Cruiser, Stealth Missile, and Stealth
+        Fighter</li>\n</ol>\n<p><em>Techtree changes:</em></p>\n<ul>\n<li><span style=\"font-size:
+        1em; font-weight: 400;\">Replaced Ship of the Line as a prerequisite to Steam
+        Engine</span></li>\n<li><span style=\"font-size: 1em; font-weight: 400;\">Added
+        Wireless Telegraphy as a prerequisite to Research Insitute</span></li>\n<li>Replaced
+        Anti Tank Warfare as a prerequisite of Continuous Track</li>\n<li>Replaced
+        Air Transportation as a prerequisite for Aerial Warfare</li>\n<li>Replaced
+        Guided Missiles as a prerequisite of Rocket Science</li>\n<li>Replaced Jet
+        Engine as a prerequisite of Fighter Jets</li>\n<li>Replaced Naval Air Strategy
+        as a prerequisite for Radar</li>\n<li>Made Continuous Track unlockable in
+        Industrial Age</li>\n</ul>\n<p><em>Tech-tree branch structure:</em></p>\n<ul>\n<li>Combustion
+        =&gt;\n<ul>\n<li>Automobile =&gt; Tank Warfare =&gt; Anti Tank Gun =&gt;
+        Anti Tank Warfare =&gt; Continuously Tracked =&gt;Mechanized Infantry Doctrine
+        =&gt; Composite Armor =&gt; Reactive Armor</li>\n<li>Aer0nautics =&gt; Air
+        Transportation =&gt; Aerial Warfare =&gt; Jet Engine =&gt; Fighter Jets =&gt;
+        Precision-guided munition =&gt; Stealth Technology</li>\n<li>Anti Torpedoboat
+        Warfare =&gt; Dreadnought Design =&gt;\n<ul>\n<li>Naval Air Strategy =&gt;
+        Radar =&gt; Computing =&gt; Guided Missiles =&gt; Rocket Science =&gt; Communication
+        Satellites</li>\n<li>Submarine Warfare =&gt; Anti Submarine Warfare =&gt;
+        Fluid Dynamics</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Line Formation=&gt;
+        Gatling Gun =&gt; Breachloader =&gt; Rifling =&gt; Trench Warfare =&gt; Bunker
+        C0nstruction =&gt; Amphibious Warefare =&gt; Insurrection Theory</li>\n<li>Wireless
+        Telegraphy =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear
+        Fission =&gt; Advanced Nuclear Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span
         style=\"font-size: 1em; font-weight: 400;\">Unit/District/Infrastructure
         Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>Transport Galley is unlocked
         earlier with Sailing (with an event)</li>\n<li>U-Boat is unlocked later with
@@ -168,6 +169,7 @@ MonoBehaviour:
         unlocked with Siege Cannons, upgrades to Cuirassiers</li>\n<li>Added Reiters,
         unlocked with Siege Cannons, upgrades to Dragoons</li>\n<li>Added (common)
         Cuirassiers, unlocked with Line Formations, upgrades to Light Tank</li>\n<li>Added
+        Gatling Gun, unlocked with Gatling Gun, upgrades to Heavy Machinegun</li>\n<li>Added
         Armoured Car, unlocked with Automobile, upgrades Armoured Recon</li>\n<li>Added
         Towed Artillery, unlocked with Automobile and Breechloading, upgrades to
         Selfpropelled Howitzer</li>\n<li>Added Light Tank unlocked with Continuous
@@ -249,10 +251,11 @@ MonoBehaviour:
         =&gt; Partisans =&gt; Commados</li>\n<li>Howitzer =&gt; Anti Tank =&gt; TOW
         Infantry</li>\n<li>Tank Destroyer =&gt; Main Battle Tank</li>\n<li>Mortar
         =&gt; Siege Artillery =&gt; Towed Artillery =&gt; Multiple Launch Rocket
-        System</li>\n<li>MUsketiers =&gt; Line Infantry =&gt; Riflemen =&gt; Marines
-        =&gt; All Terrain PMV</li>\n<li>Heavy Machinegun =&gt; Anti Aircraft Gun</li>\n<li>Biplane
-        =&gt; Monoplane Fighter =&gt; Multi Role Fighter =&gt; Stealth Fighter</li>\n<li>Transport
-        Galley =&gt; Cog =&gt; Caravel =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya
+        System</li>\n<li>Musketiers =&gt; Line Infantry =&gt; Riflemen =&gt; Marines
+        =&gt; All Terrain PMV</li>\n<li>Gatling Gun =&gt; Heavy Machinegun =&gt;
+        Anti Aircraft Gun</li>\n<li>Biplane =&gt; Monoplane Fighter =&gt; Multi Role
+        Fighter =&gt; Stealth Fighter</li>\n<li>Transport Galley =&gt; Cog =&gt;
+        Caravel =&gt; Steam Transport =&gt; Landing Craft</li>\n<li>Sa\u1E43n\u0101hya
         =&gt; Dhanv\u012B-gaja =&gt; Gajnal =&gt; Armoured Car</li>\n</ul>\n<p><strong>Transportation</strong></p>\n<p>Besides
         the addition of two intermediate transport vessels during the medieval and
         industrial era, naval Transporting has been augmented; The Type of unit can

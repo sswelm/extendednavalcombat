@@ -3073,6 +3073,48 @@ MonoBehaviour:
   Symbol: 
   SortPriority: 7850
   ConstructibleTraits: 
+--- !u!114 &4632085060806133411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era5_Common_GatlingGuns
+  m_EditorClassIdentifier: 
+  Title: Gatling Gun
+  Description: 'The Gatling gun is a rapid-firing multiple-barrel firearm. It is
+    an early machine gun and a forerunner of the modern electric motor-driven rotary
+    cannon. '
+  Images:
+  - Value:
+      guid:
+        a: 2111627768
+        b: 1293319289
+        c: 1898946968
+        d: 1851869009
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 211246718
+        b: 1202538998
+        c: 1446829718
+        d: 258052796
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 211246718
+        b: 1202538998
+        c: 1446829718
+        d: 258052796
+    serializableKey: Default_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 7500
+  ConstructibleTraits: 
 --- !u!114 &5517186835448853641
 MonoBehaviour:
   m_ObjectHideFlags: 0

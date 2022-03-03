@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4043141378
+CRC: 515558635
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 885c588393a530a503400e188aa4e965
+    Hash: 222fbf31ed6276a8fd14d9557871d47f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1a50831eb2c6e8dfe1037e0a4cf25afe
+    Hash: c40d1d255a51d1280aa1407a1276ee53
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -35,6 +35,8 @@ ClassTypes:
   Script: {fileID: 695352031, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -45634003, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -248,6 +250,7 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleEmblematicExtensionDefinition.asset
 - Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
 - Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
+- Assets/Resources/gatlinggun.png
 - Assets/Databases/World/PollutionDefinition.asset
 - Assets/Databases/Unit/UnitClassUIMappers.asset
 - Assets/Resources/lancer812.png

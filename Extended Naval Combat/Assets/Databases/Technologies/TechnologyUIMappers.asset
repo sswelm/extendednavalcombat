@@ -1505,6 +1505,52 @@ MonoBehaviour:
   TechTreeX: 270
   TechTreeY: 11
   OptionalUnlockTechnologyMovie: 
+--- !u!114 &-2283493387120506681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era5_GatlingGun
+  m_EditorClassIdentifier: 
+  Title: Gatling Gun
+  Description: The original Gatling gun was a field weapon that used multiple rotating
+    barrels turned by a hand crank, and firing loose (no links or belt) metal cartridge
+    ammunition using a gravity feed system from a hopper. The Gatling gun's innovation
+    lay in the use of multiple barrels to limit overheating, a rotating mechanism,
+    and a gravity-feed reloading system, which allowed unskilled operators to achieve
+    a relatively high rate of fire of 200 rounds per minute.
+  Images:
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1423693222
+        b: 1087140274
+        c: -1386574406
+        d: 766165326
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 165
+  TechTreeY: 28
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &-2097405856272956626
 MonoBehaviour:
   m_ObjectHideFlags: 0
