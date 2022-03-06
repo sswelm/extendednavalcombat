@@ -676,6 +676,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: '[UnitClass_Bomber]'
+--- !u!114 &-146546806342721862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitClass_NavalTransportEarly
+  m_EditorClassIdentifier: 
+  Title: '%UnitClass_NavalTransportTitle'
+  Description: '%UnitClass_NavalTransportDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2070852602
+        b: 1238654462
+        c: -652693840
+        d: -1361768099
+    serializableKey: Small
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: '[UnitClass_NavalTransport]'
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5330,7 +5330,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Technology_Era1_12
+      Data: Technology_Era1_07
     - Name: 
       Entry: 8
       Data: 
@@ -5476,7 +5476,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: NavalTransport_Era2_Common_TransportGalleys
+      Data: NavalTransport_Era1_Common_EarlyTransports
     - Name: 
       Entry: 8
       Data: 
@@ -5538,16 +5538,16 @@ MonoBehaviour:
       b: 1212191781
       c: 736567689
       d: 673011804
-  Title: Transport Galley is now available for Hire
+  Title: Ancient Transport Galley is now available for Hire
   Description: When land units move onto a water tile, they are automaticly transformed
     into the best naval transport unit that  you have unlocked, and gain the status
     'embarked'. This service is however not for free, you need to pay an additional
-    upkeep cost while beeing 'embarked'. Notice the Transport Galley has a limited
-    seaworthiness and is destroyed after spending more than one turn in deep water
-    without ever being in shallow water. So in other words - they need to touch a
-    shallow water tile at least once in their path during every turn, since they
-    either start in deep water and need to touch shallow water at some point that
-    turn (can end back in deep water), or they started in shallow water.
+    upkeep cost while beeing 'embarked'. Notice the Ancient Transport Galley is limited
+    to shallow coastal water and only after unlocking Trade Expeditions it can move
+    into deep ocean water but only for one turn. So in other words - they need to
+    touch a shallow water tile at least once in their path during every turn, since
+    they either start in deep water and need to touch shallow water at some point
+    that turn (can end back in deep water), or they started in shallow water.
   GeoLocalizationID: 
   Notes: 
 --- !u!114 &8775835106575424213

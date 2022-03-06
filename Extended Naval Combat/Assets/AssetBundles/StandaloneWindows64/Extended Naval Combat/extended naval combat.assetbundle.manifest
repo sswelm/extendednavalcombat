@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 515558635
+CRC: 2695186522
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 222fbf31ed6276a8fd14d9557871d47f
+    Hash: 133a2a8afd1e07332706db22959591a2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c40d1d255a51d1280aa1407a1276ee53
+    Hash: 760105c859a6007703966bc54480251f
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -29,6 +29,10 @@ ClassTypes:
   Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1409302890, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1398190197, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
   Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
 - Class: 114
@@ -145,13 +149,14 @@ Assets:
 - Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
 - Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
 - Assets/Resources/reiter575.png
+- Assets/Databases/EndGameDefinition/EndGameDefinition.asset
 - Assets/Databases/Unit/UnitFamilyDefinition.asset
-- Assets/Resources/transparant360.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
 - Assets/Resources/coche.png
 - Assets/Resources/steamEngine720.png
 - Assets/Databases/Unit/NavalTransportUIMappers.asset
 - Assets/Resources/torpedoboatdestroyer212.png
+- Assets/Resources/transparant360.png
 - Assets/Resources/rifling.png
 - Assets/Resources/zumwalt885.png
 - Assets/Databases/CalendarDefinitionCollection.asset
@@ -257,6 +262,7 @@ Assets:
 - Assets/Databases/Unit/UnitClass.asset
 - Assets/Resources/Sailing.png
 - Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
+- Assets/Databases/Fame/RpnFameDefinition.asset
 - Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
 - Assets/AssetBundleContentDescriptor.asset
 Dependencies: []

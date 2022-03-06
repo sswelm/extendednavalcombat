@@ -62,7 +62,8 @@ MonoBehaviour:
         technologies (skipping technologies) excessively expansive and the most economical
         way to unlock the entire tech tree is to always choose the cheapest unlockable
         technologies. These changes and the introduction of many new technologies
-        have the effect of creating a significantly longer end game and it is therefore
+        have the effect of creating a significantly longer end game. Although the
+        turn limit is doubled from vanilla, even that might not be enough so I still
         recommended you disable the turn limit when creating a new game.<br></span></p>\n<p><em>New
         Technologies:</em></p>\n<ol>\n<li>Ship of the Line; requires Chartered Companies,
         unlocks Man O' War</li>\n<li>Militairy Tradition; requires Line Formations,
