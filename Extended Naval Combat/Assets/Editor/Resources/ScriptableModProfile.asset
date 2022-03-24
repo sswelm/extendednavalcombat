@@ -123,10 +123,9 @@ MonoBehaviour:
         Telegraphy =&gt; Research Insitute =&gt; Uranium Enrichment =&gt; Nuclear
         Fission =&gt; Advanced Nuclear Reactors =&gt; Fusion Reactor</li>\n</ul>\n<p><em><span
         style=\"font-size: 1em; font-weight: 400;\">Unit/District/Infrastructure
-        Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>Transport Galley is unlocked
-        earlier with Sailing (with an event)</li>\n<li>U-Boat is unlocked later with
-        Submarine Warfare (Germany gains 50% research bonus)</li>\n<li>Medium Tank
-        is unlocked later with Sloped Armor</li>\n<li>Commando is unlocked earlier
+        Tech Unlocking Changes:</span></em></p>\n<ul>\n<li>U-Boat is unlocked later
+        with Submarine Warfare (Germany gains 50% research bonus)</li>\n<li>Medium
+        Tank is unlocked later with Sloped Armor</li>\n<li>Commando is unlocked earlier
         with Insurrection Theory</li>\n<li>Missile Silo and Cruise Missile is unlocked
         earlier with Jet Engine</li>\n<li>Helicopter Gunship is unlocked later with
         Precision-guided munition</li>\n<li>Missile Destroyer (originally called
@@ -147,13 +146,14 @@ MonoBehaviour:
         depends on the excess availability of strategic resources. This means that
         units will be more accessible and will be easier to upgrade, but at increased
         construction cost or gold price (up to double the base cost).</p>\n<p><em>New
-        Naval units:</em></p>\n<ol>\n<li>Added Cog Transport, unlocked with Seafaring,
-        upgrades to Caravel</li>\n<li>Added Galleass, unlocked with Gunpowder (with
-        an event), upgrades to Man O War</li>\n<li>Added Galleon, unlocked with Naval
-        Artillery, upgrades to Steam Frigate</li>\n<li>Added Steam Transport, unlocked
-        with Propeller, upgrades to Landing Craft</li>\n<li>Added Dreadnought, unlocks
-        with Dreadnought design, upgrades to Battleship</li>\n<li>Added Fleet Submarine.
-        unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
+        Naval units:</em></p>\n<ol>\n<li>Added Anchient Transport Galley, unlocked
+        with Fishery, upgrades to Transport Galley</li>\n<li>Added Cog Transport,
+        unlocked with Seafaring, upgrades to Caravel</li>\n<li>Added Galleass, unlocked
+        with Gunpowder (with an event), upgrades to Man O War</li>\n<li>Added Galleon,
+        unlocked with Naval Artillery, upgrades to Steam Frigate</li>\n<li>Added
+        Steam Transport, unlocked with Propeller, upgrades to Landing Craft</li>\n<li>Added
+        Dreadnought, unlocks with Dreadnought design, upgrades to Battleship</li>\n<li>Added
+        Fleet Submarine. unlocked with Submarine Warfare, upgrades to Diesel Submarine</li>\n<li>Added
         Torpedo Boat Destroyer, unlocked with Anti Torpedoboat Warfare, upgrades
         to Destroyer</li>\n<li>Added Destroyer, unlocked Anti Submarine Warfare,
         upgrades to Missile Destroyer</li>\n<li>Added Diesel Submarine, unlocks with
@@ -205,9 +205,9 @@ MonoBehaviour:
         Carriers, Cruisers)</li>\n<li>Submarines can hide better in deep Ocean water,
         giving them a +5 strength bonus when fighting on Ocean tiles</li>\n<li>Aircraft
         Carrier gained Armoured property, Stealth Corvette Loses Armoured property</li>\n<li>Anti
-        Air Gun is more effective Gains Attack Bonus Versus Attack Helicopters and
-        Helicopter Gunships</li>\n<li>Missile Cruiser special ability Anti Air is
-        replaced by special ability Multiple Missile Bombardment</li>\n<li>Commando
+        Air Gun has increased Zone of Control and gains Attack Bonus Versus Attack
+        Helicopters and Helicopter Gunships</li>\n<li>Missile Cruiser special ability
+        Anti Air is replaced by special ability Multiple Missile Bombardment</li>\n<li>Commando
         gains ability to move through cliffs and forest without penalty</li>\n</ul>\n<p><em>Added
         Unit performance upgrades:</em></p>\n<ul>\n<li>Naval Transport: +1 movement
         with Fluid Dynamics</li>\n<li>Naval and Air Units: +1 combat +2 Vision range

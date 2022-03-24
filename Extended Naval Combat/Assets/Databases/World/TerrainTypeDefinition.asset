@@ -30,36 +30,6 @@ MonoBehaviour:
   MeshId: 0
   ExploitationDescriptorReferences:
   - serializableElementName: Effect_Exploitation_RockyField
---- !u!114 &-1681288201764462548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -801326508, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: TerrainType_Ocean
-  m_EditorClassIdentifier: 
-  PathfindingRules:
-  - RelatedMovementAbilities: 4
-    MovementCost:
-      RawValue: 2000
-    CanGoThrough: 0
-    IsStoppable: 0
-    Operation: 0
-    FlagsNeededToApplyRule: 262144
-  - RelatedMovementAbilities: 4
-    MovementCost:
-      RawValue: 1000
-    CanGoThrough: 1
-    IsStoppable: 1
-    Operation: 0
-    FlagsNeededToApplyRule: 0
-  MeshId: 0
-  ExploitationDescriptorReferences:
-  - serializableElementName: Effect_Exploitation_Ocean
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

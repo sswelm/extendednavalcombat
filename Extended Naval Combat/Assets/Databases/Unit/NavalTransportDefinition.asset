@@ -537,7 +537,7 @@ MonoBehaviour:
   - 1.03
   UnitTags: 18
   visualAffinityEraReference:
-    serializableElementName: Era2
+    serializableElementName: Era1
 --- !u!114 &2117343799153166218
 MonoBehaviour:
   m_ObjectHideFlags: 0
