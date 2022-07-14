@@ -59,7 +59,7 @@ MonoBehaviour:
   Global: 0
   NarrativeEventDefinitionDistribution: 1
   NeedManualTrigger: 0
-  MaximumNumberOfConcurrentInstances: 10
+  MaximumNumberOfConcurrentInstances: 100
   ConsumeEventUponTrigger: 1
   TriggerDistributionRange: 0
   NumberOfTurnsInDeadZoneAfterEraChange: 0

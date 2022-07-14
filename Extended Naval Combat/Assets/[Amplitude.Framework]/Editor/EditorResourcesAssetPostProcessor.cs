@@ -10,7 +10,7 @@ namespace Amplitude.Framework.Editor
 
             if (this.assetPath.Contains("Assets/[Amplitude.Framework]/Editor/EditorResources/Icons/"))
             {
-                UnityEditor.TextureImporter textureImporter = (UnityEditor.TextureImporter)assetImporter;
+                UnityEditor.TextureImporter textureImporter = (UnityEditor.TextureImporter)this.assetImporter;
 
                 textureImporter.alphaIsTransparency = true;
                 textureImporter.filterMode = UnityEngine.FilterMode.Bilinear;

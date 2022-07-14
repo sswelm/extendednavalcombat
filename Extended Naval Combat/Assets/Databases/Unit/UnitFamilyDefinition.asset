@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9088453485553194123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_TorpedoBoat
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_StealthShip
+--- !u!114 &-8693158446392102491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_MissileInfantry
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: 
 --- !u!114 &-8483565071842410458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,7 +55,7 @@ MonoBehaviour:
   m_Name: UnitFamily_StealthShip
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_MissileSubmarine
+  SerializableNextFamilyName: UnitFamily_DieselSubmarine
 --- !u!114 &-7809549383811066601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +209,7 @@ MonoBehaviour:
   m_Name: UnitFamily_ShipOfTheLine
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_CapitalShip
+  SerializableNextFamilyName: UnitFamily_Ironclad
 --- !u!114 &-5176132620926832824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +336,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: UnitFamily_LightCavalry
+--- !u!114 &-2774862889447273997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_Frigate
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: 'UnitFamily_TorpedoBoatDestroyer '
 --- !u!114 &-2580491738666249647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +378,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: UnitFamily_Cavalry
+--- !u!114 &-2111693764624562431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_Galleon
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_Frigate
 --- !u!114 &-2071995620305550740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: UnitFamily_ShockCavalry
---- !u!114 &-1800353289472592147
+--- !u!114 &-1929544256748472126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,10 +416,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitFamily_ArtilleryHorse
+  m_Name: UnitFamily_AntiCavalry_Copper
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_ModernArtillery
+  SerializableNextFamilyName: UnitFamily_AntiCavalry
+--- !u!114 &-1740334018036734830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_AntiCavalry_Stone
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_AntiCavalry_Copper
 --- !u!114 &-1683795540083110946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +462,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: UnitFamily_MeleeAntiCavalry
+--- !u!114 &-1325420464562494205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_DieselSubmarine
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_MissileSubmarine
+--- !u!114 &-1283917764969402002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: 'UnitFamily_TorpedoBoatDestroyer '
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_Destroyer
 --- !u!114 &-809341477396612329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,7 +503,7 @@ MonoBehaviour:
   m_Name: UnitFamily_Artillery
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_ModernArtillery
+  SerializableNextFamilyName: UnitFamily_ArtilleryTowed
 --- !u!114 &-744601279333575897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +531,21 @@ MonoBehaviour:
   m_Name: UnitFamily_AntiEntrenchment
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: 
+  SerializableNextFamilyName: UnitFamily_Gunship
+--- !u!114 &-31744813081503728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_MissileDestroyer
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_StealthCruiser
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,7 +613,7 @@ MonoBehaviour:
   m_Name: UnitFamily_Warship
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: UnitFamily_Destroyer
+  SerializableNextFamilyName: UnitFamily_Galleon
 --- !u!114 &352121603884446465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +684,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: 
+--- !u!114 &1401828153878572308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_Gunship
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_Frigate
 --- !u!114 &1564156428954444595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,6 +723,20 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: UnitFamily_AircraftCarrier
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_NuclearAircraftCarrier
+--- !u!114 &2577126308861286616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_BoomerSubmarine
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: 
@@ -698,6 +838,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: UnitFamily_IndustrialInfantry
+--- !u!114 &4469806349225251431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_Ironclad
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_CapitalShip
 --- !u!114 &5141336439420694208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,7 +865,7 @@ MonoBehaviour:
   m_Name: UnitFamily_AntiTank
   m_EditorClassIdentifier: 
   IsObsolete: 0
-  SerializableNextFamilyName: 
+  SerializableNextFamilyName: UnitFamily_MissileInfantry
 --- !u!114 &5414562749331890857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,6 +964,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: 
+--- !u!114 &7170463569906422832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_NuclearAircraftCarrier
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: 
 --- !u!114 &7530449019535587129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,6 +1034,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsObsolete: 0
   SerializableNextFamilyName: 
+--- !u!114 &8244182065228744349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_EarlyAntiCavalry
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_AntiCavalry
+--- !u!114 &8554873146286182578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_ArtilleryTowed
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_ModernArtillery
 --- !u!114 &8769679852675857253
 MonoBehaviour:
   m_ObjectHideFlags: 0

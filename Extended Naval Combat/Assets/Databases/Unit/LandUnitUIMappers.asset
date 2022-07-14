@@ -1085,11 +1085,9 @@ MonoBehaviour:
   m_Name: LandUnit_Era6_Common_SelfpropelledHowitzer
   m_EditorClassIdentifier: 
   Title: Self-propelled Howitzer
-  Description: Self-propelled Howitzer is artillery equipped with its own propulsion
-    system to move towards its firing position. The key advantage of self-propelled
-    over towed artillery is that it can be brought into action much faster. This
-    shoot-and-scoot ability is very useful in a mobile conflict and particularly
-    on the advance.
+  Description: The key advantage of self-propelled Howitzer over towed artillery
+    is that it can be brought into action much faster. This shoot-and-scoot ability
+    is very useful in a mobile conflict and particularly on the advance.
   Images:
   - Value:
       guid:
@@ -1381,6 +1379,158 @@ MonoBehaviour:
   Color: {r: 1, g: 1, b: 1, a: 1}
   Symbol: 
   SortPriority: 7400
+  ConstructibleTraits: 
+--- !u!114 &-5171654864758678413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_Spearmen_Poor
+  m_EditorClassIdentifier: 
+  Title: '%LandUnit_Era1_Common_SpearmenTitle'
+  Description: '%LandUnit_Era1_Common_SpearmenDescription'
+  Images:
+  - Value:
+      guid:
+        a: -609458823
+        b: 1324969296
+        c: 1436889481
+        d: -1530992078
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1820168190
+        b: 1156277922
+        c: 1390070702
+        d: 1916331168
+    serializableKey: Default_Small
+  - Value:
+      guid:
+        a: 1817323987
+        b: 1214290079
+        c: 755047835
+        d: -1030298231
+    serializableKey: Default_Tooltip
+  - Value:
+      guid:
+        a: -2055423198
+        b: 1243557299
+        c: -1389991511
+        d: -729192083
+    serializableKey: Variation1_Small
+  - Value:
+      guid:
+        a: -1319038709
+        b: 1114289864
+        c: -1931433546
+        d: 26126100
+    serializableKey: Variation1_Tooltip
+  - Value:
+      guid:
+        a: -2055423198
+        b: 1243557299
+        c: -1389991511
+        d: -729192083
+    serializableKey: Variation2_Small
+  - Value:
+      guid:
+        a: -1319038709
+        b: 1114289864
+        c: -1931433546
+        d: 26126100
+    serializableKey: Variation2_Tooltip
+  - Value:
+      guid:
+        a: -75568934
+        b: 1120754060
+        c: 1991893894
+        d: -645918002
+    serializableKey: Variation3_Small
+  - Value:
+      guid:
+        a: 749212118
+        b: 1216079526
+        c: 1135494314
+        d: -1192334678
+    serializableKey: Variation3_Tooltip
+  - Value:
+      guid:
+        a: 1897014474
+        b: 1117151891
+        c: 300398984
+        d: 1093872958
+    serializableKey: Variation4_Small
+  - Value:
+      guid:
+        a: 739445319
+        b: 1124936140
+        c: -868037502
+        d: 1538172353
+    serializableKey: Variation4_Tooltip
+  - Value:
+      guid:
+        a: -1177378979
+        b: 1269049705
+        c: 2005846968
+        d: -291088477
+    serializableKey: Variation5_Small
+  - Value:
+      guid:
+        a: 386639870
+        b: 1148260667
+        c: 850879918
+        d: 1556301351
+    serializableKey: Variation5_Tooltip
+  - Value:
+      guid:
+        a: 1820168190
+        b: 1156277922
+        c: 1390070702
+        d: 1916331168
+    serializableKey: Variation6_Small
+  - Value:
+      guid:
+        a: 1817323987
+        b: 1214290079
+        c: 755047835
+        d: -1030298231
+    serializableKey: Variation6_Tooltip
+  - Value:
+      guid:
+        a: 1897014474
+        b: 1117151891
+        c: 300398984
+        d: 1093872958
+    serializableKey: Variation7_Small
+  - Value:
+      guid:
+        a: 739445319
+        b: 1124936140
+        c: -868037502
+        d: 1538172353
+    serializableKey: Variation7_Tooltip
+  - Value:
+      guid:
+        a: 1914082168
+        b: 1217484036
+        c: -1866167395
+        d: -1090134518
+    serializableKey: Variation8_Small
+  - Value:
+      guid:
+        a: 199867775
+        b: 1284407449
+        c: -362393184
+        d: -200505136
+    serializableKey: Variation8_Tooltip
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+  SortPriority: 7900
   ConstructibleTraits: 
 --- !u!114 &-5114418047368563165
 MonoBehaviour:

@@ -24,9 +24,6 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 92
   Hidden: 0
   IsObsolete: 0
@@ -89,13 +86,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MainBattleTank
   UnitSpecialty:
@@ -135,9 +130,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 87
@@ -200,13 +192,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -248,9 +238,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 79
@@ -312,13 +299,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -358,9 +343,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 49
@@ -422,13 +404,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -468,9 +448,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 24
@@ -533,13 +510,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -581,9 +556,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 37
@@ -642,13 +614,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -688,9 +658,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 89
@@ -753,13 +720,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedGunner
   UnitSpecialty:
@@ -800,9 +765,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 77
@@ -858,13 +820,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Melee
   UnitSpecialty:
@@ -904,9 +864,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -968,13 +925,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredVehicle
   UnitSpecialty:
@@ -1014,9 +969,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 47
@@ -1076,13 +1028,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedNomad
   UnitSpecialty:
@@ -1123,9 +1073,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 65
@@ -1182,13 +1129,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:
@@ -1229,9 +1174,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 48
@@ -1294,13 +1236,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -1342,9 +1282,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 21
@@ -1403,13 +1340,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Cavalry
   UnitSpecialty:
@@ -1449,9 +1384,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 19
@@ -1511,13 +1443,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedNomad
   UnitSpecialty:
@@ -1558,9 +1488,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 18
@@ -1622,13 +1549,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -1671,16 +1596,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 37
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AntiTank
+  SerializableFamily: UnitFamily_MissileInfantry
   Level: 40
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -1730,13 +1652,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_TOW_Infantry
   UnitSpecialty:
@@ -1776,9 +1696,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 47
@@ -1840,13 +1757,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedCrossbow
   UnitSpecialty:
@@ -1886,9 +1801,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 57
@@ -1944,13 +1856,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -1990,9 +1900,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 59
@@ -2054,13 +1961,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MediumTank
   UnitSpecialty:
@@ -2100,9 +2005,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 50
@@ -2159,13 +2061,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedGunner
   UnitSpecialty:
@@ -2206,9 +2106,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 39
@@ -2265,13 +2162,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Ranged
   UnitSpecialty:
@@ -2312,9 +2207,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 78
@@ -2377,13 +2269,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:
@@ -2424,9 +2314,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -2488,13 +2375,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_TankDestroyer
   UnitSpecialty:
@@ -2534,9 +2419,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 25
@@ -2602,13 +2484,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 1
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MultipleLaunchRocketSystem
   UnitSpecialty:
@@ -2649,9 +2529,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 66
@@ -2711,13 +2588,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -2758,9 +2633,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 91
@@ -2823,13 +2695,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -2871,9 +2741,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 72
@@ -2936,13 +2803,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedGunner
   UnitSpecialty:
@@ -2983,9 +2848,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 33
@@ -3050,13 +2912,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedGunner
   UnitSpecialty:
@@ -3096,9 +2956,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -3160,13 +3017,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredCar
   UnitSpecialty:
@@ -3206,9 +3061,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 35
@@ -3271,13 +3123,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredVehicle
   UnitSpecialty:
@@ -3296,6 +3146,108 @@ MonoBehaviour:
   UnitTags: 217
   visualAffinityEraReference:
     serializableElementName: Era6
+--- !u!114 &-971740485019055778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_Spearmen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 88
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_AntiCavalry_Copper
+  Level: 8
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_AntiCavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Common_Spearmen
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Era1_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 137
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &-907862614161103807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3320,16 +3272,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 71
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AntiEntrenchment
+  SerializableFamily: UnitFamily_Gunship
   Level: 36
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -3382,13 +3331,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_AttackHelicopter
   UnitSpecialty:
@@ -3428,9 +3375,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 44
@@ -3495,13 +3439,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_SelfpropelledHowitzer
   UnitSpecialty:
@@ -3553,9 +3495,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 33
@@ -3617,13 +3556,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedGunner
   UnitSpecialty:
@@ -3663,9 +3600,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 29
@@ -3728,13 +3662,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MediumTank
   UnitSpecialty:
@@ -3775,9 +3707,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 74
@@ -3840,13 +3769,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -3887,9 +3814,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -3951,13 +3875,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_AntiAirGun
   UnitSpecialty:
@@ -3997,9 +3919,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 43
@@ -4062,13 +3981,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:
@@ -4109,9 +4026,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -4173,13 +4087,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredVehicle
   UnitSpecialty:
@@ -4219,9 +4131,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 35
@@ -4283,13 +4192,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredVehicle
   UnitSpecialty:
@@ -4329,9 +4236,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 73
@@ -4394,13 +4298,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -4442,9 +4344,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 83
@@ -4501,13 +4400,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -4526,6 +4423,110 @@ MonoBehaviour:
   UnitTags: 25
   visualAffinityEraReference:
     serializableElementName: Era5
+--- !u!114 &1229458167117995788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Babylon_RoyalGuardsmen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 8
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_AntiCavalry_Copper
+  Level: 9
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_Babylon
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_AntiCavalry
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StrengthFromFriendlyDistrict_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Babylon_RoyalGuardsmen
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era1_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 265
+  visualAffinityEraReference:
+    serializableElementName: Era1
 --- !u!114 &1736509539901073329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4548,9 +4549,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 3
@@ -4606,13 +4604,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Commando
   UnitSpecialty:
@@ -4652,9 +4648,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 90
@@ -4716,13 +4709,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -4763,9 +4754,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 43
@@ -4827,13 +4815,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:
@@ -4849,6 +4835,105 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 16777681
+  visualAffinityEraReference:
+    serializableElementName: Era1
+--- !u!114 &2106982001614847612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Common_Spearmen_Poor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 88
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_AntiCavalry_Stone
+  Level: 7
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_AntiCavalry
+  UnitSpecialty:
+    serializableElementName: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Common_Spearmen_Poor
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Era1_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 137
   visualAffinityEraReference:
     serializableElementName: Era1
 --- !u!114 &2343851448617540402
@@ -4873,9 +4958,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 2
@@ -4938,13 +5020,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -4986,9 +5066,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 54
@@ -5044,13 +5121,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -5090,9 +5165,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 28
@@ -5148,13 +5220,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Machinegun
   UnitSpecialty:
@@ -5194,9 +5264,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 25
@@ -5261,13 +5328,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 1
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MultipleLaunchRocketSystem
   UnitSpecialty:
@@ -5307,9 +5372,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 81
@@ -5365,13 +5427,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Ranged
   UnitSpecialty:
@@ -5411,9 +5471,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 70
@@ -5476,13 +5533,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -5524,9 +5579,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 54
@@ -5582,13 +5634,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunner
   UnitSpecialty:
@@ -5630,16 +5680,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 44
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Artillery
+  SerializableFamily: UnitFamily_ArtilleryTowed
   Level: 35
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -5692,13 +5739,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -5738,9 +5783,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 44
@@ -5802,13 +5844,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -5848,9 +5888,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 20
@@ -5912,13 +5949,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredVehicle
   UnitSpecialty:
@@ -5960,16 +5995,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 44
   Hidden: 1
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Artillery
+  SerializableFamily: UnitFamily_ArtilleryTowed
   Level: 35
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -6022,13 +6054,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -6068,9 +6098,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 85
@@ -6130,13 +6157,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Cavalry
   UnitSpecialty:
@@ -6179,16 +6204,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 71
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AntiEntrenchment
+  SerializableFamily: UnitFamily_Gunship
   Level: 38
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -6241,13 +6263,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Gunship
   UnitSpecialty:
@@ -6287,9 +6307,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 73
@@ -6351,13 +6368,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -6398,9 +6413,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 59
@@ -6462,13 +6474,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_LightTank
   UnitSpecialty:
@@ -6508,9 +6518,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 28
@@ -6569,13 +6576,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Machinegun
   UnitSpecialty:
@@ -6615,9 +6620,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 41
@@ -6680,13 +6682,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:
@@ -6728,9 +6728,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 22
@@ -6792,13 +6789,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_ArmouredCar
   UnitSpecialty:
@@ -6838,9 +6833,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 32
@@ -6900,13 +6892,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Melee
   UnitSpecialty:
@@ -6947,9 +6937,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 52
@@ -7006,13 +6993,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Commando
   UnitSpecialty:
@@ -7053,9 +7038,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 53
@@ -7111,13 +7093,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_AntiCavalry
   UnitSpecialty:
@@ -7157,9 +7137,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 26
@@ -7221,13 +7198,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialty:
@@ -7267,9 +7242,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 41
@@ -7331,13 +7303,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_HeavyCavalry
   UnitSpecialty:

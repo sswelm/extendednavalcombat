@@ -16,35 +16,8 @@ MonoBehaviour:
   deleteDllAfterBuilds: 0
   AutomateForAllAOTPlatforms: 0
   automateForPlatforms: 090000001400000013000000
-  lastScan: 637509684473442098
+  lastScan: 637872566798694495
   supportSerializedTypes:
-  - TypeName: Amplitude.Mercury.WorldPosition, Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.PoolAllocator`1[[Amplitude.Mercury.Interop.ConstructionInfo,
-      Amplitude.Mercury.Firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][*],
-      Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.Interop.ConstructionInfo[*], Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.PoolAllocator[*], Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.PoolAllocator`1[[Amplitude.Mercury.Interop.ConstructionInfo,
-      Amplitude.Mercury.Firstpass]], Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.Interop.ConstructionInfo, Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.PoolAllocator, Amplitude.Mercury.Firstpass
-    IsCustom: 1
-    Emit: 1
-  - TypeName: Amplitude.Mercury.Fx.HgFx.HgFxComponentAudioManager+WwizeHandle, Amplitude.Mercury.Fx
-    IsCustom: 1
-    Emit: 1
   - TypeName: Amplitude.Mercury.Data.Simulation.ActionType, Amplitude.Mercury.Data
     IsCustom: 1
     Emit: 1
@@ -211,6 +184,12 @@ MonoBehaviour:
       Amplitude.Mercury.Data
     IsCustom: 1
     Emit: 1
+  - TypeName: Amplitude.Mercury.Interop.ConstructionInfo, Amplitude.Mercury.Firstpass
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.Interop.ConstructionInfo[*], Amplitude.Mercury.Firstpass
+    IsCustom: 1
+    Emit: 1
   - TypeName: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     IsCustom: 1
     Emit: 1
@@ -367,6 +346,9 @@ MonoBehaviour:
   - TypeName: Amplitude.Framework.Guid, Amplitude.Framework
     IsCustom: 1
     Emit: 1
+  - TypeName: Amplitude.Mercury.Fx.HgFx.HgFxComponentAudioManager+WwizeHandle, Amplitude.Mercury.Fx
+    IsCustom: 1
+    Emit: 1
   - TypeName: Amplitude.Mercury.Data.Simulation.IdeologicalAxisDefinition, Amplitude.Mercury.Data
     IsCustom: 1
     Emit: 1
@@ -491,6 +473,21 @@ MonoBehaviour:
     IsCustom: 1
     Emit: 1
   - TypeName: Amplitude.Mercury.Data.UI.PinsSubsetConfigDefinition, Amplitude.Mercury.Data
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.PoolAllocator, Amplitude.Mercury.Firstpass
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.PoolAllocator[*], Amplitude.Mercury.Firstpass
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.PoolAllocator`1[[Amplitude.Mercury.Interop.ConstructionInfo,
+      Amplitude.Mercury.Firstpass]], Amplitude.Mercury.Firstpass
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.PoolAllocator`1[[Amplitude.Mercury.Interop.ConstructionInfo,
+      Amplitude.Mercury.Firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][*],
+      Amplitude.Mercury.Firstpass
     IsCustom: 1
     Emit: 1
   - TypeName: Amplitude.Mercury.Data.Simulation.Costs.PopulationInstantCostDefinition,
@@ -665,6 +662,10 @@ MonoBehaviour:
       Amplitude.Mercury.Data
     IsCustom: 1
     Emit: 1
+  - TypeName: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+      Amplitude.Mercury.Data
+    IsCustom: 1
+    Emit: 1
   - TypeName: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockAction,
       Amplitude.Mercury.Data
     IsCustom: 1
@@ -802,6 +803,9 @@ MonoBehaviour:
     IsCustom: 1
     Emit: 1
   - TypeName: UnityEngine.Vector2, UnityEngine.CoreModule
+    IsCustom: 1
+    Emit: 1
+  - TypeName: Amplitude.Mercury.WorldPosition, Amplitude.Mercury.Firstpass
     IsCustom: 1
     Emit: 1
   - TypeName: Amplitude.Mercury.Terrain.Avatar.AvatarAnimationAttitude+Enum, Amplitude.Mercury.Terrain

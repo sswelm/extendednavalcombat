@@ -1,1 +1,1 @@
-﻿{"Accessibility":4,"Build":0,"Label":"Modding","Major":1,"Minor":9,"Revision":1825,"SerializationToleranceLevel":0,"RuntimePlatform":"64-bit Editor","RuntimePlatformName":"Editor","RuntimePlatformArchitecture":"64-bit"}
+﻿{"Accessibility":4,"Build":0,"Label":"Modding","Major":1,"Minor":12,"Revision":2611,"SerializationToleranceLevel":0,"RuntimePlatform":"64-bit Editor","RuntimePlatformName":"Editor","RuntimePlatformArchitecture":"64-bit"}

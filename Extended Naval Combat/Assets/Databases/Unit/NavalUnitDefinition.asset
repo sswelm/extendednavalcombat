@@ -24,9 +24,6 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 11
   Hidden: 0
   IsObsolete: 0
@@ -86,13 +83,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -134,16 +129,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 5
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_AircraftCarrier
+  SerializableFamily: UnitFamily_NuclearAircraftCarrier
   Level: 38
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -205,13 +197,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_NuclearAircraftCarrier
   UnitSpecialty:
@@ -251,9 +241,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 13
@@ -321,13 +308,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MissileSubmarine
   UnitSpecialty:
@@ -367,9 +352,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 12
@@ -431,13 +413,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -477,9 +457,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 14
@@ -544,13 +521,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_NuclearSubmarine
   UnitSpecialty:
@@ -590,9 +565,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 2
@@ -655,13 +627,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -704,16 +674,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 15
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_Galleon
   Level: 26
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -741,9 +708,6 @@ MonoBehaviour:
   - Resource: 1
     ConstantType: 0
     ConstantValue: 1
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 1
   - Resource: 4
     ConstantType: 0
     ConstantValue: 1
@@ -769,13 +733,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -815,9 +777,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 3
@@ -873,13 +832,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -919,9 +876,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 1
@@ -977,13 +931,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -1025,16 +977,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 16
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_CapitalShip
+  SerializableFamily: UnitFamily_Ironclad
   Level: 32
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -1090,13 +1039,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Ironclad
   UnitSpecialty:
@@ -1138,16 +1085,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 4
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_StealthShip
+  SerializableFamily: UnitFamily_TorpedoBoat
   Level: 33
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -1160,7 +1104,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium_Iron2_Oil2
+      serializableElementName: ProductionCost_Unit_Era5_Medium_Iron2_Coal2
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -1175,7 +1119,7 @@ MonoBehaviour:
   - Resource: 2
     ConstantType: 0
     ConstantValue: 1
-  - Resource: 5
+  - Resource: 3
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -1200,13 +1144,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_TorpedoVessel
   UnitSpecialty:
@@ -1246,9 +1188,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 14
@@ -1313,13 +1252,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_NuclearSubmarine
   UnitSpecialty:
@@ -1359,9 +1296,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 11
@@ -1426,13 +1360,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:
@@ -1472,9 +1404,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 10
@@ -1530,13 +1459,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Carrack
   UnitSpecialty:
@@ -1578,16 +1505,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 9
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_CapitalShip
+  SerializableFamily: UnitFamily_Ironclad
   Level: 35
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -1600,7 +1524,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron3_Oil2
+      serializableElementName: ProductionCost_Unit_Era6_Medium_Iron3_Coal2
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -1619,9 +1543,6 @@ MonoBehaviour:
     ConstantType: 0
     ConstantValue: 1
   - Resource: 3
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 5
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -1646,13 +1567,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Dreadnought
   UnitSpecialty:
@@ -1692,9 +1611,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 8
@@ -1757,13 +1673,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_StealthCorvette
   UnitSpecialty:
@@ -1804,9 +1718,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 5
@@ -1871,13 +1782,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_AircraftCarrier
   UnitSpecialty:
@@ -1917,9 +1826,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 9
@@ -1984,13 +1890,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Battleship
   UnitSpecialty:
@@ -2042,9 +1946,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 13
@@ -2109,13 +2010,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MissileCruiser
   UnitSpecialty:
@@ -2155,9 +2054,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 8
@@ -2225,13 +2121,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_StealthCruiser
   UnitSpecialty:
@@ -2271,9 +2165,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 6
@@ -2336,13 +2227,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
@@ -2383,9 +2272,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 17
@@ -2442,13 +2328,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -2489,9 +2373,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 8
@@ -2553,13 +2434,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_StealthCorvette
   UnitSpecialty:
@@ -2599,9 +2478,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 8
@@ -2669,13 +2545,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_StealthCruiser
   UnitSpecialty:
@@ -2715,9 +2589,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 12
@@ -2779,13 +2650,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -2825,9 +2694,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 13
@@ -2889,13 +2755,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Destroyer
   UnitSpecialty:
@@ -2937,16 +2801,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 7
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_Frigate
   Level: 32
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -2999,13 +2860,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_SteamFrigate
   UnitSpecialty:
@@ -3023,6 +2882,114 @@ MonoBehaviour:
   UnitTags: 18
   visualAffinityEraReference:
     serializableElementName: Era5
+--- !u!114 &6093788967869741626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_BoomerSubmarines
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 14
+  Hidden: 1
+  IsObsolete: 1
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_BoomerSubmarine
+  Level: 38
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_High_Iron3_Uranium3
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_BoomerSubmarine
+  UnitSpecialty:
+    serializableElementName: UnitSpecialty_StealthSubmarine_Level3
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_BoomerSubmarines
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier4
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 5586
+  visualAffinityEraReference:
+    serializableElementName: Era6
 --- !u!114 &6599416610832843911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3047,16 +3014,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 13
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Destroyer
+  SerializableFamily: UnitFamily_MissileDestroyer
   Level: 39
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -3112,13 +3076,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MissileDestroyer
   UnitSpecialty:
@@ -3158,9 +3120,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 8
@@ -3222,13 +3181,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_StealthCorvette
   UnitSpecialty:
@@ -3270,16 +3227,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 4
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Destroyer
+  SerializableFamily: 'UnitFamily_TorpedoBoatDestroyer '
   Level: 33
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -3292,7 +3246,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_High_Iron2_Oil2
+      serializableElementName: ProductionCost_Unit_Era5_High_Iron3_Coal2
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -3307,7 +3261,7 @@ MonoBehaviour:
   - Resource: 2
     ConstantType: 0
     ConstantValue: 1
-  - Resource: 5
+  - Resource: 3
     ConstantType: 0
     ConstantValue: 1
   MinimalPopulationPrerequisite: 0
@@ -3332,13 +3286,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Destroyer
   UnitSpecialty:
@@ -3378,9 +3330,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 6
@@ -3442,13 +3391,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_FleetSubmarine
   UnitSpecialty:
@@ -3488,9 +3435,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 12
@@ -3553,13 +3497,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialty:
@@ -3602,16 +3544,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 14
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_StealthShip
+  SerializableFamily: UnitFamily_DieselSubmarine
   Level: 37
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -3667,13 +3606,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_DieselSubmarine
   UnitSpecialty:
@@ -3713,9 +3650,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 7
@@ -3777,13 +3711,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_SteamFrigate
   UnitSpecialty:
@@ -3823,9 +3755,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 18
@@ -3881,13 +3810,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Carrack
   UnitSpecialty:
@@ -3927,9 +3854,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: SynergyDistrictType
       Entry: 6
       Data: 
   Key: 11
@@ -3994,13 +3918,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_GunPlatform
   UnitSpecialty:

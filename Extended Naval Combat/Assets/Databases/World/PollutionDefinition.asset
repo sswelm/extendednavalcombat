@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Fast
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 252000000
+    RawValue: 302400000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -39,7 +39,7 @@ MonoBehaviour:
     serializableElementName: StatusCategory_Pollution
   AtmospherePollution:
   - Threshold:
-      RawValue: 95000000
+      RawValue: 114000000
     Status:
       serializableElementName: AtmospherePollution_Low
     FameBonusForTopPolluter:
@@ -47,7 +47,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 190000000
+      RawValue: 228000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -79,223 +79,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Normal
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 334800000
-  TerritoryPollutionStatusCategory:
-    serializableElementName: 
-  TerritoryPollution:
-  - Threshold:
-      RawValue: 20000
-    Status:
-      serializableElementName: TerritoryPollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 50000
-    Status:
-      serializableElementName: TerritoryPollution_High
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
-  DefaultUIMapper:
-    serializableElementName: PollutionLevel0
-  AtmospherePollutionStatusCategory:
-    serializableElementName: StatusCategory_Pollution
-  AtmospherePollution:
-  - Threshold:
-      RawValue: 125000000
-    Status:
-      serializableElementName: AtmospherePollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 50000
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 250000000
-    Status:
-      serializableElementName: AtmospherePollution_High
-    FameBonusForTopPolluter:
-      RawValue: 100000
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
---- !u!114 &2856820686210481414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PollutionDefinition_Endless
-  m_EditorClassIdentifier: 
-  EndGamePollutionThreshold:
-    RawValue: 600000000
-  TerritoryPollutionStatusCategory:
-    serializableElementName: 
-  TerritoryPollution:
-  - Threshold:
-      RawValue: 20000
-    Status:
-      serializableElementName: TerritoryPollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 50000
-    Status:
-      serializableElementName: TerritoryPollution_High
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
-  DefaultUIMapper:
-    serializableElementName: PollutionLevel0
-  AtmospherePollutionStatusCategory:
-    serializableElementName: StatusCategory_Pollution
-  AtmospherePollution:
-  - Threshold:
-      RawValue: 225000000
-    Status:
-      serializableElementName: AtmospherePollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 50000
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 450000000
-    Status:
-      serializableElementName: AtmospherePollution_High
-    FameBonusForTopPolluter:
-      RawValue: 100000
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
---- !u!114 &3530438017781492919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PollutionDefinition_Blitz
-  m_EditorClassIdentifier: 
-  EndGamePollutionThreshold:
-    RawValue: 144000000
-  TerritoryPollutionStatusCategory:
-    serializableElementName: 
-  TerritoryPollution:
-  - Threshold:
-      RawValue: 20000
-    Status:
-      serializableElementName: TerritoryPollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 50000
-    Status:
-      serializableElementName: TerritoryPollution_High
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
-  DefaultUIMapper:
-    serializableElementName: PollutionLevel0
-  AtmospherePollutionStatusCategory:
-    serializableElementName: StatusCategory_Pollution
-  AtmospherePollution:
-  - Threshold:
-      RawValue: 54000000
-    Status:
-      serializableElementName: AtmospherePollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 50000
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 108000000
-    Status:
-      serializableElementName: AtmospherePollution_High
-    FameBonusForTopPolluter:
-      RawValue: 100000
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
---- !u!114 &4620785617514066630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PollutionDefinition_Slow
-  m_EditorClassIdentifier: 
-  EndGamePollutionThreshold:
-    RawValue: 561600000
-  TerritoryPollutionStatusCategory:
-    serializableElementName: 
-  TerritoryPollution:
-  - Threshold:
-      RawValue: 20000
-    Status:
-      serializableElementName: TerritoryPollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 50000
-    Status:
-      serializableElementName: TerritoryPollution_High
-    FameBonusForTopPolluter:
-      RawValue: 0
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
-  DefaultUIMapper:
-    serializableElementName: PollutionLevel0
-  AtmospherePollutionStatusCategory:
-    serializableElementName: StatusCategory_Pollution
-  AtmospherePollution:
-  - Threshold:
-      RawValue: 210000000
-    Status:
-      serializableElementName: AtmospherePollution_Low
-    FameBonusForTopPolluter:
-      RawValue: 50000
-    UiMappeReference:
-      serializableElementName: PollutionLevel1
-  - Threshold:
-      RawValue: 420000000
-    Status:
-      serializableElementName: AtmospherePollution_High
-    FameBonusForTopPolluter:
-      RawValue: 100000
-    UiMappeReference:
-      serializableElementName: PollutionLevel2
---- !u!114 &5310463443176261874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: PollutionDefinition_Default
-  m_EditorClassIdentifier: 
-  EndGamePollutionThreshold:
-    RawValue: 403200000
+    RawValue: 401760000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -330,6 +114,222 @@ MonoBehaviour:
       serializableElementName: PollutionLevel1
   - Threshold:
       RawValue: 300000000
+    Status:
+      serializableElementName: AtmospherePollution_High
+    FameBonusForTopPolluter:
+      RawValue: 100000
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+--- !u!114 &2856820686210481414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PollutionDefinition_Endless
+  m_EditorClassIdentifier: 
+  EndGamePollutionThreshold:
+    RawValue: 720000000
+  TerritoryPollutionStatusCategory:
+    serializableElementName: 
+  TerritoryPollution:
+  - Threshold:
+      RawValue: 20000
+    Status:
+      serializableElementName: TerritoryPollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 50000
+    Status:
+      serializableElementName: TerritoryPollution_High
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+  DefaultUIMapper:
+    serializableElementName: PollutionLevel0
+  AtmospherePollutionStatusCategory:
+    serializableElementName: StatusCategory_Pollution
+  AtmospherePollution:
+  - Threshold:
+      RawValue: 270000000
+    Status:
+      serializableElementName: AtmospherePollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 50000
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 540000000
+    Status:
+      serializableElementName: AtmospherePollution_High
+    FameBonusForTopPolluter:
+      RawValue: 100000
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+--- !u!114 &3530438017781492919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PollutionDefinition_Blitz
+  m_EditorClassIdentifier: 
+  EndGamePollutionThreshold:
+    RawValue: 172800000
+  TerritoryPollutionStatusCategory:
+    serializableElementName: 
+  TerritoryPollution:
+  - Threshold:
+      RawValue: 20000
+    Status:
+      serializableElementName: TerritoryPollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 50000
+    Status:
+      serializableElementName: TerritoryPollution_High
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+  DefaultUIMapper:
+    serializableElementName: PollutionLevel0
+  AtmospherePollutionStatusCategory:
+    serializableElementName: StatusCategory_Pollution
+  AtmospherePollution:
+  - Threshold:
+      RawValue: 64800000
+    Status:
+      serializableElementName: AtmospherePollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 50000
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 129600000
+    Status:
+      serializableElementName: AtmospherePollution_High
+    FameBonusForTopPolluter:
+      RawValue: 100000
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+--- !u!114 &4620785617514066630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PollutionDefinition_Slow
+  m_EditorClassIdentifier: 
+  EndGamePollutionThreshold:
+    RawValue: 673920000
+  TerritoryPollutionStatusCategory:
+    serializableElementName: 
+  TerritoryPollution:
+  - Threshold:
+      RawValue: 20000
+    Status:
+      serializableElementName: TerritoryPollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 50000
+    Status:
+      serializableElementName: TerritoryPollution_High
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+  DefaultUIMapper:
+    serializableElementName: PollutionLevel0
+  AtmospherePollutionStatusCategory:
+    serializableElementName: StatusCategory_Pollution
+  AtmospherePollution:
+  - Threshold:
+      RawValue: 252000000
+    Status:
+      serializableElementName: AtmospherePollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 50000
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 504000000
+    Status:
+      serializableElementName: AtmospherePollution_High
+    FameBonusForTopPolluter:
+      RawValue: 100000
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+--- !u!114 &5310463443176261874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PollutionDefinition_Default
+  m_EditorClassIdentifier: 
+  EndGamePollutionThreshold:
+    RawValue: 483840000
+  TerritoryPollutionStatusCategory:
+    serializableElementName: 
+  TerritoryPollution:
+  - Threshold:
+      RawValue: 20000
+    Status:
+      serializableElementName: TerritoryPollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 50000
+    Status:
+      serializableElementName: TerritoryPollution_High
+    FameBonusForTopPolluter:
+      RawValue: 0
+    UiMappeReference:
+      serializableElementName: PollutionLevel2
+  DefaultUIMapper:
+    serializableElementName: PollutionLevel0
+  AtmospherePollutionStatusCategory:
+    serializableElementName: StatusCategory_Pollution
+  AtmospherePollution:
+  - Threshold:
+      RawValue: 180000000
+    Status:
+      serializableElementName: AtmospherePollution_Low
+    FameBonusForTopPolluter:
+      RawValue: 50000
+    UiMappeReference:
+      serializableElementName: PollutionLevel1
+  - Threshold:
+      RawValue: 360000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:

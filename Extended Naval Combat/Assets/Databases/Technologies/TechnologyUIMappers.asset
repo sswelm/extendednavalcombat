@@ -207,7 +207,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 98
+  TechTreeX: 93
   TechTreeY: 20
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-8119152664942623808
@@ -335,7 +335,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 110
+  TechTreeX: 101
   TechTreeY: 29
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-6666912955029371597
@@ -460,7 +460,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 280
+  TechTreeX: 282
   TechTreeY: 30
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-5976188553492340699
@@ -764,8 +764,9 @@ MonoBehaviour:
   m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: Technology_Era6_SlopedArmor
   m_EditorClassIdentifier: 
-  Title: Reactive Armour
-  Description: '%Technology_Era6_23Description'
+  Title: Reactive Armor
+  Description: Reactive armour is a type of vehicle armour that reacts in some way
+    to the impact of a weapon to reduce the damage done to the vehicle being protected.
   Images:
   - Value:
       guid:
@@ -954,7 +955,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 279
+  TechTreeX: 282
   TechTreeY: 21
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-4440187056569242407
@@ -1160,7 +1161,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 263
-  TechTreeY: 13
+  TechTreeY: 12
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-3686272937602771454
 MonoBehaviour:
@@ -1590,7 +1591,49 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 265
-  TechTreeY: 25
+  TechTreeY: 26
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-1578251111317206375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_NanoTechnology
+  m_EditorClassIdentifier: 
+  Title: Nanotechnology
+  Description: Nanotechnology is the use of matter on an atomic, molecular, and supramolecular
+    scale for industrial purposes
+  Images:
+  - Value:
+      guid:
+        a: 174963482
+        b: 1221071085
+        c: 399249561
+        d: 1382799470
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 174963482
+        b: 1221071085
+        c: 399249561
+        d: 1382799470
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 276
+  TechTreeY: 5
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-1294435898447938343
 MonoBehaviour:
@@ -1637,6 +1680,51 @@ MonoBehaviour:
   Symbol: 
   TechTreeX: 197
   TechTreeY: 17
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &-1245343619375603234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_ActiveProtectionSystems
+  m_EditorClassIdentifier: 
+  Title: Active Protection Systems
+  Description: Active Protection Systems (APS) uses sensors, tracking radar, launchers
+    and countermeasure munitions to defeat and/or deflect anti-tank guided missiles
+    and rocket-propelled grenades away from combat vehicles. APS technology enhances
+    force protection and survivability, especially when combined with a passive armor
+    protection system.
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 270
+  TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &-1090649280536848807
 MonoBehaviour:
@@ -1940,7 +2028,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 236
-  TechTreeY: 26
+  TechTreeY: 27
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &359694454789361181
 MonoBehaviour:
@@ -2021,8 +2109,8 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 272
-  TechTreeY: 21
+  TechTreeX: 270
+  TechTreeY: 18
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &534123117388157360
 MonoBehaviour:
@@ -2245,7 +2333,7 @@ MonoBehaviour:
   m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: Technology_Era5_Automobile
   m_EditorClassIdentifier: 
-  Title: Automobile
+  Title: '%Technology_Era5_11Title'
   Description: The critical invention that made the Automobile a success was the
     internal Combustion engine. This relatively small but powerful engine could be
     mounted within the frame of the "horseless carriage" and drive the wheels. The
@@ -2276,7 +2364,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 186
-  TechTreeY: 0
+  TechTreeY: 1
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &1360778264634092665
 MonoBehaviour:
@@ -2567,7 +2655,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 100
+  TechTreeX: 93
   TechTreeY: 11
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &3539892908171162927
@@ -2651,7 +2739,7 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 250
-  TechTreeY: 29
+  TechTreeY: 30
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &3595424725479367265
 MonoBehaviour:
@@ -2902,7 +2990,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 230
+  TechTreeX: 240
   TechTreeY: 0
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &4156159962222218667
@@ -3120,6 +3208,50 @@ MonoBehaviour:
   TechTreeX: 177
   TechTreeY: 13
   OptionalUnlockTechnologyMovie: 
+--- !u!114 &4759594063474684757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_SelfPropelledArtillery
+  m_EditorClassIdentifier: 
+  Title: Self Propelled Artllery
+  Description: Self propelled artillery is artillery equipped with an own propel
+    system to move towards its target. They are high mobility vehicles, usually based
+    on caterpillar track carrying either a large howitzer or other field gun or alternatively
+    a mortar or some form of rocket or missile launcher.
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 230
+  TechTreeY: 0
+  OptionalUnlockTechnologyMovie: 
 --- !u!114 &4780762049412580245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3220,8 +3352,11 @@ MonoBehaviour:
   m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: Technology_Era5_11
   m_EditorClassIdentifier: 
-  Title: '%Technology_Era5_11Title'
-  Description: '%Technology_Era5_11Description'
+  Title: Steam Turbine
+  Description: 'A steam turbine is  much more compact than a steam engine: spinning
+    blades allow steam to expand and drive a machine in a much smaller space than
+    a piston-cylinder-crank arrangement would need. That''s one reason why steam
+    turbines were quickly adopted for powering ships, where space was very limited'
   Images:
   - Value:
       guid:
@@ -3451,7 +3586,7 @@ MonoBehaviour:
     serializableKey: TechnologyScreenItemBackground
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
-  TechTreeX: 99
+  TechTreeX: 96
   TechTreeY: 1
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &6088258452783220532
@@ -3493,7 +3628,48 @@ MonoBehaviour:
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
   TechTreeX: 276
-  TechTreeY: 5
+  TechTreeY: 23
+  OptionalUnlockTechnologyMovie: 
+--- !u!114 &6210763801962221495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era6_QuantumComputing
+  m_EditorClassIdentifier: 
+  Title: Quantum Computing
+  Description: quantum supremacy
+  Images:
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 786869585
+        b: 1079125527
+        c: 1585825974
+        d: -758246905
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 282
+  TechTreeY: 15
   OptionalUnlockTechnologyMovie: 
 --- !u!114 &6551268605501503821
 MonoBehaviour:
