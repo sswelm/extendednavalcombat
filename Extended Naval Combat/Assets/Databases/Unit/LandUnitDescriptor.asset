@@ -733,7 +733,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 33000
       PropertyLocalName: []
-    - Note: 
+    - Note: +1 Range
       TargetProperty: LandAttackRange
       ToTargetOperation: 0
       RpnOperationStack: 
@@ -850,7 +850,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2670000
       PropertyLocalName: []
-    - Note: 
+    - Note: -1 Strength
       TargetProperty: LandCombatStrength
       ToTargetOperation: 0
       RpnOperationStack: 
@@ -1025,7 +1025,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2680000
       PropertyLocalName: []
-    - Note: 
+    - Note: +1 Strength
       TargetProperty: LandCombatStrength
       ToTargetOperation: 0
       RpnOperationStack: 
@@ -1109,7 +1109,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 20000
       PropertyLocalName: []
-    - Note: 
+    - Note: +1 Range
       TargetProperty: LandAttackRange
       ToTargetOperation: 0
       RpnOperationStack: 

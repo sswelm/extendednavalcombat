@@ -36,16 +36,13 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-    - Name: SynergyDistrictType
-      Entry: 6
-      Data: 
   Key: 10
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 5
   Category: 6
-  SerializableFamily: UnitFamily_Horde
+  SerializableFamily: UnitFamily_HorseArcher
   Level: 15
   Unicity: 0
   ConstructibleVisualAffinity:
@@ -96,13 +93,11 @@ MonoBehaviour:
   ActionTypePrerequisite:
     Operator: 0
     ActionType: 0
-  BaseSynergyDistrict: 0
-  SynergyRiver: 0
-  TargetSynergyDistrictType: 0
   ArtificialWonderBuiltPrerequisite:
     Operator: 0
     ArtificialWonderDefinition:
       serializableElementName: 
+  BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_MountedRanged
   UnitSpecialty:

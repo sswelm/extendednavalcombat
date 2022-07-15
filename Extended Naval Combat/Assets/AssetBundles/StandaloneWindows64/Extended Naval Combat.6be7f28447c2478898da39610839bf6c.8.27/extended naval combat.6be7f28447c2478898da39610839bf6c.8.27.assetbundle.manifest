@@ -1,0 +1,381 @@
+ManifestFileVersion: 0
+CRC: 1831693083
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7518f14ad48353216ae9f25bbf9a087
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 319ec40d5fefe000b16463f2032766fd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+- Class: 114
+  Script: {fileID: -457851255, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -2122520293, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -203084690, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 130328062, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+- Class: 114
+  Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+- Class: 114
+  Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+- Class: 114
+  Script: {fileID: -416140944, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 983106801, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1786578759, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1772441479, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -690984439, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -717291864, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1409302890, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1398190197, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 695352031, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -45634003, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 15112015, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 2123347310, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -2044257964, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1918750774, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1966399051, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1690864127, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1493756036, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1841102959, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1643237753, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 759592875, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -570373346, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 808446743, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -436458503, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1516956188, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 250386103, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 136068557, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -318024364, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1748698421, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -590115569, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -801326508, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 1665513432, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 932230282, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -211960278, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -752240671, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: -354112042, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 961106765, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 678159749, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+- Class: 114
+  Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+- Class: 114
+  Script: {fileID: -286750100, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.FixedPoint
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Asset.AnimatorOverrideControllerReference
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Asset.AssetDescriptor
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Asset.Texture2DReference
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.DatatableElementReference
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Guid
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Simulation.Description.Effect
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Simulation.Description.Path
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Simulation.Description.PropertyEffect
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Simulation.Description.Validation
+- AssemblyName: Amplitude.Framework
+  ClassName: Amplitude.Framework.Version
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Audio.UnitVoiceProviderReference
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Presentation.CharacterPaletteColorEntries
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Presentation.CharacterPaletteColorEntry
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Presentation.CharacterPaletteReference
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.AdditionalDistrictVisualLevel
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.CalendarPeriod
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Costs.InfluenceInstantCostDefinition
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Costs.MoneyInstantCostDefinition
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Costs.PopulationInstantCostDefinition
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Costs.ProductionCostDefinition
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.DistrictCountPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.EraDefinition/TechnologyCostAndTier
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.PollutionDefinition/PollutionLevel
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.ActionTypePrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.ArtificialWonderBuiltPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.BiomePrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.BoroughPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.CliffPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.DistrictPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.EraPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.FactionPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.MountainPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.NeighbourTilesPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.PointOfInterestPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.ResourceAccessPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.RiverPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.SettlementStabilityPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.SettlementStatusPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.TerrainPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.Prerequisites.TileVisibilityPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.Simulation.TechnologyPrerequisite
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.CoordinationValues
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.PathfindingRule
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.PresentationPawnAbstractDefinition/Attachement
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.PresentationPawnDescriptionReference
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.PresentationPawnFragmentReference
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.ProjectileAssetReference
+- AssemblyName: Amplitude.Mercury.Data
+  ClassName: Amplitude.Mercury.Data.World.SubPawnDefinitionWithOffset
+- AssemblyName: Amplitude.UI
+  ClassName: Amplitude.UI.UIMapper/Image
+- AssemblyName: Amplitude.UI
+  ClassName: Amplitude.UI.UITexture
+- AssemblyName: Amplitude.Wwise
+  ClassName: Amplitude.Wwise.Audio.AudioEventHandleReference
+- AssemblyName: Amplitude.Wwise
+  ClassName: Amplitude.Wwise.Audio.AudioSwitchHandleReference
+- AssemblyName: Sirenix.Serialization
+  ClassName: Sirenix.Serialization.SerializationData
+Assets:
+- Assets/Databases/Settlement/ConstructibleInfrastructureDefinition.asset
+- Assets/Databases/Settlement/ConstructibleEmblematicExtensionDescriptor.asset
+- Assets/Databases/Narrative/NarrativeEventCategoryDefinition.asset
+- Assets/Resources/reiter575.png
+- Assets/Databases/EndGameDefinition/EndGameDefinition.asset
+- Assets/Databases/Unit/UnitFamilyDefinition.asset
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era3.asset
+- Assets/Resources/coche.png
+- Assets/Resources/steamEngine720.png
+- Assets/Databases/Unit/NavalTransportUIMappers.asset
+- Assets/Resources/torpedoboatdestroyer212.png
+- Assets/Resources/transparant360.png
+- Assets/Resources/rifling.png
+- Assets/Resources/zumwalt885.png
+- Assets/Databases/CalendarDefinitionCollection.asset
+- Assets/Databases/Settlement/RpnIndustryDefinition.asset
+- Assets/Resources/misil_3.png
+- Assets/Databases/Settlement/ConstructibleCommonExtensionUIMappers.asset
+- Assets/Databases/World/TerrainTypeDefinition.asset
+- Assets/Runtime/Extended Naval Combat.6be7f28447c2478898da39610839bf6c.8.27.asset
+- Assets/Databases/Unit/NavalTransportDescriptor.asset
+- Assets/Resources/artillerty720.png
+- Assets/Databases/Settlement/ConstructibleInfrastructureDescriptor.asset
+- Assets/Databases/Settlement/ConstructibleCommonExtensionDescriptor.asset
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era5.asset
+- Assets/Manifests/Extended Naval Combat.Manifest.asset
+- Assets/Resources/guidedmissilecruiser212.png
+- Assets/Databases/Settlement/SynergyDefinition.asset
+- Assets/Databases/Settlement/ConstructibleInfrastructureUIMappers.asset
+- Assets/Databases/Settlement/ConstructibleCommonExtensionDefinition.asset
+- Assets/Resources/attackHelicopter939.png
+- Assets/Resources/steamTransport864.png
+- Assets/Resources/armouredCar846.png
+- Assets/Resources/dieselSubmarine212Manual.png
+- Assets/Resources/mushroom720.png
+- Assets/Databases/Unit/LandUnitUIMappers.asset
+- Assets/Databases/Settlement/ConstructibleNationalProjectDefinition.asset
+- Assets/Resources/tankDestroyer730.png
+- Assets/Resources/guidedmissilecruiser720.png
+- Assets/Databases/Narrative/NarrativeEventDefinition.asset
+- Assets/Resources/zumwalt212.png
+- Assets/Databases/Technologies/ResearchCostModifierDefinition.asset
+- Assets/Resources/submachinegunInfantry746.png
+- Assets/Databases/Technologies/RpnDefinitionScience.asset
+- Assets/Resources/mountedCrosdbowmen800.png
+- Assets/Resources/selfpropelledHowitzer720.png
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era1.asset
+- Assets/Databases/World/TerrainDescriptor.asset
+- Assets/Resources/transparant212.png
+- Assets/Databases/Unit/UnitSpecialtyUIMappers.asset
+- Assets/Resources/UCGprocessfigure677.png
+- Assets/Resources/ChariotArcher784.png
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era4.asset
+- Assets/Databases/Settlement/SettlementImprovementFamilyDefinition.asset
+- Assets/Resources/barcos.png
+- Assets/Resources/destroyer782.png
+- Assets/Resources/UCGprocessfigure212.png
+- Assets/Resources/GasPowerStation720.png
+- Assets/Databases/Unit/UnitDescriptor.asset
+- Assets/Databases/Unit/NavalUnitDescriptor.asset
+- Assets/Resources/nuclearMissile720.png
+- Assets/Resources/militaryTradition720.png
+- Assets/Resources/earlyRiffleman212.png
+- Assets/Databases/Settlement/SettlementDescriptor.asset
+- Assets/Databases/World/PollutionDescriptor.asset
+- Assets/Databases/_DLC01/Unit/LandUnitDefinition_DLC01.asset
+- Assets/Resources/aircraftCarrier1173.png
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era1.asset
+- Assets/Databases/Unit/BattleActionDescriptor.asset
+- Assets/Resources/Seawolf720.png
+- Assets/Databases/Unit/AirUnitDescriptor.asset
+- Assets/Resources/GasPowerStation212.png
+- Assets/Databases/Unit/UnitStatusDefinition.asset
+- Assets/Databases/Unit/VeterancyLevelDefinition.asset
+- Assets/Databases/Unit/UnitPrototypeDescriptor.asset
+- Assets/Databases/Unit/UnitSpecialty.asset
+- Assets/Resources/armouredScout808.png
+- Assets/Databases/Unit/LandUnitDescriptor.asset
+- Assets/Resources/attackHelicopter212.png
+- Assets/Resources/steamTransport212.png
+- Assets/Databases/Empire/EmpireBonusDescriptor.asset
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era4.asset
+- Assets/Resources/dieselSubmarine360Manual.png
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era5.asset
+- Assets/Resources/TOW_infantry437.png
+- Assets/Resources/battleshipDreadnought784.png
+- Assets/Databases/_DLC03/Unit/LandUnitDefinition_DLC03.asset
+- Assets/Databases/Unit/BattleAbilityDefinition.asset
+- Assets/Databases/Technologies/EraDefinition.asset
+- Assets/Resources/Seawolf212.png
+- Assets/Databases/Unit/NavalTransportDefinition.asset
+- Assets/Resources/dreadnoughtTransparent580.png
+- Assets/Databases/Technologies/TechnologyUIMappers.asset
+- Assets/Resources/torpedoboatdestroyer656.png
+- Assets/Databases/Technologies/TechnologyDefinition.asset
+- Assets/Databases/Unit/NavalUnitDefinition.asset
+- Assets/Databases/Unit/AirUnitUIMappers.asset
+- Assets/Resources/cogtransport.png
+- Assets/Resources/framethrowerMarine500.png
+- Assets/Resources/earlyRiffleman720.png
+- Assets/Resources/fleetSubmarine743.png
+- Assets/Resources/Galleass.png
+- Assets/Databases/Unit/LandUnitDefinition.asset
+- Assets/Databases/Unit/UnitAbility.asset
+- Assets/Databases/Unit/AirUnitDefinition.asset
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era6.asset
+- Assets/Databases/Unit/NavalUnitUIMappers.asset
+- Assets/Databases/EffectMapper/ValidationMapperCollection.asset
+- Assets/Databases/Settlement/ConstructibleEmblematicExtensionDefinition.asset
+- Assets/Databases/UnitPresentation/PresentationPawnDefinition_Era3.asset
+- Assets/Databases/Technologies/TechnologyUnlockUIMappers.asset
+- Assets/Resources/gatlinggun.png
+- Assets/Databases/World/PollutionDefinition.asset
+- Assets/Databases/Unit/UnitClassUIMappers.asset
+- Assets/Resources/lancer812.png
+- Assets/Databases/Unit/UnitClass.asset
+- Assets/Resources/Sailing.png
+- Assets/Databases/UnitPresentation/PresentationUnitDefinition_Era6.asset
+- Assets/Databases/Fame/RpnFameDefinition.asset
+- Assets/Databases/Settlement/SettlementImprovementFamilyUIMappers.asset
+- Assets/AssetBundleContentDescriptor.asset
+Dependencies: []
